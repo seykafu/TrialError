@@ -404,7 +404,7 @@
   margin: 0;
   color: var(--hero-paper);
   font-family: var(--font-fraunces), serif;
-  font-size: clamp(4rem, 12.5vw, 14rem);
+  font-size: clamp(3.5rem, 9vw, 10rem);
   font-weight: 500;
   line-height: 0.78;
   text-align: center;
@@ -630,7 +630,7 @@
 
 @media (max-width: 1500px) {
   .hero-title {
-    font-size: clamp(3.4rem, 11.5vw, 11rem);
+    font-size: clamp(3rem, 8.5vw, 8rem);
   }
   .story-panel h2 {
     font-size: 4.1rem;
@@ -640,7 +640,7 @@
 @media (max-width: 1100px) {
   .hero-title {
     top: 15vh;
-    font-size: clamp(3rem, 10.5vw, 7.5rem);
+    font-size: clamp(2.6rem, 8vw, 5.8rem);
   }
   .bridge-img {
     width: 138vw;
@@ -686,7 +686,7 @@
   }
   .hero-title {
     top: 16vh;
-    font-size: clamp(2.2rem, 9vw, 4.5rem);
+    font-size: clamp(1.9rem, 7.5vw, 3.2rem);
   }
   .bridge-img {
     bottom: 2vh;

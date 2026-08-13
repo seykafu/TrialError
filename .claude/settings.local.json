@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout *)",
+      "Skill(update-config)",
+      "Bash(python3 *)",
+      "Bash(npm -v)",
+      "Bash(npx --yes create-next-app@latest . --ts --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --use-npm --yes)",
+      "Read(//Users/kasey/**)",
+      "Bash(npx --yes create-next-app@latest trialerror-app --ts --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --use-npm --yes)",
+      "Bash(mv /Users/kasey/trialerror-app/* /Users/kasey/trialerror-app/.* /Users/kasey/TrialError/)",
+      "Bash(rmdir /Users/kasey/trialerror-app)",
+      "Bash(node -e \"console.log\\(require\\('./package.json'\\).name\\)\")",
+      "Bash(git -C /Users/kasey/TrialError log --oneline -3)",
+      "Bash(node *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:4321/sitemap.xml)",
+      "Bash(kill %1)",
+      "Bash(pkill -f 'next start')",
+      "Bash(git add *)",
+      "Bash(git -c core.hooksPath=/dev/null commit -m ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}

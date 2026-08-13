@@ -19,7 +19,8 @@
       "Bash(pkill -f 'next start')",
       "Bash(git add *)",
       "Bash(git -c core.hooksPath=/dev/null commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/)"
     ]
   }
 }

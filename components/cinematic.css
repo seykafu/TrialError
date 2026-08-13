@@ -24,8 +24,9 @@
   --shade-top-alpha: 0;
   --shade-mid-alpha: 0;
   --shade-bottom-alpha: 0;
-  /* warm amber tint instead of the original cool blue */
-  --blur-tint: 224, 150, 92;
+  /* deep rust tint instead of the original cool blue — dark enough that
+     cream copy stays readable when the wash is up */
+  --blur-tint: 74, 32, 14;
   --title-y: 0px;
   --title-scale: 1;
   --title-opacity: 1;
@@ -123,9 +124,12 @@
   font-size: 24px;
   font-weight: 500;
   line-height: 1;
-  color: rgba(247, 234, 217, 0.94);
+  color: rgba(247, 234, 217, 0.96);
   text-decoration: none;
   white-space: nowrap;
+  text-shadow:
+    0 1px 3px rgba(24, 10, 4, 0.55),
+    0 2px 16px rgba(24, 10, 4, 0.4);
 }
 
 .site-nav {
@@ -136,11 +140,13 @@
 
 .site-nav a,
 .language-switcher {
-  color: rgba(247, 234, 217, 0.88);
+  color: rgba(247, 234, 217, 0.92);
   font-weight: 700;
   line-height: 1;
   text-decoration: none;
-  text-shadow: 0 2px 16px rgba(24, 10, 4, 0.24);
+  text-shadow:
+    0 1px 3px rgba(24, 10, 4, 0.55),
+    0 2px 16px rgba(24, 10, 4, 0.4);
 }
 
 .site-nav a {
@@ -403,7 +409,10 @@
   line-height: 0.78;
   text-align: center;
   white-space: nowrap;
-  text-shadow: none;
+  -webkit-text-stroke: 1.5px rgba(34, 20, 16, 0.35);
+  text-shadow:
+    0 3px 10px rgba(24, 10, 4, 0.45),
+    0 10px 40px rgba(24, 10, 4, 0.4);
   transform: translate3d(-50%, var(--title-y), 0) scale(var(--title-scale));
   opacity: var(--title-opacity);
   will-change: transform, opacity;
@@ -491,7 +500,9 @@
   font-size: 1.18rem;
   font-weight: 500;
   line-height: 1.18;
-  text-shadow: 0 2px 18px rgba(24, 10, 4, 0.42);
+  text-shadow:
+    0 1px 4px rgba(24, 10, 4, 0.6),
+    0 2px 18px rgba(24, 10, 4, 0.45);
 }
 
 .hero-tags {
@@ -534,7 +545,9 @@
   font-size: 4.75rem;
   font-weight: 500;
   line-height: 0.95;
-  text-shadow: 0 16px 38px var(--hero-shadow);
+  text-shadow:
+    0 2px 8px rgba(24, 10, 4, 0.5),
+    0 16px 38px var(--hero-shadow);
 }
 
 .story-panel p {
@@ -544,7 +557,9 @@
   font-size: 1.14rem;
   font-weight: 500;
   line-height: 1.18;
-  text-shadow: 0 2px 18px rgba(24, 10, 4, 0.42);
+  text-shadow:
+    0 1px 4px rgba(24, 10, 4, 0.6),
+    0 2px 18px rgba(24, 10, 4, 0.45);
 }
 
 .story-panel-bridge {
@@ -573,7 +588,9 @@
   font-size: 4.2rem;
   font-weight: 500;
   line-height: 0.9;
-  text-shadow: 0 14px 34px var(--hero-shadow);
+  text-shadow:
+    0 2px 8px rgba(24, 10, 4, 0.5),
+    0 14px 34px var(--hero-shadow);
 }
 
 .facts dd {
@@ -582,7 +599,9 @@
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.14;
-  text-shadow: 0 2px 18px rgba(24, 10, 4, 0.42);
+  text-shadow:
+    0 1px 4px rgba(24, 10, 4, 0.6),
+    0 2px 18px rgba(24, 10, 4, 0.45);
 }
 
 .note-button {

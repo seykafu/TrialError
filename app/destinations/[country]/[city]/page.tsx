@@ -1,10 +1,20 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import CityTabs from "@/components/CityTabs";
-import { countries, getCity, getCountry, type Top5Item } from "@/data/destinations";
+import PhotoGallery from "@/components/PhotoGallery";
+import CityPhotoMap from "@/components/CityPhotoMap";
+import {
+  countriesWithPublishedCities,
+  getPublishedCity,
+  getPublishedCountry,
+  mappedSpots,
+  type SpotLocation,
+  type Top5Item,
+} from "@/data/destinations";
 import { SITE_URL } from "@/lib/site";
 
 type Props = {
@@ -12,14 +22,14 @@ type Props = {
 };
 
 export function generateStaticParams() {
-  return countries.flatMap((country) =>
+  return countriesWithPublishedCities.flatMap((country) =>
     country.cities.map((city) => ({ country: country.slug, city: city.slug }))
   );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { country: countrySlug, city: citySlug } = await params;
-  const city = getCity(countrySlug, citySlug);
+  const city = getPublishedCity(countrySlug, citySlug);
   if (!city) return {};
   return {
     title: `${city.name}, ${city.countryName} — top 5 eats, experiences & photo spots`,
@@ -54,6 +64,55 @@ const SECTIONS = [
   },
 ];
 
+/*
+ * Said out loud, because a pin that looks precise and isn't sends someone to
+ * the wrong corner. Only "exact" claims we stood on the spot.
+ */
+const PRECISION_COPY: Record<SpotLocation["precision"], string> = {
+  exact: "Exact vantage point",
+  approximate: "Approximate, within a block",
+  neighborhood: "Neighborhood pin, not an exact spot",
+};
+
+function SpotDirections({
+  location,
+  spotTitle,
+}: {
+  location: SpotLocation;
+  spotTitle: string;
+}) {
+  const { lat, lng, precision, facing, facingNote, label } = location;
+  return (
+    <div className="mt-4 rounded-2xl border border-ink/10 bg-paper-soft/70 p-4">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+        <a
+          href={`https://www.google.com/maps/search/?api=1&query=${lat},${lng}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Open ${label ?? spotTitle} in Maps`}
+          className="inline-flex min-h-9 items-center gap-1.5 rounded-full bg-ink px-4 text-sm font-medium text-paper transition hover:bg-terracotta"
+        >
+          Open in Maps <span aria-hidden="true">↗</span>
+        </a>
+        {label && <span className="text-sm text-ink/70">{label}</span>}
+        <span className="text-xs uppercase tracking-wider text-ink/50">
+          {PRECISION_COPY[precision]}
+        </span>
+      </div>
+      {facingNote && (
+        <p className="mt-3 text-sm leading-relaxed text-ink/70">
+          {facing && (
+            <span className="font-semibold text-terracotta">
+              Facing {facing}:{" "}
+            </span>
+          )}
+          {facingNote}
+        </p>
+      )}
+    </div>
+  );
+}
+
 function TopFiveList({ items }: { items: Top5Item[] }) {
   return (
     <ol className="mt-8 space-y-4">
@@ -68,11 +127,30 @@ function TopFiveList({ items }: { items: Top5Item[] }) {
           >
             {i + 1}
           </span>
-          <div>
+          <div className="min-w-0 flex-1">
             <h3 className="font-semibold">{item.title}</h3>
             <p className="mt-1 text-sm leading-relaxed text-ink/65">
               {item.blurb}
             </p>
+            {item.photo && (
+              <figure className="mt-4">
+                <Image
+                  src={item.photo.src}
+                  alt={item.photo.alt}
+                  placeholder="blur"
+                  sizes="(min-width: 896px) 768px, calc(100vw - 6rem)"
+                  className="max-h-[28rem] w-full rounded-2xl object-cover"
+                />
+                {item.photo.caption && (
+                  <figcaption className="mt-2 text-xs italic text-ink/50">
+                    {item.photo.caption}
+                  </figcaption>
+                )}
+              </figure>
+            )}
+            {item.locations?.map((location, j) => (
+              <SpotDirections key={j} location={location} spotTitle={item.title} />
+            ))}
           </div>
         </li>
       ))}
@@ -82,9 +160,12 @@ function TopFiveList({ items }: { items: Top5Item[] }) {
 
 export default async function CityPage({ params }: Props) {
   const { country: countrySlug, city: citySlug } = await params;
-  const country = getCountry(countrySlug);
-  const city = getCity(countrySlug, citySlug);
+  const country = getPublishedCountry(countrySlug);
+  const city = getPublishedCity(countrySlug, citySlug);
   if (!country || !city) notFound();
+
+  /* Empty for cities whose photo spots have no pins yet; the map then renders nothing. */
+  const spotPins = mappedSpots(city);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -134,6 +215,19 @@ export default async function CityPage({ params }: Props) {
             {city.intro}
           </p>
 
+          {city.story && (
+            <section aria-label={`Field notes from ${city.name}`} className="mt-10">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
+                Field notes
+              </p>
+              <div className="mt-3 max-w-2xl space-y-4 leading-relaxed text-ink/80">
+                {city.story.map((paragraph, i) => (
+                  <p key={i}>{paragraph}</p>
+                ))}
+              </div>
+            </section>
+          )}
+
           <div className="sticky top-[65px] z-30 -mx-6 mt-10 border-y border-ink/10 bg-paper/95 px-6 py-3 backdrop-blur">
             <CityTabs country={country} activeCitySlug={city.slug} />
           </div>
@@ -167,9 +261,41 @@ export default async function CityPage({ params }: Props) {
               <h2 className="font-display mt-2 text-3xl font-medium sm:text-4xl">
                 {section.icon} {section.title}
               </h2>
+              {section.key === "photoSpots" && (
+                <CityPhotoMap
+                  spots={spotPins}
+                  cityName={city.name}
+                  totalSpots={city.photoSpots.length}
+                />
+              )}
               <TopFiveList items={city[section.key]} />
             </section>
           ))}
+
+          {city.gallery && city.gallery.length > 0 && (
+            <section
+              aria-label={`More photos from ${city.name}`}
+              className="mt-16"
+            >
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
+                Outtakes
+              </p>
+              <h2 className="font-display mt-2 text-3xl font-medium sm:text-4xl">
+                📷 From the camera roll
+              </h2>
+              <div className="mt-8">
+                <PhotoGallery
+                  photos={city.gallery.map((photo) => ({
+                    ...photo,
+                    citySlug: city.slug,
+                    cityName: city.name,
+                    countrySlug: country.slug,
+                    countryName: country.name,
+                  }))}
+                />
+              </div>
+            </section>
+          )}
 
           <div className="mt-16 rounded-3xl bg-dusk p-8 text-center text-paper">
             <p className="font-display text-2xl">

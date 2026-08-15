@@ -2,16 +2,14 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { allCities, countries, featuredCities } from "@/data/destinations";
+import type { FeaturedCityCard } from "@/data/destinations";
 import "./cinematic.css";
 
-/* Placeholder scene layers — replace with our own travel photography later. */
+/* Cinematic scene layers (mix of local photography + motion graphics). */
 const ASSETS = {
-  sky: "https://raft-blast-61784561.figma.site/_assets/v11/16b5007d9c93971e26ffe4e0e3e37946f6bd538c.png",
-  backFour:
-    "https://raft-blast-61784561.figma.site/_assets/v11/8a7f8af50e0ce92ec2e228e7b0b4112178c51cf1.png",
-  bazaar:
-    "https://raft-blast-61784561.figma.site/_assets/v11/864afe00e41e2fa20a5aa546e15cb807e0f81384.png",
+  sky: "/photos/agra/taj-monkeys.jpg",
+  backFour: "/photos/amsterdam/tajandme-heic.jpg",
+  bazaar: "/photos/amsterdam/tajandme-heic.jpg",
   splitLeft:
     "https://raft-blast-61784561.figma.site/_assets/v11/7536d7b60a1fce482cf6edf3f0bffd3bad5d0f8a.png",
   splitRight:
@@ -45,7 +43,17 @@ function segmentInOut(s: number, a: number, b: number, c: number, d: number) {
 
 const SET_COUNT = 3;
 
-export default function CinematicHero() {
+type CinematicHeroProps = {
+  featuredCities: FeaturedCityCard[];
+  cityCount: number;
+  countryCount: number;
+};
+
+export default function CinematicHero({
+  featuredCities,
+  cityCount,
+  countryCount,
+}: CinematicHeroProps) {
   const sectionRef = useRef<HTMLElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
   const controlsRef = useRef<HTMLDivElement>(null);
@@ -436,11 +444,11 @@ export default function CinematicHero() {
           </p>
           <dl className="facts">
             <div>
-              <dt>{allCities.length}</dt>
+              <dt>{cityCount}</dt>
               <dd>Cities fumbled through so far</dd>
             </div>
             <div>
-              <dt>{countries.length}</dt>
+              <dt>{countryCount}</dt>
               <dd>Countries on the board</dd>
             </div>
           </dl>

@@ -14,6 +14,9 @@ export default function SiteHeader() {
           <Link href="/" className="text-ink/70 transition hover:text-ink">
             Home
           </Link>
+          <Link href="/gallery" className="text-ink/70 transition hover:text-ink">
+            Gallery
+          </Link>
           <Link
             href="/destinations"
             className="rounded-full bg-ink px-4 py-2 text-paper transition hover:bg-terracotta"

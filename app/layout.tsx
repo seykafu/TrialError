@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s · Trial & Error",
   },
   description:
-    "A travel blog built on getting it wrong first: top 5 eats, top 5 local experiences, and top 5 photo spots for every city we've fumbled through.",
+    "A travel blog built to help: top 5 eats and local experiences for every city we've fumbled through.",
   openGraph: {
     type: "website",
     siteName: SITE_NAME,

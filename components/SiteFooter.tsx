@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { countries } from "@/data/destinations";
+import { countriesWithPublishedCities } from "@/data/destinations";
 
 export default function SiteFooter() {
   return (
@@ -15,7 +15,7 @@ export default function SiteFooter() {
           </p>
         </div>
         <nav aria-label="All destinations" className="grid grid-cols-2 gap-x-8 gap-y-2 text-sm sm:grid-cols-3">
-          {countries.map((country) => (
+          {countriesWithPublishedCities.map((country) => (
             <Link
               key={country.slug}
               href={`/destinations/${country.slug}`}
@@ -27,7 +27,19 @@ export default function SiteFooter() {
         </nav>
       </div>
       <div className="border-t border-paper/10 py-5 text-center text-xs text-paper/40">
-        © {new Date().getFullYear()} Trial &amp; Error. Get lost responsibly.
+        <p>© {new Date().getFullYear()} Trial &amp; Error. Get lost responsibly.</p>
+        <p className="mt-2">
+          Maintained with love by{" "}
+          <a
+            href="https://kaseyfu.com"
+            target="_blank"
+            rel="noreferrer"
+            className="text-paper/70 underline underline-offset-4 transition hover:text-amber"
+          >
+            Kasey Fu
+          </a>
+          .
+        </p>
       </div>
     </footer>
   );

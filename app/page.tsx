@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import CinematicHero from "@/components/CinematicHero";
 import SiteFooter from "@/components/SiteFooter";
-import { countries, allCities } from "@/data/destinations";
+import {
+  countriesWithPublishedCities,
+  featuredCityCards,
+  publishedCities,
+} from "@/data/destinations";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -16,7 +20,7 @@ export default function Home() {
     name: "Trial & Error",
     url: SITE_URL,
     description:
-      "A travel journal of happy accidents — top 5 eats, local experiences, and photo spots for every city.",
+      "A travel journal of our top 5 eats and local experiences for every city.",
   };
 
   return (
@@ -26,7 +30,11 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <CinematicHero />
+      <CinematicHero
+        featuredCities={featuredCityCards}
+        cityCount={publishedCities.length}
+        countryCount={countriesWithPublishedCities.length}
+      />
 
       {/* Crawlable country/city index below the cinematic scroll */}
       <section id="browse" className="bg-paper text-ink">
@@ -35,11 +43,11 @@ export default function Home() {
             The map so far
           </p>
           <h2 className="font-display mt-3 text-4xl font-medium sm:text-5xl">
-            {allCities.length} cities, {countries.length} countries,
+            {publishedCities.length} cities, {countriesWithPublishedCities.length} countries,
             <br className="hidden sm:block" /> countless wrong turns.
           </h2>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {countries.map((country) => (
+            {countriesWithPublishedCities.map((country) => (
               <article
                 key={country.slug}
                 className="group rounded-3xl border border-ink/10 bg-paper-soft p-6 shadow-[0_14px_40px_rgba(64,28,8,0.08)] transition hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(64,28,8,0.14)]"

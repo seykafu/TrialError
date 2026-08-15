@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import { countries, allCities } from "@/data/destinations";
+import {
+  countriesWithPublishedCities,
+  publishedCities,
+} from "@/data/destinations";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Destinations",
-  description: `Browse ${allCities.length} city guides across ${countries.length} countries — each with our top 5 eats, top 5 local experiences, and top 5 photo spots.`,
+  description: `Browse ${publishedCities.length} city guides across ${countriesWithPublishedCities.length} countries — each with our top 5 eats, top 5 local experiences, and top 5 photo spots.`,
   alternates: { canonical: "/destinations" },
 };
 
@@ -16,7 +19,7 @@ export default function DestinationsPage() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Trial & Error destinations",
-    itemListElement: countries.map((country, i) => ({
+    itemListElement: countriesWithPublishedCities.map((country, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: country.name,
@@ -48,7 +51,7 @@ export default function DestinationsPage() {
           </p>
 
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {countries.map((country) => (
+            {countriesWithPublishedCities.map((country) => (
               <Link
                 key={country.slug}
                 href={`/destinations/${country.slug}`}

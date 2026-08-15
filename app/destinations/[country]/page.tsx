@@ -4,7 +4,10 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import CityTabs from "@/components/CityTabs";
-import { countries, getCountry } from "@/data/destinations";
+import {
+  countriesWithPublishedCities,
+  getPublishedCountry,
+} from "@/data/destinations";
 import { SITE_URL } from "@/lib/site";
 
 type Props = {
@@ -12,12 +15,12 @@ type Props = {
 };
 
 export function generateStaticParams() {
-  return countries.map((c) => ({ country: c.slug }));
+  return countriesWithPublishedCities.map((c) => ({ country: c.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { country: slug } = await params;
-  const country = getCountry(slug);
+  const country = getPublishedCountry(slug);
   if (!country) return {};
   return {
     title: `${country.name} travel guides`,
@@ -30,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CountryPage({ params }: Props) {
   const { country: slug } = await params;
-  const country = getCountry(slug);
+  const country = getPublishedCountry(slug);
   if (!country) notFound();
 
   const jsonLd = {

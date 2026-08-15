@@ -2735,7 +2735,7 @@ const paris: City = {
   name: "Paris",
   countrySlug: "france",
   countryName: "France",
-  contentStatus: "draft",
+  contentStatus: "published",
   tagline: "Eat east, shoot central.",
   intro:
     "Paris runs on two maps that barely overlap: the food is east, out through the 10th, 11th, 12th and 20th, and the photographs are central. Plan the day around the bakery and let the monuments happen on the walk between.",
@@ -2876,7 +2876,7 @@ const cabo: City = {
   name: "Cabo",
   countrySlug: "mexico",
   countryName: "Mexico",
-  contentStatus: "draft",
+  contentStatus: "published",
   tagline: "Desert meets two oceans.",
   intro:
     "Cabo's reputation is a twenty-mile hotel corridor, which is the least interesting thing about it. Go three blocks inland from the marina, or thirty minutes east to San José del Cabo, and the signs go Spanish and the taquerías fill with people who actually live here.",
@@ -3007,7 +3007,7 @@ const vancouver: City = {
   name: "Vancouver",
   countrySlug: "canada",
   countryName: "Canada",
-  contentStatus: "draft",
+  contentStatus: "published",
   tagline: "The free version, in the rain.",
   intro:
     "Almost everything this city sells a ticket for has a free version a few kilometres away: the suspension bridge, the lookout, the waterfront. Rain here isn't weather, it's a season, so everything below is chosen to work in it.",
@@ -3148,7 +3148,7 @@ const toronto: City = {
   name: "Toronto",
   countrySlug: "canada",
   countryName: "Canada",
-  contentStatus: "draft",
+  contentStatus: "published",
   tagline: "The communities left, the bakeries stayed.",
   intro:
     "Toronto's immigrant food doesn't gather into walkable districts, it stretches out along east-west arterials you have to commit to a bus for. Most of those strips have outlived their own residents, because the families moved on to Mississauga, Brampton, Markham and outer Scarborough while the restaurants stayed put, so you end up eating in the memory of a catchment.",
@@ -3287,7 +3287,7 @@ const calgary: City = {
   name: "Calgary",
   countrySlug: "canada",
   countryName: "Canada",
-  contentStatus: "draft",
+  contentStatus: "published",
   tagline: "The other 355 days.",
   intro:
     "Ten days in July get written about everywhere, and the other 355 get skipped. This is a prairie city with a river valley cut through the middle of it, so treat the Rockies as a horizon line and a weekend rather than the setting.",
@@ -3427,7 +3427,7 @@ const banff: City = {
   name: "Banff",
   countrySlug: "canada",
   countryName: "Canada",
-  contentStatus: "draft",
+  contentStatus: "published",
   tagline: "The logistics are the view.",
   intro:
     "Banff is two towns wearing one name: a strip of fudge shops and ski outlets built for people with four hours off a coach, and a working town behind it whose few thousand residents and seasonal staff eat somewhere else, at different hours, for half the price. The famous lakes are still worth it, but here the planning is the guide, so most of what follows is booking windows, free parking lots, and the ten bus lengths you owe a bear.",

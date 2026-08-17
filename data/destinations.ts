@@ -4217,6 +4217,160 @@ const melbourne: City = {
   ],
 };
 
+const montreal: City = {
+  slug: "montreal",
+  name: "Montreal",
+  countrySlug: "canada",
+  countryName: "Canada",
+  contentStatus: "published",
+  tagline: "Neighbourhoods that eat in French.",
+  intro:
+    "Downtown is where Montreal keeps its offices; the city itself lives in Mile End, the Plateau and Little Italy, and it eats in French. Come ready to pick a bagel shop, because neutrality is not on the menu.",
+  stay: {
+    title: "Hôtel de l'ITHQ, foot of the Plateau",
+    blurb:
+      "The teaching hotel of Quebec's state hospitality institute, run partly by students still learning the trade, which is about as on-brand as this blog's name gets. It faces Square Saint-Louis at the Plateau's southern edge, with Mile End and the mountain starting up the street and the metro directly underneath running straight to Jean-Talon.",
+    url: "https://www.expedia.com/Montreal-Hotels-Hotel-De-LITHQ.h4219569.Hotel-Information",
+  },
+  cultureTips: [
+    "Open with bonjour everywhere, even if you switch to English a beat later, and if you get the famous Bonjour-Hi, answer in whichever language you were greeted in; the greeting is live politics here, and nobody is waiting on a visitor's take.",
+    "Tip 15 to 20 percent, and since 2025 Quebec law makes the machine calculate its suggested tips on the pre-tax amount, so for once the screen is on your side.",
+    "Beer and wine come from the dépanneur, the corner store, a genuine Quebec distinction; drinking them in a park is only legal with a meal at a designated picnic table, borough rules vary, and yes, the picnic-table technicality is real.",
+    "Terrasse culture is real: the first warm week of the year the entire city moves outdoors, cinq à sept is the local happy hour, and lingering is normal, not rude.",
+    "Montreal is widely called Tiohtià:ke in Kanien'kéha; institutions here acknowledge the Kanien'kehá:ka Nation as custodians of unceded territory and name the island a longstanding meeting place of many nations, and the visitor's part is to relay that practice with quiet attention rather than adjudicate it.",
+  ],
+  eats: [
+    {
+      title: "St-Viateur versus Fairmount, the bagel question",
+      blurb:
+        "Montreal's one genuine civic argument, fought across two blocks of Mile End: Fairmount is the original, St-Viateur opened around the corner in the fifties, and both are working bakeries locals hit at odd hours, not attractions. The assignment is one hot sesame from each, eaten walking; whichever you finish first is your answer. For the record, St-Viateur runs denser and chewier with that honey-sesame crust, Fairmount sweeter and softer, and there is no wrong vote, just a lifelong one.",
+    },
+    {
+      title: "Lester's Deli, Outremont",
+      blurb:
+        "Schwartz's earns its fame, just not necessarily your hour in line. Lester's has been on Avenue Bernard since the early fifties and it's where longtime Montrealers actually go: medium-fat smoked meat sandwich, fries, done. Schwartz's is an experience; Lester's is lunch.",
+    },
+    {
+      title: "Café Olimpico, Mile End",
+      blurb:
+        "Montreal café culture grew out of the Italian espresso bar, not third wave, and this is the root: opened in 1970 by an Italian immigrant as a soccer-watching espresso joint, blend unchanged since. Drink it at the counter with the old guys, and if Italy is playing, stay. The deeper cut is Caffè Italia on Saint-Laurent in Little Italy, same tradition, less discovered.",
+    },
+    {
+      title: "Wilensky's Light Lunch, Mile End",
+      blurb:
+        "Open since 1932, still family-run, and gloriously unbending: the Wilensky Special, grilled salami and bologna on a pressed roll, comes with mustard, no exceptions, and is never cut in half. Don't ask; the refusal has been the rule since day one, and the refusal is the point. Mordecai Richler's Mile End, preserved in amber.",
+    },
+    {
+      title: "L'Express, rue Saint-Denis",
+      blurb:
+        "Opened in 1980 as a deliberate Paris bistro, now genuinely the institution it set out to imitate, with a good claim to igniting the city's restaurant renaissance. Beef tartare, bone marrow, celery remoulade, wine markups that are famously fair; it seats late, and late is when the Plateau comes here to celebrate things, in French. Book ahead.",
+    },
+  ],
+  experiences: [
+    {
+      title: "Tam-tams on the mountain",
+      blurb:
+        "On Sundays roughly May to September, weather permitting, an informal drum circle takes over the slope at the Cartier monument on the Avenue du Parc side: drummers, dancers, vendors, and half the Plateau on blankets. It's a picnic, not a performance, and the drummers are locals, not buskers. Free and unofficial, which is the whole charm.",
+    },
+    {
+      title: "The Jean-Talon market run, Little Italy",
+      blurb:
+        "One of North America's largest open-air markets in summer, but here's the secret version: the walls go up in October and the butchers, cheesemongers and maple stalls run all winter. Saturday morning is the social scene, a weekday morning the calm one, and either way it's Quebec producers selling direct. Pair it with an espresso at Caffè Italia and a walk down the Main.",
+    },
+    {
+      title: "The Plateau on foot",
+      blurb:
+        "Walk Avenue Laval north from Square Saint-Louis toward Mont-Royal, detouring down Drolet and Henri-Julien: the densest stretch of wrought-iron spiral staircases and painted triplexes in the city, built that way because early-1900s bylaws pushed the stairs outside. Slip into the green alleys between the blocks. It's free and unticketed, and people live here, so keep it discreet.",
+    },
+    {
+      title: "Winter, treated as identity",
+      blurb:
+        "Winter rituals are the point of the season here, not consolation prizes. Skate free at Esplanade Tranquille downtown, skate loan included, or on the refrigerated rink at Beaver Lake up the mountain. Then sugar-shack season runs roughly late February into April; the March weekends book out weeks ahead, and Verdun throws an urban street-festival version if the countryside isn't happening.",
+    },
+    {
+      title: "The river in summer",
+      blurb:
+        "Swim in the St. Lawrence at Verdun Beach, a supervised, buoy-marked zone behind a rock jetty (check it's open for the season), then watch the surfers queue for the standing wave behind Habitat 67, a permanent river wave locals have ridden for decades. A river city that only recently re-learned to swim in its own river. (Old Montreal, honestly: a costumed scrum by midday, so do it as a dawn walk and be gone before the terrasses fill.)",
+    },
+  ],
+  photoSpots: [
+    {
+      title: "Belvédère Kondiaronk, Mount Royal",
+      blurb:
+        "Stand at the stone balustrade in front of the chalet and shoot southeast over the downtown towers to the river. Blue hour is the one, when the skyline lights come up; winter adds snow-loaded trees and a warm chalet to thaw in, and a weekday dawn is empty. Earn it via the stair climb from the Peel Street entrance, which doubles as half the city's weekly workout.",
+      locations: [
+        {
+          lat: 45.5035,
+          lng: -73.5871,
+          precision: "exact",
+          facing: "SE",
+          facingNote:
+            "southeast from the balustrade over the downtown towers to the river, at blue hour as the lights come up",
+        },
+      ],
+    },
+    {
+      title: "Habitat 67, from Avenue Pierre-Dupuy and Parc de Dieppe",
+      blurb:
+        "The riverside sidewalk along Pierre-Dupuy gives the classic stacked-cubes close-up; carry on to Parc de Dieppe at the point and turn around for the reverse, Old Port and skyline across the water, surfers on the standing wave behind you. Golden hour, reached by bike path or a flat walk from the Old Port. The building is private homes, so shoot from the public sidewalk and the park.",
+      locations: [
+        {
+          lat: 45.4999,
+          lng: -73.5438,
+          precision: "approximate",
+          label: "Shoot from the Pierre-Dupuy sidewalk; Parc de Dieppe for the reverse",
+          facingNote:
+            "the stacked cubes from the public sidewalk, then the skyline back across the water from the point; two directions, one walk",
+        },
+      ],
+    },
+    {
+      title: "Square Saint-Louis and Avenue Laval",
+      blurb:
+        "Inside the square, shoot the Victorian greystone row with its painted turrets on the north side, then work Laval, Drolet and Henri-Julien northward for the spiral staircases. Early morning gives empty frames and side light, and fresh snow or autumn colour transforms the whole thing. On summer evenings the square fills with residents, which is a feature, so shoot wide.",
+      locations: [
+        {
+          lat: 45.5171,
+          lng: -73.5698,
+          precision: "exact",
+          facing: "N",
+          facingNote:
+            "north at the greystone row and its painted turrets from inside the square, then up the staircase streets beyond",
+        },
+      ],
+    },
+    {
+      title: "Marché Jean-Talon, mid-market",
+      blurb:
+        "Under the central awnings, shooting down the produce rows; in winter, inside the enclosed halls with the butchers and the maple stalls. Saturday morning for maximum life, a weekday for clean frames, late summer for peak Quebec colour. Ask vendors before close-ups.",
+      locations: [
+        {
+          lat: 45.5359,
+          lng: -73.6151,
+          precision: "exact",
+          facingNote:
+            "down the produce rows under the central awnings, or inside the winter halls; no single bearing, follow the colour",
+        },
+      ],
+    },
+    {
+      title: "Saint Joseph's Oratory",
+      blurb:
+        "From the foot of the pilgrim stairs, go wide angle up at Canada's largest dome, then take the terrace panorama over the other side of the city, the opposite view from Kondiaronk. Early morning is serene; midday is pilgrims and tour groups. It's a working shrine, so quiet inside and no flash during services.",
+      locations: [
+        {
+          lat: 45.4921,
+          lng: -73.6167,
+          precision: "exact",
+          facingNote:
+            "wide angle up at the dome from the foot of the pilgrim stairs, then the terrace panorama; a working shrine, so keep it quiet",
+        },
+      ],
+    },
+  ],
+};
+
+
 export const countries: Country[] = [
   {
     slug: "india",
@@ -4331,7 +4485,7 @@ export const countries: Country[] = [
     region: "North America",
     /* TODO(kasey): country blurb still provisional, pending his own words. */
     blurb: "Home turf, which turns out to be the hardest kind to write about.",
-    cities: [vancouver, toronto, calgary, banff],
+    cities: [vancouver, toronto, calgary, banff, montreal],
   },
   {
     slug: "usa",

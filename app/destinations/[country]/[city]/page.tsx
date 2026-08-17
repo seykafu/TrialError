@@ -352,8 +352,8 @@ export default async function CityPage({ params }: Props) {
                 </a>
                 <p className="mt-3 text-xs text-ink/50">
                   Booking through this link may earn us a small commission,
-                  which is how we're testing whether this blog can pay for its
-                  own chai.
+                  which is how we&apos;re testing whether this blog can pay for
+                  its own chai.
                 </p>
               </div>
             </section>

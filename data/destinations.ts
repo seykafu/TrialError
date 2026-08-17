@@ -3320,6 +3320,12 @@ const toronto: City = {
   tagline: "The communities left, the bakeries stayed.",
   intro:
     "Toronto's immigrant food doesn't gather into walkable districts, it stretches out along east-west arterials you have to commit to a bus for. Most of those strips have outlived their own residents, because the families moved on to Mississauga, Brampton, Markham and outer Scarborough while the restaurants stayed put, so you end up eating in the memory of a catchment.",
+  stay: {
+    title: "The Drake Hotel, Queen West",
+    blurb:
+      "A hotel site since 1890, relaunched in 2004 as the arts hub credited with kickstarting West Queen West, live-music venue in the basement included. This page's whole argument is arterials over downtown, so sleep on one: Queen West at the door, the Ossington strip a few blocks along.",
+    url: "https://www.expedia.com/Toronto-Hotels-The-Drake-Hotel.h27718565.Hotel-Information",
+  },
   cultureTips: [
     "Tip 15 to 20 percent on the pre-tax bill, with 18 as the common terminal default.",
     "Streetcars stop in the middle of the lane, so press the button to open the doors yourself and look before stepping out; drivers are required to stop behind open doors, but not everyone does.",
@@ -3466,6 +3472,12 @@ const calgary: City = {
   tagline: "The other 355 days.",
   intro:
     "Ten days in July get written about everywhere, and the other 355 get skipped. This is a prairie city with a river valley cut through the middle of it, so treat the Rockies as a horizon line and a weekend rather than the setting.",
+  stay: {
+    title: "Alt Hotel Calgary, East Village",
+    blurb:
+      "Directly beside the Bow pathway system this page keeps calling civic infrastructure, with the National Music Centre and the Music Mile around the corner, Inglewood a walk down 9th Ave and Bridgeland across the river. Run by a family-owned Canadian group rather than a chain tower, which is very much the spirit of the list above.",
+    url: "https://www.expedia.com/Calgary-Hotels-Alt-Hotel-Calgary-East-Village.h31069558.Hotel-Information",
+  },
   cultureTips: [
     "Public cannabis consumption is banned outright citywide, the strict outlier among Canadian cities, so it's private property or nothing.",
     "On the Bow River pathways keep right and pass left; cyclists ring a bell and yield to walkers, and walkers return the favour by not drifting across both lanes.",
@@ -3613,6 +3625,12 @@ const banff: City = {
   tagline: "The logistics are the view.",
   intro:
     "Banff is two towns wearing one name: a strip of fudge shops and ski outlets built for people with four hours off a coach, and a working town behind it whose few thousand residents and seasonal staff eat somewhere else, at different hours, for half the price. The famous lakes are still worth it, but here the planning is the guide, so most of what follows is booking windows, free parking lots, and the ten bus lengths you owe a bear.",
+  stay: {
+    title: "Mount Royal Hotel, Banff Avenue at Caribou Street",
+    blurb:
+      "On this corner since 1908, bought by the Brewsters who built commercial Banff, burned in 2016 and rebuilt, and pointedly not the castle above town: this is the working town's hotel, with the breakfast pick on Caribou and Wild Flour one block over on Bear. When the logistics are the view, a townsite bed is what makes those pre-dawn shuttle alarms survivable.",
+    url: "https://www.expedia.com/Banff-Hotels-Mount-Royal-Hotel.h688930.Hotel-Information",
+  },
   cultureTips: [
     "Stay on the designated trail even when the better photo is two steps off it; alpine vegetation takes decades to recover from one social trail.",
     "Area closures are law, not suggestions; the seasonal and bear closures are legally enforceable, and they exist because disturbed bears have charged people.",

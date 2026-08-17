@@ -557,7 +557,7 @@ const delhi: City = {
     {
       title: "Sunder Nursery",
       blurb:
-        "Ninety acres of restored Mughal garden that Delhi has adopted as its picnic living room — this is where locals go when they're tired of every other park. Bring snacks, spread out on a lawn, and collect the bonus Mughal tombs and peacocks as you wander. It shares a wall with Humayun's Tomb, so one trip covers both.",
+        "Ninety acres of restored Mughal garden that Delhi has adopted as its picnic living room: this is where locals go when they're tired of every other park. Bring snacks, spread out on a lawn, and collect the bonus Mughal tombs and peacocks as you wander. It shares a wall with Humayun's Tomb, so one trip covers both.",
     },
   ],
   photoSpots: [
@@ -592,7 +592,7 @@ const delhi: City = {
     {
       title: "Lodi Gardens at golden hour",
       blurb:
-        "Put the low sun behind the Bara Gumbad dome and the silhouette shot is free — our own photo above is the proof. Mornings are walkers and parakeets; late afternoon is when the 500-year-old stone goes warm.",
+        "Put the low sun behind the Bara Gumbad dome and the silhouette shot is free; our own photo above is the proof. Mornings are walkers and parakeets; late afternoon is when the 500-year-old stone goes warm.",
       locations: [
         {
           lat: 28.5946,
@@ -671,12 +671,12 @@ const agra: City = {
     {
       title: "Treat Restaurant",
       blurb:
-        "The same family has run this little spot at the Taj's south gate since 1986. Paneer pasanda, butter naan, banana lassi, done — and it's right by the Kinari Bazar, which you'll be walking through anyway on your way to the Taj.",
+        "The same family has run this little spot at the Taj's south gate since 1986. Paneer pasanda, butter naan, banana lassi, done, and it's right by the Kinari Bazar, which you'll be walking through anyway on your way to the Taj.",
     },
     {
       title: "Bedai and jalebi breakfast at Deviram Sweets",
       blurb:
-        "Agra's actual breakfast: a spicy stuffed puri with curried potatoes, eaten standing up before 10 am, then a hot jalebi for the syrup chaser. Deviram Sweets is the name locals say. My street-chai disclaimer applies here too — blame me later, thank me first.",
+        "Agra's actual breakfast: a spicy stuffed puri with curried potatoes, eaten standing up before 10 am, then a hot jalebi for the syrup chaser. Deviram Sweets is the name locals say. My street-chai disclaimer applies here too: blame me later, thank me first.",
     },
     {
       title: "Panchhi Petha (the real one)",
@@ -718,14 +718,14 @@ const agra: City = {
     {
       title: "Kinari Bazar wander",
       blurb:
-        "I already told you to keep your items secure here, so consider this a promotion from warning to recommendation. Wedding finery, marigolds, spice sacks, rickshaw gridlock — this is commerce for Agra, not for tourists, and none of it is staged. Walk it, don't ride it.",
+        "I already told you to keep your items secure here, so consider this a promotion from warning to recommendation. Wedding finery, marigolds, spice sacks, rickshaw gridlock: this is commerce for Agra, not for tourists, and none of it is staged. Walk it, don't ride it.",
     },
   ],
   photoSpots: [
     {
       title: "The Great Gate and reflecting pool at sunrise",
       blurb:
-        "Enter at first light and you get soft gold on white marble, a mirror-still pool, and no selfie lines. The bench and the raised marble platform are the two staple vantage points, and the garden edges deliver candid monkey traffic — our gallery has the proof.",
+        "Enter at first light and you get soft gold on white marble, a mirror-still pool, and no selfie lines. The bench and the raised marble platform are the two staple vantage points, and the garden edges deliver candid monkey traffic; our gallery has the proof.",
       locations: [
         {
           lat: 27.1716,
@@ -755,7 +755,7 @@ const agra: City = {
     {
       title: "The Yamuna bank behind Agra Fort",
       blurb:
-        "There is a right way to do the riverbank sunset shot, and it's not whatever our rickshaw driver did — that ended in a halo of mosquitoes and a dump truck full of dudes. Photographers use the ghats behind the fort (Haathi Ghat is the search term); go in fading daylight with a driver who actually knows the spot, not after dark.",
+        "There is a right way to do the riverbank sunset shot, and it's not whatever our rickshaw driver did; that ended in a halo of mosquitoes and a dump truck full of dudes. Photographers use the ghats behind the fort (Haathi Ghat is the search term); go in fading daylight with a driver who actually knows the spot, not after dark.",
       locations: [
         {
           lat: 27.1798,
@@ -785,7 +785,7 @@ const agra: City = {
     {
       title: "A Taj Ganj rooftop",
       blurb:
-        "Saniya Palace's rooftop is the known one: three decks pointed straight at the Taj, non-guests welcome. Order a chai and shoot the dome over the rooftops as the light changes — go for the frame, not the food, because the service is famously unhurried.",
+        "Saniya Palace's rooftop is the known one: three decks pointed straight at the Taj, non-guests welcome. Order a chai and shoot the dome over the rooftops as the light changes. Go for the frame, not the food, because the service is famously unhurried.",
       locations: [
         {
           lat: 27.1671,
@@ -843,7 +843,7 @@ const rome: City = {
     {
       title: "Cesare al Casaletto",
       blurb:
-        "Ride tram 8 to the end of the line and get off where the tour groups don't. Start with the fritti — the fried gnocchi and polpette are the signature move — then the carbonara or gricia. The room is Romans doing long lunches, which is the whole point.",
+        "Ride tram 8 to the end of the line and get off where the tour groups don't. Start with the fritti (the fried gnocchi and polpette are the signature move), then the carbonara or gricia. The room is Romans doing long lunches, which is the whole point.",
     },
     {
       title: "Flavio al Velavevodetto",
@@ -858,7 +858,7 @@ const rome: City = {
     {
       title: "Pizzarium (Gabriele Bonci)",
       blurb:
-        "The reference point for gourmet pizza al taglio, steps from the Vatican Museums exit. It's priced by weight, cut with scissors, and eaten standing on the sidewalk — pointing and saying \"un po' di questo, un po' di quello\" is the entire ordering system.",
+        "The reference point for gourmet pizza al taglio, steps from the Vatican Museums exit. It's priced by weight, cut with scissors, and eaten standing on the sidewalk. Pointing and saying \"un po' di questo, un po' di quello\" is the entire ordering system.",
     },
     {
       title: "Sant'Eustachio Il Caffè",
@@ -897,7 +897,7 @@ const rome: City = {
     {
       title: "Terrazza del Gianicolo",
       blurb:
-        "The full-city panorama — domes and terracotta from above Trastevere — and quieter than most famous terraces. Golden hour hits the skyline face-on. Come midday instead and you get the cannon thrown in.",
+        "The full-city panorama, domes and terracotta from above Trastevere, and quieter than most famous terraces. Golden hour hits the skyline face-on. Come midday instead and you get the cannon thrown in.",
       locations: [
         {
           lat: 41.8914,
@@ -927,7 +927,7 @@ const rome: City = {
     {
       title: "Via Piccolomini",
       blurb:
-        "The optical-illusion street where St. Peter's dome shrinks as you walk toward it and grows as you back away. Shoot down the street's axis, then film the walk — the video sells it better than any still. Easy detour off the Gianicolo.",
+        "The optical-illusion street where St. Peter's dome shrinks as you walk toward it and grows as you back away. Shoot down the street's axis, then film the walk; the video sells it better than any still. Easy detour off the Gianicolo.",
       locations: [
         {
           lat: 41.8915,
@@ -942,7 +942,7 @@ const rome: City = {
     {
       title: "Ponte Umberto I at sunset",
       blurb:
-        "The classic Castel Sant'Angelo and St. Peter's stack, shot from the east side of the bridge. Bring the longest lens you own to compress castle and dome into one frame, and arrive well before sunset — the parapet fills with tripods.",
+        "The classic Castel Sant'Angelo and St. Peter's stack, shot from the east side of the bridge. Bring the longest lens you own to compress castle and dome into one frame, and arrive well before sunset; the parapet fills with tripods.",
       locations: [
         {
           lat: 41.9027,
@@ -992,7 +992,7 @@ const florence: City = {
     {
       title: "Trattoria Mario",
       blurb:
-        "Lunch only, no reservations, shared tables, and a handwritten menu that changes daily — the reference Florentine working lunch since the 1950s. Queue before it opens with the market workers and students, order the ribollita or whatever the board says, and embrace the chaos. That's the point.",
+        "Lunch only, no reservations, shared tables, and a handwritten menu that changes daily: the reference Florentine working lunch since the 1950s. Queue before it opens with the market workers and students, order the ribollita or whatever the board says, and embrace the chaos. That's the point.",
     },
     {
       title: "Trattoria Sabatino",
@@ -1002,12 +1002,12 @@ const florence: City = {
     {
       title: "Sergio Pollini Lampredotto",
       blurb:
-        "The connoisseurs' lampredotto stand by the Sant'Ambrogio market — cow's fourth stomach, simmered and stuffed into a roll. The ordering script is \"bagnato, con salsa verde e piccante\": dipped in broth, green sauce, a little chili. Eat it standing with a cup of wine and don't overthink the anatomy.",
+        "The connoisseurs' lampredotto stand by the Sant'Ambrogio market: cow's fourth stomach, simmered and stuffed into a roll. The ordering script is \"bagnato, con salsa verde e piccante\": dipped in broth, green sauce, a little chili. Eat it standing with a cup of wine and don't overthink the anatomy.",
     },
     {
       title: "Semel",
       blurb:
-        "A closet-sized panini counter on the edge of Sant'Ambrogio with a blackboard that changes daily — think wild boar sausage with broccoli rabe, or donkey stew with pear and pecorino. No seats, no queue theater, no social-media menu. The local counterprogram to the famous panini lines.",
+        "A closet-sized panini counter on the edge of Sant'Ambrogio with a blackboard that changes daily: think wild boar sausage with broccoli rabe, or donkey stew with pear and pecorino. No seats, no queue theater, no social-media menu. The local counterprogram to the famous panini lines.",
     },
     {
       title: "La Sorbettiera",
@@ -1024,7 +1024,7 @@ const florence: City = {
     {
       title: "Artisan-workshop crawl in the Oltrarno",
       blurb:
-        "Gilders, bookbinders, and goldsmiths still work out of street-level botteghe in San Niccolò and San Frediano — actual working spaces, not artisan-branded boutiques. Alessandro Dari's sculptural jewelry atelier on Via San Niccolò is the showpiece.",
+        "Gilders, bookbinders, and goldsmiths still work out of street-level botteghe in San Niccolò and San Frediano: actual working spaces, not artisan-branded boutiques. Alessandro Dari's sculptural jewelry atelier on Via San Niccolò is the showpiece.",
     },
     {
       title: "Vespers at San Miniato al Monte",
@@ -1034,7 +1034,7 @@ const florence: City = {
     {
       title: "Aperitivo in San Niccolò",
       blurb:
-        "The smallest Oltrarno quarter turns into Florence's most local evening scene under Porta San Niccolò — cheaper and calmer than anything near the Ponte Vecchio, snacks included with your drink. On weeknights the crowd is residents and students.",
+        "The smallest Oltrarno quarter turns into Florence's most local evening scene under Porta San Niccolò, cheaper and calmer than anything near the Ponte Vecchio, snacks included with your drink. On weeknights the crowd is residents and students.",
     },
     {
       title: "Piazza Santo Spirito after dark",
@@ -1091,7 +1091,7 @@ const florence: City = {
     {
       title: "Giardino Bardini belvedere",
       blurb:
-        "The elevated, Duomo-centered frame that beats Boboli for photography, from the terrace of a ticketed garden. Go late afternoon when the light rakes across the city — and in April the wisteria tunnel is the single most photogenic thing in Florence.",
+        "The elevated, Duomo-centered frame that beats Boboli for photography, from the terrace of a ticketed garden. Go late afternoon when the light rakes across the city, and in April the wisteria tunnel is the single most photogenic thing in Florence.",
       locations: [
         {
           lat: 43.7642,
@@ -1106,7 +1106,7 @@ const florence: City = {
     {
       title: "Giotto's Campanile",
       blurb:
-        "The one climb where Brunelleschi's dome is in your photo instead of under your feet — eye level with the cupola from the top terrace. It's 414 steps with no elevator, so book a timed slot, go early or late for softer light, and earn it.",
+        "The one climb where Brunelleschi's dome is in your photo instead of under your feet: eye level with the cupola from the top terrace. It's 414 steps with no elevator, so book a timed slot, go early or late for softer light, and earn it.",
       locations: [
         {
           lat: 43.7728,
@@ -1129,7 +1129,7 @@ const shanghai: City = {
   contentStatus: "published",
   tagline: "Deco towers and dawn markets.",
   intro:
-    "Shanghai runs on two clocks: the dawn rush of griddles and steamers, and the long glossy skyline evenings. Set the alarm — the good buns sell out before most tourists find breakfast.",
+    "Shanghai runs on two clocks: the dawn rush of griddles and steamers, and the long glossy skyline evenings. Set the alarm; the good buns sell out before most tourists find breakfast.",
   cultureTips: [
     "Sort your payments before you land: Alipay and WeChat Pay take foreign cards with passport verification and street life runs on QR codes, so apps first, cash as backup since small vendors often can't make change.",
     "The metro means no eating or drinking, no audio played out loud, and airport-style bag scans at every station, so budget the queue time.",
@@ -1146,7 +1146,7 @@ const shanghai: City = {
     {
       title: "Wei Xiang Zhai (sesame sauce noodles)",
       blurb:
-        "Eighty-plus years of majiang mian out of a cramped Huangpu shophouse — thick sesame paste cut with peanut, tossed at the table, proportions unchanged for decades. Order the beef soup too and alternate bites like the regulars. You will share a table. That's part of it.",
+        "Eighty-plus years of majiang mian out of a cramped Huangpu shophouse: thick sesame paste cut with peanut, tossed at the table, proportions unchanged for decades. Order the beef soup too and alternate bites like the regulars. You will share a table. That's part of it.",
     },
     {
       title: "Old Jesse (benbang cuisine)",
@@ -1156,7 +1156,7 @@ const shanghai: City = {
     {
       title: "The Four Warriors breakfast run",
       blurb:
-        "Breakfast is the most local meal in Shanghai: dabing, youtiao, cifan, and fresh soy milk — the four items older locals actually call the Four Warriors — eaten standing on the pavement before the stalls sell out mid-morning. Order the cifan, a sticky-rice roll hugging a youtiao with pickles and pork floss. If the queue gods smile, A Da's scallion pancakes in Jing'an are still made two at a time by the man himself.",
+        "Breakfast is the most local meal in Shanghai: dabing, youtiao, cifan, and fresh soy milk (the four items older locals actually call the Four Warriors), eaten standing on the pavement before the stalls sell out mid-morning. Order the cifan, a sticky-rice roll hugging a youtiao with pickles and pork floss. If the queue gods smile, A Da's scallion pancakes in Jing'an are still made two at a time by the man himself.",
     },
     {
       title: "RAC Coffee on Anfu Road",
@@ -1168,7 +1168,7 @@ const shanghai: City = {
     {
       title: "People's Park marriage market",
       blurb:
-        "Weekend afternoons in the park's corner, parents advertise their unmarried kids on open umbrellas: age, height, salary, hukou. Browse respectfully and keep the camera away from the resumes. Fair warning — if you look anywhere between 20 and 40, someone may ask about your salary, and honestly, take it as a compliment.",
+        "Weekend afternoons in the park's corner, parents advertise their unmarried kids on open umbrellas: age, height, salary, hukou. Browse respectfully and keep the camera away from the resumes. Fair warning: if you look anywhere between 20 and 40, someone may ask about your salary, and honestly, take it as a compliment.",
     },
     {
       title: "The ¥2 Huangpu commuter ferry",
@@ -1178,7 +1178,7 @@ const shanghai: City = {
     {
       title: "Longtang lane walk",
       blurb:
-        "Shikumen lane compounds in Hongkou or off the plane-tree streets, late afternoon: laundry poles, mahjong, stools in doorways. These are homes, so keep your voice down — a nod and a \"nong hao\" goes a long way. End at Guangtou Shengjian in Hongkou, a bun queue with almost no tourists in it.",
+        "Shikumen lane compounds in Hongkou or off the plane-tree streets, late afternoon: laundry poles, mahjong, stools in doorways. These are homes, so keep your voice down; a nod and a \"nong hao\" goes a long way. End at Guangtou Shengjian in Hongkou, a bun queue with almost no tourists in it.",
     },
     {
       title: "Fuxing Park at dawn",
@@ -1279,7 +1279,7 @@ const beijing: City = {
     {
       title: "No. 69 Fangzhuanchang Zhajiangmian",
       blurb:
-        "A hutong courtyard shop that serves exactly one dish, and the founder still makes the fried soybean sauce every morning. Mix it violently and immediately — the sauce settles, the noodles clump, and hesitation marks you as a first-timer. Go off-peak unless you enjoy queues measured in hours.",
+        "A hutong courtyard shop that serves exactly one dish, and the founder still makes the fried soybean sauce every morning. Mix it violently and immediately: the sauce settles, the noodles clump, and hesitation marks you as a first-timer. Go off-peak unless you enjoy queues measured in hours.",
     },
     {
       title: "Siji Minfu (Peking duck)",
@@ -1294,7 +1294,7 @@ const beijing: City = {
     {
       title: "Lao Ciqikou Douzhi (the breakfast dare)",
       blurb:
-        "Douzhi is a 300-year-old fermented mung-bean sour that defeats most visitors, Chinese ones included, and this shop near the Temple of Heaven is the canonical place to face it. Order the set — hot douzhi, crisp jiaoquan rings, sharp pickles — and alternate. It clicks by the third sip, or it doesn't, and either way you leave with the story.",
+        "Douzhi is a 300-year-old fermented mung-bean sour that defeats most visitors, Chinese ones included, and this shop near the Temple of Heaven is the canonical place to face it. Order the set (hot douzhi, crisp jiaoquan rings, sharp pickles) and alternate. It clicks by the third sip, or it doesn't, and either way you leave with the story.",
     },
     {
       title: "Metal Hands on Wudaoying Hutong",
@@ -1306,7 +1306,7 @@ const beijing: City = {
     {
       title: "The Great Wall at Huanghuacheng",
       blurb:
-        "Skip Badaling. Huanghuacheng is the section Beijing weekenders pick for themselves — arms of wall diving straight into a reservoir, crowds thin, half a day enough. Mutianyu is the pragmatic fallback locals book for visiting relatives, toboggan included. Wear real shoes.",
+        "Skip Badaling. Huanghuacheng is the section Beijing weekenders pick for themselves: arms of wall diving straight into a reservoir, crowds thin, half a day enough. Mutianyu is the pragmatic fallback locals book for visiting relatives, toboggan included. Wear real shoes.",
     },
     {
       title: "Houhai mornings, ice swimmers included",
@@ -1316,7 +1316,7 @@ const beijing: City = {
     {
       title: "Panjiayuan market at dawn",
       blurb:
-        "China's biggest secondhand market, and the serious haggling happens just after dawn on weekends. Open at a quarter of the asking price with a smile, and buy stories, not \"Ming vases\" — the fakes are part of the game.",
+        "China's biggest secondhand market, and the serious haggling happens just after dawn on weekends. Open at a quarter of the asking price with a smile, and buy stories, not \"Ming vases\"; the fakes are part of the game.",
     },
     {
       title: "Temple of Heaven, park first",
@@ -1333,7 +1333,7 @@ const beijing: City = {
     {
       title: "Jingshan Park at sunset",
       blurb:
-        "The Forbidden City overview shot, golden roofs lit from the west — the only place the imperial axis makes visual sense. Claim a rail spot at Wanchun Pavilion well before sunset, or come at opening on a weekday for the crowd-free version.",
+        "The Forbidden City overview shot, golden roofs lit from the west, and the only place the imperial axis makes visual sense. Claim a rail spot at Wanchun Pavilion well before sunset, or come at opening on a weekday for the crowd-free version.",
       locations: [
         {
           lat: 39.9245,
@@ -1417,7 +1417,7 @@ const chengdu: City = {
     {
       title: "Ming Ting (the king of fly restaurants)",
       blurb:
-        "\"Fly restaurant\" is an affectionate term — a shabby canteen locals swarm like flies because the wok work is superb, and this alley spot by a Jinniu vegetable market is the most famous one in Chengdu. Order the doufu naohua, their invented pig-brain tofu: a creamier, richer mapo with tender pig brains in the numbing sauce. Sounds like a dare, eats like a discovery.",
+        "\"Fly restaurant\" is an affectionate term: a shabby canteen locals swarm like flies because the wok work is superb, and this alley spot by a Jinniu vegetable market is the most famous one in Chengdu. Order the doufu naohua, their invented pig-brain tofu: a creamier, richer mapo with tender pig brains in the numbing sauce. Sounds like a dare, eats like a discovery.",
     },
     {
       title: "Zhang Laoer Liangfen (sweet water noodles)",
@@ -1427,12 +1427,12 @@ const chengdu: City = {
     {
       title: "Piaoxiang Hotpot in Yulin",
       blurb:
-        "Neighborhood beef-tallow hotpot since 1997, no marketing budget, sustained entirely by word of mouth. Fresh tripe swished seven-up-eight-down, duck blood, pork throat, everything dipped in garlic and sesame oil to cool the burn. Take a queue number on your phone before leaving the hotel — walk-ins at dinnertime wait an hour.",
+        "Neighborhood beef-tallow hotpot since 1997, no marketing budget, sustained entirely by word of mouth. Fresh tripe swished seven-up-eight-down, duck blood, pork throat, everything dipped in garlic and sesame oil to cool the burn. Take a queue number on your phone before leaving the hotel; walk-ins at dinnertime wait an hour.",
     },
     {
       title: "Shuangliu Laoma Tutou (rabbit heads)",
       blurb:
-        "Sichuan eats a couple hundred million rabbit heads a year and most of them disappear around Chengdu, so do as young Chengdu does: split them with friends over beer. Thumbs at the jaw hinge, crack, cheeks first. Locals watch newcomers with open delight — lean into it. One mala and one five-spice per person is the standard order.",
+        "Sichuan eats a couple hundred million rabbit heads a year and most of them disappear around Chengdu, so do as young Chengdu does: split them with friends over beer. Thumbs at the jaw hinge, crack, cheeks first. Locals watch newcomers with open delight. Lean into it. One mala and one five-spice per person is the standard order.",
     },
     {
       title: "Heming Teahouse in People's Park",
@@ -1449,7 +1449,7 @@ const chengdu: City = {
     {
       title: "Guanyin Pavilion Old Teahouse, Pengzhen",
       blurb:
-        "A century-old teahouse in a former Ming-era temple outside town: dirt floor, faded murals, regulars who start arriving before dawn. Go early on a weekday, buy tea — that's the entry fee and the ethic — and remember the old men with their pipes are not performing. They were there first.",
+        "A century-old teahouse in a former Ming-era temple outside town: dirt floor, faded murals, regulars who start arriving before dawn. Go early on a weekday, buy tea (that's the entry fee and the ethic), and remember the old men with their pipes are not performing. They were there first.",
     },
     {
       title: "A Yulin neighborhood night",
@@ -1471,7 +1471,7 @@ const chengdu: City = {
     {
       title: "Anshun Bridge at night",
       blurb:
-        "The covered bridge glowing over the Jin River, shot from the riverside promenade or Hejiang Pavilion — never from the bridge itself. Weeknights are quieter, and the last minutes before the lights go out empty the frame.",
+        "The covered bridge glowing over the Jin River, shot from the riverside promenade or Hejiang Pavilion, never from the bridge itself. Weeknights are quieter, and the last minutes before the lights go out empty the frame.",
       locations: [
         {
           lat: 30.6442,
@@ -2004,7 +2004,7 @@ const london: City = {
     {
       title: "St. John, Farringdon",
       blurb:
-        "The restaurant that turned nose-to-tail into a movement, and thirty years on the dining room is still full of Clerkenwell regulars rather than tour groups. Order the roast bone marrow with the parsley salad — scoop, salt, pile onto toast, repeat. Get one Eccles cake per person, because sharing causes arguments.",
+        "The restaurant that turned nose-to-tail into a movement, and thirty years on the dining room is still full of Clerkenwell regulars rather than tour groups. Order the roast bone marrow with the parsley salad: scoop, salt, pile onto toast, repeat. Get one Eccles cake per person, because sharing causes arguments.",
     },
     {
       title: "Normah's, Queensway Market",
@@ -2014,7 +2014,7 @@ const london: City = {
     {
       title: "Singburi, Shoreditch",
       blurb:
-        "Widely called London's most-loved Thai restaurant, and for years it was a Leytonstone neighbourhood legend before growing into a bigger Shoreditch room. Food people here track its moves the way music fans track a band. Order off the specials board — watermelon salad, lamb short rib, nam tok — and book ahead, because the demand isn't a rumour.",
+        "Widely called London's most-loved Thai restaurant, and for years it was a Leytonstone neighbourhood legend before growing into a bigger Shoreditch room. Food people here track its moves the way music fans track a band. Order off the specials board (watermelon salad, lamb short rib, nam tok) and book ahead, because the demand isn't a rumour.",
     },
     {
       title: "E. Pellicci, Bethnal Green",
@@ -2036,7 +2036,7 @@ const london: City = {
     {
       title: "Swim the Hampstead Heath ponds, then climb Parliament Hill",
       blurb:
-        "Centuries-old bathing ponds, cold open water, and regulars who swim straight through winter in the Men's and Ladies' ponds; the Mixed Pond is a summer-only affair. The etiquette is quiet — no phones, get in without making a scene, don't announce how cold it is. Dry off and take the skyline from Parliament Hill as payment.",
+        "Centuries-old bathing ponds, cold open water, and regulars who swim straight through winter in the Men's and Ladies' ponds; the Mixed Pond is a summer-only affair. The etiquette is quiet: no phones, get in without making a scene, don't announce how cold it is. Dry off and take the skyline from Parliament Hill as payment.",
     },
     {
       title: "Columbia Road Flower Market on a Sunday",
@@ -2073,7 +2073,7 @@ const london: City = {
     {
       title: "Primrose Hill at sunrise",
       blurb:
-        "Everyone piles up here for sunset. Local photographers come at dawn instead, because the hill faces east and the paths are empty — same skyline with the BT Tower and the Shard, none of the crowd. Sunrise beats sunset almost everywhere in central London, and this is the clearest case.",
+        "Everyone piles up here for sunset. Local photographers come at dawn instead, because the hill faces east and the paths are empty: same skyline with the BT Tower and the Shard, none of the crowd. Sunrise beats sunset almost everywhere in central London, and this is the clearest case.",
       locations: [
         {
           lat: 51.539,
@@ -2152,7 +2152,7 @@ const manchester: City = {
     {
       title: "Higher Ground, city centre",
       blurb:
-        "Small plates dictated by the owners' own organic farm out in Cheshire, which means the menu answers to the weather rather than to a chef's ego. It was named the top restaurant in the UK at the National Restaurant Awards and somehow stayed unflashy — whole-animal butchery, vegetables taken seriously, no tasting-menu ceremony. Mancunians rate it for precisely that.",
+        "Small plates dictated by the owners' own organic farm out in Cheshire, which means the menu answers to the weather rather than to a chef's ego. It was named the top restaurant in the UK at the National Restaurant Awards and somehow stayed unflashy: whole-animal butchery, vegetables taken seriously, no tasting-menu ceremony. Mancunians rate it for precisely that.",
     },
     {
       title: "Erst, Ancoats",
@@ -2167,7 +2167,7 @@ const manchester: City = {
     {
       title: "Mughli Charcoal Pit, Rusholme",
       blurb:
-        "The Curry Mile is mostly shisha smoke these days, so walk past all of it to Mughli, which has held the strip's standard since 1991. Order off the koyla section — tandoori chicken thighs, charred lamb chops, the scorpion prawns — and let the charcoal do the talking. This is the family-run place locals send you to when you ask whether the Mile is still any good.",
+        "The Curry Mile is mostly shisha smoke these days, so walk past all of it to Mughli, which has held the strip's standard since 1991. Order off the koyla section (tandoori chicken thighs, charred lamb chops, the scorpion prawns) and let the charcoal do the talking. This is the family-run place locals send you to when you ask whether the Mile is still any good.",
     },
     {
       title: "Idle Hands, Northern Quarter",
@@ -2179,12 +2179,12 @@ const manchester: City = {
     {
       title: "Salford Lads Club, Ordsall",
       blurb:
-        "The red-brick 1903 boys' club from the sleeve of The Queen Is Dead, still a working youth club rather than a museum — visitors from 73 countries turned up in a single year and the kids' sessions kept running regardless. Open days are limited and you can't book, so check which days before crossing the river, then see the Smiths Room and the old boxing gym. Photograph the doorway from across the street like the album, and leave a donation, because the visits fund the club.",
+        "The red-brick 1903 boys' club from the sleeve of The Queen Is Dead, still a working youth club rather than a museum; visitors from 73 countries turned up in a single year and the kids' sessions kept running regardless. Open days are limited and you can't book, so check which days before crossing the river, then see the Smiths Room and the old boxing gym. Photograph the doorway from across the street like the album, and leave a donation, because the visits fund the club.",
     },
     {
       title: "Chetham's Library guided tour",
       blurb:
-        "The oldest free public reference library in the English-speaking world, in continuous use since 1653 inside a sandstone complex from 1421, with the window seat where Marx and Engels worked. Access is by pre-booked guided tour only, since the site is shared with a working music school, and the slots sell out — book weeks ahead. Most Mancunians have never been; the ones who have never shut up about it.",
+        "The oldest free public reference library in the English-speaking world, in continuous use since 1653 inside a sandstone complex from 1421, with the window seat where Marx and Engels worked. Access is by pre-booked guided tour only, since the site is shared with a working music school, and the slots sell out. Book weeks ahead. Most Mancunians have never been; the ones who have never shut up about it.",
     },
     {
       title: "Northern Quarter record-shop crawl",
@@ -2194,12 +2194,12 @@ const manchester: City = {
     {
       title: "Mackie Mayor, Swan Street",
       blurb:
-        "A restored Victorian market hall reborn as a communal food hall — pizza, rotisserie, tacos, coffee and local beer under one roof, shared tables, no decisions required. It's the blueprint every other food hall in Greater Manchester copied afterwards. Locals default to it when nobody can agree, so go off-peak if you'd like to actually sit down.",
+        "A restored Victorian market hall reborn as a communal food hall: pizza, rotisserie, tacos, coffee and local beer under one roof, shared tables, no decisions required. It's the blueprint every other food hall in Greater Manchester copied afterwards. Locals default to it when nobody can agree, so go off-peak if you'd like to actually sit down.",
     },
     {
       title: "Castlefield canal-basin wander",
       blurb:
-        "Roman fort site turned Victorian canal junction: narrowboats, iron viaducts and waterside pubs stacked into one compact basin. Loop it from Deansgate, get a pint canalside, and look up at the 1892 steel viaduct from underneath. The sky park up on the viaduct is shut for works, which is no loss — the view from the water was always the better one, and summer evenings down here are a genuine local ritual.",
+        "Roman fort site turned Victorian canal junction: narrowboats, iron viaducts and waterside pubs stacked into one compact basin. Loop it from Deansgate, get a pint canalside, and look up at the 1892 steel viaduct from underneath. The sky park up on the viaduct is shut for works, which is no loss; the view from the water was always the better one, and summer evenings down here are a genuine local ritual.",
     },
   ],
   photoSpots: [
@@ -2249,7 +2249,7 @@ const manchester: City = {
     {
       title: "St Peter's Square and Central Library",
       blurb:
-        "The Pantheon-shaped rotunda with tram lines running past for leading depth — shoot low to the ground so the rails pull the eye in. Come back after dark, keep the camera on the pavement, and wait for two trams to cross for the light-trail version.",
+        "The Pantheon-shaped rotunda with tram lines running past for leading depth. Shoot low to the ground so the rails pull the eye in. Come back after dark, keep the camera on the pavement, and wait for two trams to cross for the light-trail version.",
       locations: [
         {
           lat: 53.4781,
@@ -2302,12 +2302,12 @@ const nottingham: City = {
     {
       title: "Bar Iberico, Hockley",
       blurb:
-        "Tapas off a Josper grill from the restaurant family that basically trained Nottingham's modern food scene — Kushi-ya traces back to it too. Charcuterie, charred flatbreads, and whatever came off the grill blackened that day. If you're still going, the sibling room over in the Lace Market does the padron peppers.",
+        "Tapas off a Josper grill from the restaurant family that basically trained Nottingham's modern food scene; Kushi-ya traces back to it too. Charcuterie, charred flatbreads, and whatever came off the grill blackened that day. If you're still going, the sibling room over in the Lace Market does the padron peppers.",
     },
     {
       title: "The Cod's Scallops, Sherwood",
       blurb:
-        "A chippy that takes itself seriously in the right way: MSC-certified fish and a proper fishmonger's counter attached to the fryers. Cod and chips is the correct order, but going strange pays off too — Brixham monkfish goujons, tempura soft-shell crab. The suburban locations mean the queue is locals doing Friday tea rather than anyone with a camera.",
+        "A chippy that takes itself seriously in the right way: MSC-certified fish and a proper fishmonger's counter attached to the fryers. Cod and chips is the correct order, but going strange pays off too: Brixham monkfish goujons, tempura soft-shell crab. The suburban locations mean the queue is locals doing Friday tea rather than anyone with a camera.",
     },
     {
       title: "Sexy Mamma Love Spaghetti, Hockley",
@@ -2317,24 +2317,24 @@ const nottingham: City = {
     {
       title: "The Specialty, Friar Lane",
       blurb:
-        "Voted the city's favourite independent business, and a multi-roaster filter shop with beans rotating in from roasters worldwide. Don't overthink it — ask the counter to pick your filter and let them talk you through it, because they want to. Nottingham's coffee bench is deep for its size: 200 Degrees was born here, Outpost roasts on site, Cartwheel roasts out in Beeston, and Tough Mary's Bakehouse on Derby Road sells out of filled doughnuts, so go in the morning.",
+        "Voted the city's favourite independent business, and a multi-roaster filter shop with beans rotating in from roasters worldwide. Don't overthink it: ask the counter to pick your filter and let them talk you through it, because they want to. Nottingham's coffee bench is deep for its size: 200 Degrees was born here, Outpost roasts on site, Cartwheel roasts out in Beeston, and Tough Mary's Bakehouse on Derby Road sells out of filled doughnuts, so go in the morning.",
     },
   ],
   experiences: [
     {
       title: "Go underground at City of Caves",
       blurb:
-        "Nottingham sits on the UK's largest man-made cave network — 800-plus chambers cut into soft sandstone and used over the centuries as a medieval tannery, pub cellars and WWII air-raid shelters. Pre-booking is essential. The guided performance tours with the costumed archaeologist characters are considerably more fun than the self-guided audio, and locals who grew up on the school trip still bring visitors back.",
+        "Nottingham sits on the UK's largest man-made cave network: 800-plus chambers cut into soft sandstone and used over the centuries as a medieval tannery, pub cellars and WWII air-raid shelters. Pre-booking is essential. The guided performance tours with the costumed archaeologist characters are considerably more fun than the self-guided audio, and locals who grew up on the school trip still bring visitors back.",
     },
     {
       title: "Hockley and Cobden Chambers independent crawl",
       blurb:
-        "The creative quarter, and the densest few walkable streets of vintage, vinyl and indie retail in the city — COW Thrift and White Rose for clothes, Rough Trade for records and in-store gigs, micro-shops around the Cobden Chambers courtyard. This is where the city's students, musicians and designers actually spend a Saturday. Finish with tapas, or with jazz at Peggy's Skylight, which has live gigs every weekend.",
+        "The creative quarter, and the densest few walkable streets of vintage, vinyl and indie retail in the city: COW Thrift and White Rose for clothes, Rough Trade for records and in-store gigs, micro-shops around the Cobden Chambers courtyard. This is where the city's students, musicians and designers actually spend a Saturday. Finish with tapas, or with jazz at Peggy's Skylight, which has live gigs every weekend.",
     },
     {
       title: "Sneinton Market Avenues",
       blurb:
-        "A 1938 fruit market reborn in 2015 as pastel-fronted workshops for independents: a microbrewery taproom, a bean-to-bar chocolate maker, an award-winning baker using locally milled flour, a vegan deli. Saturday is the day to wander it. If your trip lands on one of the themed pagan markets — Beltane, Samhain, Yuletide — or the June festival, reshuffle the whole itinerary to be there.",
+        "A 1938 fruit market reborn in 2015 as pastel-fronted workshops for independents: a microbrewery taproom, a bean-to-bar chocolate maker, an award-winning baker using locally milled flour, a vegan deli. Saturday is the day to wander it. If your trip lands on one of the themed pagan markets (Beltane, Samhain, Yuletide) or the June festival, reshuffle the whole itinerary to be there.",
     },
     {
       title: "Nottingham Contemporary",
@@ -2344,14 +2344,14 @@ const nottingham: City = {
     {
       title: "Goose Fair, Forest Recreation Ground",
       blurb:
-        "Ten days each autumn, medieval roots, 400-plus rides, and half a million people who are overwhelmingly from round here — this is Nottingham's homecoming week rather than a tourist event. In 2026 it runs 25 September to 4 October; take the tram to The Forest and go after dark for the lights. Food canon: mushy peas with mint sauce first, hot doughnuts last, cocks-on-sticks somewhere in the middle.",
+        "Ten days each autumn, medieval roots, 400-plus rides, and half a million people who are overwhelmingly from round here: this is Nottingham's homecoming week rather than a tourist event. In 2026 it runs 25 September to 4 October; take the tram to The Forest and go after dark for the lights. Food canon: mushy peas with mint sauce first, hot doughnuts last, cocks-on-sticks somewhere in the middle.",
     },
   ],
   photoSpots: [
     {
       title: "Wollaton Hall and Deer Park",
       blurb:
-        "An Elizabethan hall on a grassy hill, free to walk the park, fifteen minutes from town, and doubling as Wayne Manor in The Dark Knight Rises if that's your sort of thing. Shoot up the tree-lined slope at golden hour; autumn is peak, with rutting-season mist and colour and free-roaming red and fallow deer in frame. Keep your distance from the deer — that rule is enforced in autumn, and rightly.",
+        "An Elizabethan hall on a grassy hill, free to walk the park, fifteen minutes from town, and doubling as Wayne Manor in The Dark Knight Rises if that's your sort of thing. Shoot up the tree-lined slope at golden hour; autumn is peak, with rutting-season mist and colour and free-roaming red and fallow deer in frame. Keep your distance from the deer; that rule is enforced in autumn, and rightly.",
       locations: [
         {
           lat: 52.948,
@@ -2393,7 +2393,7 @@ const nottingham: City = {
     {
       title: "Lace Market alleys",
       blurb:
-        "Red-brick Victorian warehouses, narrow alleys and iron railings around High Pavement and St Mary's Church. Low golden light works, but rain works better — wet cobbles hand everything back to you doubled. Pair it with the lace-cast concrete of the Contemporary a minute away.",
+        "Red-brick Victorian warehouses, narrow alleys and iron railings around High Pavement and St Mary's Church. Low golden light works, but rain works better: wet cobbles hand everything back to you doubled. Pair it with the lace-cast concrete of the Contemporary a minute away.",
       locations: [
         {
           lat: 52.9523,

@@ -57,7 +57,6 @@ export default function CinematicHero({
 }: CinematicHeroProps) {
   const sectionRef = useRef<HTMLElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
-  const controlsRef = useRef<HTMLDivElement>(null);
 
   const originalCount = featuredCities.length;
   const [activeSight, setActiveSight] = useState(originalCount);
@@ -101,8 +100,7 @@ export default function CinematicHero({
   /* --- scroll + pointer engine --- */
   useEffect(() => {
     const section = sectionRef.current;
-    const controls = controlsRef.current;
-    if (!section || !controls) return;
+    if (!section) return;
 
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
@@ -151,7 +149,6 @@ export default function CinematicHero({
       const introExit = smoothstep(90, 650, smoothScroll);
       const sightsEnterRaw = smoothstep(2760, 3560, smoothScroll);
       const sightsEnter = Math.pow(sightsEnterRaw, 1.55);
-      const sightsControlsEnter = smoothstep(3360, 3660, smoothScroll);
       const blurActive = clamp(frame2.active + frame3.active);
       const frame2Opacity = frame2.active * (1 - frame3.enter);
       const splitDrift = Math.pow(frame2.enter, 1.5);
@@ -253,8 +250,6 @@ export default function CinematicHero({
       );
 
       setVar("--sights-opacity", sightsEnter);
-      setVar("--sights-controls-opacity", sightsControlsEnter);
-      controls.classList.toggle("is-ready", sightsControlsEnter > 0.98);
       setVar("--sights-visibility", sightsEnter > 0.01 ? "visible" : "hidden");
       setVar("--sights-y", "0px");
       setVar("--sights-enter-x", `${(1 - sightsEnter) * 420}vw`);
@@ -375,27 +370,6 @@ export default function CinematicHero({
               src={ASSETS.bazaar}
               alt=""
             />
-          </div>
-
-          <div
-            ref={controlsRef}
-            className="sights-controls"
-            aria-label="Slider controls"
-          >
-            <button
-              className="sight-nav sight-prev"
-              aria-label="Previous city"
-              onClick={() => setActiveSight((i) => i - 1)}
-            >
-              ←
-            </button>
-            <button
-              className="sight-nav sight-next"
-              aria-label="Next city"
-              onClick={() => setActiveSight((i) => i + 1)}
-            >
-              →
-            </button>
           </div>
 
           <h1 className="hero-title">

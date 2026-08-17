@@ -10,7 +10,7 @@ import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Destinations",
-  description: `Browse ${publishedCities.length} city guides across ${countriesWithPublishedCities.length} countries — each with our top 5 eats, top 5 local experiences, and top 5 photo spots.`,
+  description: `Browse ${publishedCities.length} city guides across ${countriesWithPublishedCities.length} countries, each with our top 5 eats, top 5 local experiences, and top 5 photo spots.`,
   alternates: { canonical: "/destinations" },
 };
 

@@ -147,6 +147,13 @@ const amsterdam: City = {
     "I googled for nearby cafes, and found many with over 4.5 star ratings on Google and thousands of reviews. I don't even need a travel guide to know these are some nice spots, I thought.",
     "Well, I had my first culture shock when, upon stepping into every single cafe I pinpointed, every single one of them smelled of weed. Dutch weed isn't light, either. That shit was strong, brother. And when paired with a double shot espresso, I felt my head floating on a cloud blazing through an F1 race. With more bikes than people, more canals than Venice, and seemingly more weed cafes than regular cafes, Amsterdam is one unique place on Earth.",
   ],
+  cultureTips: [
+    "That red asphalt is a road for bikes, so never stand, pose or wheel a suitcase in it, and if a bell rings behind you step out rather than freeze.",
+    "A coffeeshop sells weed and a cafe sells coffee and beer, and lighting a joint on a cafe terrace gets you politely shown the door.",
+    "Smoking weed on the street is banned in the old centre and Red Light District, so finish it in the coffeeshop you bought it from.",
+    "Never photograph the women in the Red Light District windows, wide shots included; these are people at work, and the door staff enforce it hard.",
+    "Those big uncurtained canal-house windows are Dutch openness, not an invitation, so don't peer in or step onto a houseboat deck for a photo.",
+  ],
   eats: [
     {
       title: "Mannekenpis (Dutch frites)",
@@ -322,6 +329,13 @@ const sanFrancisco: City = {
     "You know what was the most SF thing I ever saw? When I was staying at my buddies' place near the Tenderloin (I'll get to that in a moment) we rented a car to drive around the city. To return the car, we had to drive through the Tenderloin, and we were stuck behind a Waymo, who was taking its time swerving past tents, poo, and the like. The autonomous vehicle knew what it was doing. It was the most dystopian thing I've ever seen.",
     "SF is expensive, so I'm going to focus on more affordable eats and experiences here. If you came here expecting high splashes of cash, you might want to visit another travel guide, or just ask AI.",
   ],
+  cultureTips: [
+    "Tip 18 to 20 percent at sit-down and a dollar or two per drink; California servers earn full minimum wage, and tipping is still fully expected anyway.",
+    "The people living on these streets are home, not scenery, so no photos, no filming, no staring; a \"sorry, not today\" with eye contact beats pretending someone doesn't exist.",
+    "Say San Francisco or the City, never San Fran; Frisco at least has some reclaimed working-class history, so it earns an eye-roll rather than an offense.",
+    "Jaywalking stopped being ticketable in 2023 when it's safe, but between the hills, streetcar tracks and blind crests, locals cross with judgment, so borrow theirs.",
+    "The Mission's mural alleys and the Painted Ladies stoops are lived-in community places, not sets, so don't block doorways or shoot into windows.",
+  ],
   eats: [
     {
       title: "Brenda's French Soul Food",
@@ -475,6 +489,13 @@ const delhi: City = {
     "India was amazing, and honestly, I need to go back there soon to explore more cities since one city from a state can feel like a completely different country compared to another. The diversity is immense, and the cuisine is unmatchable.",
     "As we traveled from Delhi to Agra and then back to Delhi, we took the train, and we experienced local areas, like Connaught Place in Delhi. I can't comprehend how people are able to balance 3 whole luggages twice their size on top of their heads when they're traveling via train. I saw some crazy stuff: my friend wanted to take us to the banks of the Ganges river for sunset photos, but he directed our rickshaw driver to a random, sketchy place. As we got out of the rickshaw, all I saw was a halo of mosquitoes over his head, and a bunch of dudes hanging out in a dump truck in front of us. I high tailed our asses out of that area fast. I also saw a rickshaw driver have his lunch stolen behind him by a monkey and then him getting into a fight with said monkey (he picked up a stick and chased it).",
     "India is the land of extremes. Extreme wealth, extreme pollution, extreme traffic, extreme noise, extreme poverty, extreme beauty. I loved it there, telling people I'm from East Assam so they wouldn't bother me. I can't wait to be back.",
+  ],
+  cultureTips: [
+    "Cover shoulders and knees and expect to lose your shoes constantly; temples, tombs and homes all run the same script, and bare shoulders or shorts will get you turned away at religious sites.",
+    "Gurdwaras like Bangla Sahib lend free head scarves at the entrance, so take one; Akshardham bans every electronic including your phone, and showing up unprepared means a locker queue.",
+    "Eat, pay and hand things over with your right hand; the left is traditionally the bathroom hand, and nobody will lecture a foreigner, but locals notice.",
+    "Ask before pointing a camera at people, especially women in the Old Delhi lanes; strangers will ask for selfies with you too, and yes or no are both fine answers.",
+    "Bargain in Chandni Chowk because it is the expected script, skip it in fixed-price shops, and never grind a cycle-rickshaw driver over ten rupees.",
   ],
   eats: [
     {
@@ -633,6 +654,13 @@ const agra: City = {
   story: [
     "We rode the train from Delhi to Agra and back, and honestly the ride was half the show: breakfast trays on fold-down tables, chai in paper cups, and luggage-balancing feats I still can't explain.",
     "If you're traveling to India, you're probably visiting the Taj Mahal, so my prediction is you'll pass through the Kinari Bazar anyway. Be mindful and keep your items secure: the surrounding area isn't gentrified, and a lot of people will want to talk to you, offering rickshaw rides and the like.",
+  ],
+  cultureTips: [
+    "The Taj is a tomb rather than a temple, so nobody enforces a dress code, but modest is still the expectation, and the free shoe covers go on over your shoes for the marble platform.",
+    "Treat the monkeys as pickpockets with teeth: no feeding, no visible food or plastic bags, no eye contact, and a firm grip on your sunglasses and phone.",
+    "Kinari Bazaar runs on haggling and tourist prices tend to open high, so bargain without guilt; walking away is the last move, and it works.",
+    "Ask before photographing people around the Taj gates; a camera without a nod reads as entitled, and plenty of strangers will ask for a selfie with you anyway.",
+    "Keep public affection to hand-holding; Agra runs more conservative than Delhi, and kissing in public draws stares you do not want.",
   ],
   eats: [
     {
@@ -804,6 +832,13 @@ const rome: City = {
   tagline: "Ruins with rush hour.",
   intro:
     "Rome runs on ritual: espresso standing up, pizza cut with scissors, and a cannon that goes off at noon on purpose. Learn the rules fast, because the city won't slow down to explain them.",
+  cultureTips: [
+    "Sitting or eating on the Spanish Steps is an actual rule, not a vibe; police will whistle you up and fines apply.",
+    "Stay out of the fountains and off Trevi's rim, fines apply; the coin over the shoulder is the part that's actually tradition.",
+    "Take your pizza al taglio to a piazza bench or Villa Borghese, because the historic centre's decorum rules ban messy eating around the monuments.",
+    "Church dress codes get enforced here, shoulders and knees covered at St Peter's and the basilicas, so carry a scarf in summer and keep the flash off.",
+    "Cappuccino after mid-morning marks you as a visitor, so take an espresso standing at the bar, and don't order at bar price then sit down at a table.",
+  ],
   eats: [
     {
       title: "Cesare al Casaletto",
@@ -946,6 +981,13 @@ const florence: City = {
   tagline: "The Renaissance, walkable.",
   intro:
     "The postcard Florence is real, but the good stuff lives one bridge over: artisan workshops, market lunches, and a sandwich made from a cow's fourth stomach. Trust the locals on that last one.",
+  cultureTips: [
+    "Florence has repeatedly banned standing and eating on Via de' Neri and the streets around the Uffizi at meal hours, with serious fines, so walk your panino to the Arno instead.",
+    "Cover shoulders and knees for the Duomo and the churches; here it gets checked, not just requested.",
+    "Book Uffizi and Accademia timed slots and show up at your time, not an hour early to crowd the door; the walk-up queue is mostly people who didn't book.",
+    "Coffee grammar is the same as the rest of Italy: espresso standing at the bar, cappuccino is breakfast, and bar price is not table price.",
+    "The centre's streets are medieval-narrow with sometimes barely a pavement, so don't walk three abreast or stop dead in the flow.",
+  ],
   eats: [
     {
       title: "Trattoria Mario",
@@ -1088,6 +1130,13 @@ const shanghai: City = {
   tagline: "Deco towers and dawn markets.",
   intro:
     "Shanghai runs on two clocks: the dawn rush of griddles and steamers, and the long glossy skyline evenings. Set the alarm — the good buns sell out before most tourists find breakfast.",
+  cultureTips: [
+    "Sort your payments before you land: Alipay and WeChat Pay take foreign cards with passport verification and street life runs on QR codes, so apps first, cash as backup since small vendors often can't make change.",
+    "The metro means no eating or drinking, no audio played out loud, and airport-style bag scans at every station, so budget the queue time.",
+    "Dishes are communal, so use the serving chopsticks where provided, don't excavate a shared plate, and never plant chopsticks upright in the rice.",
+    "There's no tipping, and if a local invites you out they expect to pay; make one genuine offer, then say thank you and let it go.",
+    "Keep your camera off police, soldiers, and security checkpoints, full stop.",
+  ],
   eats: [
     {
       title: "DaHu Chun (sheng jian bao)",
@@ -1219,6 +1268,13 @@ const beijing: City = {
   tagline: "Imperial scale, hutong detail.",
   intro:
     "Beijing does imperial scale like nowhere else, then serves you noodles in a courtyard the size of your kitchen. Come for the Wall, stay for the breakfast drink that smells like sour dishwater. We'll explain.",
+  cultureTips: [
+    "Tiananmen Square needs an advance reservation with your passport number plus airport-style security, and the mechanics keep changing, so check the current process; no drones, no tripods, and don't film the guards.",
+    "The Lama Temple is an active place of worship, not a museum, so take the free incense, light three sticks at the courtyard burners, and keep the camera down inside the halls.",
+    "The hutongs are lived-in neighborhoods, so don't shoot through open courtyard doors or wander into a siheyuan; those photogenic doorways are people's front doors.",
+    "Skip Taiwan, 1989, and Xinjiang with people you've just met, since it can genuinely put a local in an uncomfortable position, and deflection isn't rudeness.",
+    "When toasting, keep your rim below an elder's or your host's glass, and you can toast with tea as long as you say so up front.",
+  ],
   eats: [
     {
       title: "No. 69 Fangzhuanchang Zhajiangmian",
@@ -1350,6 +1406,13 @@ const chengdu: City = {
   tagline: "Pandas, peppercorns, patience.",
   intro:
     "Chengdu runs at two speeds: numbing-hot and completely horizontal. The pandas nap by mid-morning, and honestly, so should you.",
+  cultureTips: [
+    "Teahouses run on lid language: roughly, a tilted gaiwan lid asks for a refill, a lid left ajar or upside down says you're done, and an object on the lid holds your seat, though the signals vary house to house.",
+    "At the Panda Base it's no flash, since their eyes are light-sensitive, voices down, and never feed or throw anything; staff enforce the posted rules.",
+    "Asking for wei la, mildly spicy, is a normal and respected request rather than a cop-out; locals calibrate too.",
+    "Chengdu moves slower than Beijing or Shanghai and seems to like it that way, so don't rush a teahouse server or hover for a table.",
+    "Hotpot is communal, so use the serving side of the ladle for the shared pot and mind the same chopstick taboos as everywhere in China.",
+  ],
   eats: [
     {
       title: "Ming Ting (the king of fly restaurants)",
@@ -1488,6 +1551,13 @@ const newYorkCity: City = {
   tagline: "Cheap dumplings, expensive skyline.",
   intro:
     "The New York people actually live in is the one at the end of the L, the G, the 7, and the ferry. Spend ten bucks on dinner and put the rest toward the view.",
+  cultureTips: [
+    "Tip 20 percent at restaurants and a dollar or two per drink; the norm here runs stronger than the national average, and rounding down gets noticed.",
+    "The sidewalk is a traffic lane, so never stop mid-stream, pull to the curb to check your phone, and keep it to two abreast.",
+    "On the subway, let people off first, move to the middle, and never hold a closing door; you're delaying the whole line, and the MTA says as much.",
+    "Jaywalking became legal in 2025 and everyone crosses sensibly anyway, but you have no right of way outside a crosswalk; the law removed the tickets, not the physics.",
+    "Don't photograph people in crisis on the subway; practiced non-staring is the one privacy courtesy in a city with none to spare.",
+  ],
   eats: [
     {
       title: "Shu Jiao Fu Zhou, Chinatown",
@@ -1630,6 +1700,13 @@ const losAngeles: City = {
   tagline: "Come for tacos, stay for the light.",
   intro:
     "The best street food in America, wearing a Michelin guide as an accessory. Learn one thing before you land: the mistake isn't missing the sunset, it's showing up at it.",
+  cultureTips: [
+    "Tip 18 to 22 percent, and tip the valet and the rideshare driver too.",
+    "Jaywalking is decriminalized statewide, but drivers on those wide boulevards genuinely do not expect a mid-block pedestrian; legal and survivable are different questions.",
+    "Freeways take the definite article, the 405, the 10, the 101, and locals will hear anything else instantly.",
+    "The local code on celebrities is notice and move on, no photos, no approaching mid-meal; that restraint is the whole reason famous people can live here.",
+    "Skid Row and the encampments are not a sightseeing route, and the same goes at freeway ramps; someone's worst stretch is not your content.",
+  ],
   eats: [
     {
       title: "Mariscos Jalisco, Boyle Heights",
@@ -1768,6 +1845,13 @@ const seattle: City = {
   tagline: "Mountains behind the espresso.",
   intro:
     "Water, salmon, and espresso, and the versions worth your time all sit a short ride outside the tourist funnel. Summer is when everything below runs at full strength, and yes, bring the jacket anyway.",
+  cultureTips: [
+    "Wait for the walk signal even at a bone-empty intersection; the city's refusal to jaywalk is legendary, and crossing against it marks you instantly.",
+    "Thank the bus driver on your way out; front-door people say it aloud, and back-door people call it forward.",
+    "Tip 15 to 20 percent despite the famous minimum wage, and read the bill first, because some restaurants fold in a service charge.",
+    "The Seattle Freeze is reserve, not rudeness, so let conversations be opt-in and nobody will mind you at all.",
+    "Trail etiquette is basically civic religion here: uphill hikers get the right of way, stay on the trail, and pack out everything.",
+  ],
   eats: [
     {
       title: "Un Bien, Ballard",
@@ -1909,6 +1993,13 @@ const london: City = {
   tagline: "A hundred villages in a trench coat.",
   intro:
     "London isn't one city, it's forty neighbourhoods grudgingly sharing a transit map and a weather forecast. Bring the jacket you don't mind ruining, and eat wherever the queue is made of people who clearly live nearby.",
+  cultureTips: [
+    "Stand on the right of the escalator and walk on the left, no exceptions; it's the one rule Londoners will actually say something about.",
+    "The queue is sacred, so join the back and board in turn; nobody will shout, they'll just radiate disapproval.",
+    "On the Tube, let people off first, move down inside and take the backpack off in a crush; the silence is normal, not rudeness.",
+    "In pubs you order and pay at the bar, catching the bartender's eye rather than waving, and if someone buys you a drink you've joined a round and owe one back.",
+    "Check the bill before tipping, because restaurants often add a discretionary service charge you shouldn't tip on top of, and since late 2024 the law requires all of it to reach staff.",
+  ],
   eats: [
     {
       title: "St. John, Farringdon",
@@ -2050,6 +2141,13 @@ const manchester: City = {
   tagline: "Music, brick, and drizzle.",
   intro:
     "Manchester grew two Michelin stars in a converted mill district and still does some of its best work in a curry caff where you order by pointing. Bring a coat that shrugs off drizzle, because the city has no intention of waiting for it to stop.",
+  cultureTips: [
+    "Recalibrate from London, because people talk to you here and that's normal; chat with the bartender, and a cheers, driver on the way off the bus is a genuine northern custom worth adopting.",
+    "On the Metrolink, buy or tap in before you board; there's no conductor, and inspections carry penalty fares.",
+    "Pub grammar runs like London's but gets taken more seriously here: order at the bar, honour your rounds, and know that ducking one is remembered.",
+    "Don't assume everyone supports United; the City and United split runs through families, so on matchdays check whose pub you're in before wearing colours.",
+    "Tipping means checking the bill for a service charge first, then roughly ten percent for table service and nothing at the bar, and the same law sends all of it to staff.",
+  ],
   eats: [
     {
       title: "Higher Ground, city centre",
@@ -2188,6 +2286,13 @@ const nottingham: City = {
   tagline: "Caves below, folklore above.",
   intro:
     "Nottingham keeps its best rooms underground: 800-odd sandstone caves, pub cellars carved into a cliff, and a Michelin-listed counter you can only reach if somebody tells you which arch to walk through. Do Robin Hood sideways and spend the time you save eating.",
+  cultureTips: [
+    "If a stranger calls you duck, that's East Midlands friendliness rather than flirtation; they say it to everyone.",
+    "On the NET trams, buy or validate before you board; nothing is sold on board and inspectors issue penalty fares.",
+    "The famous old pubs are working locals, not museums, so order at the bar, keep your rounds, stay out of the cave rooms unless invited, and ask before photographing staff mid-shift.",
+    "At Trent Bridge, stay seated until the end of the over and keep still behind the bowler's arm; the stewards holding you at the stairs are protecting the batter's sightline.",
+    "Standard UK grammar applies here too: queues, bar ordering, and check-the-bill tipping, with the same law sending every service charge to staff.",
+  ],
   eats: [
     {
       title: "Kushi-ya, off Long Row",
@@ -2325,6 +2430,13 @@ const tokyo: City = {
   tagline: "Counters, basements, under the tracks.",
   intro:
     "Tokyo's best eating happens standing at a counter, down a basement staircase, or under a railway arch, and a shocking amount of it is cheap. Just check the last train before the third round, because the line on our Japan page wasn't a joke.",
+  cultureTips: [
+    "Stand on the left on escalators, though operators now ask everyone to just stand full stop; walking the right side is fading etiquette, not a rule.",
+    "Trains are treated as quiet space, so phone on silent, no voice calls, and conversations kept low; the operators post it and everyone honors it.",
+    "Don't tip anywhere, because staff will genuinely chase you down to return the money; cash goes on the little tray, not hand to hand.",
+    "Eat standing near wherever you bought the food instead of walking with it, and carry your trash home, since public bins are genuinely scarce.",
+    "Onsen has an order of operations: wash first, bathe naked, keep the small towel out of the water, and check tattoo policies ahead because plenty of places still restrict them.",
+  ],
   eats: [
     {
       title: "Tonki (Meguro)",
@@ -2465,6 +2577,13 @@ const osaka: City = {
   tagline: "Photograph Dotonbori, eat behind it.",
   intro:
     "Osaka's stated philosophy is kuidaore, eat yourself broke, and locals do it in arcades and alleys one block off the neon rather than on the main drag. Also, they stand on the right side of the escalator here, which is the fastest way to out yourself as a Tokyo transplant.",
+  cultureTips: [
+    "Stand on the right on escalators, the exact reverse of Tokyo, a habit dating to a 1967 Umeda Station announcement; official guidance now says don't walk on them at all.",
+    "Street smoking has been banned across the whole city since January 2025, vaping included, with a 1,000 yen on-the-spot fine.",
+    "Kushikatsu gets one dip in the shared sauce, no double-dipping; the free cabbage is there to spoon more over your skewer.",
+    "Street food is more tolerated here than anywhere else in Japan, but finish it standing by the stall and hand the skewers back, because bins are as scarce as ever.",
+    "The small appetizer you didn't order at an izakaya is otoshi, a seating charge rather than a scam, so don't fight it.",
+  ],
   eats: [
     {
       title: "Yaekatsu (Janjan Yokocho, Shinsekai)",
@@ -2605,6 +2724,13 @@ const kyoto: City = {
   tagline: "Before eight, or after five.",
   intro:
     "Everything famous in Kyoto belongs to the crowds in the middle of the day, so the whole trick is to get up early and eat late. Do that and the city hands you empty torii gates, jet-black ramen for breakfast, and a bathhouse still open at an hour when nothing else is.",
+  cultureTips: [
+    "Gion's private lanes are closed to visitors outright, with a posted 10,000 yen penalty for photos and entry itself barred since 2024; stick to public streets like Hanamikoji and Shirakawa, and remember the geiko and maiko are workers commuting.",
+    "At Nishiki Market, eat standing in front of the stall you bought from, never while walking; it's the merchant association's number-one posted rule.",
+    "Street smoking is banned citywide outside designated areas, with a 1,000 yen fine in the enforcement zones.",
+    "Shrines and temples run on different scripts: bow at the torii, rinse at the temizuya, and clap only at shrines, while temples want shoes off and no photos wherever the signs say so.",
+    "City buses board at the rear and take a flat fare on your way out the front, and think twice about hauling a big suitcase aboard; the city has spent years asking visitors to use luggage delivery instead.",
+  ],
   eats: [
     {
       title: "Oryori Menami (Kiyamachi-Sanjo)",
@@ -2744,6 +2870,13 @@ const paris: City = {
   tagline: "Eat east, shoot central.",
   intro:
     "Paris runs on two maps that barely overlap: the food is east, out through the 10th, 11th, 12th and 20th, and the photographs are central. Plan the day around the bakery and let the monuments happen on the walk between.",
+  cultureTips: [
+    "Say bonjour before anything else, in shops, at the counter, asking directions; skipping the greeting reads as treating a person like a vending machine.",
+    "Restaurants and the Metro run a notch quieter than you're used to, so drop your volume to match.",
+    "The bill won't come until you ask for it; the table is yours for the evening, and bringing it unprompted is considered rude by the restaurant.",
+    "Service is already in the menu prices by law, so tip by rounding up or leaving a few euros; an American-scale tip just reads as not understanding the system.",
+    "At the markets the vendor serves you, so point at the good tomatoes and let them do the picking instead of handling the produce yourself.",
+  ],
   eats: [
     {
       title: "Boulangerie Utopie (11th)",
@@ -2885,6 +3018,13 @@ const cabo: City = {
   tagline: "Desert meets two oceans.",
   intro:
     "Cabo's reputation is a twenty-mile hotel corridor, which is the least interesting thing about it. Go three blocks inland from the marina, or thirty minutes east to San José del Cabo, and the signs go Spanish and the taquerías fill with people who actually live here.",
+  cultureTips: [
+    "Open every interaction with a buenos días or buenas tardes, whether it is a lonchería, a taxi or a market stall; transactions here are conversations with people, and skipping the greeting reads as cold.",
+    "Tip 15 percent as the floor and tip in pesos, but read the bill first, because tourist-zone restaurants often pre-add a propina line and doubling up is just not noticing.",
+    "Carry small coins for the people the resort economy renders invisible: supermarket baggers, gas-station attendants and cart helpers, many of whom work mostly for tips.",
+    "Every beach in Mexico is public, so the local families on the sand in front of your resort have exactly as much right to it as you do; don't let a wristband turn you territorial.",
+    "Roughly summer through early winter, staked-off patches on the corridor beaches are protected sea-turtle nests; keep your distance, kill the flash, and flag security or conservation staff instead of playing hero.",
+  ],
   eats: [
     {
       title: "The Leona Vicario taco block, Cabo San Lucas",
@@ -3016,6 +3156,13 @@ const vancouver: City = {
   tagline: "The free version, in the rain.",
   intro:
     "Almost everything this city sells a ticket for has a free version a few kilometres away: the suspension bridge, the lookout, the waterfront. Rain here isn't weather, it's a season, so everything below is chosen to work in it.",
+  cultureTips: [
+    "Tip 15 to 20 percent on the pre-tax bill; the terminals default to around 18, and nobody flinches.",
+    "You're on the unceded territories of the Musqueam, Squamish and Tsleil-Waututh Nations, and the city opens its own business by saying so; the visitor-sized version of respect is learning the names and choosing Indigenous-led experiences.",
+    "On the Seawall, stay in your lane, pedestrians on the water side and bikes on the inner path; cycling around Stanley Park runs one-way counter-clockwise, posted and non-negotiable.",
+    "Cannabis is legal but banned in every park and on every beach, Stanley Park and Kits included; sidewalks are broadly fine, away from doorways and never near playgrounds.",
+    "The Downtown Eastside is a neighbourhood, not an exhibit, so no photographs of residents, ever; people live whole lives on those blocks.",
+  ],
   eats: [
     {
       title: "HK BBQ Master, Richmond",
@@ -3157,6 +3304,13 @@ const toronto: City = {
   tagline: "The communities left, the bakeries stayed.",
   intro:
     "Toronto's immigrant food doesn't gather into walkable districts, it stretches out along east-west arterials you have to commit to a bus for. Most of those strips have outlived their own residents, because the families moved on to Mississauga, Brampton, Markham and outer Scarborough while the restaurants stayed put, so you end up eating in the memory of a catchment.",
+  cultureTips: [
+    "Tip 15 to 20 percent on the pre-tax bill, with 18 as the common terminal default.",
+    "Streetcars stop in the middle of the lane, so press the button to open the doors yourself and look before stepping out; drivers are required to stop behind open doors, but not everyone does.",
+    "Stand right, walk left is the practiced norm on TTC escalators, though the TTC officially wishes you wouldn't walk at all; do with that what you will.",
+    "Kensington and the Chinatowns are working neighbourhoods, so buy something, eat something, and don't just photograph shopfronts and doorways.",
+    "Cannabis can legally go roughly wherever tobacco can, with buffers around entrances, playgrounds and schools; the culture here is discreet rather than showy, so match it.",
+  ],
   eats: [
     {
       title: "Hopper Hut, Ellesmere Road",
@@ -3296,6 +3450,13 @@ const calgary: City = {
   tagline: "The other 355 days.",
   intro:
     "Ten days in July get written about everywhere, and the other 355 get skipped. This is a prairie city with a river valley cut through the middle of it, so treat the Rockies as a horizon line and a weekend rather than the setting.",
+  cultureTips: [
+    "Public cannabis consumption is banned outright citywide, the strict outlier among Canadian cities, so it's private property or nothing.",
+    "On the Bow River pathways keep right and pass left; cyclists ring a bell and yield to walkers, and walkers return the favour by not drifting across both lanes.",
+    "If someone white-hats you, take it seriously; it's been the city's gesture of welcome since the late 1940s, and treating it as kitsch lands badly.",
+    "During Stampede, dressing western is participation rather than costume irony, and at the First Nations-run camp on the grounds, ask before photographing dancers or regalia.",
+    "Calgary sits on Treaty 7 territory, home of the Blackfoot Confederacy, the Tsuut'ina and the Stoney Nakoda Nations; acknowledgements open most public events, and your part is paying quiet attention.",
+  ],
   eats: [
     {
       title: "Pho Dau Bo, International Avenue",
@@ -3436,6 +3597,13 @@ const banff: City = {
   tagline: "The logistics are the view.",
   intro:
     "Banff is two towns wearing one name: a strip of fudge shops and ski outlets built for people with four hours off a coach, and a working town behind it whose few thousand residents and seasonal staff eat somewhere else, at different hours, for half the price. The famous lakes are still worth it, but here the planning is the guide, so most of what follows is booking windows, free parking lots, and the ten bus lengths you owe a bear.",
+  cultureTips: [
+    "Stay on the designated trail even when the better photo is two steps off it; alpine vegetation takes decades to recover from one social trail.",
+    "Area closures are law, not suggestions; the seasonal and bear closures are legally enforceable, and they exist because disturbed bears have charged people.",
+    "Pack out everything, including the apple core; natural food waste pulls wildlife toward people, and a food-conditioned bear is usually a dead bear.",
+    "This is Treaty 7 territory, and to the Stoney Nakoda the town is Minihrpa, the waterfalls; the town's own acknowledgement names the Bearspaw, Chiniki and Goodstoney Nations, and learning that costs you nothing.",
+    "Say hello to people on the trail; the greeting doubles as bear-aware noise, which locals appreciate far more than a Bluetooth speaker.",
+  ],
   eats: [
     {
       title: "Wild Flour Bakery, Bear Street",
@@ -3568,6 +3736,156 @@ const banff: City = {
   ],
 };
 
+const mtFuji: City = {
+  slug: "mt-fuji",
+  name: "Mt. Fuji",
+  countrySlug: "japan",
+  countryName: "Japan",
+  contentStatus: "published",
+  tagline: "Don't climb it, circle it.",
+  intro:
+    "The mountain is best from around it, not on it: a ring of lakes, an udon town, and spring ponds where Fuji looms over completely ordinary life. One honesty up front, it hides in haze far more than the postcards admit, so build your days around mornings, winter ones if you can, and treat a clear summer afternoon as a lottery win.",
+  cultureTips: [
+    "Never step into the road for the shot; Fujiyoshida has posted warnings and an actual traffic officer because people kept standing in a live roadway, and the sidewalk angle is the same angle.",
+    "The famous frames are people's front yards, so no driveways, gardens or shop forecourts for a better angle; residents here have had strangers knocking on their doors.",
+    "Dawn shoots run on silent mode: the best light hits residential streets at five or six in the morning, so no calling across the street, no speaker audio, and close the car doors gently.",
+    "Carry your trash out; public bins barely exist, the litter piles are a real local grievance, and a konbini bin is for konbini purchases.",
+    "Leave the drone at home; the mountain is a no-fly zone out of respect for its sacred status, and the paperwork for flying anywhere near here is real.",
+  ],
+  eats: [
+    {
+      title: "Menkyokaiden, Fujiyoshida",
+      blurb:
+        "Yoshida udon is deliberately, almost confrontationally chewy, and this is the locals' pick in a ranking chosen by locals: office workers, families and elderly regulars, near the government complex instead of the tourist core. Order the everything-bowl with cabbage, yuba and stewed beef, then stir in the house suridane chili paste. Handmade, lunch-only, and the chew is the point, so don't fight it.",
+    },
+    {
+      title: "Kosaku, Kawaguchiko",
+      blurb:
+        "The evidence-based answer to where you actually eat hoto: a Yamanashi institution of forty-plus years with lines of Japanese customers before the doors open. Get the kabocha hoto in the iron pot, then wait, because it arrives volcanic and locals let it sit; burning your mouth in the first minute is the visible tourist tell. Hoto Fudo is the name you'll see everywhere and it's fine, but Kosaku is where Yamanashi actually queues.",
+    },
+    {
+      title: "Watanabe Udon, Oshino",
+      blurb:
+        "Eight tatami tables in a room that is basically a house, and the order is the nikutama udon: horse meat, cabbage, egg. Slot it around an early Oshino Hakkai visit, eat where the village eats, leave before the buses. Lunch-only and small enough that sold out means closed, so check it's open before building the day around it.",
+    },
+    {
+      title: "CISCO Coffee, Kawaguchiko's southeast shore",
+      blurb:
+        "Single-origin beans roasted in San Francisco, hand-dripped on a lakeside wood deck on the early stretch of the bike loop. It's a linger cafe, not a fuel stop, so budget for the linger.",
+    },
+    {
+      title: "Lake Bake, Oishi",
+      blurb:
+        "A natural-yeast bakery next to Oishi Park that even locals name-drop, and the fig and walnut boule keeps coming up for a reason. This is the natural mid-loop stop: coffee, bread, Fuji across the water, back on the bike.",
+    },
+  ],
+  experiences: [
+    {
+      title: "Cycle the Kawaguchiko loop",
+      blurb:
+        "The best way to understand the lake, and the ride the video on this page comes from. Ten minutes gets you through the souvenir strip, and then it's boat ramps, allotments and fishing spots, the town just living its life. Ride counterclockwise so the mountain hangs over your left shoulder the whole north shore, and take an e-bike from the rental cluster near the station, because the bridge approach and the north side have real climbs. Call it a couple of hours of riding, more like half a day with stops; just under twenty kilometres by most counts, depending on who's counting. The north shore is the payoff: Oishi Park, then the Ubuyagasaki stretch where the upside-down Fuji reflection shows up on still mornings.",
+    },
+    {
+      title: "Ride the Fujikyu Railway for its own sake",
+      blurb:
+        "A private mountain railway that climbs toward Fuji the entire way, so treat the approach as part of the trip: a direct limited express from Shinjuku, or the slow way via Otsuki. Get off at Mt. Fuji Station in Fujiyoshida, one stop before the tourist terminus, which is the correct stop for udon and Honcho.",
+    },
+    {
+      title: "Fujiyoshida's retro streets",
+      blurb:
+        "The Showa-era Honcho arcade and the tiny Nishiura bar district of renovated rooms, in a town that wove textiles in Fuji's shadow for a century. This is the anti-Instagram counterweight to the viral photo frame on the very same street, and honestly the better hour.",
+    },
+    {
+      title: "A day-use onsen with Fuji in the bath",
+      blurb:
+        "What locals actually do after a cold morning, with a couple of well-known options out toward Narusawa and Yamanakako, and there's even a bath named after the winter-dawn red-Fuji phenomenon. Wash first, towels out of the water, and check tattoo policies ahead rather than at the door.",
+    },
+    {
+      title: "Go where the buses thin out",
+      blurb:
+        "Saiko for forest, Shojiko for fishermen at dawn, Motosuko for the banknote view; the western lakes are the slow-travel proof, and buses out there are sparse enough that planning around them is part of the trip. If you're here in late August, the Yoshida Fire Festival sends giant torches burning down the main street, the town thanking the mountain from below, which is this whole page in one night.",
+    },
+  ],
+  photoSpots: [
+    {
+      title: "Chureito Pagoda, Arakurayama Sengen Park",
+      blurb:
+        "Climb the four hundred or so steps to the deck behind the pagoda and shoot over its roof toward Fuji across the valley. Sunrise for the glow; cherry blossoms in early-to-mid April and late-autumn foliage are the two peak frames and the two peak crowd disasters, with tripods lined up before dawn and entry restrictions on the worst weekends. You're climbing through an active shrine's grounds to a war memorial, so bow lightly at the torii, keep your voice down, and don't park a tripod in the worship path.",
+      locations: [
+        {
+          lat: 35.5013,
+          lng: 138.8014,
+          precision: "exact",
+          facing: "SW",
+          facingNote:
+            "southwest over the pagoda's roof toward Fuji, from the deck above it",
+        },
+      ],
+    },
+    {
+      title: "Oishi Park, Kawaguchiko's north shore",
+      blurb:
+        "The lakeside flower promenade, shooting across the water with the seasonal beds as foreground: lavender in early summer, kochia in autumn, and the cleanest mountain of all on winter mornings. Before eight it belongs to dog walkers and cyclists on the loop; from mid-morning it belongs to the buses. Pick a side.",
+      locations: [
+        {
+          lat: 35.5233,
+          lng: 138.7465,
+          precision: "exact",
+          facing: "S",
+          facingNote:
+            "south across the lake with the flower beds as foreground, cleanest on a winter morning before eight",
+        },
+      ],
+    },
+    {
+      title: "Honcho Street, Fujiyoshida",
+      blurb:
+        "The famous frame is from the sidewalk, looking straight down the street at Fuji with the retro signs and power lines converging on the mountain. Morning for light and visibility, weekday for honesty, when the shops are half-shuttered and locals are running errands; the city has posted warnings and stationed a traffic officer because people kept standing in the live roadway, so shoot from the sidewalk and cross on the signal. And while we're on the subject: skip the Lawson by Kawaguchiko Station, the one that became Japan's shorthand for overtourism. The town put up a screen, tourists poked holes in it, the screen came down, a lower barrier went up, and the situation changes every few months. No convenience-store roof is worth a besieged neighbourhood, and the same mountain rises over the lake shore ten minutes away.",
+      locations: [
+        {
+          lat: 35.493,
+          lng: 138.8041,
+          precision: "approximate",
+          facing: "S",
+          facingNote:
+            "straight down the street from the sidewalk, retro signs and power lines converging on the mountain; never from the roadway",
+        },
+      ],
+    },
+    {
+      title: "Lake Motosuko, the thousand-yen-note view",
+      blurb:
+        "The engraving on the banknote comes from a 1935 photograph taken above the northwest shore, and a steep trail of about thirty minutes climbs from the lakeshore road to the deck. Shoot across the water; on a still winter morning you get the doubled, reflected Fuji of the note itself. Effort-gated, which is exactly why it's the least crowded frame on this list.",
+      locations: [
+        {
+          lat: 35.4757,
+          lng: 138.573,
+          precision: "exact",
+          facing: "SE",
+          label: "Nakanokura Pass viewpoint",
+          facingNote:
+            "southeast across the water from the deck above the northwest shore, doubled in the lake on a still winter morning",
+        },
+      ],
+    },
+    {
+      title: "Oshino Hakkai at dawn",
+      blurb:
+        "Stand between the central ponds and shoot over the thatched roofs and water toward the mountain; winter mornings add steam coming off the springs. By late morning the buses arrive and you can't hear yourself think. One rule with no exceptions: nothing goes in the water, because the ponds have a genuine coin-tossing problem, thousands fished out and corroding in springs famous for clarity that took twenty years of filtering. It is not a wishing well and it never was a Japanese custom.",
+      locations: [
+        {
+          lat: 35.4602,
+          lng: 138.8327,
+          precision: "approximate",
+          facing: "SW",
+          facingNote:
+            "over the thatched roofs and pond water toward the mountain, at dawn before the buses",
+        },
+      ],
+    },
+  ],
+};
+
 export const countries: Country[] = [
   {
     slug: "india",
@@ -3638,6 +3956,7 @@ export const countries: Country[] = [
       tokyo,
       kyoto,
       osaka,
+      mtFuji,
     ],
   },
   {

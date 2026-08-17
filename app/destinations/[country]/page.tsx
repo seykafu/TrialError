@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${country.name} travel guides`,
     description: `${country.name} city guides from Trial & Error: ${country.cities
       .map((c) => c.name)
-      .join(", ")} — top 5 eats, local experiences, and photo spots for each.`,
+      .join(", ")}: top 5 eats, local experiences, and photo spots for each.`,
     alternates: { canonical: `/destinations/${country.slug}` },
   };
 }

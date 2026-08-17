@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = getPublishedCity(countrySlug, citySlug);
   if (!city) return {};
   return {
-    title: `${city.name}, ${city.countryName} — top 5 eats, experiences & photo spots`,
-    description: `Our ${city.name} guide: the top 5 things to eat, the top 5 local experiences, and the top 5 places for photos — tested by trial, refined by error.`,
+    title: `${city.name}, ${city.countryName}: top 5 eats, experiences & photo spots`,
+    description: `Our ${city.name} guide to the top 5 things to eat, the top 5 local experiences, and the top 5 places for photos, tested by trial and refined by error.`,
     alternates: {
       canonical: `/destinations/${countrySlug}/${citySlug}`,
     },
@@ -170,7 +170,7 @@ export default async function CityPage({ params }: Props) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: `${city.name} — top 5 eats, experiences and photo spots`,
+    headline: `${city.name}: top 5 eats, experiences and photo spots`,
     about: {
       "@type": "City",
       name: city.name,
@@ -330,7 +330,7 @@ export default async function CityPage({ params }: Props) {
               Been to {city.name}? We probably got something wrong.
             </p>
             <p className="mt-2 text-sm text-paper/60">
-              That&apos;s the point — these lists improve one error at a time.
+              That&apos;s the point: these lists improve one error at a time.
             </p>
             <Link
               href={`/destinations/${country.slug}`}

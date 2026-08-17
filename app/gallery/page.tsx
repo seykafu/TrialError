@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Gallery",
-  description: `${allGalleryPhotos.length} photos from ${publishedCities.length} cities — every frame from our trips in one browsable wall, filterable by destination.`,
+  description: `${allGalleryPhotos.length} photos from ${publishedCities.length} cities: every frame from our trips in one browsable wall, filterable by destination.`,
   alternates: { canonical: "/gallery" },
 };
 

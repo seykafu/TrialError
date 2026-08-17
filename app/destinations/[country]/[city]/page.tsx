@@ -228,6 +228,32 @@ export default async function CityPage({ params }: Props) {
             </section>
           )}
 
+          {city.video && (
+            <figure className="mt-10">
+              {/*
+                * youtube-nocookie keeps YouTube from setting tracking cookies
+                * until the reader actually presses play; loading="lazy" keeps
+                * the iframe out of the critical path on a photo-heavy page.
+                */}
+              <div className="relative w-full overflow-hidden rounded-3xl border border-ink/10 bg-dusk aspect-video">
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${city.video.youtubeId}`}
+                  title={city.video.title}
+                  loading="lazy"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  className="absolute inset-0 h-full w-full"
+                />
+              </div>
+              {city.video.caption && (
+                <figcaption className="mt-3 text-sm italic text-ink/55">
+                  {city.video.caption}
+                </figcaption>
+              )}
+            </figure>
+          )}
+
           {city.cultureTips && city.cultureTips.length > 0 && (
             <section
               aria-label={`How to respect the local culture in ${city.name}`}

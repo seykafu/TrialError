@@ -84,6 +84,13 @@ export type City = {
     blurb: string;
     url: string;
   };
+  /* An embedded YouTube video from the trip, shown near the top of the page. */
+  video?: {
+    /* The 11-character YouTube video ID, not a full URL. */
+    youtubeId: string;
+    title: string;
+    caption?: string;
+  };
   eats: Top5Item[];
   experiences: Top5Item[];
   photoSpots: Top5Item[];
@@ -3899,6 +3906,12 @@ const mtFuji: City = {
   tagline: "Don't climb it, circle it.",
   intro:
     "The mountain is best from around it, not on it: a ring of lakes, an udon town, and spring ponds where Fuji looms over completely ordinary life. One honesty up front, it hides in haze far more than the postcards admit, so build your days around mornings, winter ones if you can, and treat a clear summer afternoon as a lottery win.",
+  video: {
+    youtubeId: "B3zh5GEifTY",
+    title: "Biking around Lake Kawaguchiko",
+    caption:
+      "The Kawaguchiko loop, ridden counterclockwise so the mountain stays over the left shoulder. This is the ride the experiences list keeps talking about.",
+  },
   stay: {
     title: "Kozantei Ubuya, Lake Kawaguchiko north shore",
     blurb:

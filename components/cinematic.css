@@ -608,6 +608,25 @@
   transform: translate3d(-50%, var(--panel3-y), 0);
 }
 
+/*
+ * Panel 3 sits over the brightest scene layer (pale marble, and the shade
+ * overlay is parked below the imagery during this segment), so cream fails
+ * here. Flip to dark ink with a soft paper halo, and invert the button so it
+ * still reads as the call to action.
+ */
+.story-panel-bazaar h2,
+.story-panel-bazaar p {
+  color: var(--hero-ink);
+  text-shadow:
+    0 1px 0 rgba(247, 234, 217, 0.55),
+    0 0 18px rgba(247, 234, 217, 0.45);
+}
+
+.story-panel-bazaar .note-button {
+  color: var(--hero-paper);
+  background: var(--hero-ink);
+}
+
 .facts {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

@@ -157,6 +157,12 @@ const amsterdam: City = {
     "I googled for nearby cafes, and found many with over 4.5 star ratings on Google and thousands of reviews. I don't even need a travel guide to know these are some nice spots, I thought.",
     "Well, I had my first culture shock when, upon stepping into every single cafe I pinpointed, every single one of them smelled of weed. Dutch weed isn't light, either. That shit was strong, brother. And when paired with a double shot espresso, I felt my head floating on a cloud blazing through an F1 race. With more bikes than people, more canals than Venice, and seemingly more weed cafes than regular cafes, Amsterdam is one unique place on Earth.",
   ],
+  stay: {
+    title: "Mr. Jordaan, the Jordaan",
+    blurb:
+      "A 1644 canal house on the Bloemgracht that started as a local's informal guest room and grew into a small hotel spanning the houses next door, which is a very Jordaan way to become a hotel. Café Chris is around the corner for the brown-café homework, and the Anne Frank House, my favourite part of the whole trip, is a five-minute walk.",
+    url: "https://www.expedia.com/Amsterdam-Hotels-Mr-Jordaan.h14869509.Hotel-Information",
+  },
   cultureTips: [
     "That red asphalt is a road for bikes, so never stand, pose or wheel a suitcase in it, and if a bell rings behind you step out rather than freeze.",
     "A coffeeshop sells weed and a cafe sells coffee and beer, and lighting a joint on a cafe terrace gets you politely shown the door.",
@@ -339,6 +345,12 @@ const sanFrancisco: City = {
     "You know what was the most SF thing I ever saw? When I was staying at my buddies' place near the Tenderloin (I'll get to that in a moment) we rented a car to drive around the city. To return the car, we had to drive through the Tenderloin, and we were stuck behind a Waymo, who was taking its time swerving past tents, poo, and the like. The autonomous vehicle knew what it was doing. It was the most dystopian thing I've ever seen.",
     "SF is expensive, so I'm going to focus on more affordable eats and experiences here. If you came here expecting high splashes of cash, you might want to visit another travel guide, or just ask AI.",
   ],
+  stay: {
+    title: "Hotel Boheme, North Beach",
+    blurb:
+      "A small independent in an 1880s building on Columbus, two blocks from Vesuvio, City Lights and Jack Kerouac Alley, with hallways hung in photographs of 1950s and 60s North Beach Beat life. Ginsberg stayed here in his later years, so the literary evening the Vesuvio entry promises can end with a walk up the street to bed.",
+    url: "https://www.expedia.com/San-Francisco-Hotels-Hotel-Boheme.h6455.Hotel-Information",
+  },
   cultureTips: [
     "Tip 18 to 20 percent at sit-down and a dollar or two per drink; California servers earn full minimum wage, and tipping is still fully expected anyway.",
     "The people living on these streets are home, not scenery, so no photos, no filming, no staring; a \"sorry, not today\" with eye contact beats pretending someone doesn't exist.",
@@ -500,6 +512,12 @@ const delhi: City = {
     "As we traveled from Delhi to Agra and then back to Delhi, we took the train, and we experienced local areas, like Connaught Place in Delhi. I can't comprehend how people are able to balance 3 whole luggages twice their size on top of their heads when they're traveling via train. I saw some crazy stuff: my friend wanted to take us to the banks of the Ganges river for sunset photos, but he directed our rickshaw driver to a random, sketchy place. As we got out of the rickshaw, all I saw was a halo of mosquitoes over his head, and a bunch of dudes hanging out in a dump truck in front of us. I high tailed our asses out of that area fast. I also saw a rickshaw driver have his lunch stolen behind him by a monkey and then him getting into a fight with said monkey (he picked up a stick and chased it).",
     "India is the land of extremes. Extreme wealth, extreme pollution, extreme traffic, extreme noise, extreme poverty, extreme beauty. I loved it there, telling people I'm from East Assam so they wouldn't bother me. I can't wait to be back.",
   ],
+  stay: {
+    title: "The Claridges, Lutyens' Delhi",
+    blurb:
+      "A heritage independent running since 1955 in Lutyens' Delhi, with Lodi Gardens under a mile away and Khan Market and Pandara Road in immediate range. Nearly everything this page recommends, Gulati included, is a walk or a few minutes from the door, and in a city of extreme traffic that is the whole game.",
+    url: "https://www.expedia.com/Delhi-Hotels-The-Claridges-New-Delhi.h974008.Hotel-Information",
+  },
   cultureTips: [
     "Cover shoulders and knees and expect to lose your shoes constantly; temples, tombs and homes all run the same script, and bare shoulders or shorts will get you turned away at religious sites.",
     "Gurdwaras like Bangla Sahib lend free head scarves at the entrance, so take one; Akshardham bans every electronic including your phone, and showing up unprepared means a locker queue.",
@@ -665,6 +683,12 @@ const agra: City = {
     "We rode the train from Delhi to Agra and back, and honestly the ride was half the show: breakfast trays on fold-down tables, chai in paper cups, and luggage-balancing feats I still can't explain.",
     "If you're traveling to India, you're probably visiting the Taj Mahal, so my prediction is you'll pass through the Kinari Bazar anyway. Be mindful and keep your items secure: the surrounding area isn't gentrified, and a lot of people will want to talk to you, offering rickshaw rides and the like.",
   ],
+  stay: {
+    title: "Hotel Sidhartha, Taj Ganj West Gate",
+    blurb:
+      "Not a palace hotel, on purpose: a family-run place with rooms around a garden courtyard, about two minutes on foot from the West Gate along the pedestrianised approach. When the plan is a sunrise entry, rolling out of bed and into the queue before dawn beats stars every time, and Treat and the Kinari Bazar lanes are right there for afterwards.",
+    url: "https://www.expedia.com/Agra-Hotels-Hotel-Sidhartha.h2642260.Hotel-Information",
+  },
   cultureTips: [
     "The Taj is a tomb rather than a temple, so nobody enforces a dress code, but modest is still the expectation, and the free shoe covers go on over your shoes for the marble platform.",
     "Treat the monkeys as pickpockets with teeth: no feeding, no visible food or plastic bags, no eye contact, and a firm grip on your sunglasses and phone.",
@@ -842,6 +866,12 @@ const rome: City = {
   tagline: "Ruins with rush hour.",
   intro:
     "Rome runs on ritual: espresso standing up, pizza cut with scissors, and a cannon that goes off at noon on purpose. Learn the rules fast, because the city won't slow down to explain them.",
+  stay: {
+    title: "Hotel San Anselmo, the Aventine",
+    blurb:
+      "A 19th-century villa with its own garden on the quiet residential Aventine, part of a small family-run group of villas on the hill. The keyhole and the Orange Garden are the walk up, Mercato di Testaccio is the walk down, and that early keyhole shot stops being a logistics problem when you wake up on the same hill.",
+    url: "https://www.expedia.com/Rome-Hotels-Hotel-SantAnselmo.h2528434.Hotel-Information",
+  },
   cultureTips: [
     "Sitting or eating on the Spanish Steps is an actual rule, not a vibe; police will whistle you up and fines apply.",
     "Stay out of the fountains and off Trevi's rim, fines apply; the coin over the shoulder is the part that's actually tradition.",
@@ -991,6 +1021,12 @@ const florence: City = {
   tagline: "The Renaissance, walkable.",
   intro:
     "The postcard Florence is real, but the good stuff lives one bridge over: artisan workshops, market lunches, and a sandwich made from a cow's fourth stomach. Trust the locals on that last one.",
+  stay: {
+    title: "Hotel Palazzo Guadagni, Piazza Santo Spirito",
+    blurb:
+      "A Renaissance palazzo from 1505 sitting directly on Piazza Santo Spirito, the square this page calls the Oltrarno's living room, with a guesthouse lineage running back to 1912. Its rooftop loggia is an Oltrarno landmark and now the terrace bar, so lingering on the square after dark stops being advice and becomes the route to bed.",
+    url: "https://www.expedia.com/Florence-Hotels-Hotel-Palazzo-Guadagni.h3196305.Hotel-Information",
+  },
   cultureTips: [
     "Florence has repeatedly banned standing and eating on Via de' Neri and the streets around the Uffizi at meal hours, with serious fines, so walk your panino to the Arno instead.",
     "Cover shoulders and knees for the Duomo and the churches; here it gets checked, not just requested.",
@@ -1140,6 +1176,12 @@ const shanghai: City = {
   tagline: "Deco towers and dawn markets.",
   intro:
     "Shanghai runs on two clocks: the dawn rush of griddles and steamers, and the long glossy skyline evenings. Set the alarm; the good buns sell out before most tourists find breakfast.",
+  stay: {
+    title: "Capella Shanghai, Former French Concession",
+    blurb:
+      "The only hotel in the city built inside a restored 1930s shikumen lane compound, so the longtang walk above is literally the walk to your room, with Wukang Mansion and the Fuxing Park dawn crowd in the same pocket of plane trees. A splurge, honestly, but the one splurge that matches the page.",
+    url: "https://www.expedia.com/Shanghai-Hotels-Capella-Shanghai.h19922546.Hotel-Information",
+  },
   cultureTips: [
     "Sort your payments before you land: Alipay and WeChat Pay take foreign cards with passport verification and street life runs on QR codes, so apps first, cash as backup since small vendors often can't make change.",
     "The metro means no eating or drinking, no audio played out loud, and airport-style bag scans at every station, so budget the queue time.",
@@ -1278,6 +1320,12 @@ const beijing: City = {
   tagline: "Imperial scale, hutong detail.",
   intro:
     "Beijing does imperial scale like nowhere else, then serves you noodles in a courtyard the size of your kitchen. Come for the Wall, stay for the breakfast drink that smells like sour dishwater. We'll explain.",
+  stay: {
+    title: "Mandarin Oriental Qianmen, the Caochang hutongs",
+    blurb:
+      "The rooms are restored single-storey courtyard houses scattered through a living hutong grid near Qianmen gate, walkable to the Forbidden City moat with the Temple of Heaven a short hop south. The tagline up top says imperial scale, hutong detail; this is sleeping in the second half of that sentence, and yes, it's a splurge.",
+    url: "https://www.expedia.com/Beijing-Hotels-Mandarin-Oriental-Qianmen.h106184839.Hotel-Information",
+  },
   cultureTips: [
     "Tiananmen Square needs an advance reservation with your passport number plus airport-style security, and the mechanics keep changing, so check the current process; no drones, no tripods, and don't film the guards.",
     "The Lama Temple is an active place of worship, not a museum, so take the free incense, light three sticks at the courtyard burners, and keep the camera down inside the halls.",
@@ -1416,6 +1464,12 @@ const chengdu: City = {
   tagline: "Pandas, peppercorns, patience.",
   intro:
     "Chengdu runs at two speeds: numbing-hot and completely horizontal. The pandas nap by mid-morning, and honestly, so should you.",
+  stay: {
+    title: "The Temple House, beside Daci Temple",
+    blurb:
+      "You enter through a restored Qing-dynasty courtyard beside the thousand-year-old Daci Temple, the same courtyard-and-teahouse grammar as Heming and Wenshu above, ten minutes on foot from the Anshun Bridge night shot. Its Mi Xun Teahouse holds a Michelin star for vegetarian cooking, which in a city of fly restaurants is a pretty funny flex.",
+    url: "https://www.expedia.com/Chengdu-Hotels-The-Temple-House.h10912041.Hotel-Information",
+  },
   cultureTips: [
     "Teahouses run on lid language: roughly, a tilted gaiwan lid asks for a refill, a lid left ajar or upside down says you're done, and an object on the lid holds your seat, though the signals vary house to house.",
     "At the Panda Base it's no flash, since their eyes are light-sensitive, voices down, and never feed or throw anything; staff enforce the posted rules.",
@@ -1561,6 +1615,12 @@ const newYorkCity: City = {
   tagline: "Cheap dumplings, expensive skyline.",
   intro:
     "The New York people actually live in is the one at the end of the L, the G, the 7, and the ferry. Spend ten bucks on dinner and put the rest toward the view.",
+  stay: {
+    title: "Wythe Hotel, Williamsburg",
+    blurb:
+      "A converted 1901 barrel factory on the Williamsburg waterfront, beds built from the factory's own reclaimed timber, with the East River ferry at the doorstep and a rooftop bar facing the skyline across the water. This page's New York runs on the L, the G and the ferry anyway, so staying in Brooklyn is the first choice here, not the compromise.",
+    url: "https://www.expedia.com/New-York-Hotels-Wythe-Hotel.h4952112.Hotel-Information",
+  },
   cultureTips: [
     "Tip 20 percent at restaurants and a dollar or two per drink; the norm here runs stronger than the national average, and rounding down gets noticed.",
     "The sidewalk is a traffic lane, so never stop mid-stream, pull to the curb to check your phone, and keep it to two abreast.",
@@ -1710,6 +1770,12 @@ const losAngeles: City = {
   tagline: "Come for tacos, stay for the light.",
   intro:
     "The best street food in America, wearing a Michelin guide as an accessory. Learn one thing before you land: the mistake isn't missing the sunset, it's showing up at it.",
+  stay: {
+    title: "Silver Lake Pool & Inn, Silver Lake",
+    blurb:
+      "A former motel turned small independent at Sunset Junction, right where Sunset and Santa Monica Boulevards meet, walking distance from the reservoir loop and up the road from the Griffith approaches. Visitors skip Silver Lake almost entirely, which is exactly the argument for waking up in it.",
+    url: "https://www.expedia.com/Los-Angeles-Hotels-Silver-Lake-Pool-Inn.h34504058.Hotel-Information",
+  },
   cultureTips: [
     "Tip 18 to 22 percent, and tip the valet and the rideshare driver too.",
     "Jaywalking is decriminalized statewide, but drivers on those wide boulevards genuinely do not expect a mid-block pedestrian; legal and survivable are different questions.",
@@ -1855,6 +1921,12 @@ const seattle: City = {
   tagline: "Mountains behind the espresso.",
   intro:
     "Water, salmon, and espresso, and the versions worth your time all sit a short ride outside the tourist funnel. Summer is when everything below runs at full strength, and yes, bring the jacket anyway.",
+  stay: {
+    title: "Hotel Ballard, Ballard Avenue",
+    blurb:
+      "A small locally-owned hotel built and run by the family behind the athletic club next door, sitting on cobblestoned Ballard Ave itself with the Sunday farmers market and half this page's picks a few doors away. No downtown tower can serve an itinerary this Ballard-heavy; from here the Walrus wait is a stroll, not a trip.",
+    url: "https://www.expedia.com/Seattle-Hotels-Hotel-Ballard.h6224796.Hotel-Information",
+  },
   cultureTips: [
     "Wait for the walk signal even at a bone-empty intersection; the city's refusal to jaywalk is legendary, and crossing against it marks you instantly.",
     "Thank the bus driver on your way out; front-door people say it aloud, and back-door people call it forward.",
@@ -2003,6 +2075,12 @@ const london: City = {
   tagline: "A hundred villages in a trench coat.",
   intro:
     "London isn't one city, it's forty neighbourhoods grudgingly sharing a transit map and a weather forecast. Bring the jacket you don't mind ruining, and eat wherever the queue is made of people who clearly live nearby.",
+  stay: {
+    title: "The Rookery, Clerkenwell",
+    blurb:
+      "A warren of restored 18th-century Georgian houses down a lane by Smithfield, all period panelling, stone floors and open fires. St. John and Leather Lane are a short walk, and Farringdon station is a minute away with direct links toward the Heath, which covers the bone marrow and the cold swim in one postcode.",
+    url: "https://www.expedia.com/London-Hotels-The-Rookery-Hotel.h544087.Hotel-Information",
+  },
   cultureTips: [
     "Stand on the right of the escalator and walk on the left, no exceptions; it's the one rule Londoners will actually say something about.",
     "The queue is sacred, so join the back and board in turn; nobody will shout, they'll just radiate disapproval.",
@@ -2151,6 +2229,12 @@ const manchester: City = {
   tagline: "Music, brick, and drizzle.",
   intro:
     "Manchester grew two Michelin stars in a converted mill district and still does some of its best work in a curry caff where you order by pointing. Bring a coat that shrugs off drizzle, because the city has no intention of waiting for it to stop.",
+  stay: {
+    title: "The Cow Hollow Hotel, Northern Quarter",
+    blurb:
+      "A restored Victorian textile warehouse on Newton Street at the NQ's edge, independent and husband-and-wife owned, with the whole record-shop-and-curry-caff circuit above in walking distance and Ancoats an easy stroll. The tagline says music, brick and drizzle, and the building supplies two of the three; the sky handles the rest.",
+    url: "https://www.expedia.com/Manchester-Hotels-The-Cow-Hollow-Hotel.h22488566.Hotel-Information",
+  },
   cultureTips: [
     "Recalibrate from London, because people talk to you here and that's normal; chat with the bartender, and a cheers, driver on the way off the bus is a genuine northern custom worth adopting.",
     "On the Metrolink, buy or tap in before you board; there's no conductor, and inspections carry penalty fares.",
@@ -2296,6 +2380,12 @@ const nottingham: City = {
   tagline: "Caves below, folklore above.",
   intro:
     "Nottingham keeps its best rooms underground: 800-odd sandstone caves, pub cellars carved into a cliff, and a Michelin-listed counter you can only reach if somebody tells you which arch to walk through. Do Robin Hood sideways and spend the time you save eating.",
+  stay: {
+    title: "Lace Market Hotel, High Pavement",
+    blurb:
+      "A Georgian townhouse conversion on High Pavement itself, in the Lace Market conservation area steps from St Mary's, which is the exact street the alleys spot above tells you to shoot. The Contemporary and the Hockley streets are a few minutes on foot, and when the rain starts doubling the cobbles you're already there.",
+    url: "https://www.expedia.com/Nottingham-Hotels-Lace-Market-Hotel.h462414.Hotel-Information",
+  },
   cultureTips: [
     "If a stranger calls you duck, that's East Midlands friendliness rather than flirtation; they say it to everyone.",
     "On the NET trams, buy or validate before you board; nothing is sold on board and inspectors issue penalty fares.",
@@ -2440,6 +2530,12 @@ const tokyo: City = {
   tagline: "Counters, basements, under the tracks.",
   intro:
     "Tokyo's best eating happens standing at a counter, down a basement staircase, or under a railway arch, and a shocking amount of it is cheap. Just check the last train before the third round, because the line on our Japan page wasn't a joke.",
+  stay: {
+    title: "Onsen Ryokan Yuen Shinjuku, east Shinjuku",
+    blurb:
+      "A modern urban ryokan whose rooftop open-air bath runs on real hot-spring water brought in from Hakone, so the onsen etiquette this page keeps drilling pays off without leaving the building. Nakajima's basement, the depachika counters and the free observatory are all on foot.",
+    url: "https://www.expedia.com/Tokyo-Hotels-ONSEN-RYOKAN-YUEN-SHINJUKU.h34146464.Hotel-Information",
+  },
   cultureTips: [
     "Stand on the left on escalators, though operators now ask everyone to just stand full stop; walking the right side is fading etiquette, not a rule.",
     "Trains are treated as quiet space, so phone on silent, no voice calls, and conversations kept low; the operators post it and everyone honors it.",
@@ -2587,6 +2683,12 @@ const osaka: City = {
   tagline: "Photograph Dotonbori, eat behind it.",
   intro:
     "Osaka's stated philosophy is kuidaore, eat yourself broke, and locals do it in arcades and alleys one block off the neon rather than on the main drag. Also, they stand on the right side of the escalator here, which is the fastest way to out yourself as a Tokyo transplant.",
+  stay: {
+    title: "Cross Hotel Osaka, Shinsaibashi",
+    blurb:
+      "On the Shinsaibashi arcade a minute from Ebisubashi, which means the empty-bridge Glico shot happens in slippers before the city wakes up and the Hozenji lanterns are a short stroll after dinner. A Japanese-run design hotel parked exactly between the photograph-it and eat-behind-it halves of this page.",
+    url: "https://www.expedia.com/Osaka-Hotels-Cross-Hotel-Osaka.h6311.Hotel-Information",
+  },
   cultureTips: [
     "Stand on the right on escalators, the exact reverse of Tokyo, a habit dating to a 1967 Umeda Station announcement; official guidance now says don't walk on them at all.",
     "Street smoking has been banned across the whole city since January 2025, vaping included, with a 1,000 yen on-the-spot fine.",
@@ -2734,6 +2836,12 @@ const kyoto: City = {
   tagline: "Before eight, or after five.",
   intro:
     "Everything famous in Kyoto belongs to the crowds in the middle of the day, so the whole trick is to get up early and eat late. Do that and the city hands you empty torii gates, jet-black ramen for breakfast, and a bathhouse still open at an hour when nothing else is.",
+  stay: {
+    title: "Solaria Nishitetsu Hotel Kyoto Premier, Kiyamachi at Sanjo",
+    blurb:
+      "A Japanese-run low-rise beside the Kamo river where Kiyamachi hits Sanjo, with Pontocho's north mouth, the dinner picks above and a flat riverside walk to the delta stepping stones all from the door. The whole before-eight-or-after-five trick only works if you sleep at the hinge of it, and this is the hinge.",
+    url: "https://www.expedia.com/Kyoto-Hotels-SOLARIA-Nishitetsu-Hotel-Kyoto-Premier.h17040479.Hotel-Information",
+  },
   cultureTips: [
     "Gion's private lanes are closed to visitors outright, with a posted 10,000 yen penalty for photos and entry itself barred since 2024; stick to public streets like Hanamikoji and Shirakawa, and remember the geiko and maiko are workers commuting.",
     "At Nishiki Market, eat standing in front of the stall you bought from, never while walking; it's the merchant association's number-one posted rule.",
@@ -2880,6 +2988,12 @@ const paris: City = {
   tagline: "Eat east, shoot central.",
   intro:
     "Paris runs on two maps that barely overlap: the food is east, out through the 10th, 11th, 12th and 20th, and the photographs are central. Plan the day around the bakery and let the monuments happen on the walk between.",
+  stay: {
+    title: "Hôtel Fabric, the 11th",
+    blurb:
+      "A former 19th-century textile factory on rue de la Folie-Méricourt in Oberkampf, factory windows and brick kept through the conversion. This page's whole thesis is eat east, shoot central, so sleep east: Boulangerie Utopie a few minutes on foot, the apéritif crawl on the doorstep, the canal just north for Sundays.",
+    url: "https://www.expedia.com/Paris-Hotels-Hotel-Fabric.h6224549.Hotel-Information",
+  },
   cultureTips: [
     "Say bonjour before anything else, in shops, at the counter, asking directions; skipping the greeting reads as treating a person like a vending machine.",
     "Restaurants and the Metro run a notch quieter than you're used to, so drop your volume to match.",
@@ -3028,6 +3142,12 @@ const cabo: City = {
   tagline: "Desert meets two oceans.",
   intro:
     "Cabo's reputation is a twenty-mile hotel corridor, which is the least interesting thing about it. Go three blocks inland from the marina, or thirty minutes east to San José del Cabo, and the signs go Spanish and the taquerías fill with people who actually live here.",
+  stay: {
+    title: "Casa Natalia Boutique Hotel, San José del Cabo old town",
+    blurb:
+      "An adults-only boutique in the colonial centro, roughly fifty metres from Plaza Mijares, inside the gallery district the Thursday Art Walk takes over and a short walk from the Mercado Municipal. This whole page argues for skipping the corridor all-inclusives, and this is that argument with a room key, though families should note the adults-only part.",
+    url: "https://www.expedia.com/Los-Cabos-Hotels-Casa-Natalia-Boutique-Hotel.h431652.Hotel-Information",
+  },
   cultureTips: [
     "Open every interaction with a buenos días or buenas tardes, whether it is a lonchería, a taxi or a market stall; transactions here are conversations with people, and skipping the greeting reads as cold.",
     "Tip 15 percent as the floor and tip in pesos, but read the bill first, because tourist-zone restaurants often pre-add a propina line and doubling up is just not noticing.",
@@ -3779,6 +3899,12 @@ const mtFuji: City = {
   tagline: "Don't climb it, circle it.",
   intro:
     "The mountain is best from around it, not on it: a ring of lakes, an udon town, and spring ponds where Fuji looms over completely ordinary life. One honesty up front, it hides in haze far more than the postcards admit, so build your days around mornings, winter ones if you can, and treat a clear summer afternoon as a lottery win.",
+  stay: {
+    title: "Kozantei Ubuya, Lake Kawaguchiko north shore",
+    blurb:
+      "A family-run lakefront onsen ryokan on the Ubuyagasaki stretch of the north shore, the same water where the upside-down Fuji shows up on still mornings, and every room faces the mountain. Build the day around mornings, this page says; here that starts before breakfast, and the bike loop's payoff section runs right past the door.",
+    url: "https://www.expedia.com/Kofu-Hotels-Kozantei-Ubuya.h9274038.Hotel-Information",
+  },
   cultureTips: [
     "Never step into the road for the shot; Fujiyoshida has posted warnings and an actual traffic officer because people kept standing in a live roadway, and the sidewalk angle is the same angle.",
     "The famous frames are people's front yards, so no driveways, gardens or shop forecourts for a better angle; residents here have had strangers knocking on their doors.",
@@ -3929,6 +4055,12 @@ const sydney: City = {
   tagline: "The commute is the cruise.",
   intro:
     "The postcard harbour is real; locals just treat it as public transport. This is the Sydney that swims laps before work, commutes by ferry, and eats an hour down the train line.",
+  stay: {
+    title: "Manly Pacific, Manly",
+    blurb:
+      "This page keeps saying the commute is the cruise, and staying here makes it literal: the wharf is a short walk away, so the ferry past the Opera House and the Heads becomes your actual ride into town, coffee at the stern rail as prescribed. The rest of the time you're fronting Manly Beach on the North Steyne sand.",
+    url: "https://www.expedia.com/Sydney-Hotels-Manly-Pacific-Sydney-MGallery-Collection.h6890.Hotel-Information",
+  },
   cultureTips: [
     "Swim between the red and yellow flags, no exceptions: they mark the patrolled stretch positioned away from rips, rips are invisible from the sand, and if no flags are up the lifesavers have gone home, so no swim.",
     "If a rip does take you, don't fight it; float, raise an arm for the lifesavers, and swim parallel to the beach until you're out of the current.",
@@ -4078,6 +4210,12 @@ const melbourne: City = {
   tagline: "Three tram stops past the postcard.",
   intro:
     "The laneway postcard is true, and it is maybe a third of the story. The rest lives out along the tram lines: injera in Footscray, pho on Victoria Street, footy as civic religion, and coffee treated as a craft with its own grammar.",
+  stay: {
+    title: "Zagame's House, Carlton",
+    blurb:
+      "The argument above is inner suburbs over the tower district, and this is the rare good hotel actually inside one: on Lygon Street in Carlton, the same strip as Tiamo, with the Royal Exhibition Building close by. Family-owned too, built by two brothers from a long-running Victorian hospitality family, which suits a page that keeps siding with the locals.",
+    url: "https://www.expedia.com/Melbourne-Hotels-Zagames-House.h35218543.Hotel-Information",
+  },
   cultureTips: [
     "Melbourne, Naarm, sits on the lands of the Kulin Nation, and the city formally acknowledges the Wurundjeri Woi-wurrung and Bunurong peoples as Traditional Owners; an Acknowledgement of Country opens events as standard practice, a Welcome to Country is a ceremony only Traditional Owners perform, and your part is quiet attention.",
     "Coffee ordering is real etiquette: know your order before you reach the counter, a flat white is the default grammar, \"magic\" is the insider word you'll hear at the good bars, and asking a specialty barista for heavy syrup customisation misreads the room.",

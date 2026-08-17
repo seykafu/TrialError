@@ -17,7 +17,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Trial & Error — a travel journal of happy accidents",
+    default: "Trial & Error, a travel journal of happy accidents",
     template: "%s · Trial & Error",
   },
   description:

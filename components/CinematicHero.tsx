@@ -7,7 +7,8 @@ import "./cinematic.css";
 
 /* Cinematic scene layers (mix of local photography + motion graphics). */
 const ASSETS = {
-  sky: "/photos/agra/taj-monkeys.jpg",
+  /* Not the Taj monkeys shot: it reads as a subject, not a backdrop. */
+  sky: "https://raft-blast-61784561.figma.site/_assets/v11/16b5007d9c93971e26ffe4e0e3e37946f6bd538c.png",
   backFour: "/photos/amsterdam/tajandme-heic.jpg",
   bazaar: "/photos/amsterdam/tajandme-heic.jpg",
   splitLeft:
@@ -422,7 +423,7 @@ export default function CinematicHero({
 
         <section className="intro-copy" aria-label="Trial and Error overview">
           <p>
-            A travel journal of happy accidents — the meals, moments, and
+            A travel journal of happy accidents: the meals, moments, and
             viewpoints we found by getting it wrong first.
           </p>
           <div className="hero-tags" aria-label="What every city guide includes">
@@ -438,7 +439,7 @@ export default function CinematicHero({
         >
           <h2>Wrong turns make the best maps.</h2>
           <p>
-            Every guide here was earned the slow way — missed trains, mangled
+            Every guide here was earned the slow way, through missed trains, mangled
             pronunciations, and meals ordered entirely by pointing. We write
             down what finally worked.
           </p>
@@ -461,7 +462,7 @@ export default function CinematicHero({
           <h2>Every city gets three lists.</h2>
           <p>
             Top five eats, top five local experiences, top five places for
-            photos — tested by trial, refined by error, updated whenever we get
+            photos, tested by trial, refined by error, updated whenever we get
             it wrong again.
           </p>
           <Link className="note-button" href="/destinations">

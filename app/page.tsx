@@ -96,7 +96,7 @@ export default function Home() {
           </h2>
           <p className="mt-5 leading-relaxed text-paper/70">
             Most travel blogs show you the highlight reel. We keep the outtakes,
-            because that&apos;s where the good stuff hides — the noodle shop we
+            because that&apos;s where the good stuff hides: the noodle shop we
             found while lost, the viewpoint we reached by taking the wrong bus,
             the festival we crashed by accident. Each city guide distills those
             mistakes into three honest lists: the top five things to eat, to do,

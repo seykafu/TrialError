@@ -423,8 +423,9 @@ export default function CinematicHero({
 
         <section className="intro-copy" aria-label="Trial and Error overview">
           <p>
-            A travel journal of happy accidents: the meals, moments, and
-            viewpoints we found by getting it wrong first.
+            Two days in a new city, and half of one usually disappears into
+            research. This is that half, already done: eat well, see where
+            people actually live, and get the shot before the light goes.
           </p>
           <div className="hero-tags" aria-label="What every city guide includes">
             <span>Top 5 Eats</span>
@@ -437,16 +438,17 @@ export default function CinematicHero({
           className="story-panel story-panel-bridge"
           aria-label="About the journal"
         >
-          <h2>Wrong turns make the best maps.</h2>
+          <h2>Skip what was built for tourists.</h2>
           <p>
-            Every guide here was earned the slow way, through missed trains, mangled
-            pronunciations, and meals ordered entirely by pointing. We write
-            down what finally worked.
+            Downtown is engineered for people who will never come back: the
+            priced-up counters, the queue that exists because there is a queue.
+            We eat and wander where locals do, then keep only what earned its
+            place. That standard travels.
           </p>
           <dl className="facts">
             <div>
               <dt>{cityCount}</dt>
-              <dd>Cities fumbled through so far</dd>
+              <dd>Cities walked so far</dd>
             </div>
             <div>
               <dt>{countryCount}</dt>
@@ -459,11 +461,11 @@ export default function CinematicHero({
           className="story-panel story-panel-bazaar"
           aria-label="How the guides work"
         >
-          <h2>Every city gets three lists.</h2>
+          <h2>Three lists and a map.</h2>
           <p>
-            Top five eats, top five local experiences, top five places for
-            photos, tested by trial, refined by error, updated whenever we get
-            it wrong again.
+            Five eats, five local experiences, five photo spots, the same shape
+            in every city. Each photo spot carries an Open in Maps link, so you
+            tap it and let your own map app walk you there.
           </p>
           <Link className="note-button" href="/destinations">
             <span aria-hidden="true">↗</span>

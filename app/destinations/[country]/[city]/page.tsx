@@ -300,6 +300,39 @@ export default async function CityPage({ params }: Props) {
             </section>
           ))}
 
+          {city.stay && (
+            <section
+              aria-label={`Where to stay in ${city.name}`}
+              className="mt-16"
+            >
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
+                Sleep
+              </p>
+              <h2 className="font-display mt-2 text-3xl font-medium sm:text-4xl">
+                🛏️ Where to stay
+              </h2>
+              <div className="mt-8 rounded-3xl border border-ink/10 bg-paper p-6 sm:p-8">
+                <h3 className="font-semibold">{city.stay.title}</h3>
+                <p className="mt-1 max-w-2xl text-sm leading-relaxed text-ink/65">
+                  {city.stay.blurb}
+                </p>
+                <a
+                  href={city.stay.url}
+                  target="_blank"
+                  rel="noopener sponsored"
+                  className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full bg-ink px-6 text-sm font-medium text-paper transition hover:bg-terracotta"
+                >
+                  Check rates on Expedia <span aria-hidden="true">↗</span>
+                </a>
+                <p className="mt-3 text-xs text-ink/50">
+                  Booking through this link may earn us a small commission,
+                  which is how we're testing whether this blog can pay for its
+                  own chai.
+                </p>
+              </div>
+            </section>
+          )}
+
           {city.gallery && city.gallery.length > 0 && (
             <section
               aria-label={`More photos from ${city.name}`}

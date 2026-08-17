@@ -74,6 +74,16 @@ export type City = {
    * the top of the city page. Researched per city, never generic filler.
    */
   cultureTips?: string[];
+  /*
+   * A single "Where to stay" pick with an accommodation-provider URL. Plain
+   * link on purpose: the Stay22 script rewrites compatible provider links
+   * into affiliate links at runtime. Currently piloted on one city.
+   */
+  stay?: {
+    title: string;
+    blurb: string;
+    url: string;
+  };
   eats: Top5Item[];
   experiences: Top5Item[];
   photoSpots: Top5Item[];
@@ -3156,6 +3166,12 @@ const vancouver: City = {
   tagline: "The free version, in the rain.",
   intro:
     "Almost everything this city sells a ticket for has a free version a few kilometres away: the suspension bridge, the lookout, the waterfront. Rain here isn't weather, it's a season, so everything below is chosen to work in it.",
+  stay: {
+    title: "The Westin Bayshore, Coal Harbour",
+    blurb:
+      "A waterfront tower on Coal Harbour at the edge of Stanley Park, which means the Seawall ritual this page keeps going on about starts at the front door.",
+    url: "https://www.expedia.com/Vancouver-Hotels-The-Westin-Bayshore.h14477.Hotel-Information",
+  },
   cultureTips: [
     "Tip 15 to 20 percent on the pre-tax bill; the terminals default to around 18, and nobody flinches.",
     "You're on the unceded territories of the Musqueam, Squamish and Tsleil-Waututh Nations, and the city opens its own business by saying so; the visitor-sized version of respect is learning the names and choosing Indigenous-led experiences.",

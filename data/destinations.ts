@@ -190,7 +190,7 @@ const amsterdam: City = {
     {
       title: "Vincent van Gogh Art Museum",
       blurb:
-        "The immersive room puts you inside the paintings, brushstrokes floor to ceiling. We stayed way longer than planned.",
+        "The immersive room puts you inside the paintings, brushstrokes floor to ceiling. We stayed way longer than planned. The museum claims the largest collection of his work in the world, and it's not a claim anyone bothers arguing with. Tickets are online only with a timed entry slot, and slots can sell out, so book well before you land.",
       photo: {
         src: amsVanGogh,
         alt: "Standing on a balcony inside the Van Gogh Museum with Wheatfield with Crows projected across the surrounding walls",
@@ -200,7 +200,7 @@ const amsterdam: City = {
     {
       title: "Rent a bike and ride around the whole city",
       blurb:
-        "More bikes than people isn't a stat, it's a lifestyle. The whole city opens up once you're on two wheels.",
+        "More bikes than people isn't a stat, it's a lifestyle. The whole city opens up once you're on two wheels. Rental shops cluster around Centraal Station and Vondelpark, and the Vondelpark loop is the right first ride: flat, largely traffic-free, zero stakes. Graduate to the canal ring once riding in Dutch traffic stops feeling like an exam, because that's the iconic one.",
       photo: {
         src: amsBiking,
         alt: "Cyclists passing a corner coffeeshop on a brick street lined with dark canal houses in Amsterdam",
@@ -209,7 +209,7 @@ const amsterdam: City = {
     },
     {
       title: "Anne Frank House",
-      blurb: "Probably my favorite part of the whole trip. Go quietly, take your time.",
+      blurb: "Probably my favorite part of the whole trip. Go quietly, take your time. This is the actual house on the Prinsengracht, Secret Annex and all, not a reconstruction. Tickets are online only, never sold at the door, released in weekly batches for dates six weeks out, so plan around the release day instead of hoping to walk up.",
     },
     {
       title: "Red Light District",
@@ -218,7 +218,7 @@ const amsterdam: City = {
     {
       title: "Ride in the canal on a tour",
       blurb:
-        "More canals than Venice, and the best way to count them is from the water.",
+        "More canals than Venice, and the best way to count them is from the water. The 17th-century ring, Singel through Prinsengracht, is UNESCO-listed swampland drained into concentric arcs, which is a lot of hydraulic engineering to admire from a cushion. Book a small open boat with a live skipper over the big glass-top ones: they sit lower, slip under the low historic bridges the covered boats have to skip, and the stories come from a person instead of a recording.",
       photo: {
         src: amsCanalBridge,
         alt: "A bike-lined bridge crossing an Amsterdam canal with crooked canal houses on both sides",
@@ -367,7 +367,7 @@ const sanFrancisco: City = {
     {
       title: "Twin Peaks",
       blurb:
-        "The best free show in town: the whole grid, the bay, and the skyline in one look.",
+        "The best free show in town: the whole grid, the bay, and the skyline in one look. The named overlook is Christmas Tree Point, and short stair climbs continue to the two actual summits above it; the eastern half of the loop road is permanently car-free now, a walk-and-bike promenade. The wind up there is Pacific-grade, and when the fog is in you see nothing but grey, so bring layers, yes, even in summer.",
       photo: {
         src: sfTwinPeaks,
         alt: "The view from Twin Peaks over San Francisco's rooftops toward the downtown skyline and the bay",
@@ -387,7 +387,7 @@ const sanFrancisco: City = {
     {
       title: "Rent a bike and ride the city, including the Golden Gate Bridge",
       blurb:
-        "Crossing the Golden Gate under your own power is the way to earn the view, hills and all.",
+        "Crossing the Golden Gate under your own power is the way to earn the view, hills and all. The classic loop runs from the waterfront across the span and downhill into Sausalito, where the ferry carries you and the bike back; cyclists get routed onto one sidewalk or the other depending on when you go, so follow the signs rather than your instincts. The afternoon wind funnelling through the Gate is very real, and earlier is easier.",
       photo: {
         src: sfGoldenGate,
         alt: "Looking up at a red tower of the Golden Gate Bridge mid-crossing, suspension cables fanning overhead",
@@ -506,7 +506,7 @@ const delhi: City = {
     {
       title: "Any street chai",
       blurb:
-        "If you get a stomach ache later you can blame me, but you won't regret it.",
+        "If you get a stomach ache later you can blame me, but you won't regret it. The real thing is boiled hard with milk, ginger and cardamom, poured short and strong, sometimes into a kulhad, an unglazed clay cup that adds an earthy note and traditionally gets smashed when you're done. Pick the busiest stall you can find: high turnover means the chai never sits, which is most of the food-safety math right there.",
     },
     {
       title: "Any McDonald's",
@@ -528,7 +528,7 @@ const delhi: City = {
     {
       title: "Humayun's Tomb",
       blurb:
-        "Red sandstone, white marble, and the blueprint the Taj learned from.",
+        "Red sandstone, white marble, and the blueprint the Taj learned from. Commissioned in the 1550s by Humayun's widow and built by a Persian architect, it was the first grand Mughal garden-tomb on the subcontinent, UNESCO-listed and set in a four-quadrant charbagh paradise garden split by water channels. Sunder Nursery, further down this list, sits right against the complex.",
       photo: {
         src: delHumayun,
         alt: "Humayun's Tomb in Delhi, its white dome above red sandstone arches, with a fountain in the foreground",
@@ -538,7 +538,7 @@ const delhi: City = {
     {
       title: "Lodi Gardens",
       blurb:
-        "One of my favorite spots. Constructed in 1490 CE, the Lodi Gardens was one of the most beautiful walks we experienced.",
+        "One of my favorite spots. Constructed in 1490 CE, the Lodi Gardens was one of the most beautiful walks we experienced. It's a free public park of about ninety acres, with Sayyid and Lodi dynasty tombs from the mid-15th through early 16th centuries scattered casually across it. Delhi treats it as home turf: morning walkers, joggers, yoga groups and picnickers going about their day among the monuments, which is exactly the right way to use 500-year-old architecture.",
       photo: {
         src: delLodiGardens,
         alt: "A domed 15th-century tomb rising over the stone plaza in Lodi Gardens, Delhi, with the sun behind it",
@@ -552,7 +552,7 @@ const delhi: City = {
     },
     {
       title: "Walking around Khan Market",
-      blurb: "In case you want a more elevated, Western experience.",
+      blurb: "In case you want a more elevated, Western experience. The U-shaped double-storey block went up in 1951 as a rehabilitation project for Partition refugees, and it's now regularly ranked India's most expensive retail street, which is quite the character arc. Bahrisons Booksellers, founded by one of those refugees in the fifties, is still the anchor institution and the stop worth making.",
     },
     {
       title: "Sunder Nursery",

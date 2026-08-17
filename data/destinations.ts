@@ -3886,6 +3886,303 @@ const mtFuji: City = {
   ],
 };
 
+const sydney: City = {
+  slug: "sydney",
+  name: "Sydney",
+  countrySlug: "australia",
+  countryName: "Australia",
+  contentStatus: "published",
+  tagline: "The commute is the cruise.",
+  intro:
+    "The postcard harbour is real; locals just treat it as public transport. This is the Sydney that swims laps before work, commutes by ferry, and eats an hour down the train line.",
+  cultureTips: [
+    "Swim between the red and yellow flags, no exceptions: they mark the patrolled stretch positioned away from rips, rips are invisible from the sand, and if no flags are up the lifesavers have gone home, so no swim.",
+    "If a rip does take you, don't fight it; float, raise an arm for the lifesavers, and swim parallel to the beach until you're out of the current.",
+    "Sydney sits on Gadigal land of the Eora Nation; events open with a Welcome to Country delivered by Traditional Owners, or an Acknowledgement anyone may give, and the visitor's part is quiet attention rather than a performance.",
+    "Tipping isn't expected anywhere; wages cover service, rounding up for great table service is a nice gesture, and pressing no tip on the terminal is completely normal.",
+    "Sun safety is a cultural norm here, not fussiness; locals reapply SPF50 and chase shade because the UV is extreme even on cool, cloudy days.",
+  ],
+  eats: [
+    {
+      title: "Marrickville Pork Roll, Illawarra Road",
+      blurb:
+        "The consensus best banh mi in Sydney, sold from a modest shopfront window with a perpetual queue of inner west locals on their lunch break. Get the classic pork roll: crunchy baguette, pate, barbecue pork, pickles, chilli. Know your order before you reach the window, because the queue moves faster than you'd think.",
+    },
+    {
+      title: "Tan Viet Noodle House, Cabramatta",
+      blurb:
+        "Cabramatta is Sydney's Vietnamese heart, an hour southwest and almost entirely free of incidental tourists, and this is the institution people pilgrimage out for. Whatever else happens, order the crispy-skin chicken with the dry egg noodles. That plate is the whole reason to ride the train line.",
+    },
+    {
+      title: "Pho Tau Bay, Cabramatta",
+      blurb:
+        "Twenty-five-plus years of pho, and when the local council polled the businesses around it, nearly all of them named this place. Order the pho dac biet, with the lot: brisket, raw sirloin, beef balls, tendon, tripe. It's a morning-to-lunch spot, so go early rather than late.",
+    },
+    {
+      title: "Emperor's Garden cream puffs and the Haymarket night crawl",
+      blurb:
+        "Haymarket is where Sydney's hospitality workers eat after close, which makes it the most honest late-night food precinct in the city. The hot cream puffs from the window on Hay Street are the walking-home ritual: eaten out of the bag, no seating, that is the point. Pair them with Thai Town's mainstays or a wafer-thin roti worth its queue.",
+    },
+    {
+      title: "Coffee Alchemy, Marrickville",
+      blurb:
+        "The inner west is Sydney's coffee heartland and Marrickville is a legitimate coffee destination in its own right; this is one of the city's most decorated roasters. Order an espresso or a filter of whatever single origin is on. It's a coffee-first stop, not a brunch linger.",
+    },
+  ],
+  experiences: [
+    {
+      title: "Morning laps at an ocean pool",
+      blurb:
+        "Sydney's most distinctive civic ritual: dozens of tidal pools cut straight into the coastline, and residents who structure their mornings around them. Mahon Pool at Maroubra is the locals' answer to the famous Icebergs, free, carved into the cliffs, waves washing over the edge at high tide; Wylie's Baths at Coogee is the paid classic with the raised timber deck. Go at opening light, which is when the regulars do.",
+    },
+    {
+      title: "Malabar Headland, the honest coastal walk",
+      blurb:
+        "Bondi to Coogee is genuinely beautiful and genuinely a conveyor belt on weekends. Maroubra to Malabar gives you the same sandstone-cliff drama minus the procession: a roughly six-and-a-half-kilometre circuit through a national park, wartime history on the headland, and whales offshore in winter and early spring. Part of the headland shares space with a rifle range and closes some days, so check before you go.",
+    },
+    {
+      title: "The Manly ferry, as transit rather than a tour",
+      blurb:
+        "The famous thing that survives the local test: it's regular public transport that residents commute on, it costs a standard ferry fare, and it crosses the full harbour past the Opera House, the Bridge and the Heads in about half an hour. Board at Circular Quay and go straight to the stern rail; the Opera House shot happens in the first five minutes, then everyone goes inside and you get the Heads to yourself. Ride it at commuter hours with a coffee, which is the local version.",
+    },
+    {
+      title: "Carriageworks Farmers Market, Eveleigh",
+      blurb:
+        "Seventy-plus farmers and producers filling the former rail workshops on a Saturday morning, under a strict producers-only charter; inner-city residents know their growers by name here and treat it as a grocery run, not an attraction. The good bread and the flowers go early, so arriving at opening is the local move and arriving mid-morning is the visitor one.",
+    },
+    {
+      title: "Lakemba Nights during Ramadan",
+      blurb:
+        "Australia's biggest Ramadan street-food event: dozens of stalls down Haldon Street running late into the night for the whole month, knafeh straight off the pan, the famous camel burger, Bangladeshi and Indonesian and Turkish iftar food side by side. It's a family event, deeply local and multicultural, and tourists largely miss it; the dates move with the lunar calendar each year, so check when Ramadan falls. Take the train to Lakemba.",
+    },
+  ],
+  photoSpots: [
+    {
+      title: "Mrs Macquaries Point",
+      blurb:
+        "The only classic angle that gets the Opera House and the Harbour Bridge in one frame: stand on the headland's western edge and shoot west-northwest across Farm Cove. Sunrise gives you soft light on the sails and near-empty paths; sunset draws a tripod row, so arrive well early or just take the dawn.",
+      locations: [
+        {
+          lat: -33.8597,
+          lng: 151.2226,
+          precision: "exact",
+          facing: "NW",
+          facingNote:
+            "west-northwest across Farm Cove, the one angle with the Opera House and the Bridge in a single frame",
+        },
+      ],
+    },
+    {
+      title: "Blues Point Reserve, McMahons Point",
+      blurb:
+        "The grass foreshore at the point, shooting southeast at the Bridge's western face with the city stacked behind it. Golden hour into blue hour is the window, when the westerly light paints the steel and the skyline lights come up. It's a short walk from the ferry wharf, and taking the ferry there is itself the local move.",
+      locations: [
+        {
+          lat: -33.8496,
+          lng: 151.2034,
+          precision: "approximate",
+          facing: "SE",
+          facingNote:
+            "southeast from the water's edge at the Bridge's western face, in the last of the westerly light",
+        },
+      ],
+    },
+    {
+      title: "Milk Beach, Vaucluse",
+      blurb:
+        "A small harbour beach reached on foot via the Hermitage Foreshore track: shoot west from the sand or the rocks at the northern end, full skyline across the water, Shark Island mid-frame. Sunset is the hour, when the sun drops behind the towers. On summer evenings locals swim here after work, and the whole place is small enough that it never feels industrial-scale.",
+      locations: [
+        {
+          lat: -33.8565,
+          lng: 151.2673,
+          precision: "exact",
+          facing: "W",
+          facingNote:
+            "west across the harbour at the full skyline, Shark Island mid-frame, as the sun drops behind the towers",
+        },
+      ],
+    },
+    {
+      title: "Bradleys Head, Mosman",
+      blurb:
+        "Walk in from Taronga Zoo Wharf, and the ferry over doubles as the scouting trip. From the stone amphitheatre and mast at the tip, shoot southwest with the Opera House dead ahead across the water and the city stacked behind; a longer lens compresses it beautifully. Sunrise, when the landmarks catch first light and the national park is near empty.",
+      locations: [
+        {
+          lat: -33.8515,
+          lng: 151.246,
+          precision: "exact",
+          facing: "SW",
+          facingNote:
+            "southwest from the amphitheatre at the tip, Opera House dead ahead with the city behind; a longer lens compresses it",
+        },
+      ],
+    },
+    {
+      title: "Mahon Pool, Maroubra",
+      blurb:
+        "From the cliff path above the pool's southern side, shoot east-southeast into the sunrise with the lane line running out to the ocean. Mid-to-high tide sends whitewater over the edge, and winter gives you moodier swell with steam coming off the water. Swimmers own the lanes and photographers stay on the path, so don't stand on the pool edge blocking the turn wall.",
+      locations: [
+        {
+          lat: -33.943,
+          lng: 151.2639,
+          precision: "exact",
+          facing: "SE",
+          facingNote:
+            "east-southeast into the sunrise from the cliff path, the lane line running out to the ocean; stay off the pool edge",
+        },
+      ],
+    },
+  ],
+};
+
+const melbourne: City = {
+  slug: "melbourne",
+  name: "Melbourne",
+  countrySlug: "australia",
+  countryName: "Australia",
+  contentStatus: "published",
+  tagline: "Three tram stops past the postcard.",
+  intro:
+    "The laneway postcard is true, and it is maybe a third of the story. The rest lives out along the tram lines: injera in Footscray, pho on Victoria Street, footy as civic religion, and coffee treated as a craft with its own grammar.",
+  cultureTips: [
+    "Melbourne, Naarm, sits on the lands of the Kulin Nation, and the city formally acknowledges the Wurundjeri Woi-wurrung and Bunurong peoples as Traditional Owners; an Acknowledgement of Country opens events as standard practice, a Welcome to Country is a ceremony only Traditional Owners perform, and your part is quiet attention.",
+    "Coffee ordering is real etiquette: know your order before you reach the counter, a flat white is the default grammar, \"magic\" is the insider word you'll hear at the good bars, and asking a specialty barista for heavy syrup customisation misreads the room.",
+    "Tram basics: touch on with your fare card, know the CBD has a free tram zone, let passengers off before you board, move down the aisle, and offer the seats that need offering.",
+    "The hook turn is real: in the CBD, right turns at signed intersections happen from the left lane so the tram tracks stay clear, so expect it if you drive and don't be alarmed watching it as a pedestrian.",
+    "Tipping is not expected; wages cover service, the whole city runs tap-and-go, and rounding up for something exceptional is a bonus rather than an obligation.",
+  ],
+  eats: [
+    {
+      title: "Cafe Lalibela, Footscray",
+      blurb:
+        "Ethiopian cooking made for the community rather than for visitors, on the Barkly Street strip that makes Footscray the most interesting food suburb in the city. Order a shared platter, tear the injera with your right hand, and scoop. Then walk a block to Nhu Lan for a banh mi, because two migrations sharing one block is Footscray's whole argument.",
+    },
+    {
+      title: "Pho Hung Vuong Saigon, Victoria Street, Richmond",
+      blurb:
+        "Victoria Street is the strip locals call Little Saigon, and this is the consensus benchmark pho; order the special with the works and don't overthink it. Walk toward the far end of the street and the tourist count drops while the tables fill with regulars, which is exactly the trade you want.",
+    },
+    {
+      title: "A1 Bakery, Sydney Road, Brunswick",
+      blurb:
+        "A Lebanese bakery and grocer that has anchored Sydney Road since the early nineties: falafel wrap with pickled turnip and tahini, or a cheese and za'atar pie, then a lap of the grocer aisles. The Saturday queue out the door is the endorsement, not the deterrent.",
+    },
+    {
+      title: "Tiamo, Lygon Street, Carlton",
+      blurb:
+        "Lygon Street is half tourist trap now, and Tiamo is the surviving real thing: forty-plus years of red-sauce pasta and espresso for students, workers and northside locals. Skip the spruikers mid-strip and stay at the north end, where the honest rooms are.",
+    },
+    {
+      title: "Patricia Coffee Brewers, rear of Little Bourke Street",
+      blurb:
+        "A standing-room espresso bar hidden behind an unmarked corner, and about as pure as Melbourne coffee culture gets: the menu is essentially black, white or filter, the weekday crowd is lawyers, and you'll hear someone order a \"magic\" like it's the most normal word in the language. Drink it standing and you're done in nine minutes. If you need a chair, Market Lane in Carlton and Proud Mary in Collingwood carry the same local weight sitting down.",
+    },
+  ],
+  experiences: [
+    {
+      title: "Footy at the MCG, done as a neutral",
+      blurb:
+        "The civic religion, April to September: pick a home-and-away game, sit high for the sightlines, take the train, eat a meat pie at half time, then ride home with forty thousand people dissecting the umpiring. Both sets of fans sit together here, no segregated ends; barrack loudly, cop the banter, and know the line at personal abuse is real and enforced.",
+    },
+    {
+      title: "Market Saturday, the suburb version",
+      blurb:
+        "Queen Vic is fine, and it is the visitor market; the weekly shop happens further out. South Melbourne for the oversized dim sims from the same family stall since the forties, eaten at the counter with soy; Preston for the louder, cheaper everyday version with vendors calling prices; Footscray for Vietnamese produce and rice rolls steamed to order.",
+    },
+    {
+      title: "The St Kilda penguins, done right",
+      blurb:
+        "A colony of little penguins lives in the St Kilda breakwater, and a purpose-built viewing boardwalk now runs free sessions around sunset, supervised every night by the volunteers who have guarded the colony for decades. No white light, no flash, keep your distance, and drop a donation in the tin; conservation-first, and the exact opposite of a paid penguin parade.",
+    },
+    {
+      title: "A band room night",
+      blurb:
+        "The Tote in Collingwood, the Corner in Richmond, or the Northcote Social Club: check the gig guide, pay the door price, stand on carpet that has seen things, hold a beer. Melbourne calls itself Australia's live-music capital, and the state literally bailed out over a hundred venues to keep it that way. Pho on Victoria Street before a Corner show is the classic pairing.",
+    },
+    {
+      title: "The bay morning",
+      blurb:
+        "Port Phillip Bay is flat, and the local ritual is a swim at Williamstown or Elwood, coffee after, then a walk out to a lookout like Point Ormond with the skyline across the water. Routine rather than resort, and there are people who do it all winter. At a patrolled beach, swim between the flags like everyone else.",
+    },
+  ],
+  photoSpots: [
+    {
+      title: "Ruckers Hill, Northcote",
+      blurb:
+        "Stand on High Street near the crest and shoot southwest straight down the strip: tram wires, shopfronts and the full CBD skyline stacked at the end of the street. Sunset into blue hour, winter for clarity, with a tram rattling through the frame. The anti-observation-deck: free, local, and almost nobody else is shooting.",
+      locations: [
+        {
+          lat: -37.7758,
+          lng: 144.9979,
+          precision: "approximate",
+          facing: "SW",
+          facingNote:
+            "southwest down High Street from the crest, tram wires and shopfronts with the skyline stacked at the end",
+        },
+      ],
+    },
+    {
+      title: "Gem Pier, Williamstown",
+      blurb:
+        "Walk to the end of the pier and shoot northeast across the bay, past the yacht masts, at the skyline. Sunset and blue hour are the window, when the west-facing city catches the last light and then switches itself on. Ferry or train out, strolling families for company.",
+      locations: [
+        {
+          lat: -37.8614,
+          lng: 144.9056,
+          precision: "exact",
+          facing: "NE",
+          facingNote:
+            "northeast from the end of the pier, past the yacht masts, at the skyline as it catches the last light",
+        },
+      ],
+    },
+    {
+      title: "The Shrine of Remembrance balcony",
+      blurb:
+        "The upper balcony's north side looks straight down the ceremonial axis into the CBD, the city's one true axial view. Daytime only, within memorial hours, and it is a war memorial first: behave like it, no posing gimmicks.",
+      locations: [
+        {
+          lat: -37.8305,
+          lng: 144.9734,
+          precision: "exact",
+          facing: "N",
+          facingNote:
+            "north from the upper balcony, straight down the ceremonial axis into the city",
+        },
+      ],
+    },
+    {
+      title: "AC/DC Lane and Duckboard Place",
+      blurb:
+        "Enter off Flinders Lane and shoot down through the murals and rock-poster grime, then follow the bend into Duckboard Place and hunt for what's left of the famous stencils. Early morning for an empty lane, overcast to flatter the paint. And the honest word on Hosier Lane: the tour groups have it and it's mostly tags now, so give it five minutes for the one essential portrait mural, then come here, where the paint is fresher and the crowd is gone.",
+      locations: [
+        {
+          lat: -37.8156,
+          lng: 144.9709,
+          precision: "exact",
+          facingNote:
+            "down the lane from the Flinders Lane end and around the bend into Duckboard Place; no single bearing, follow the paint",
+        },
+      ],
+    },
+    {
+      title: "Dendy Street Beach, Brighton",
+      blurb:
+        "The bathing boxes earn their fame, with one caveat: sunrise or don't bother. Stand at the south end of the row, low to the sand, so the boxes recede with the skyline faint behind them; by midday it's wall-to-wall photoshoots. Train to Brighton Beach on the Sandringham line, soft light, empty beach.",
+      locations: [
+        {
+          lat: -37.9207,
+          lng: 144.9875,
+          precision: "approximate",
+          facing: "NW",
+          facingNote:
+            "northwest along the row of boxes from the south end, low to the sand so they recede with the skyline faint behind",
+        },
+      ],
+    },
+  ],
+};
+
 export const countries: Country[] = [
   {
     slug: "india",
@@ -3942,8 +4239,8 @@ export const countries: Country[] = [
     region: "Oceania",
     blurb: "Everything is farther away than it looks. Everything.",
     cities: [
-      city("australia", "Australia", "sydney", "Sydney", "Harbour light, ferry rides."),
-      city("australia", "Australia", "melbourne", "Melbourne", "Laneways and long coffees."),
+      sydney,
+      melbourne,
     ],
   },
   {

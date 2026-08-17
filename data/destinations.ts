@@ -69,6 +69,11 @@ export type City = {
   intro: string;
   /* First-person field notes from the trip write-up. */
   story?: string[];
+  /*
+   * "How to respect the local culture": at most five short notes, shown near
+   * the top of the city page. Researched per city, never generic filler.
+   */
+  cultureTips?: string[];
   eats: Top5Item[];
   experiences: Top5Item[];
   photoSpots: Top5Item[];

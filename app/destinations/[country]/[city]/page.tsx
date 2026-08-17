@@ -228,6 +228,34 @@ export default async function CityPage({ params }: Props) {
             </section>
           )}
 
+          {city.cultureTips && city.cultureTips.length > 0 && (
+            <section
+              aria-label={`How to respect the local culture in ${city.name}`}
+              className="mt-10 rounded-3xl border border-ink/10 bg-paper-soft/70 p-6 sm:p-8"
+            >
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
+                Before you go
+              </p>
+              <h2 className="font-display mt-2 text-2xl font-medium sm:text-3xl">
+                How to respect the local culture
+              </h2>
+              <ul className="mt-4 max-w-2xl space-y-2.5">
+                {city.cultureTips.map((tip, i) => (
+                  <li
+                    key={i}
+                    className="flex gap-3 text-sm leading-relaxed text-ink/75"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-terracotta"
+                    />
+                    {tip}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
           <div className="sticky top-[65px] z-30 -mx-6 mt-10 border-y border-ink/10 bg-paper/95 px-6 py-3 backdrop-blur">
             <CityTabs country={country} activeCitySlug={city.slug} />
           </div>

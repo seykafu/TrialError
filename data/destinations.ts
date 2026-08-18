@@ -4528,7 +4528,7 @@ export const countries: Country[] = [
     name: "India",
     flag: "🇮🇳",
     region: "South Asia",
-    blurb: "Chai spills, wrong trains, and the best food mistakes of our lives.",
+    blurb: "Sunrise monuments, street chai, and a monkey after your lunch.",
     cities: [
       delhi,
       agra,
@@ -4540,7 +4540,7 @@ export const countries: Country[] = [
     name: "Netherlands",
     flag: "🇳🇱",
     region: "Western Europe",
-    blurb: "We biked the wrong way down exactly one canal. Once.",
+    blurb: "Bike the canals, then let the free ferry finish the tour.",
     cities: [amsterdam],
   },
   {
@@ -4548,7 +4548,7 @@ export const countries: Country[] = [
     name: "United Kingdom",
     flag: "🇬🇧",
     region: "Western Europe",
-    blurb: "Rain-proof itineraries, tested the hard way.",
+    blurb: "Villages, mills and caves, all under the same drizzle.",
     cities: [
       london,
       manchester,
@@ -4560,7 +4560,7 @@ export const countries: Country[] = [
     name: "Italy",
     flag: "🇮🇹",
     region: "Southern Europe",
-    blurb: "We ordered wrong in two languages and ate well anyway.",
+    blurb: "Espresso standing up, aperitivo sitting down, monuments at odd hours.",
     cities: [rome, florence],
   },
   {
@@ -4576,7 +4576,7 @@ export const countries: Country[] = [
     name: "Australia",
     flag: "🇦🇺",
     region: "Oceania",
-    blurb: "Everything is farther away than it looks. Everything.",
+    blurb: "The ferry is the commute and the ocean pool is the gym.",
     cities: [
       sydney,
       melbourne,
@@ -4587,7 +4587,7 @@ export const countries: Country[] = [
     name: "Japan",
     flag: "🇯🇵",
     region: "East Asia",
-    blurb: "We missed the last train so you don't have to.",
+    blurb: "Eat behind the famous thing. Check the last train.",
     cities: [
       tokyo,
       kyoto,
@@ -4600,7 +4600,7 @@ export const countries: Country[] = [
     name: "China",
     flag: "🇨🇳",
     region: "East Asia",
-    blurb: "Four cities, four hundred dumplings, zero regrets.",
+    blurb: "The buns sell out at dawn; the teahouse waits all afternoon.",
     cities: [
       shanghai,
       beijing,
@@ -4613,7 +4613,7 @@ export const countries: Country[] = [
     name: "Mexico",
     flag: "🇲🇽",
     region: "North America",
-    blurb: "Salt rim, sunset, repeat until corrected.",
+    blurb: "Salt rim, sunset, then three blocks inland to eat.",
     cities: [
       city("mexico", "Mexico", "puerto-vallarta", "Puerto Vallarta", "Cobblestones to the sea."),
       cabo,
@@ -4624,7 +4624,7 @@ export const countries: Country[] = [
     name: "Dominican Republic",
     flag: "🇩🇴",
     region: "Caribbean",
-    blurb: "The oldest city in the Americas, and the newest mistakes.",
+    blurb: "Santo Domingo up first, notes still in the darkroom.",
     cities: [
       city("dominican-republic", "Dominican Republic", "santo-domingo", "Santo Domingo", "First city of the New World."),
     ],
@@ -4634,8 +4634,7 @@ export const countries: Country[] = [
     name: "Canada",
     flag: "🇨🇦",
     region: "North America",
-    /* TODO(kasey): country blurb still provisional, pending his own words. */
-    blurb: "Home turf, which turns out to be the hardest kind to write about.",
+    blurb: "Home turf, which mostly means knowing where the free version is.",
     cities: [vancouver, toronto, calgary, banff, montreal],
   },
   {
@@ -4643,7 +4642,7 @@ export const countries: Country[] = [
     name: "USA",
     flag: "🇺🇸",
     region: "North America",
-    blurb: "Five cities, five completely different countries.",
+    blurb: "The views are free, so the budget goes to tacos and dumplings.",
     cities: [
       losAngeles,
       newYorkCity,

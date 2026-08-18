@@ -57,6 +57,7 @@
   --sights-visibility: hidden;
   --sights-shift: 0px;
   --sights-scale: 1;
+  --rail-enter: 0;
   --sights-top: clamp(112px, 19vh, 220px);
   --sights-screen-top: clamp(112px, 19vh, 220px);
   --sky-pos-y: 22%;
@@ -91,7 +92,8 @@
 .sights-slider,
 .hero-title,
 .intro-copy,
-.story-panel {
+.story-panel,
+.country-rail {
   position: absolute;
 }
 
@@ -646,6 +648,79 @@
   line-height: 1;
 }
 
+/* ---------- country rail (final-frame landing pad) ---------- */
+
+.country-rail {
+  z-index: 9;
+  left: 50%;
+  bottom: clamp(28px, 6vh, 64px);
+  width: min(1100px, calc(100vw - 32px));
+  text-align: center;
+  opacity: var(--rail-enter);
+  visibility: hidden;
+  transform: translate3d(-50%, calc((1 - var(--rail-enter)) * 28px), 0);
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+/*
+ * The engine adds is-landed once the rail is genuinely showing, so an
+ * invisible rail never intercepts clicks meant for the slider, and a
+ * barely-faded-in one is not yet a tab stop.
+ */
+.country-rail.is-landed {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.country-rail-kicker {
+  margin: 0 0 12px;
+  color: var(--hero-paper);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-shadow:
+    0 0 3px rgba(24, 10, 4, 0.9),
+    0 1px 2px rgba(24, 10, 4, 0.85),
+    0 2px 14px rgba(24, 10, 4, 0.5);
+}
+
+.country-rail-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.country-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(247, 234, 217, 0.35);
+  color: var(--hero-ink);
+  background: rgba(247, 234, 217, 0.94);
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 12px 30px rgba(24, 10, 4, 0.22);
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.country-pill:hover,
+.country-pill:focus-visible {
+  background: var(--terracotta, #c4552b);
+  color: var(--hero-paper);
+  transform: translateY(-2px);
+  outline: none;
+}
+
 /* ---------- media queries ---------- */
 
 @media (max-width: 1500px) {
@@ -685,6 +760,18 @@
 }
 
 @media (max-width: 640px) {
+  .country-rail {
+    bottom: 18px;
+  }
+  .country-rail-list {
+    gap: 8px;
+  }
+  .country-pill {
+    min-height: 38px;
+    padding: 0 12px;
+    font-size: 0.84rem;
+  }
+
   .cinema-scroll {
     --sky-pos-y: 30%;
   }

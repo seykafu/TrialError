@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import type { FeaturedCityCard } from "@/data/destinations";
+import type { CountryPill, FeaturedCityCard } from "@/data/destinations";
 import "./cinematic.css";
 
 /* Cinematic scene layers (mix of local photography + motion graphics). */
@@ -46,12 +46,14 @@ const SET_COUNT = 3;
 
 type CinematicHeroProps = {
   featuredCities: FeaturedCityCard[];
+  countryPills: CountryPill[];
   cityCount: number;
   countryCount: number;
 };
 
 export default function CinematicHero({
   featuredCities,
+  countryPills,
   cityCount,
   countryCount,
 }: CinematicHeroProps) {
@@ -149,6 +151,9 @@ export default function CinematicHero({
       const introExit = smoothstep(90, 650, smoothScroll);
       const sightsEnterRaw = smoothstep(2760, 3560, smoothScroll);
       const sightsEnter = Math.pow(sightsEnterRaw, 1.55);
+      /* The country rail waits for the slider to have mostly landed, then
+         floats up as the frame settles into its resting state. */
+      const railEnter = smoothstep(3300, 3700, smoothScroll);
       const blurActive = clamp(frame2.active + frame3.active);
       const frame2Opacity = frame2.active * (1 - frame3.enter);
       const splitDrift = Math.pow(frame2.enter, 1.5);
@@ -256,6 +261,10 @@ export default function CinematicHero({
       setVar("--sights-scale", 1 / backScale);
       setVar("--sights-top", `${sightsParentTop}px`);
       setVar("--sights-screen-top", `${sightsScreenTop}px`);
+      setVar("--rail-enter", railEnter);
+      section
+        .querySelector(".country-rail")
+        ?.classList.toggle("is-landed", railEnter > 0.6);
 
       if (
         Math.abs(smoothScroll - targetScroll) > 0.08 ||
@@ -443,6 +452,28 @@ export default function CinematicHero({
             <span>Browse the destinations</span>
           </Link>
         </section>
+
+        {/*
+          * The landing pad. Once the final frame has settled, a rail of flag
+          * pills floats up so the scroll ends on a choice rather than a dead
+          * stop; each pill jumps to that country's card in the index below.
+          */}
+        <nav className="country-rail" aria-label="Pick a destination">
+          <p className="country-rail-kicker">Pick a destination</p>
+          <ul className="country-rail-list">
+            {countryPills.map((country) => (
+              <li key={country.slug}>
+                <Link
+                  className="country-pill"
+                  href={`/destinations/${country.slug}`}
+                >
+                  <span aria-hidden="true">{country.flag}</span>
+                  <span>{country.name}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </div>
     </section>
   );

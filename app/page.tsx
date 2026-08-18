@@ -4,6 +4,7 @@ import CinematicHero from "@/components/CinematicHero";
 import SiteFooter from "@/components/SiteFooter";
 import {
   countriesWithPublishedCities,
+  countryPills,
   featuredCityCards,
   publishedCities,
 } from "@/data/destinations";
@@ -32,6 +33,7 @@ export default function Home() {
 
       <CinematicHero
         featuredCities={featuredCityCards}
+        countryPills={countryPills}
         cityCount={publishedCities.length}
         countryCount={countriesWithPublishedCities.length}
       />

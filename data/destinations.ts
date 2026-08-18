@@ -4681,6 +4681,9 @@ export type FeaturedCityCard = Pick<
   "slug" | "name" | "countrySlug" | "countryName" | "tagline"
 >;
 
+/* Just enough of a country to draw a flag pill on the homepage hero. */
+export type CountryPill = Pick<Country, "slug" | "name" | "flag">;
+
 export const featuredCityCards: FeaturedCityCard[] = featuredCities.map((city) => ({
   slug: city.slug,
   name: city.name,
@@ -4746,6 +4749,11 @@ export const countriesWithPublishedCities: Country[] = countries
     cities: country.cities.filter(isPublishedCity),
   }))
   .filter((country) => country.cities.length > 0);
+
+/* Flag pills for the hero's final frame; only countries with something to read. */
+export const countryPills: CountryPill[] = countriesWithPublishedCities.map(
+  ({ slug, name, flag }) => ({ slug, name, flag })
+);
 
 export function getPublishedCountry(slug: string): Country | undefined {
   return countriesWithPublishedCities.find((country) => country.slug === slug);

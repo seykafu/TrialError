@@ -33,36 +33,43 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   return {
     title: `${city.name}, ${city.countryName}: top 5 eats, experiences & photo spots`,
-    description: `Our ${city.name} guide to the top 5 things to eat, the top 5 local experiences, and the top 5 places for photos, tested by trial and refined by error.`,
+    description: `Our ${city.name} guide to the top ${city.eats.length} things to eat, the top ${city.experiences.length} local experiences, and the top ${city.photoSpots.length} places for photos, tested by trial and refined by error.`,
     alternates: {
       canonical: `/destinations/${countrySlug}/${citySlug}`,
     },
   };
 }
 
+/* Titles are "Top N ..." with N read from the list itself, so a city that
+   earns a sixth entry (Sydney's experiences, for one) stays honest. */
 const SECTIONS = [
   {
     id: "eats",
     icon: "🍜",
     kicker: "Taste",
-    title: "Top 5 Eats",
+    label: "Eats",
     key: "eats" as const,
   },
   {
     id: "experiences",
     icon: "🎟️",
     kicker: "Do",
-    title: "Top 5 Local Experiences",
+    label: "Local Experiences",
     key: "experiences" as const,
   },
   {
     id: "photos",
     icon: "📸",
     kicker: "Frame",
-    title: "Top 5 Places for Photos",
+    label: "Places for Photos",
     key: "photoSpots" as const,
   },
 ];
+
+const sectionTitle = (
+  section: (typeof SECTIONS)[number],
+  city: ReturnType<typeof getPublishedCity> & object
+) => `Top ${city[section.key].length} ${section.label}`;
 
 /*
  * Said out loud, because a pin that looks precise and isn't sends someone to
@@ -341,7 +348,7 @@ export default async function CityPage({ params }: Props) {
                 href={`#${s.id}`}
                 className="rounded-full bg-paper-soft px-4 py-2 text-sm font-medium text-ink/70 transition hover:bg-terracotta hover:text-paper"
               >
-                {s.icon} {s.title}
+                {s.icon} {sectionTitle(s, city)}
               </a>
             ))}
           </nav>
@@ -350,14 +357,14 @@ export default async function CityPage({ params }: Props) {
             <section
               key={section.id}
               id={section.id}
-              aria-label={`${section.title} in ${city.name}`}
+              aria-label={`${sectionTitle(section, city)} in ${city.name}`}
               className="mt-16 scroll-mt-32"
             >
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
                 {section.kicker}
               </p>
               <h2 className="font-display mt-2 text-3xl font-medium sm:text-4xl">
-                {section.icon} {section.title}
+                {section.icon} {sectionTitle(section, city)}
               </h2>
               {section.key === "photoSpots" && (
                 <CityPhotoMap

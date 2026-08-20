@@ -4155,6 +4155,13 @@ const sydney: City = {
       blurb:
         "Australia's biggest Ramadan street-food event: dozens of stalls down Haldon Street running late into the night for the whole month, knafeh straight off the pan, the famous camel burger, Bangladeshi and Indonesian and Turkish iftar food side by side. It's a family event, deeply local and multicultural, and tourists largely miss it; the dates move with the lunar calendar each year, so check when Ramadan falls. Take the train to Lakemba.",
     },
+    {
+      title: "A sunrise paddle on the harbour",
+      blurb:
+        "This page already has you in an ocean pool at first light; the harbour version is a kayak, because at dawn the water belongs to rowers, paddlers and swimmers, before the ferry wash and the wind pick up. The guided sunrise session, roughly two hours, is how a visitor with no boat and no local knowledge gets out there: under the Harbour Bridge with the Opera House across the water, guides handling the photos, coffee and brekkie at a local cafe afterward. It's popular rather than intimate, up to a couple dozen kayaks some mornings, so treat it as the on-ramp; the graduation is renting a boat and doing it yourself once you know the water.",
+      bookUrl:
+        "https://www.getyourguide.com/sydney-l200/sydney-sunrise-kayak-opera-house-under-harbour-bridge-t450314/",
+    },
   ],
   photoSpots: [
     {

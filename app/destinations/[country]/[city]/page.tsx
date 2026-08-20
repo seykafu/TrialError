@@ -372,6 +372,34 @@ export default async function CityPage({ params }: Props) {
             </section>
           )}
 
+          {city.reserve && (
+            <section
+              aria-label={`Book a table in ${city.name}`}
+              className="mt-16"
+            >
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
+                Reserve
+              </p>
+              <h2 className="font-display mt-2 text-3xl font-medium sm:text-4xl">
+                🍽️ One table to book
+              </h2>
+              <div className="mt-8 rounded-3xl border border-ink/10 bg-paper p-6 sm:p-8">
+                <h3 className="font-semibold">{city.reserve.title}</h3>
+                <p className="mt-1 max-w-2xl text-sm leading-relaxed text-ink/65">
+                  {city.reserve.blurb}
+                </p>
+                <a
+                  href={city.reserve.url}
+                  target="_blank"
+                  rel="noopener"
+                  className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full bg-ink px-6 text-sm font-medium text-paper transition hover:bg-terracotta"
+                >
+                  Book a table <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </section>
+          )}
+
           {city.gallery && city.gallery.length > 0 && (
             <section
               aria-label={`More photos from ${city.name}`}

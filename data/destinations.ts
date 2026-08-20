@@ -87,6 +87,13 @@ export type City = {
        shown inside the stay card as a browsable map of nearby options. */
     mapEmbedUrl?: string;
   };
+  /* One bookable restaurant, shown as a card after the stay. Plain link to
+     the restaurant's own reservation page; not an affiliate link. */
+  reserve?: {
+    title: string;
+    blurb: string;
+    url: string;
+  };
   /* An embedded YouTube video from the trip, shown near the top of the page. */
   video?: {
     /* The 11-character YouTube video ID, not a full URL. */
@@ -4540,6 +4547,12 @@ const bali: City = {
     blurb:
       "A small family-run inn in the valley this page keeps calling old Bali: traditional-style bungalows, a pool looking over the rice fields, a warung on site, and village treks and cooking classes run by the family themselves. Nothing on this page is a beach club within an hour of here, which is exactly the argument.",
     url: "https://www.expedia.com/Sidemen-Hotels-Cepik-Villa.h5441009.Hotel-Information",
+  },
+  reserve: {
+    title: "Cuca, Jimbaran",
+    blurb:
+      "This page has spent every entry steering you away from the resort corner, so here is the one honest exception: an independent in Jimbaran, a short drive from the AYANA cliffs, run since 2013 by chef Kevin Cherkas and Virginia Entizne, cooking tapas, cocktails and desserts out of ingredients sourced from across Indonesia rather than the usual resort-international. The garden is tucked away from the beachfront, dress is whatever you're wearing, doors are open midday to 11pm daily; if a night strands you among the cliffs, this is the table to book.",
+    url: "https://www.cucabali.com/reservation/",
   },
   cultureTips: [
     "Never step on or over canang sari, the little palm-leaf offerings on sidewalks and doorsteps; they're placed fresh every morning and treading on one is genuinely offensive, so watch your feet.",

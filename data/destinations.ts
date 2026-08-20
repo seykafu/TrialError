@@ -556,6 +556,8 @@ const delhi: City = {
       title: "Any street chai",
       blurb:
         "If you get a stomach ache later you can blame me, but you won't regret it. The real thing is boiled hard with milk, ginger and cardamom, poured short and strong, sometimes into a kulhad, an unglazed clay cup that adds an earthy note and traditionally gets smashed when you're done. Pick the busiest stall you can find: high turnover means the chai never sits, which is most of the food-safety math right there.",
+      bookUrl:
+        "https://www.getyourguide.com/new-delhi-l231/old-delhi-food-tour-a-night-time-feast-t464596/",
     },
     {
       title: "Any McDonald's",
@@ -1540,6 +1542,8 @@ const chengdu: City = {
       title: "A Yulin neighborhood night",
       blurb:
         "The district from the song \"Chengdu\": charcoal skewers on the pavement, murals, retirees' mahjong next to craft beer and folk poets. Grab your chuanchuan skewers from the fridge yourself; you're billed by counting sticks at the end.",
+      bookUrl:
+        "https://www.getyourguide.com/chengdu-l1697/chengdu-hidden-dishes-and-beers-unesco-food-evening-tour-t271822/",
     },
     {
       title: "The Panda Base, done correctly",
@@ -2601,6 +2605,8 @@ const tokyo: City = {
       title: "Yanesen at dusk",
       blurb:
         "The Yanaka, Nezu and Sendagi triangle survived the war, so it still reads like mid-century Tokyo: a short shotengai of around sixty family shops, cemetery lanes, tiny temples. Arrive about an hour before sunset, graze your way down the arcade with a menchi-katsu croquette in hand, and finish at the Yuyake Dandan sunset stairs. Weekday evenings, since weekends belong to day-trippers.",
+      bookUrl:
+        "https://www.getyourguide.com/tokyo-l193/yanaka-walking-tour-the-old-quarter-of-tokyo-t585456/",
     },
     {
       title: "A Yakult Swallows game at Meiji Jingu Stadium",

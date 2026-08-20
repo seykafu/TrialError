@@ -6,9 +6,18 @@ export default function SiteFooter() {
     <footer className="mt-auto border-t border-paper/10 bg-dusk-deep text-paper">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-[2fr_3fr]">
         <div>
-          <p className="font-display text-2xl">
-            Trial <span className="italic text-amber">&amp;</span> Error
-          </p>
+          <div className="flex items-center gap-3">
+            <img
+              src="/logo-chibi.png"
+              alt=""
+              width={56}
+              height={56}
+              className="h-14 w-14"
+            />
+            <p className="font-display text-2xl">
+              Trial <span className="italic text-amber">&amp;</span> Error
+            </p>
+          </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-paper/60">
             A travel journal of happy accidents. Every city guide: top 5 eats,
             top 5 local experiences, top 5 places for photos.

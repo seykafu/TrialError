@@ -342,6 +342,13 @@ export default function CinematicHero({
 
           <header className="site-header" aria-label="Primary navigation">
             <a className="site-logo" href="#cinema">
+              <img
+                className="site-logo-chibi"
+                src="/logo-chibi.png"
+                alt=""
+                width={38}
+                height={38}
+              />
               Trial &amp; Error
             </a>
             <nav className="site-nav" aria-label="Main menu">

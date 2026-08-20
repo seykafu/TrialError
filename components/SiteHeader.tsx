@@ -6,9 +6,18 @@ export default function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-6 py-4">
         <Link
           href="/"
-          className="font-display text-xl font-medium tracking-tight text-ink"
+          className="flex items-center gap-2.5 font-display text-xl font-medium tracking-tight text-ink"
         >
-          Trial <span className="italic text-terracotta">&amp;</span> Error
+          <img
+            src="/logo-chibi.png"
+            alt=""
+            width={36}
+            height={36}
+            className="h-9 w-9"
+          />
+          <span>
+            Trial <span className="italic text-terracotta">&amp;</span> Error
+          </span>
         </Link>
         <nav aria-label="Main menu" className="flex items-center gap-6 text-sm">
           <Link href="/" className="text-ink/70 transition hover:text-ink">

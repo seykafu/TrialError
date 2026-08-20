@@ -4526,6 +4526,161 @@ const montreal: City = {
 };
 
 
+const bali: City = {
+  slug: "bali",
+  name: "Bali",
+  countrySlug: "indonesia",
+  countryName: "Indonesia",
+  contentStatus: "published",
+  tagline: "The island clocks in at five.",
+  intro:
+    "The beach clubs hold one narrow corner of the southwest; the rest of the island runs on markets that open at five, warungs that cook one dish, and temples that are working buildings rather than backdrops. Two honesties up front: distances are slow, so hire a driver for the long hops and keep the scooter for getting around one area, and the November-to-March rains mean brown waterfalls and a volcano you may never see, traded for the greenest paddies of the year.",
+  stay: {
+    title: "Cepik Villa, Sidemen valley",
+    blurb:
+      "A small family-run inn in the valley this page keeps calling old Bali: traditional-style bungalows, a pool looking over the rice fields, a warung on site, and village treks and cooking classes run by the family themselves. Nothing on this page is a beach club within an hour of here, which is exactly the argument.",
+    url: "https://www.expedia.com/Sidemen-Hotels-Cepik-Villa.h5441009.Hotel-Information",
+  },
+  cultureTips: [
+    "Never step on or over canang sari, the little palm-leaf offerings on sidewalks and doorsteps; they're placed fresh every morning and treading on one is genuinely offensive, so watch your feet.",
+    "Sarong and sash at every temple, all genders, shoulders covered; the major temples rent or provide them at the gate.",
+    "Check when Nyepi falls before booking anything: the Day of Silence shuts the entire island for twenty-four hours, airport included, enforced by village wardens. The ogoh-ogoh parades the evening before are spectacular, and staying in for the silent night is arguably the most local experience there is.",
+    "Right hand, or both hands, to give, receive, eat and pay; the left is considered unclean.",
+    "Ceremonies have right of way: roads close for processions without notice, so wait or reroute, and never honk your way through one.",
+  ],
+  eats: [
+    {
+      title: "Nasi Ayam Kedewatan Ibu Mangku, Kedewatan",
+      blurb:
+        "A family compound on the Ubud outskirts that has cooked essentially one thing since 1970: the nasi ayam special, shredded spiced chicken, sate lilit, egg, and a sambal matah that resets your expectations of the dish. The crowd is heavily Indonesian, which around Ubud is the whole endorsement; if the queue is long, do what the locals do and cross the street to Ibu Agung, the family's own rival.",
+    },
+    {
+      title: "Warung Nasi Men Weti, Sanur",
+      blurb:
+        "A pioneer nasi campur stall opposite Sanur beach since the 1970s, the recipe kept by the founder's son. Go before nine, join a queue that's mostly Balinese, and understand this is grab-a-plate, not hospitality. The sambal is not a garnish; it's the thesis.",
+    },
+    {
+      title: "Warung Mak Beng, north Sanur",
+      blurb:
+        "Eighty-plus years old and the menu is one line: fried fish and fish-head soup, and that is the entire restaurant. There are branches now; go to the original in north Sanur, where the whole idea started.",
+    },
+    {
+      title: "Warung Babi Guling Pande Egi, Gianyar",
+      blurb:
+        "Gianyar is the regency Balinese people will point you to for babi guling, and this family-run spot in Beng village is the case for the drive: open-air tables facing rice paddies, and the nasi babi guling jumbo as the order. The location does the filtering; the Instagram circuit doesn't come out here.",
+    },
+    {
+      title: "Gianyar Night Market, Gianyar town",
+      blurb:
+        "Bali's biggest and oldest night market, about thirty minutes northeast of Ubud, and it's where the surrounding villages eat dinner. Graze rather than commit: babi guling, sate lilit, serombotan, Klungkung's vegetable salad under spicy grated coconut, and the jaje Bali sweets, laklak and klepon. Arrive between six and seven in the evening.",
+    },
+  ],
+  experiences: [
+    {
+      title: "Dawn on the flower floor, Pasar Badung, Denpasar",
+      blurb:
+        "Bali's largest and oldest market, trading on the Badung river since 1906 and open around the clock, but the hour that matters is five to seven, when the ground floor becomes a flower exchange for the day's canang sari offerings. This is the island's morning engine room, so greet the vendors, buy something small, and keep the camera second.",
+    },
+    {
+      title: "Melukat at Tirta Empul, done properly",
+      blurb:
+        "The holy spring at Tampaksiring is a functioning temple, not a backdrop, and since a rule that arrived in 2025 you need a licensed guide to enter the purification pools, which has nudged the whole experience back toward reverence. Sarong and sash everywhere, a dedicated green sarong for the pools, and move through the spouts in sequence; the guide is there to make sure the ritual stays a ritual.",
+    },
+    {
+      title: "Walk Jatiluwih, the anti-Tegallalang",
+      blurb:
+        "Six hundred-plus hectares of UNESCO-listed subak landscape in the Tabanan highlands, with marked walking loops instead of a photo queue. Go before nine, pick a longer loop, and let the irrigation system that's run this island for centuries explain itself; March and April are the greenest.",
+    },
+    {
+      title: "Sidemen valley on foot, Karangasem",
+      blurb:
+        "Ninety minutes east of Ubud is the valley people call old Bali: paddy paths under Mount Agung and a living center of endek and songket weaving. Walk it slowly and ask locally about the looms rather than following a pin; the valley rewards the unplanned version.",
+    },
+    {
+      title: "The jukung fleet at dawn, Jemeluk Bay, Amed",
+      blurb:
+        "Amed is still a working fishing coast: the outrigger jukungs go out before light and come back through sunrise with Agung glowing behind them. Be on the beach between five thirty and six thirty, and if you want to be on the water instead, the local fishermen run sunrise trips through the small hotels.",
+    },
+  ],
+  photoSpots: [
+    {
+      title: "Jemeluk Bay viewpoint, Amed",
+      blurb:
+        "The curve of the bay, jukungs on the sand, Mount Agung behind: the east coast's whole argument in one frame. Sunrise catches the fleet coming home; sunset works too if the morning gets away from you.",
+      locations: [
+        {
+          lat: -8.3388,
+          lng: 115.6465,
+          precision: "exact",
+          facing: "W",
+          facingNote:
+            "west across the bay, with the jukungs on the sand below and Mount Agung on the horizon",
+          label: "Viewpoint on the Amed coast road",
+        },
+      ],
+    },
+    {
+      title: "Bukit Cinta, Karangasem",
+      blurb:
+        "Agung over mist and palm groves at first light, from a roadside pull-off with a small fee box. Be there at six, because the mist burns off fast; March to October gives the clearest mountain.",
+      locations: [
+        {
+          lat: -8.4262,
+          lng: 115.6087,
+          precision: "exact",
+          facing: "NW",
+          facingNote: "northwest toward Mount Agung, over the mist and palm groves",
+          label: "Roadside viewpoint with the fee box",
+        },
+      ],
+    },
+    {
+      title: "Jatiluwih terraces, Tabanan",
+      blurb:
+        "The terraced amphitheater with Mount Batukaru behind it, and walkers out on the bunds for scale. Before nine, same as the walk, when the light is low and the loops are quiet.",
+      locations: [
+        {
+          lat: -8.3702,
+          lng: 115.1312,
+          precision: "approximate",
+          facing: "NW",
+          facingNote:
+            "northwest across the terraces toward Mount Batukaru; the site is enormous, this pin is the entrance",
+          label: "Jatiluwih site entrance",
+        },
+      ],
+    },
+    {
+      title: "Campuhan Ridge Walk, Ubud",
+      blurb:
+        "The grass spine above Ubud in low golden light. Be on the ridge by six, when it's genuinely a locals' jogging path; by nine it's hot, hard light and steady traffic.",
+      locations: [
+        {
+          lat: -8.5038,
+          lng: 115.2546,
+          precision: "exact",
+          facing: "N",
+          facingNote: "north up the grass spine of the ridge from the trailhead",
+          label: "Trailhead beside Pura Gunung Lebah",
+        },
+      ],
+    },
+    {
+      title: "Banyumala Twin Waterfalls, Wanagiri highlands",
+      blurb:
+        "Two parallel cascades into a green pool, shaded grotto light, and a case for the long exposure. The descent is a steep ten to fifteen minutes and dry season keeps the water clear; the road up passes the Wanagiri selfie platforms, giant nests and hands built for a feed, and driving past them is the point of this page.",
+      locations: [
+        {
+          lat: -8.2173,
+          lng: 115.1017,
+          precision: "exact",
+          label: "The falls; the trail down starts a steep ten minutes above",
+        },
+      ],
+    },
+  ],
+};
+
 export const countries: Country[] = [
   {
     slug: "india",
@@ -4611,6 +4766,14 @@ export const countries: Country[] = [
       chengdu,
       city("china", "China", "chongqing", "Chongqing", "A city stacked on a mountain."),
     ],
+  },
+  {
+    slug: "indonesia",
+    name: "Indonesia",
+    flag: "🇮🇩",
+    region: "Southeast Asia",
+    blurb: "One-dish warungs, five a.m. markets, a driver for the long hops.",
+    cities: [bali],
   },
   {
     slug: "mexico",

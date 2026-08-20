@@ -355,6 +355,19 @@ export default async function CityPage({ params }: Props) {
                   which is how we&apos;re testing whether this blog can pay for
                   its own chai.
                 </p>
+                {city.stay.mapEmbedUrl && (
+                  <div className="mt-6">
+                    <p className="text-sm font-medium text-ink/70">
+                      Or browse what else is nearby:
+                    </p>
+                    <iframe
+                      src={city.stay.mapEmbedUrl}
+                      title={`Map of places to stay in ${city.name}`}
+                      loading="lazy"
+                      className="mt-3 block h-[428px] w-full rounded-2xl border-0"
+                    />
+                  </div>
+                )}
               </div>
             </section>
           )}

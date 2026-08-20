@@ -83,6 +83,9 @@ export type City = {
     title: string;
     blurb: string;
     url: string;
+    /* Optional Stay22 embed map URL (https://www.stay22.com/embed/...),
+       shown inside the stay card as a browsable map of nearby options. */
+    mapEmbedUrl?: string;
   };
   /* An embedded YouTube video from the trip, shown near the top of the page. */
   video?: {
@@ -4073,6 +4076,7 @@ const sydney: City = {
     blurb:
       "This page keeps saying the commute is the cruise, and staying here makes it literal: the wharf is a short walk away, so the ferry past the Opera House and the Heads becomes your actual ride into town, coffee at the stern rail as prescribed. The rest of the time you're fronting Manly Beach on the North Steyne sand.",
     url: "https://www.expedia.com/Sydney-Hotels-Manly-Pacific-Sydney-MGallery-Collection.h6890.Hotel-Information",
+    mapEmbedUrl: "https://www.stay22.com/embed/6a8742cbf438da660d2359b8",
   },
   cultureTips: [
     "Swim between the red and yellow flags, no exceptions: they mark the patrolled stretch positioned away from rips, rips are invisible from the sand, and if no flags are up the lifesavers have gone home, so no swim.",

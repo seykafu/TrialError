@@ -167,6 +167,29 @@ export default async function CityPage({ params }: Props) {
   /* Empty for cities whose photo spots have no pins yet; the map then renders nothing. */
   const spotPins = mappedSpots(city);
 
+  /* Centroid of the city's verified photo-spot pins: the one set of
+     coordinates on this site we actually stand behind. Also read by
+     destination-matching scripts (e.g. Stay22), which otherwise infer the
+     location from prose. */
+  const geo =
+    spotPins.length > 0
+      ? {
+          "@type": "GeoCoordinates",
+          latitude:
+            Math.round(
+              (spotPins.reduce((s, p) => s + p.location.lat, 0) /
+                spotPins.length) *
+                1e4
+            ) / 1e4,
+          longitude:
+            Math.round(
+              (spotPins.reduce((s, p) => s + p.location.lng, 0) /
+                spotPins.length) *
+                1e4
+            ) / 1e4,
+        }
+      : undefined;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -175,6 +198,7 @@ export default async function CityPage({ params }: Props) {
       "@type": "City",
       name: city.name,
       containedInPlace: { "@type": "Country", name: city.countryName },
+      ...(geo ? { geo } : {}),
     },
     url: `${SITE_URL}/destinations/${countrySlug}/${citySlug}`,
     publisher: { "@type": "Organization", name: "Trial & Error" },

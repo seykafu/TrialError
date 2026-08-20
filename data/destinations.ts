@@ -52,6 +52,10 @@ export type Top5Item = {
   title: string;
   blurb: string;
   photo?: Photo;
+  /* Link to book this exact experience (e.g. a GetYourGuide product page).
+     Only where a real product matches what the blurb describes; the Stay22
+     script converts compatible providers into affiliate links at runtime. */
+  bookUrl?: string;
   /*
    * Array from the start: nothing uses a second slot yet, but a spot that
    * needs splitting later becomes a data edit instead of a schema migration.
@@ -4598,6 +4602,8 @@ const bali: City = {
       title: "Melukat at Tirta Empul, done properly",
       blurb:
         "The holy spring at Tampaksiring is a functioning temple, not a backdrop, and since a rule that arrived in 2025 you need a licensed guide to enter the purification pools, which has nudged the whole experience back toward reverence. Sarong and sash everywhere, a dedicated green sarong for the pools, and move through the spouts in sequence; the guide is there to make sure the ritual stays a ritual.",
+      bookUrl:
+        "https://www.getyourguide.com/ubud-l32246/ubud-tirta-empul-temple-melukat-ritual-coffee-tour-t1286041/",
     },
     {
       title: "Walk Jatiluwih, the anti-Tegallalang",
@@ -4608,11 +4614,15 @@ const bali: City = {
       title: "Sidemen valley on foot, Karangasem",
       blurb:
         "Ninety minutes east of Ubud is the valley people call old Bali: paddy paths under Mount Agung and a living center of endek and songket weaving. Walk it slowly and ask locally about the looms rather than following a pin; the valley rewards the unplanned version.",
+      bookUrl:
+        "https://www.getyourguide.com/sidemen-village-l92066/sidemen-trekking-a-walk-from-a-different-perspective-t714445/",
     },
     {
       title: "The jukung fleet at dawn, Jemeluk Bay, Amed",
       blurb:
         "Amed is still a working fishing coast: the outrigger jukungs go out before light and come back through sunrise with Agung glowing behind them. Be on the beach between five thirty and six thirty, and if you want to be on the water instead, the local fishermen run sunrise trips through the small hotels.",
+      bookUrl:
+        "https://www.getyourguide.com/bali-l347/amed-fishing-trip-hook-a-mahi-mahi-tuna-gt-or-wahoo-t698925/",
     },
   ],
   photoSpots: [

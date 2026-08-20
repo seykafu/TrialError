@@ -114,8 +114,10 @@ function SpotDirections({
 }
 
 function TopFiveList({ items }: { items: Top5Item[] }) {
+  const hasBookingLinks = items.some((item) => item.bookUrl);
   return (
-    <ol className="mt-8 space-y-4">
+    <>
+      <ol className="mt-8 space-y-4">
       {items.map((item, i) => (
         <li
           key={i}
@@ -151,10 +153,28 @@ function TopFiveList({ items }: { items: Top5Item[] }) {
             {item.locations?.map((location, j) => (
               <SpotDirections key={j} location={location} spotTitle={item.title} />
             ))}
+            {item.bookUrl && (
+              <a
+                href={item.bookUrl}
+                target="_blank"
+                rel="noopener sponsored"
+                className="mt-4 inline-flex min-h-9 items-center gap-1.5 rounded-full border border-ink/20 px-4 text-xs font-medium text-ink/80 transition hover:border-terracotta hover:text-terracotta"
+              >
+                Book this <span aria-hidden="true">↗</span>
+              </a>
+            )}
           </div>
         </li>
       ))}
-    </ol>
+      </ol>
+      {hasBookingLinks && (
+        <p className="mt-4 text-xs text-ink/50">
+          &ldquo;Book this&rdquo; links may earn us a small commission at no
+          extra cost to you; we only link bookings that match what we actually
+          recommend.
+        </p>
+      )}
+    </>
   );
 }
 

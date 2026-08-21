@@ -97,16 +97,22 @@ export default function CinematicHero({
       mouseX = lerp(mouseX, targetMouseX, 0.12);
       mouseY = lerp(mouseY, targetMouseY, 0.12);
 
-      const frame2 = segmentInOut(smoothScroll, 560, 900, 1300, 1620);
-      const frame3 = segmentInOut(smoothScroll, 1760, 2140, 2540, 2700);
-      const progress = clamp(smoothScroll / 2700);
-      const introExit = smoothstep(90, 650, smoothScroll);
+      /* Timing note: every window below spans 700-900px of scroll. Shorter
+         windows read as elements blinking in and out instead of easing, and
+         the whole runway (5400px, set in cinematic.css) is sized so a normal
+         scroll pace feels near-linear rather than choreographed. */
+      const frame2 = segmentInOut(smoothScroll, 800, 1600, 2300, 3000);
+      const frame3 = segmentInOut(smoothScroll, 3050, 3850, 4300, 5000);
+      const progress = clamp(smoothScroll / 5000);
+      const introExit = smoothstep(100, 1000, smoothScroll);
       /* The country rail is the landing: it arrives as the final frame
          settles, and its pills stagger in via the is-landed class below. */
-      const railEnter = smoothstep(2900, 3400, smoothScroll);
+      const railEnter = smoothstep(4900, 5350, smoothScroll);
       const blurActive = clamp(frame2.active + frame3.active);
       const frame2Opacity = frame2.active * (1 - frame3.enter);
-      const splitDrift = Math.pow(frame2.enter, 1.5);
+      /* Linear in the eased enter: the pow() acceleration made the side
+         walls lurch on fast scrolls. */
+      const splitDrift = frame2.enter;
       const panel2Opacity = frame2.active * (1 - frame2.exit);
       const panel3Opacity = frame3.active * (1 - frame3.exit);
       const backScale =

@@ -1,8 +1,8 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
-import type { CountryPill, FeaturedCityCard } from "@/data/destinations";
+import type { CountryPill } from "@/data/destinations";
 import "./cinematic.css";
 
 /* Cinematic scene layers (mix of local photography + motion graphics). */
@@ -23,12 +23,6 @@ const ASSETS = {
     "https://raft-blast-61784561.figma.site/_assets/v11/ba75252bab2b1c510987b74837770f7bc8a6b2d4.png",
 };
 
-const PINS = [
-  "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260730_230438_d526b8b6-8a2e-4e3b-9993-3908acae03a7.png",
-  "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260730_230442_140bc25b-b165-4249-904a-f708bff6970e.png",
-  "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260730_230448_825949c9-ccdb-4857-b4a6-e349eccc9010.png",
-];
-
 const clamp = (v: number, min = 0, max = 1) => Math.min(max, Math.max(min, v));
 
 const smoothstep = (e0: number, e1: number, v: number) => {
@@ -44,62 +38,18 @@ function segmentInOut(s: number, a: number, b: number, c: number, d: number) {
   return { enter, exit, active: enter * (1 - exit) };
 }
 
-const SET_COUNT = 3;
-
 type CinematicHeroProps = {
-  featuredCities: FeaturedCityCard[];
   countryPills: CountryPill[];
   cityCount: number;
   countryCount: number;
 };
 
 export default function CinematicHero({
-  featuredCities,
   countryPills,
   cityCount,
   countryCount,
 }: CinematicHeroProps) {
   const sectionRef = useRef<HTMLElement>(null);
-  const trackRef = useRef<HTMLDivElement>(null);
-
-  const originalCount = featuredCities.length;
-  const [activeSight, setActiveSight] = useState(originalCount);
-  const [isJumping, setIsJumping] = useState(false);
-
-  /* --- slider geometry: writes --sights-shift from the active index --- */
-  const updateSlider = useCallback(() => {
-    const section = sectionRef.current;
-    const track = trackRef.current;
-    if (!section || !track) return;
-    const firstCard = track.querySelector<HTMLElement>(".sight-card");
-    if (!firstCard) return;
-    const cardWidth = firstCard.offsetWidth;
-    const gap = parseFloat(getComputedStyle(track).columnGap || "0");
-    section.style.setProperty(
-      "--sights-shift",
-      `${-(cardWidth + gap) * activeSight}px`
-    );
-  }, [activeSight]);
-
-  useEffect(() => {
-    updateSlider();
-  }, [updateSlider]);
-
-  const jumpTo = useCallback((index: number) => {
-    setIsJumping(true);
-    setActiveSight(index);
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => setIsJumping(false));
-    });
-  }, []);
-
-  const normalize = useCallback(() => {
-    if (activeSight >= originalCount * 2) {
-      jumpTo(activeSight - originalCount);
-    } else if (activeSight < originalCount) {
-      jumpTo(activeSight + originalCount);
-    }
-  }, [activeSight, originalCount, jumpTo]);
 
   /* --- scroll + pointer engine --- */
   useEffect(() => {
@@ -151,11 +101,9 @@ export default function CinematicHero({
       const frame3 = segmentInOut(smoothScroll, 1760, 2140, 2540, 2700);
       const progress = clamp(smoothScroll / 2700);
       const introExit = smoothstep(90, 650, smoothScroll);
-      const sightsEnterRaw = smoothstep(2760, 3560, smoothScroll);
-      const sightsEnter = Math.pow(sightsEnterRaw, 1.55);
-      /* The country rail waits for the slider to have mostly landed, then
-         floats up as the frame settles into its resting state. */
-      const railEnter = smoothstep(3300, 3700, smoothScroll);
+      /* The country rail is the landing: it arrives as the final frame
+         settles, and its pills stagger in via the is-landed class below. */
+      const railEnter = smoothstep(2900, 3400, smoothScroll);
       const blurActive = clamp(frame2.active + frame3.active);
       const frame2Opacity = frame2.active * (1 - frame3.enter);
       const splitDrift = Math.pow(frame2.enter, 1.5);
@@ -165,10 +113,6 @@ export default function CinematicHero({
         0.76 + progress * 0.2 + frame2.enter * 0.18 + frame3.enter * 0.16;
       const sharedHeroY = progress * -74;
       const sharedHeroScale = progress * 0.23;
-      const sightsScreenTop =
-        Math.min(220, Math.max(112, window.innerHeight * 0.19)) - 50;
-      const sightsParentTop =
-        window.innerHeight - (window.innerHeight - sightsScreenTop) / backScale;
 
       setVar("--mx", (reduceMotion.matches ? 0 : mouseX).toFixed(4));
       setVar("--my", (reduceMotion.matches ? 0 : mouseY).toFixed(4));
@@ -256,13 +200,6 @@ export default function CinematicHero({
         `calc(-50% + ${-frame3.exit * 86 + (1 - frame3.enter) * 58}px)`
       );
 
-      setVar("--sights-opacity", sightsEnter);
-      setVar("--sights-visibility", sightsEnter > 0.01 ? "visible" : "hidden");
-      setVar("--sights-y", "0px");
-      setVar("--sights-enter-x", `${(1 - sightsEnter) * 420}vw`);
-      setVar("--sights-scale", 1 / backScale);
-      setVar("--sights-top", `${sightsParentTop}px`);
-      setVar("--sights-screen-top", `${sightsScreenTop}px`);
       setVar("--rail-enter", railEnter);
       section
         .querySelector(".country-rail")
@@ -280,20 +217,24 @@ export default function CinematicHero({
     const requestTick = () => {
       if (rafPending) return;
       rafPending = true;
-      requestAnimationFrame(update);
+      /* rAF never fires in a hidden document (background-tab or prerendered
+         loads), which would deadlock the tick guard; fall back to a timer. */
+      if (document.hidden) {
+        setTimeout(update, 32);
+      } else {
+        requestAnimationFrame(update);
+      }
     };
 
     const onScroll = () => requestTick();
-    const onResize = () => {
-      updateSlider();
-      requestTick();
-    };
+    const onResize = () => requestTick();
     const onPointerMove = (e: PointerEvent) => {
       targetMouseX = e.clientX / window.innerWidth - 0.5;
       targetMouseY = e.clientY / window.innerHeight - 0.5;
       requestTick();
     };
 
+    document.addEventListener("visibilitychange", requestTick);
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onResize);
     window.addEventListener("pointermove", onPointerMove, { passive: true });
@@ -301,35 +242,12 @@ export default function CinematicHero({
 
     return () => {
       disposed = true;
+      document.removeEventListener("visibilitychange", requestTick);
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onResize);
       window.removeEventListener("pointermove", onPointerMove);
     };
-  }, [updateSlider]);
-
-  const cards = Array.from({ length: SET_COUNT }, (_, setIndex) =>
-    featuredCities.map((c, cardIndex) => {
-      const index = setIndex * originalCount + cardIndex;
-      return (
-        <Link
-          key={index}
-          href={`/destinations/${c.countrySlug}/${c.slug}`}
-          className={`sight-card${index === activeSight ? " is-active" : ""}`}
-          aria-label={`Open ${c.name} city guide`}
-        >
-          <span className="sight-kicker">{c.countryName}</span>
-          <img
-            className="sight-pin"
-            src={PINS[cardIndex % PINS.length]}
-            alt=""
-            loading="lazy"
-          />
-          <h3>{c.name}</h3>
-          <p>{c.tagline}</p>
-        </Link>
-      );
-    })
-  ).flat();
+  }, []);
 
   return (
     <section
@@ -371,18 +289,6 @@ export default function CinematicHero({
               src={ASSETS.backFour}
               alt=""
             />
-            <section
-              className="sights-slider"
-              aria-label="Featured city guides"
-            >
-              <div
-                ref={trackRef}
-                className={`sights-track${isJumping ? " is-jumping" : ""}`}
-                onTransitionEnd={normalize}
-              >
-                {cards}
-              </div>
-            </section>
             <img
               className="scene-img back-img back-bazaar"
               src={ASSETS.bazaar}
@@ -468,7 +374,10 @@ export default function CinematicHero({
           * stop; each pill jumps to that country's card in the index below.
           */}
         <nav className="country-rail" aria-label="Pick a destination">
-          <p className="country-rail-kicker">Pick a destination</p>
+          <p className="country-rail-kicker">
+            {cityCount} city guides across {countryCount} countries
+          </p>
+          <p className="country-rail-title">Pick a destination</p>
           <ul className="country-rail-list">
             {countryPills.map((country) => (
               <li key={country.slug}>

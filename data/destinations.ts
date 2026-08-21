@@ -227,7 +227,9 @@ const amsterdam: City = {
     {
       title: "Vincent van Gogh Art Museum",
       blurb:
-        "The immersive room puts you inside the paintings, brushstrokes floor to ceiling. We stayed way longer than planned. The museum claims the largest collection of his work in the world, and it's not a claim anyone bothers arguing with. Tickets are online only with a timed entry slot, and slots can sell out, so book well before you land.",
+        "The immersive room puts you inside the paintings, brushstrokes floor to ceiling. We stayed way longer than planned. The museum claims the largest collection of his work in the world, and it's not a claim anyone bothers arguing with. Tickets are online only with a timed entry slot, and slots can sell out, so book well before you land.",      bookUrl:
+        "https://www.getyourguide.com/van-gogh-museum-l2695/van-gogh-museum-fast-blue-lane-timed-entry-ticket-t56969/",
+
       photo: {
         src: amsVanGogh,
         alt: "Standing on a balcony inside the Van Gogh Museum with Wheatfield with Crows projected across the surrounding walls",
@@ -255,7 +257,9 @@ const amsterdam: City = {
     {
       title: "Ride in the canal on a tour",
       blurb:
-        "More canals than Venice, and the best way to count them is from the water. The 17th-century ring, Singel through Prinsengracht, is UNESCO-listed swampland drained into concentric arcs, which is a lot of hydraulic engineering to admire from a cushion. Book a small open boat with a live skipper over the big glass-top ones: they sit lower, slip under the low historic bridges the covered boats have to skip, and the stories come from a person instead of a recording.",
+        "More canals than Venice, and the best way to count them is from the water. The 17th-century ring, Singel through Prinsengracht, is UNESCO-listed swampland drained into concentric arcs, which is a lot of hydraulic engineering to admire from a cushion. Book a small open boat with a live skipper over the big glass-top ones: they sit lower, slip under the low historic bridges the covered boats have to skip, and the stories come from a person instead of a recording.",      bookUrl:
+        "https://www.getyourguide.com/amsterdam-l36/amsterdam-small-group-canal-cruise-w-local-guide-drinks-opt-t412862/",
+
       photo: {
         src: amsCanalBridge,
         alt: "A bike-lined bridge crossing an Amsterdam canal with crooked canal houses on both sides",
@@ -430,7 +434,9 @@ const sanFrancisco: City = {
     {
       title: "Rent a bike and ride the city, including the Golden Gate Bridge",
       blurb:
-        "Crossing the Golden Gate under your own power is the way to earn the view, hills and all. The classic loop runs from the waterfront across the span and downhill into Sausalito, where the ferry carries you and the bike back; cyclists get routed onto one sidewalk or the other depending on when you go, so follow the signs rather than your instincts. The afternoon wind funnelling through the Gate is very real, and earlier is easier.",
+        "Crossing the Golden Gate under your own power is the way to earn the view, hills and all. The classic loop runs from the waterfront across the span and downhill into Sausalito, where the ferry carries you and the bike back; cyclists get routed onto one sidewalk or the other depending on when you go, so follow the signs rather than your instincts. The afternoon wind funnelling through the Gate is very real, and earlier is easier.",      bookUrl:
+        "https://www.getyourguide.com/san-francisco-l61/san-francisco-self-guided-bike-rental-with-ferry-option-t140166/",
+
       photo: {
         src: sfGoldenGate,
         alt: "Looking up at a red tower of the Golden Gate Bridge mid-crossing, suspension cables fanning overhead",
@@ -750,7 +756,9 @@ const agra: City = {
     {
       title: "The Taj Mahal",
       blurb:
-        "If I don't say the Taj, I'm lying to myself. One of the greatest humanmade structures I've ever seen. It straight up looks like a fantasy. Keep an eye out for monkeys near the outskirts of the garden.",
+        "If I don't say the Taj, I'm lying to myself. One of the greatest humanmade structures I've ever seen. It straight up looks like a fantasy. Keep an eye out for monkeys near the outskirts of the garden.",      bookUrl:
+        "https://www.getyourguide.com/agra-l824/agra-taj-mahal-and-mausoleum-guided-tour-with-skip-the-line-t440153/",
+
       photo: {
         src: agraTaj,
         alt: "The Taj Mahal reflected in the long garden pool, framed by cypress trees and flowers in the morning haze",
@@ -1387,7 +1395,9 @@ const beijing: City = {
     {
       title: "The Great Wall at Huanghuacheng",
       blurb:
-        "Skip Badaling. Huanghuacheng is the section Beijing weekenders pick for themselves: arms of wall diving straight into a reservoir, crowds thin, half a day enough. Mutianyu is the pragmatic fallback locals book for visiting relatives, toboggan included. Wear real shoes.",
+        "Skip Badaling. Huanghuacheng is the section Beijing weekenders pick for themselves: arms of wall diving straight into a reservoir, crowds thin, half a day enough. Mutianyu is the pragmatic fallback locals book for visiting relatives, toboggan included. Wear real shoes.",      bookUrl:
+        "https://www.getyourguide.com/beijing-l186/water-great-wall-odyssey-scenic-bus-cruise-day-tour-t704386/",
+
     },
     {
       title: "Houhai mornings, ice swimmers included",
@@ -2774,7 +2784,9 @@ const osaka: City = {
     {
       title: "A retro night in Shinsekai",
       blurb:
-        "After dark Shinsekai is Showa-era Osaka preserved in neon, and it deserves an evening rather than a meal stop. Kushikatsu first, then an hour in the old game parlors playing smart ball, a pre-pachinko marble game that has no business still existing, then blue-hour photos of Tsutenkaku. The area is gritty by Japanese standards and completely safe by any other, so just carry your stuff normally.",
+        "After dark Shinsekai is Showa-era Osaka preserved in neon, and it deserves an evening rather than a meal stop. Kushikatsu first, then an hour in the old game parlors playing smart ball, a pre-pachinko marble game that has no business still existing, then blue-hour photos of Tsutenkaku. The area is gritty by Japanese standards and completely safe by any other, so just carry your stuff normally.",      bookUrl:
+        "https://www.getyourguide.com/osaka-l1204/hungry-osaka-street-food-tour-15-tastings-3-drinks-t513983/",
+
     },
   ],
   photoSpots: [
@@ -3816,7 +3828,9 @@ const banff: City = {
     {
       title: "Ride the car-free eastern Bow Valley Parkway",
       blurb:
-        "Parks Canada closes the eastern stretch to motor vehicles for two windows a year, in spring and again in early autumn, and hands it to cyclists. Ride from the Fireside day-use area to Johnston Canyon, and take the autumn window if you can choose: larches turning, no bugs, warm light, two lanes of highway with nothing on it, and you arrive at the canyon by the bike racks instead of circling for a parking space. Plan around the overlap, though, because a separate mandatory travel restriction runs from early spring into late June, under which all travel including cycling and hiking is prohibited overnight, roughly eight at night to eight in the morning, to keep the corridor open for wolves, cougars and bears. No sunrise riding in spring, and better to know that now than at a barrier.",
+        "Parks Canada closes the eastern stretch to motor vehicles for two windows a year, in spring and again in early autumn, and hands it to cyclists. Ride from the Fireside day-use area to Johnston Canyon, and take the autumn window if you can choose: larches turning, no bugs, warm light, two lanes of highway with nothing on it, and you arrive at the canyon by the bike racks instead of circling for a parking space. Plan around the overlap, though, because a separate mandatory travel restriction runs from early spring into late June, under which all travel including cycling and hiking is prohibited overnight, roughly eight at night to eight in the morning, to keep the corridor open for wolves, cougars and bears. No sunrise riding in spring, and better to know that now than at a barrier.",      bookUrl:
+        "https://www.getyourguide.com/banff-l284/banff-45-hour-e-bike-and-walking-tour-in-johnston-canyon-t399759/",
+
     },
     {
       title: "Banff Centre Mountain Film and Book Festival, early November",

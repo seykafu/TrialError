@@ -9,8 +9,10 @@ import "./cinematic.css";
 const ASSETS = {
   /* Not the Taj monkeys shot: it reads as a subject, not a backdrop. */
   sky: "https://raft-blast-61784561.figma.site/_assets/v11/16b5007d9c93971e26ffe4e0e3e37946f6bd538c.png",
-  backFour: "/photos/amsterdam/tajandme-heic.jpg",
-  bazaar: "/photos/amsterdam/tajandme-heic.jpg",
+  /* Sky clipped to transparency so the scene's dusk sky reads through,
+     instead of the photo's own hazy morning sky fighting it. */
+  backFour: "/photos/hero/taj-cutout.webp",
+  bazaar: "/photos/hero/taj-cutout.webp",
   splitLeft:
     "https://raft-blast-61784561.figma.site/_assets/v11/7536d7b60a1fce482cf6edf3f0bffd3bad5d0f8a.png",
   splitRight:

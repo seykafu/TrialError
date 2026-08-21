@@ -4717,6 +4717,303 @@ const bali: City = {
   ],
 };
 
+const mexicoCity: City = {
+  slug: "mexico-city",
+  name: "Mexico City",
+  countrySlug: "mexico",
+  countryName: "Mexico",
+  contentStatus: "published",
+  tagline: "The neighborhoods eat first.",
+  intro:
+    "The largest Spanish-speaking city on earth, and its best restaurant is a sidewalk. This page runs on mornings, partly because rainy season (May to October) hands you sunny mornings and hard rain by evening, and partly because 2,240 metres of altitude is real, so hydrate and go easy on the first mezcal night. It's organized by colonia rather than monument, because that's how the city actually works.",
+  stay: {
+    title: "Hotel San Fernando, Condesa",
+    blurb:
+      "A 1940s apartment building turned 19-room boutique half a block from Parque México: breakfast on the rooftop terrace, a ground-floor lounge that pours coffee by day and cocktails by night, hand coffee grinders in the rooms, and a spot in the Michelin Guide's hotel selection. This page runs on mornings, and Parque México at 7am is the point.",
+    url: "https://www.expedia.com/Mexico-City-Hotels-Hotel-San-Fernando.h18180394.Hotel-Information",
+  },
+  cultureTips: [
+    "Tip 10 to 15 percent at tables, in pesos, and read the bill first because some places pre-add the service; at street stands, the coin cup is the tip jar.",
+    "Street-stand literacy: a line of locals is the rating, order before you sit, the taquero keeps your count, and you pay at the end.",
+    "Altitude and water honesty: you're at 2,240 metres, and nobody drinks the tap, locals included; bottled is everywhere, so drink more of it than feels reasonable.",
+    "The alerta sísmica is real: about a minute of warning, so follow the people around you into the open street, and don't panic on September 19, the national drill.",
+    "Metro rules: the first cars are for women and children only, a ride costs five pesos, avoid the rush-hour crushes, and Uber after dark is the local default.",
+  ],
+  eats: [
+    {
+      title: "El Vilsito, Narvarte",
+      blurb:
+        "A working auto mechanic shop by day and the city's most argued-about al pastor after dark, open past midnight. The Michelin Bib Gourmand changed nothing: the queue is still local and it still fixes cars. Order al pastor con todo, know the torta de pastor has its own cult, and say con piña to get pineapple flicked off the top of the spit.",
+    },
+    {
+      title: "El Hidalguense, Roma Sur",
+      blurb:
+        "Pit barbacoa in maguey leaves, trucked in from the family ranch in Hidalgo, and served Friday to Sunday mornings only, because the pit takes all night. Barbacoa by the kilo, consomé on the side, pulque if you're ready. Go at 9am, not 2pm.",
+    },
+    {
+      title: "Fonda Margarita, Del Valle",
+      blurb:
+        "The dawn fonda since 1948: doors at 6:30am, closed by midday, clay pots over charcoal, shared benches. Order the frijoles refritos con huevo even though it sounds like nothing; that's the point. Line up before 7.",
+    },
+    {
+      title: "Taquería Los Cocuyos, Centro",
+      blurb:
+        "A glowing cauldron of slow-confit beef on Calle Bolívar just south of Madero, going since 1980. Suadero first, campechano second, eaten standing. Watch what the man ahead of you ordered and copy it for round two.",
+    },
+    {
+      title: "Mercado Medellín, Roma Sur",
+      blurb:
+        "Roma Sur's daily working market, where the Oaxacan stalls share aisles with Venezuelan, Colombian and Cuban ones, which is the actual immigrant story of modern Roma. Eat at the fonda row facing Coahuila. Officially it's named Melchor Ocampo; nobody calls it that.",
+    },
+  ],
+  experiences: [
+    {
+      title: "Mercado Jamaica before 8am",
+      blurb:
+        "A 24-hour flower market, a thousand-plus stalls, trucks unloading through the night. Take an Uber door to door at that hour and just walk the aisles. Around Día de Muertos it becomes a marigold ocean.",
+    },
+    {
+      title: "Lucha libre at Arena México, done right",
+      blurb:
+        "CMLL runs Tuesdays and Fridays: Friday is the big card, Tuesday is the neighborhood. Buy at the taquilla or on Ticketmaster MX and skip the scalpers and the hotel-pickup tours; a mask outside, ringside for cheap. Doctores at night is go direct, leave direct, by car.",
+    },
+    {
+      title: "Sunday on two wheels",
+      blurb:
+        "Muévete en Bici closes Reforma and a 50-plus kilometre loop to cars every Sunday, 8am to 2pm, and Ecobici works fine for it. Roll into Chapultepec Section 1 (closed Mondays), where the park ritual is families, paddleboats and vendors rather than a museum queue.",
+    },
+    {
+      title: "Xochimilco at sunrise, on the chinampas",
+      blurb:
+        "The honest version is a silent, motorless trajinera at dawn with Arca Tierra, drifting through mist and working chinampa farms and ending in a farm breakfast. Xochimilco at 3pm is a floating bachelorette party. Same canals; choose your city.",
+    },
+    {
+      title: "Centro at dawn, pulque by noon",
+      blurb:
+        "The Zócalo at 7am belongs to the sweepers and the pigeons, and Madero is empty, which is the only way you'll ever see it. Finish at Pulquería Las Duelistas (since 1912, closed Sundays): 45 rotating curados under Aztec murals, free botanas from 1pm.",
+    },
+  ],
+  photoSpots: [
+    {
+      title: "Finca Don Porfirio, eighth floor of the Sears building",
+      blurb:
+        "The Bellas Artes dome from directly above, golden into blue hour when the dome lights come on. Order a coffee, queue for the balcony rail, and know the seating is capped at around 45 minutes, which turns out to be exactly enough.",
+      locations: [
+        {
+          lat: 19.4342,
+          lng: -99.1416,
+          precision: "exact",
+          facing: "N",
+          facingNote:
+            "down onto the Bellas Artes dome from the eighth-floor terrace rail",
+          label: "Terrace at the Sears building, Av. Juarez 14",
+        },
+      ],
+    },
+    {
+      title: "Biblioteca Vasconcelos, Buenavista",
+      blurb:
+        "Floating steel stacks running to a vanishing point with the suspended whale skeleton hanging in the middle of it. Midday light through the glass roof is the move. Free, though big cameras may be asked to sign a personal-use form.",
+      locations: [
+        {
+          lat: 19.4475,
+          lng: -99.1508,
+          precision: "exact",
+          label: "Main reading hall, beside Buenavista station",
+        },
+      ],
+    },
+    {
+      title: "Biblioteca Central, UNAM",
+      blurb:
+        "O'Gorman's stone-mosaic mural covers all four faces, a building-sized codex. Morning light favors the north and east walls; go on a weekday, students everywhere, which is part of the picture.",
+      locations: [
+        {
+          lat: 19.3334,
+          lng: -99.1873,
+          precision: "exact",
+          facing: "W",
+          facingNote:
+            "from the esplanade; the mosaic wraps all four faces and morning light favors the north and east walls",
+          label: "Esplanade east of the library",
+        },
+      ],
+    },
+    {
+      title: "Kiosco Morisco, Santa María la Ribera",
+      blurb:
+        "The 1884 Moorish pavilion, and on Sundays danzón dancers under the dome, which is the better photo and the colonia walk in one.",
+      locations: [
+        {
+          lat: 19.4497,
+          lng: -99.1569,
+          precision: "exact",
+          label: "The pavilion in the Alameda de Santa Maria la Ribera",
+        },
+      ],
+    },
+    {
+      title: "Ángel de la Independencia on a Muévete en Bici Sunday",
+      blurb:
+        "Reforma with zero cars and cyclists streaming around the column, shot low from a roadway you can only legally stand on Sundays, 8am to 2pm. Any other day this frame is impossible.",
+      locations: [
+        {
+          lat: 19.4270,
+          lng: -99.1677,
+          precision: "exact",
+          label: "The glorieta; the roadway is standable only on ciclovia Sundays",
+        },
+      ],
+    },
+  ],
+};
+
+const santoDomingo: City = {
+  slug: "santo-domingo",
+  name: "Santo Domingo",
+  countrySlug: "dominican-republic",
+  countryName: "Dominican Republic",
+  contentStatus: "published",
+  tagline: "First city, still a working capital.",
+  intro:
+    "This is where European colonization of the Americas started keeping receipts, first cathedral, first paved street, first university, all inside one walkable UNESCO district, except thousands of people still live in it, so the museum runs on colmado deliveries and la bandera at noon. One scheduling honesty up front: the cruise ships empty into the Zona at midday, so walk it from seven to ten in the morning and again after four, spend midday where the city eats, and treat mornings as the walking hours year-round.",
+  stay: {
+    title: "Hodelpa Nicolás de Ovando, Calle Las Damas",
+    blurb:
+      "Three joined stone houses from 1502 on the first paved street of the Americas, originally the residence of Nicolás de Ovando, the governor who laid the city out, now with courtyards and a pool. The photo-spot list below keeps sending you to this exact street, so you might as well wake up on it.",
+    url: "https://www.expedia.com/Santo-Domingo-Hotels-Hodelpa-Nicolas-De-Ovando.h16203001.Hotel-Information",
+  },
+  cultureTips: [
+    "Greetings are not optional: buenos días before any business, and a saludos to the room when you walk into a colmado.",
+    "Dress up slightly. Capitaleños dress sharply, shoulders and knees stay covered in the cathedral, and Dominicans notice shoes.",
+    "The bill already carries a legal 10 percent service charge plus 18 percent tax, so the menu price grows about 28 percent at the register; an extra 5 to 10 percent in cash straight to your server is the well-informed move.",
+    "The Zona hustle is verbal, not dangerous: a firm, smiling no gracias works, and agree any price first, in pesos.",
+    "Know the baseball calendar; whether you go Licey or Escogido is a better icebreaker than any guidebook phrase.",
+  ],
+  eats: [
+    {
+      title: "Barra Payán, near Gazcue",
+      blurb:
+        "A 1956 sandwich-and-juice counter that is closer to civic infrastructure than restaurant: politicians, night-shift workers and the post-club crowd on the same stools. Order a pierna sandwich pressed on the griddle with a chinola juice, at whatever hour, because it is open very late. It has a Washington Heights satellite because the diaspora missed it, which is the strongest credibility signal a Dominican institution can have.",
+    },
+    {
+      title: "Villar Hermanos, Gazcue",
+      blurb:
+        "Where the office workers actually eat la bandera at lunch: a cafeteria line, so point at what you want and go between twelve and two when the turnover peaks. Thirty-plus years of the same family, one street back from the Malecón, with good coffee and a bakery counter on the way out.",
+    },
+    {
+      title: "Chicharrón in Villa Mella",
+      blurb:
+        "The chicharrón capital of the country is a short ride north: order by the pound with yuca and the citrus sauce, late morning when the batches come out, and pick the stall with the crowd, because we could not verify a current single best and the crowd can. The neighbourhood also carries the UNESCO-recognized Congos brotherhood tradition, so the pork pilgrimage comes with cultural weight. If you cannot make the ride, Chancho Gusto is the in-city fallback.",
+    },
+    {
+      title: "Buche Perico, Calle El Conde",
+      blurb:
+        "Contemporary Dominican cooking in a plant-filled colonial house, named for a Cibao corn and meat stew, and the proof that El Conde is not only pica-pollo and souvenir tat. The one dressed-up pick on this page.",
+    },
+    {
+      title: "Adrián Tropical, the Malecón",
+      blurb:
+        "The touristy pick locals genuinely go to, which is a rarer category than it sounds: mofongo with the sea over the railing, open very late.",
+    },
+  ],
+  experiences: [
+    {
+      title: "Bonyé at the Ruinas de San Francisco, Sunday evenings",
+      blurb:
+        "A veteran band playing son, salsa and merengue in front of the ruins of the first monastery of the Americas, with thousands of Dominicans of every age dancing on the cobbles. Plastic chairs, street beers, no ticket. It has run for over a decade, but confirm locally that it is on that Sunday before you build the evening around it.",
+    },
+    {
+      title: "A colmado evening",
+      blurb:
+        "Buy a grande Presidente vestida de novia, dressed as a bride, meaning frosted white, get plastic cups, take a plastic chair on the sidewalk and let the neighborhood happen. The colmado is grocery, bar, social club and delivery lifeline in one, and the chair is full membership for the evening.",
+    },
+    {
+      title: "The Malecón at golden hour",
+      blurb:
+        "Joggers, couples, domino tables, kites: a scene, not a sight. Stay where it is animated, and when it gets dark, ride home rather than walking the empty stretches.",
+    },
+    {
+      title: "Winter baseball at Estadio Quisqueya",
+      blurb:
+        "Mid-October to late January, Licey in blue and Escogido in red share the same stadium, so the rivalry is home for both sides and the evening games are the city talking to itself. Out of season there is simply nothing to see, so check the calendar before promising anyone baseball.",
+    },
+    {
+      title: "Los Tres Ojos, honestly",
+      blurb:
+        "Open-air limestone caves with sulfur-blue lagoons ten minutes across the river, a real natural wonder full of Dominican school groups, which is its own endorsement. Entry is cheap, plus a small cash fare for the hand-pulled ferry to the hidden fourth lake. The steps are steep and slick, so go early and wear real shoes.",
+    },
+  ],
+  photoSpots: [
+    {
+      title: "Calle Hostos, uphill to the ruins",
+      blurb:
+        "The most photographed street in the Zona, and it earns it: steep cobbles, stairs on both sides, the monastery arches closing the frame at the top. Late afternoon warms the stone, and on Sunday evenings Bonyé puts a crowd at the top of your frame.",
+      locations: [
+        {
+          lat: 18.476,
+          lng: -69.8857,
+          precision: "approximate",
+          facing: "N",
+          facingNote: "shooting uphill to the monastery arches closing the frame",
+          label: "Low on Calle Hostos, below the ruins",
+        },
+      ],
+    },
+    {
+      title: "Plaza de España at blue hour",
+      blurb:
+        "The wide flagstones with the Alcázar de Colón, Diego Columbus's 1510s palace, its lit facade against a sky that still holds colour. Early morning gets you the empty version.",
+      locations: [
+        {
+          lat: 18.4772,
+          lng: -69.8831,
+          precision: "exact",
+          facing: "NE",
+          facingNote: "across the flagstones to the Alcázar facade",
+          label: "Center of the plaza",
+        },
+      ],
+    },
+    {
+      title: "Calle Las Damas at the Fortaleza Ozama",
+      blurb:
+        "The first paved street of the Americas, lantern-lined, with early morning low sun raking the cobbles before the cruise groups arrive. Climb the Torre del Homenaje inside the fort for the river-mouth panorama.",
+      locations: [
+        {
+          lat: 18.4723,
+          lng: -69.8819,
+          precision: "approximate",
+          facing: "N",
+          facingNote:
+            "from the Fortaleza gate up the street; a second frame waits on the Torre del Homenaje roof inside",
+          label: "Fortaleza Ozama gate",
+        },
+      ],
+    },
+    {
+      title: "Parque Colón and the first cathedral",
+      blurb:
+        "The coral-limestone cathedral across a pigeon-filled square. First light to about nine is locals-only foot traffic, shoeshine men and domino players in the foreground; avoid midday on ship days.",
+      locations: [
+        {
+          lat: 18.4734,
+          lng: -69.884,
+          precision: "exact",
+          facing: "S",
+          facingNote: "from the Columbus statue toward the coral-limestone front",
+          label: "By the Columbus statue",
+        },
+      ],
+    },
+    {
+      title: "The Obelisco on the Malecón at sunset",
+      blurb:
+        "The muraled obelisk against the Caribbean: silhouettes and kites at golden hour, or the long-exposure traffic version after dark from the same sidewalk. Go and come back by car once the light is gone.",
+    },
+  ],
+};
+
 export const countries: Country[] = [
   {
     slug: "india",
@@ -4818,8 +5115,9 @@ export const countries: Country[] = [
     region: "North America",
     blurb: "Salt rim, sunset, then three blocks inland to eat.",
     cities: [
-      city("mexico", "Mexico", "puerto-vallarta", "Puerto Vallarta", "Cobblestones to the sea."),
+      mexicoCity,
       cabo,
+      city("mexico", "Mexico", "puerto-vallarta", "Puerto Vallarta", "Cobblestones to the sea."),
     ],
   },
   {
@@ -4827,10 +5125,8 @@ export const countries: Country[] = [
     name: "Dominican Republic",
     flag: "🇩🇴",
     region: "Caribbean",
-    blurb: "Santo Domingo up first, notes still in the darkroom.",
-    cities: [
-      city("dominican-republic", "Dominican Republic", "santo-domingo", "Santo Domingo", "First city of the New World."),
-    ],
+    blurb: "Zona mornings, la bandera at noon, a colmado chair by night.",
+    cities: [santoDomingo],
   },
   {
     slug: "canada",

@@ -551,15 +551,17 @@
 }
 
 .country-rail-kicker {
-  margin: 0 0 6px;
-  color: rgba(247, 234, 217, 0.85);
+  display: inline-block;
+  margin: 0 0 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  /* A solid dark chip: halos alone lose this small type against bright sky. */
+  color: rgba(247, 234, 217, 0.95);
+  background: rgba(24, 10, 4, 0.62);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  text-shadow:
-    0 0 3px rgba(24, 10, 4, 0.9),
-    0 1px 2px rgba(24, 10, 4, 0.85);
 }
 
 .country-rail-title {

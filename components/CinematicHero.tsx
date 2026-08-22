@@ -32,12 +32,6 @@ const smoothstep = (e0: number, e1: number, v: number) => {
 
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
-function segmentInOut(s: number, a: number, b: number, c: number, d: number) {
-  const enter = smoothstep(a, b, s);
-  const exit = smoothstep(c, d, s);
-  return { enter, exit, active: enter * (1 - exit) };
-}
-
 type CinematicHeroProps = {
   countryPills: CountryPill[];
   cityCount: number;
@@ -64,7 +58,6 @@ export default function CinematicHero({
     let mouseY = 0;
     let targetScroll = 0;
     let smoothScroll = 0;
-    let initialized = false;
     let rafPending = false;
     let disposed = false;
 
@@ -84,41 +77,55 @@ export default function CinematicHero({
       if (disposed) return;
 
       targetScroll = getScrollDistance();
-      if (!initialized || reduceMotion.matches) {
-        smoothScroll = targetScroll;
-        initialized = true;
-      } else {
-        smoothScroll = lerp(smoothScroll, targetScroll, 0.14);
-      }
-      if (Math.abs(smoothScroll - targetScroll) < 0.08) {
-        smoothScroll = targetScroll;
-      }
+      /* Lenis already eases the document itself, so a second lerp here
+         would only add lag; track the real position. */
+      smoothScroll = targetScroll;
 
       mouseX = lerp(mouseX, targetMouseX, 0.12);
       mouseY = lerp(mouseY, targetMouseY, 0.12);
 
-      /* Timing note: every window below spans 700-900px of scroll. Shorter
-         windows read as elements blinking in and out instead of easing, and
-         the whole runway (5400px, set in cinematic.css) is sized so a normal
-         scroll pace feels near-linear rather than choreographed. */
-      const frame2 = segmentInOut(smoothScroll, 800, 1600, 2300, 3000);
-      const frame3 = segmentInOut(smoothScroll, 3050, 3850, 4300, 5000);
-      const progress = clamp(smoothScroll / 5000);
-      const introExit = smoothstep(100, 1000, smoothScroll);
-      /* The country rail is the landing: it arrives as the final frame
-         settles, and its pills stagger in via the is-landed class below. */
-      const railEnter = smoothstep(4900, 5350, smoothScroll);
+      /* The backdrop's frames follow the content. Each in-flow section
+         reports where it is in the viewport (0 = top edge at the bottom of
+         the screen, 1 = bottom edge at the top), and the scene changes are
+         keyed to those positions instead of absolute scroll distances, so
+         the timing holds at any viewport height and the page itself moves. */
+      const vh = window.innerHeight;
+      const flow = section.querySelectorAll<HTMLElement>(".flow-section");
+      const sectionProgress = (el: HTMLElement | undefined) => {
+        if (!el) return 0;
+        const r = el.getBoundingClientRect();
+        return clamp((vh - r.top) / (vh + r.height));
+      };
+      const p2 = sectionProgress(flow[0]);
+      const p3 = sectionProgress(flow[1]);
+      const pRail = sectionProgress(flow[2]);
+      const frameFor = (p: number) => {
+        const enter = smoothstep(0, 0.45, p);
+        const exit = smoothstep(0.55, 1, p);
+        return { enter, exit, active: enter * (1 - exit) };
+      };
+      const frame2 = frameFor(p2);
+      const frame3 = frameFor(p3);
+      const maxDist = Math.max(1, section.offsetHeight - vh);
+      const progress = clamp(smoothScroll / maxDist);
+      const introExit = smoothstep(0.02, 0.4, p2);
       const blurActive = clamp(frame2.active + frame3.active);
       const frame2Opacity = frame2.active * (1 - frame3.enter);
       /* Linear in the eased enter: the pow() acceleration made the side
          walls lurch on fast scrolls. */
       const splitDrift = frame2.enter;
-      const panel2Opacity = frame2.active * (1 - frame2.exit);
-      const panel3Opacity = frame3.active * (1 - frame3.exit);
       const backScale =
         0.76 + progress * 0.2 + frame2.enter * 0.18 + frame3.enter * 0.16;
       const sharedHeroY = progress * -74;
       const sharedHeroScale = progress * 0.23;
+
+      /* Each section's own reveal: fade and a slight float as it travels. */
+      flow.forEach((el) => {
+        const p = sectionProgress(el);
+        const o = smoothstep(0.04, 0.28, p) * (1 - smoothstep(0.72, 0.96, p));
+        el.style.setProperty("--sec-o", o.toFixed(4));
+        el.style.setProperty("--sec-y", `${((0.5 - p) * 48).toFixed(1)}px`);
+      });
 
       setVar("--mx", (reduceMotion.matches ? 0 : mouseX).toFixed(4));
       setVar("--my", (reduceMotion.matches ? 0 : mouseY).toFixed(4));
@@ -195,21 +202,10 @@ export default function CinematicHero({
 
       setVar("--intro-copy-y", `${introExit * 90}px`);
       setVar("--intro-copy-opacity", 1 - introExit);
-      setVar("--panel2-opacity", panel2Opacity);
-      setVar(
-        "--panel2-y",
-        `calc(-50% + ${-frame2.exit * 86 + (1 - frame2.enter) * 58}px)`
-      );
-      setVar("--panel3-opacity", panel3Opacity);
-      setVar(
-        "--panel3-y",
-        `calc(-50% + ${-frame3.exit * 86 + (1 - frame3.enter) * 58}px)`
-      );
 
-      setVar("--rail-enter", railEnter);
       section
         .querySelector(".country-rail")
-        ?.classList.toggle("is-landed", railEnter > 0.6);
+        ?.classList.toggle("is-landed", pRail > 0.25);
 
       if (
         Math.abs(smoothScroll - targetScroll) > 0.08 ||
@@ -338,6 +334,10 @@ export default function CinematicHero({
           </div>
         </section>
 
+      </div>
+
+      <div className="cinema-flow">
+        <div className="flow-section">
         <section
           className="story-panel story-panel-bridge"
           aria-label="About the journal"
@@ -358,7 +358,9 @@ export default function CinematicHero({
             </div>
           </dl>
         </section>
+        </div>
 
+        <div className="flow-section">
         <section
           className="story-panel story-panel-bazaar"
           aria-label="How the guides work"
@@ -373,12 +375,14 @@ export default function CinematicHero({
             <span>Browse the destinations</span>
           </Link>
         </section>
+        </div>
 
         {/*
           * The landing pad. Once the final frame has settled, a rail of flag
           * pills floats up so the scroll ends on a choice rather than a dead
           * stop; each pill jumps to that country's card in the index below.
           */}
+        <div className="flow-section flow-section-rail">
         <nav className="country-rail" aria-label="Pick a destination">
           <p className="country-rail-kicker">
             {cityCount} city guides across {countryCount} countries
@@ -398,6 +402,7 @@ export default function CinematicHero({
             ))}
           </ul>
         </nav>
+        </div>
       </div>
     </section>
   );

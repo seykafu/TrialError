@@ -3,7 +3,7 @@
 
 .cinema-scroll {
   position: relative;
-  height: calc(100vh + 5400px);
+  height: auto;
 
   --mx: 0;
   --my: 0;
@@ -47,11 +47,6 @@
   --frame2-scale: 1.06;
   --intro-copy-y: 0px;
   --intro-copy-opacity: 1;
-  --panel2-opacity: 0;
-  --panel2-y: calc(-50% + 58px);
-  --panel3-opacity: 0;
-  --panel3-y: calc(-50% + 58px);
-  --rail-enter: 0;
   --sky-pos-y: 22%;
 
   --hero-ink: #221410;
@@ -92,6 +87,29 @@
   inset: 0;
   overflow: hidden;
   background: #c08252;
+}
+
+/* ---------- in-flow content over the sticky backdrop ---------- */
+
+/*
+ * The stage stays pinned as a backdrop; these sections are normal document
+ * flow stacked after it, so the reader genuinely travels down the page while
+ * the scene behind them changes. Each gets its own reveal from the engine.
+ */
+.cinema-flow {
+  position: relative;
+  z-index: 9;
+}
+
+.flow-section {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 0 20px;
+  opacity: var(--sec-o, 1);
+  transform: translate3d(0, var(--sec-y, 0px), 0);
+  will-change: transform, opacity;
 }
 
 /* ---------- header ---------- */
@@ -408,14 +426,11 @@
 }
 
 .story-panel {
+  position: relative;
   z-index: 10;
-  left: 50%;
-  top: 45%;
   width: min(760px, calc(100vw - 42px));
   text-align: center;
   pointer-events: none;
-  transform: translate3d(-50%, -50%, 0);
-  will-change: transform, opacity;
 }
 
 .story-panel h2 {
@@ -440,18 +455,6 @@
   text-shadow:
     0 1px 4px rgba(24, 10, 4, 0.6),
     0 2px 18px rgba(24, 10, 4, 0.45);
-}
-
-.story-panel-bridge {
-  top: 60%;
-  opacity: var(--panel2-opacity);
-  transform: translate3d(-50%, var(--panel2-y), 0);
-}
-
-.story-panel-bazaar {
-  top: 29%;
-  opacity: var(--panel3-opacity);
-  transform: translate3d(-50%, var(--panel3-y), 0);
 }
 
 /*
@@ -528,16 +531,12 @@
 /* ---------- country rail (final-frame landing pad) ---------- */
 
 .country-rail {
+  position: relative;
   z-index: 9;
-  left: 50%;
-  bottom: clamp(44px, 11vh, 130px);
   width: min(1100px, calc(100vw - 32px));
   text-align: center;
-  opacity: var(--rail-enter);
   visibility: hidden;
-  transform: translate3d(-50%, calc((1 - var(--rail-enter)) * 34px), 0);
   pointer-events: none;
-  will-change: transform, opacity;
 }
 
 /*
@@ -705,9 +704,6 @@
 }
 
 @media (max-width: 640px) {
-  .country-rail {
-    bottom: 18px;
-  }
   .country-rail-list {
     gap: 8px;
   }
@@ -766,12 +762,6 @@
     padding: 0 16px;
     font-size: 0.88rem;
   }
-  .story-panel {
-    top: 42%;
-  }
-  .story-panel-bazaar {
-    top: 26%;
-  }
   .story-panel h2 {
     font-size: 2.45rem;
   }
@@ -785,6 +775,10 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .flow-section {
+    opacity: 1;
+    transform: none;
+  }
   .country-rail-kicker,
   .country-rail-title,
   .country-rail-list li {

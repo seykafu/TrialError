@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import CinematicHero from "@/components/CinematicHero";
+import SmoothScroll from "@/components/SmoothScroll";
 import SiteFooter from "@/components/SiteFooter";
 import {
   countriesWithPublishedCities,
@@ -30,6 +31,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
+      <SmoothScroll />
       <CinematicHero
         countryPills={countryPills}
         cityCount={publishedCities.length}

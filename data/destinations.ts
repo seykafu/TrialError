@@ -5082,7 +5082,7 @@ export const countries: Country[] = [
     name: "Australia",
     flag: "🇦🇺",
     region: "Oceania",
-    blurb: "The ferry is the commute and the ocean pool is the gym.",
+    blurb: "Know your coffee order before the ferry docks.",
     cities: [
       sydney,
       melbourne,
@@ -5265,6 +5265,25 @@ export const countriesWithPublishedCities: Country[] = countries
 /* Flag pills for the hero's final frame; only countries with something to read. */
 export const countryPills: CountryPill[] = countriesWithPublishedCities.map(
   ({ slug, name, flag }) => ({ slug, name, flag })
+);
+
+/* The full clickable index for the hero finale, slimmed so the client
+   component ships names and slugs rather than whole City objects. */
+export type CountryIndexEntry = CountryPill & {
+  region: string;
+  blurb: string;
+  cities: { slug: string; name: string }[];
+};
+
+export const countryIndex: CountryIndexEntry[] = countriesWithPublishedCities.map(
+  ({ slug, name, flag, region, blurb, cities }) => ({
+    slug,
+    name,
+    flag,
+    region,
+    blurb,
+    cities: cities.map((c) => ({ slug: c.slug, name: c.name })),
+  })
 );
 
 export function getPublishedCountry(slug: string): Country | undefined {

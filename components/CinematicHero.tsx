@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
-import type { CountryPill } from "@/data/destinations";
+import type { CountryIndexEntry } from "@/data/destinations";
 import "./cinematic.css";
 
 /* Cinematic scene layers (mix of local photography + motion graphics). */
@@ -33,13 +33,13 @@ const smoothstep = (e0: number, e1: number, v: number) => {
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
 type CinematicHeroProps = {
-  countryPills: CountryPill[];
+  countryIndex: CountryIndexEntry[];
   cityCount: number;
   countryCount: number;
 };
 
 export default function CinematicHero({
-  countryPills,
+  countryIndex,
   cityCount,
   countryCount,
 }: CinematicHeroProps) {
@@ -109,7 +109,10 @@ export default function CinematicHero({
       const maxDist = Math.max(1, section.offsetHeight - vh);
       const progress = clamp(smoothScroll / maxDist);
       const introExit = smoothstep(0.02, 0.4, p2);
-      const blurActive = clamp(frame2.active + frame3.active);
+      /* As the index arrives, defocus and dim the whole scene so the cards
+         read; railBlur also joins the shade alphas below. */
+      const railBlur = smoothstep(0.05, 0.4, pRail);
+      const blurActive = clamp(frame2.active + frame3.active + railBlur);
       const frame2Opacity = frame2.active * (1 - frame3.enter);
       /* Linear in the eased enter: the pow() acceleration made the side
          walls lurch on fast scrolls. */
@@ -139,7 +142,10 @@ export default function CinematicHero({
       setVar("--bazaar-y", `${20 - progress * 8}vh`);
       setVar("--blur-px", `${blurActive * 14}px`);
       setVar("--back-brightness", 1 - blurActive * 0.255);
-      setVar("--bazaar-blur-px", `${frame2.active * 14}px`);
+      setVar(
+        "--bazaar-blur-px",
+        `${Math.max(frame2.active, railBlur) * 14}px`
+      );
       setVar(
         "--bazaar-brightness",
         1 - frame2.active * 0.255 - frame3.active * 0.06
@@ -378,26 +384,46 @@ export default function CinematicHero({
         </div>
 
         {/*
-          * The landing pad. Once the final frame has settled, a rail of flag
-          * pills floats up so the scroll ends on a choice rather than a dead
-          * stop; each pill jumps to that country's card in the index below.
+          * The landing pad, and the index itself: once the backdrop has
+          * blurred, every country and city is clickable right here. Carries
+          * id="browse" so the header's Countries link still lands on it.
           */}
-        <div className="flow-section flow-section-rail">
+        <div className="flow-section flow-section-rail" id="browse">
         <nav className="country-rail" aria-label="Pick a destination">
           <p className="country-rail-kicker">
             {cityCount} city guides across {countryCount} countries
           </p>
           <p className="country-rail-title">Pick a destination</p>
-          <ul className="country-rail-list">
-            {countryPills.map((country) => (
+          <ul className="country-index mt-10 grid list-none gap-4 p-0 text-left sm:grid-cols-2 lg:grid-cols-3">
+            {countryIndex.map((country) => (
               <li key={country.slug}>
-                <Link
-                  className="country-pill"
-                  href={`/destinations/${country.slug}`}
-                >
-                  <span aria-hidden="true">{country.flag}</span>
-                  <span>{country.name}</span>
-                </Link>
+                <article className="h-full rounded-3xl border border-ink/10 bg-paper/95 p-5 shadow-[0_14px_40px_rgba(24,10,4,0.25)]">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <h3 className="font-display text-xl font-medium text-ink">
+                      <Link
+                        href={`/destinations/${country.slug}`}
+                        className="transition hover:text-terracotta"
+                      >
+                        {country.flag} {country.name}
+                      </Link>
+                    </h3>
+                    <span className="text-[10px] uppercase tracking-widest text-ink/50">
+                      {country.region}
+                    </span>
+                  </div>
+                  <ul className="mt-3 flex list-none flex-wrap gap-2 p-0">
+                    {country.cities.map((c) => (
+                      <li key={c.slug}>
+                        <Link
+                          href={`/destinations/${country.slug}/${c.slug}`}
+                          className="inline-block rounded-full border border-ink/15 bg-paper px-3 py-1 text-xs font-medium text-ink transition hover:border-terracotta hover:bg-terracotta hover:text-paper"
+                        >
+                          {c.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </article>
               </li>
             ))}
           </ul>

@@ -104,6 +104,8 @@
 .flow-section {
   position: relative;
   min-height: 100vh;
+  padding-top: clamp(64px, 9vh, 120px);
+  padding-bottom: clamp(64px, 9vh, 120px);
   display: grid;
   place-items: center;
   padding: 0 20px;
@@ -533,7 +535,7 @@
 .country-rail {
   position: relative;
   z-index: 9;
-  width: min(1100px, calc(100vw - 32px));
+  width: min(1160px, calc(100vw - 32px));
   text-align: center;
   visibility: hidden;
   pointer-events: none;
@@ -579,7 +581,7 @@
    spring. Driven by is-landed, so it plays on arrival and reverses cleanly. */
 .country-rail-kicker,
 .country-rail-title,
-.country-rail-list li {
+.country-index > li {
   opacity: 0;
   transform: translateY(22px) scale(0.94);
   transition:
@@ -589,7 +591,7 @@
 
 .country-rail.is-landed .country-rail-kicker,
 .country-rail.is-landed .country-rail-title,
-.country-rail.is-landed .country-rail-list li {
+.country-rail.is-landed .country-index > li {
   opacity: 1;
   transform: none;
 }
@@ -597,77 +599,51 @@
 .country-rail.is-landed .country-rail-title {
   transition-delay: 0.05s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(1) {
-  transition-delay: 0.17s;
+.country-rail.is-landed .country-index > li:nth-child(1) {
+  transition-delay: 0.14s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(2) {
+.country-rail.is-landed .country-index > li:nth-child(2) {
+  transition-delay: 0.18s;
+}
+.country-rail.is-landed .country-index > li:nth-child(3) {
   transition-delay: 0.22s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(3) {
-  transition-delay: 0.27s;
+.country-rail.is-landed .country-index > li:nth-child(4) {
+  transition-delay: 0.26s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(4) {
-  transition-delay: 0.32s;
+.country-rail.is-landed .country-index > li:nth-child(5) {
+  transition-delay: 0.30s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(5) {
-  transition-delay: 0.37s;
+.country-rail.is-landed .country-index > li:nth-child(6) {
+  transition-delay: 0.34s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(6) {
+.country-rail.is-landed .country-index > li:nth-child(7) {
+  transition-delay: 0.38s;
+}
+.country-rail.is-landed .country-index > li:nth-child(8) {
   transition-delay: 0.42s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(7) {
-  transition-delay: 0.47s;
+.country-rail.is-landed .country-index > li:nth-child(9) {
+  transition-delay: 0.46s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(8) {
-  transition-delay: 0.52s;
+.country-rail.is-landed .country-index > li:nth-child(10) {
+  transition-delay: 0.50s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(9) {
-  transition-delay: 0.57s;
+.country-rail.is-landed .country-index > li:nth-child(11) {
+  transition-delay: 0.54s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(10) {
+.country-rail.is-landed .country-index > li:nth-child(12) {
+  transition-delay: 0.58s;
+}
+.country-rail.is-landed .country-index > li:nth-child(13) {
   transition-delay: 0.62s;
 }
-.country-rail.is-landed .country-rail-list li:nth-child(11) {
-  transition-delay: 0.67s;
-}
-.country-rail.is-landed .country-rail-list li:nth-child(12) {
-  transition-delay: 0.72s;
+.country-rail.is-landed .country-index > li:nth-child(14) {
+  transition-delay: 0.66s;
 }
 
-.country-rail-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-.country-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  min-height: 42px;
-  padding: 0 16px;
-  border-radius: 999px;
-  border: 1px solid rgba(247, 234, 217, 0.35);
-  color: var(--hero-ink);
-  background: rgba(247, 234, 217, 0.94);
-  font-size: 0.92rem;
-  font-weight: 600;
-  text-decoration: none;
-  box-shadow: 0 12px 30px rgba(24, 10, 4, 0.22);
-  transition: background 160ms ease, transform 160ms ease;
-}
 
-.country-pill:hover,
-.country-pill:focus-visible {
-  background: var(--terracotta, #c4552b);
-  color: var(--hero-paper);
-  transform: translateY(-2px);
-  outline: none;
-}
 
 /* ---------- media queries ---------- */
 
@@ -704,15 +680,7 @@
 }
 
 @media (max-width: 640px) {
-  .country-rail-list {
-    gap: 8px;
-  }
-  .country-pill {
-    min-height: 38px;
-    padding: 0 12px;
-    font-size: 0.84rem;
-  }
-
+    
   .cinema-scroll {
     --sky-pos-y: 30%;
   }
@@ -781,7 +749,7 @@
   }
   .country-rail-kicker,
   .country-rail-title,
-  .country-rail-list li {
+  .country-index > li {
     transition: none;
     transform: none;
     opacity: 1;

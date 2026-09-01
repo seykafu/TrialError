@@ -5325,6 +5325,166 @@ const chandigarh: City = {
   ],
 };
 
+const puertoVallarta: City = {
+  slug: "puerto-vallarta",
+  name: "Puerto Vallarta",
+  countrySlug: "mexico",
+  countryName: "Mexico",
+  contentStatus: "published",
+  tagline: "Cobblestones to the sea.",
+  intro:
+    "Puerto Vallarta was a town before it was a resort, and the town never left; it just moved a few blocks inland. The bay is a string of colonias, so do the malecon as the town's own evening paseo, eat where the workers' colonias eat (Versalles is where the city goes out now), and use the pangas the way locals use buses. November to April is the dry season, the whales pass December to March, and summer runs on sunny mornings and dramatic afternoon storms.",
+  stay: {
+    title: "Hotel Rosita, where the malecon begins",
+    blurb:
+      "Puerto Vallarta's first formal hotel, built in 1948 by Salvador González and named for his daughter, still family-run and grown from three rooms to 115. The Night of the Iguana crowd passed through in 1962, when the film invented this town's fame, and it stands exactly where the malecon begins, with 5 de Diciembre's taco streets behind it. A three-star with vintage bones, which is the point.",
+    url: "https://www.expedia.com/Puerto-Vallarta-Hotels-Rosita-Hotel.h889365.Hotel-Information",
+  },
+  reserve: {
+    title: "Tintoque, on the Rio Cuale",
+    blurb:
+      "A hometown chef's tasting-menu room in a restored casona over the river, local sustainable fish handled obsessively, and the national good-food lists have noticed for years running. This is the page's one dressed-up night, so book ahead.",
+    url: "https://www.opentable.com/r/tintoque-puerto-vallarta",
+  },
+  cultureTips: [
+    "Tip 10 to 15 percent in pesos and read the bill for a pre-added propina; at carts it's the coin cup, and tip the flyers and the beach musicians, because performance is their wage.",
+    "The panga is public transit with no meter, so confirm the fare and the return time before you board, and keep your ticket.",
+    "The malecon is the town's living room in the evening, so match the register; the sand sculptures took someone all day, so photograph, drop a coin, and don't climb.",
+    "The Zona Romántica has been the heart of Mexico's most established LGBTQ+ beach destination since the 1980s, and in 2025 the city moved to formalize it as its first LGBTQ+ Friendly District; all visitors are guests in that reality, and it's also simply the neighborhood everyone strolls.",
+    "Uber works citywide and is usually cheaper; at the airport, cross the pedestrian bridge for pickup, and the yellow cabs have no meters, so agree the fare first.",
+  ],
+  eats: [
+    {
+      title: "Birriería Robles, El Pitillal",
+      blurb:
+        "The birria benchmark in a city where birria is a morning food, run by the same family for decades on the plaza grid in El Pitillal. Birria de res in crispy-shell tacos, plus the consomé, which is the point. Cash only, birria hours, so go before noon; this is breakfast, not lunch.",
+    },
+    {
+      title: "Marisma Fish Taco, 5 de Diciembre",
+      blurb:
+        "The consensus fish-taco stand of the old town side, a cart on Calle Naranjo that turned into an institution. Battered fish and shrimp tacos, smoked marlin, and you build it yourself from the salsa bar. Cash only, the hours wobble, and lunchtime is your best odds.",
+    },
+    {
+      title: "El Carboncito, 5 de Diciembre",
+      blurb:
+        "The late-night al pastor answer: a charcoal trompo on Calle Honduras, open evening to around two, which is exactly the hour al pastor is for. Tacos and a gringa. The line forms by half seven, and it's cash only.",
+    },
+    {
+      title: "Lamara, Versalles",
+      blurb:
+        "The mariscos counter on Calle Hamburgo that made outsiders notice Versalles: aguachiles with mango or maracuyá, plus whatever ceviche the board says. Hamburgo is turning into the city's most interesting eating street, and Abulon across the way is the counter-nomination, grilled octopus and families with a trampoline, which tells you who the customers are.",
+    },
+    {
+      title: "Tintoque, at the Rio Cuale",
+      blurb:
+        "The one dressed-up pick on this page, and the reserve card below. Chef Joel Ornelas was born here, cooked abroad and came home, and now runs a changing tasting menu on local sustainable fish in a restored casona over the river. Book ahead.",
+    },
+  ],
+  experiences: [
+    {
+      title: "The malecon at sunset, as the town's paseo",
+      blurb:
+        "A mile of car-free seawall the whole city walks after six: families, quinceañera photos, ice cream. The Papantla flyers descend their pole through the evening (tip them, that is the economy), and on high-season Sundays the Xiutla dancers fill the Los Arcos amphitheater, donations welcome; confirm locally which nights.",
+    },
+    {
+      title: "An evening on the Pitillal plaza",
+      blurb:
+        "Twenty minutes inland is the working town inside the city. Food stands ring the square at night, and the parish holds a risen Christ nearly five metres tall, carved from red cedar, that arrived by procession in 1992. Morning birria or an evening plaza loop; either way you eat standing.",
+    },
+    {
+      title: "Isla Cuale, honestly",
+      blurb:
+        "A jungle island in the middle of downtown, reached by suspension bridges, with a cultural center where local kids take music classes, a John Huston statue and famously well-fed cats. The stalls sell the same souvenirs as everywhere, and renovation works may have parts of it scaffolded, so go for the shade, the river and the cats rather than the shopping.",
+    },
+    {
+      title: "The panga south",
+      blurb:
+        "The south shore has no road, so the water taxi is the bus. Orange bus to Boca de Tomatlán, then a shared panga off the beach to Colomitos (five minutes, or a jungle hike) or Las Ánimas, the family beach with palapas. Agree the price and the return time before you board, pay in pesos, and treat the last boat as real, because it is. Boca itself, pelicans and net menders, is half the show.",
+    },
+    {
+      title: "The Versalles crawl",
+      blurb:
+        "A middle-class colonia with streets named for European cities that became the city's dinner table in a decade. Start on Hamburgo and wander the grid, where tortas ahogadas and third-wave coffee share blocks with hardware stores that have not noticed the boom. It's gentrifying in real time, and it's an eating neighborhood rather than a sight, so come hungry or not at all.",
+    },
+  ],
+  photoSpots: [
+    {
+      title: "Los Muertos Pier at blue hour",
+      blurb:
+        "The sail-rigged pier lit in colors after dark, shot from the sand just north with pangas in the foreground. In daylight the water taxis load here, which is the working version of the same frame.",
+      locations: [
+        {
+          lat: 20.6006,
+          lng: -105.2394,
+          precision: "exact",
+          facing: "S",
+          facingNote: "from the sand just north of the pier, the lit sail with pangas in the foreground",
+          label: "North side of the pier, on the sand",
+        },
+      ],
+    },
+    {
+      title: "La Rotonda del Mar, on the malecon",
+      blurb:
+        "Colunga's circle of surrealist bronze thrones, silhouetted at sunset with strangers sitting in them, which is the point of the piece. The boy on a seahorse, the city's logo in bronze, is a short walk south.",
+      locations: [
+        {
+          lat: 20.6114,
+          lng: -105.2346,
+          precision: "exact",
+          facing: "W",
+          facingNote: "the thrones silhouetted against the sunset over the bay",
+          label: "The Rotonda, on the seawall",
+        },
+      ],
+    },
+    {
+      title: "The crown of the Guadalupe parish",
+      blurb:
+        "The crowned tower against the sky from the malecon side. The 1965 crown fell in the 1995 earthquake, a fiberglass stand-in held the job for years, and the permanent replacement went up in 2009. It's a working church, so dress like it.",
+      locations: [
+        {
+          lat: 20.6083,
+          lng: -105.2347,
+          precision: "exact",
+          facing: "E",
+          facingNote: "from the malecón side, so the crown reads against open sky",
+          label: "The parish, two blocks in from the seawall",
+        },
+      ],
+    },
+    {
+      title: "Mirador de la Cruz",
+      blurb:
+        "The full red-tile sweep of Centro, the crown, the malecon curve and the bay, up the steep white staircase from Calle Abasolo, fifteen to twenty sweaty minutes. Late afternoon, then walk down before full dark, and carry water.",
+      locations: [
+        {
+          lat: 20.6098,
+          lng: -105.2297,
+          precision: "exact",
+          facing: "W",
+          facingNote: "the red-tile sweep of Centro, the crown and the bay below",
+          label: "Top of the Abasolo staircase",
+        },
+      ],
+    },
+    {
+      title: "The Isla Cuale suspension bridges",
+      blurb:
+        "Mid-bridge: wobbling planks running into jungle canopy, the river below, cats posing on the island. Texture rather than skyline, so it survives an overcast rainy-season day.",
+      locations: [
+        {
+          lat: 20.6058,
+          lng: -105.2335,
+          precision: "neighborhood",
+          facingNote: "the bridges hang at both ends of the island; this pin is the island itself",
+          label: "Isla Cuale",
+        },
+      ],
+    },
+  ],
+};
+
 export const countries: Country[] = [
   {
     slug: "india",
@@ -5428,7 +5588,7 @@ export const countries: Country[] = [
     cities: [
       mexicoCity,
       cabo,
-      city("mexico", "Mexico", "puerto-vallarta", "Puerto Vallarta", "Cobblestones to the sea."),
+      puertoVallarta,
     ],
   },
   {

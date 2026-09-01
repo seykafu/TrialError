@@ -5028,6 +5028,303 @@ const santoDomingo: City = {
   ],
 };
 
+const chongqing: City = {
+  slug: "chongqing",
+  name: "Chongqing",
+  countrySlug: "china",
+  countryName: "China",
+  contentStatus: "published",
+  tagline: "Which floor is the ground floor.",
+  intro:
+    "Chongqing is a peninsula wedged between the Yangtze and the Jialing, on ridges so steep that which floor is the ground floor is a legitimate question: a building's 1st, 10th, and 15th floors can each open onto a different street. The metro threads through an apartment block and a 1987 cable car is still crossing the Yangtze, so the commute is half the show. Honest weather note: winter fog can delete the skyline, so shoot staircases and teahouses those days, and July and August are furnace heat, so stairs at dawn, caves at midday, bridges at night.",
+  stay: {
+    title: "InterContinental Raffles City, Chaotianmen",
+    blurb:
+      "The hotel takes the upper floors of the Raffles City towers at Chaotianmen, beneath The Crystal, the 300-metre horizontal skyscraper laid across four towers above the point where the two rivers meet, and the river-view rooms look straight down the Yangtze. For a page about verticality, sleeping inside the building that lies down sideways in the sky, above the old docks, is the only pick.",
+    url: "https://www.expedia.com/Chongqing-Hotels-Intercontinental-Chongqing-Raffles-City.h48291948.Hotel-Information",
+  },
+  cultureTips: [
+    "Wei la, mildly spicy, is a respected order and still genuinely hot; the face-saving move is the yuanyang split pot, half red, half clear.",
+    "Real-name everything: hotels register passports and the cableway wants tickets matched to your passport name, so carry the physical passport.",
+    "Alipay and WeChat Pay take foreign cards with passport verification and the street runs on QR codes, so set it all up before landing.",
+    "Give way to a bangbang porter on the stairs, he's carrying more than you packed for the whole trip, and no candid close-ups without a nod.",
+    "The metro plus escalators and the cableway beat cars, since navigation apps and drivers both struggle with a city where the roads stack; stations have bag scans, so budget the queue.",
+  ],
+  eats: [
+    {
+      title: "Hua Shi Wanza Mian, Jiefangbei",
+      blurb:
+        "The name that starts arguments in a city that ranks noodle shops the way other cities rank football teams. Wanza mian is noodles under a pea-and-pork sauce, eaten fast on a plastic stool before work. It's famous enough that some locals now call it overrated, which is exactly why every local has an opinion.",
+    },
+    {
+      title: "Dongting Hotpot, in an air-raid shelter",
+      blurb:
+        "Roughly three decades of beef-tallow hotpot inside real WWII bomb-shelter tunnels off Zhongshan San Road, rock walls sweating with steam. Order tripe, duck blood, and pork throat, and run everything through the garlic-and-sesame-oil dip. The caves stay cool; the pot does not. Wear nothing you love.",
+    },
+    {
+      title: "Liziba Liangshan Chicken",
+      blurb:
+        "The flagship of jianghu home-style cooking: half a bird for two, braised in bright-red oil where the potatoes matter as much as the chicken. It's downhill from the train-through-the-building, so lunch pairs with the ride.",
+    },
+    {
+      title: "Hao Youlai Suan La Fen, Bayi Road",
+      blurb:
+        "The decades-old hot-and-sour sweet-potato-noodle stall anchoring the city's most famous snack street. Eat standing, then graze the rest of the street late. The street shuffles its stalls around, so follow the longest queue.",
+    },
+    {
+      title: "Jiaotong Teahouse, Huangjueping",
+      blurb:
+        "The last teahouse in the city still frozen in the 1980s, a transport-company canteen saved by a painter from the art school next door. Buy a cheap tuo cha, share a scarred table with the mahjong players under the skylight, and since the regulars are art students and retirees rather than props, ask before portraits.",
+    },
+  ],
+  experiences: [
+    {
+      title: "Ride Line 2 through the building",
+      blurb:
+        "Do Liziba as transit, not a pilgrimage: board a few stops upstream, take a river-side window along the Jialing cliffs, and stay on as the train passes through the eight-storey block. The crowd on the platform below is watching a train you could just be on. Then walk downhill and eat the chicken.",
+    },
+    {
+      title: "The Yangtze Cableway, timed right",
+      blurb:
+        "A 1987 commuter cable car turned attraction, and still the best four minutes over the river. Tickets are real-name, so book ahead with your passport name, and take a night slot when the queue thins and the far bank turns into circuitry.",
+    },
+    {
+      title: "Walk Shancheng Lane",
+      blurb:
+        "1.7 kilometres of stilt houses and stone stairs on the Yuzhong cliff face, with Ming wall fragments, mission buildings, laundry, and snack vendors along the way. Go late afternoon into dusk so you finish with the lights. People live here; people first.",
+    },
+    {
+      title: "The Huangguan Escalator like a commuter",
+      blurb:
+        "China's longest sloping escalator: 112 metres in about two and a half minutes for about 2 RMB, built so rail passengers didn't have to climb the hill. Half the riders are just going home, which is the point.",
+    },
+    {
+      title: "Eling Park and the Kuixinglou trick",
+      blurb:
+        "The old two-rivers overlook on the peninsula's spine, then the plaza around the corner that is street level on one side and twenty-two storeys of drop on the other. A new cliffside skywalk links Eling toward Fotuguan; it opened recently, so check the registration details locally.",
+    },
+  ],
+  photoSpots: [
+    {
+      title: "Hongya Dong from Qiansimen Bridge, late",
+      blurb:
+        "The honest version of the icon: skip the souvenir mall inside, stand on the bridge after ten when the crush thins, and shoot the stacked golden stilt-house facade over the river. The same architecture with residents still in it is Shancheng Lane, so spend the saved hour there.",
+      locations: [
+        {
+          lat: 29.5678,
+          lng: 106.5753,
+          precision: "exact",
+          facing: "S",
+          facingNote: "south across the Jialing to the stacked golden facade",
+          label: "Qiansimen Bridge pedestrian deck",
+        },
+      ],
+    },
+    {
+      title: "Liziba viewing platform",
+      blurb:
+        "The monorail sliding out of the apartment block. Sunset and after dark are the windows, and the trains are frequent, so you get plenty of attempts.",
+      locations: [
+        {
+          lat: 29.5557,
+          lng: 106.5339,
+          precision: "approximate",
+          label: "Viewing platform just below Liziba station",
+        },
+      ],
+    },
+    {
+      title: "Baixiangju corridors",
+      blurb:
+        "From the fifteenth-floor skybridge of a 1990s block with no elevator and street exits on floors 1, 10, and 15: the cableway head-on and the bridge framed in corridor windows. This is lived-in housing and access varies, so daytime only, quiet voices, and no lenses through open doors.",
+      locations: [
+        {
+          lat: 29.5585,
+          lng: 106.5813,
+          precision: "exact",
+          facing: "E",
+          facingNote:
+            "east from the skybridge corridors toward the cableway and Dongshuimen Bridge",
+          label: "Baixiangju, Baixiang Street; access varies, daytime only",
+        },
+      ],
+    },
+    {
+      title: "Nanshan Yikeshu platform at blue hour",
+      blurb:
+        "The full peninsula panorama from the south bank. Go on a day you can see the peninsula from the river bank, or don't go up; November to February haze can erase it entirely.",
+      locations: [
+        {
+          lat: 29.5479,
+          lng: 106.5988,
+          precision: "exact",
+          facing: "NW",
+          facingNote: "northwest across the Yangtze to the full peninsula",
+          label: "Yikeshu viewing platform, Nanshan",
+        },
+      ],
+    },
+    {
+      title: "Shancheng Lane walkway in late light",
+      blurb:
+        "The cantilevered cliff walkway with stilt houses overhead and the Yangtze below. This one is texture and stairs rather than skyline, which means it survives the foggy days.",
+      locations: [
+        {
+          lat: 29.5553,
+          lng: 106.5621,
+          precision: "approximate",
+          facingNote:
+            "the lane runs 1.7 km down the cliff face; this pin is the upper trailhead",
+          label: "Shancheng Lane upper trailhead",
+        },
+      ],
+    },
+  ],
+};
+
+const chandigarh: City = {
+  slug: "chandigarh",
+  name: "Chandigarh",
+  countrySlug: "india",
+  countryName: "India",
+  contentStatus: "published",
+  tagline: "A city drawn with a ruler.",
+  intro:
+    "Le Corbusier drew this city with a ruler in the 1950s, self-contained sectors on a grid, and seventy years later the plan has worn in like a favorite jacket; the soul got smuggled in anyway, by a roads inspector building the Rock Garden in secret at night. Day to day the city runs on dawn laps at Sukhna Lake, sector-market chaat and slow rounds of the gehri route. October to March is the window, and give it a night instead of a day trip: the two best things here, dawn at the lake and a weekday Capitol tour, both punish day-trippers.",
+  stay: {
+    title: "Hotel Mountview, Sector 10",
+    blurb:
+      "A garden hotel run by CITCO, the city's own tourism corporation, and an institution for decades: lawns against the Shivalik backdrop, on the quiet gehri-route side of town, ten to fifteen minutes from Sukhna Lake and the Rock Garden. The service runs sarkari, government-issue, which is part of the charm or the complaint depending on the guest; in a city that is itself a government project, it fits.",
+    url: "https://www.expedia.com/Chandigarh-Hotels-Hotel-Mountview.h8797415.Hotel-Information",
+  },
+  cultureTips: [
+    "The Capitol Complex is government in session, not a monument park: free tours at 10, 12 and 3, original passport in hand 15 minutes early, no photos inside the Assembly, and the escort's word is final.",
+    "Nobody meters here, so agree the auto fare before you sit down, or open the app instead.",
+    "The legal drinking age is 25 and national holidays are dry days; the excise rules shift yearly, so don't build an evening on assumptions.",
+    "The roundabout is the city's handshake: traffic yields and flows instead of stopping, so cross at the marked crossings and never mid-circle.",
+    "There is no Sector 13. The city that planned everything skipped a number, and sector numbers zigzag rather than run in order, so trust the map over arithmetic.",
+  ],
+  eats: [
+    {
+      title: "Pal Dhaba, Sector 28",
+      blurb:
+        "The benchmark dhaba since around 1960, and the answer locals give when you ask about butter chicken: desi-ghee heavy with butter floating on top, nothing like the sweet Delhi version. Order butter naan, don't ask for starters, and treat napkins as mandatory. The ambience is nil on purpose, and a few recent regulars grumble it has gotten oilier, which is what regulars are for.",
+    },
+    {
+      title: "Sindhi Sweets, Sector 17",
+      blurb:
+        "A plaza-era institution since 1976 that outlived the plaza's decline. The raj kachori is the standout, with chole bhature and rasmalai close behind, and it is where Sector 17 still feels like Sector 17.",
+    },
+    {
+      title: "Garg Chaat, Sector 23",
+      blurb:
+        "Reputedly the oldest chaat counter in the city: no seating, and a weekday-evening crowd anyway. Aloo tikki and golgappe, eaten standing like everyone else. The crowd is the review, same as it was in Agra.",
+    },
+    {
+      title: "Gopal's, Sector 8 inner market",
+      blurb:
+        "The family sit-down on the gehri route, sweets counter in front and an everything-menu behind. Grab samosas and burfi from the counter, or sit down for the Amritsari chole kulche; this is where gehri culture actually eats.",
+    },
+    {
+      title: "Katani Dhaba, Sector 35",
+      blurb:
+        "The vegetarian counterweight: a plain veg dhaba from the early 1980s that outlasted the party strip that grew up around it. Dal makhani and tandoori rotis, sarson ka saag with makki roti in winter. Order the dal and keep your expectations dhaba-shaped.",
+    },
+  ],
+  experiences: [
+    {
+      title: "Sukhna Lake at dawn",
+      blurb:
+        "Join the five a.m. walking crowd on the promenade of a man-made 1958 lake at the foot of the Shivaliks. Before seven you are the only visitor in a sea of regulars who have been doing this for forty years. Yes, the lake is artificial; nobody here cares, and after one lap neither will you.",
+    },
+    {
+      title: "The Rock Garden, and the Nek Chand story",
+      blurb:
+        "Forty acres of mosaic armies, courtyards and waterfalls built from broken bangles, crockery and city debris. Nek Chand was a roads inspector who built it in secret at night on protected land, out of the rubble of the villages demolished to make room for Corbusier's city; officials found it in the seventies, and the public saved it. Walk all three phases. Entry is a few dozen rupees, which the ticket window happily takes in cash.",
+    },
+    {
+      title: "The Capitol Complex tour, the honest version",
+      blurb:
+        "The only legal way into Corbusier's UNESCO ensemble is the free guided tour: three slots a day from the tourist centre by the High Court, original passport in hand fifteen minutes early, then a guide and a police escort walk the group through. Weekend tours reportedly stay outside the buildings and the rules shift with security moods, so confirm same day. Treat the bureaucracy as the price of admission.",
+    },
+    {
+      title: "Shastri Market and the gehri route",
+      blurb:
+        "Start in the Sector 22 bargain bazaar around half five, then cross over to the decades-old student cruising loop past Sectors 8 to 11, now also signposted as the Azaadi Route after a women's-safety campaign. Gehri means doing rounds, and a slow loop with a kulfi in hand is participating, not observing.",
+    },
+    {
+      title: "The Rose Garden in season",
+      blurb:
+        "Asia's largest rose garden: thirty acres and roughly sixteen hundred varieties. February to March is peak bloom and festival season, with the whole city out in sweaters. Any other month, it is the nicest shortcut in Sector 16, which is still worth something.",
+    },
+  ],
+  photoSpots: [
+    {
+      title: "The Open Hand, Capitol Complex",
+      blurb:
+        "A 26-metre steel hand that actually rotates with the wind, set against the Shivalik ridge, so wait for it to swing before you shoot. You can only reach it inside the tour, and afternoon light warms the concrete.",
+      locations: [
+        {
+          lat: 30.7591,
+          lng: 76.8074,
+          precision: "exact",
+          facing: "NE",
+          facingNote: "against the Shivalik ridge; reachable only on the guided tour",
+          label: "Capitol Complex, Sector 1",
+        },
+      ],
+    },
+    {
+      title: "Rock Garden courtyards",
+      blurb:
+        "The bangle-and-crockery armies lined up in their mosaic courts, plus the Phase 1 waterfall. The nine a.m. opening beats the buses, and the shaded interiors survive an overcast day.",
+      locations: [
+        {
+          lat: 30.7532,
+          lng: 76.8066,
+          precision: "approximate",
+          facingNote: "forty acres of courtyards inside; this pin is the entrance",
+          label: "Rock Garden entrance, Sector 1",
+        },
+      ],
+    },
+    {
+      title: "Sukhna promenade at sunrise",
+      blurb:
+        "Down the water toward the hills at first light, with the walking crowd handing you silhouettes in motion. Half five to seven is the window.",
+      locations: [
+        {
+          lat: 30.742,
+          lng: 76.8177,
+          precision: "approximate",
+          facing: "NE",
+          facingNote: "down the water toward the hills at first light",
+          label: "Promenade, main entrance end",
+        },
+      ],
+    },
+    {
+      title: "The High Court pylons, on the tour",
+      blurb:
+        "The giant primary-colour pylons head-on across the esplanade, the geometry of the Tower of Shadows, the Open Hand framed through concrete openings. This is the one spot on the page where your camera answers to a policeman, so shoot what the escort allows and keep moving.",
+      locations: [
+        {
+          lat: 30.7573,
+          lng: 76.8067,
+          precision: "approximate",
+          facingNote: "shot from the escorted tour route across the esplanade",
+          label: "Capitol esplanade, tour access only",
+        },
+      ],
+    },
+    {
+      title: "Gandhi Bhawan, Panjab University",
+      blurb:
+        "Pierre Jeanneret's white lotus of a pavilion sitting in its reflecting pool, with students on the lawns for scale. The campus is open, but this is a working university building, so a polite ask goes a long way if anyone official hovers.",
+    },
+  ],
+};
+
 export const countries: Country[] = [
   {
     slug: "india",
@@ -5038,7 +5335,7 @@ export const countries: Country[] = [
     cities: [
       delhi,
       agra,
-      city("india", "India", "chandigarh", "Chandigarh", "A city drawn with a ruler."),
+      chandigarh,
     ],
   },
   {
@@ -5111,7 +5408,7 @@ export const countries: Country[] = [
       shanghai,
       beijing,
       chengdu,
-      city("china", "China", "chongqing", "Chongqing", "A city stacked on a mountain."),
+      chongqing,
     ],
   },
   {

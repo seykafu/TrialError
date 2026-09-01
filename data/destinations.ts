@@ -183,6 +183,8 @@ const amsterdam: City = {
     blurb:
       "A 1644 canal house on the Bloemgracht that started as a local's informal guest room and grew into a small hotel spanning the houses next door, which is a very Jordaan way to become a hotel. Café Chris is around the corner for the brown-café homework, and the Anne Frank House, my favourite part of the whole trip, is a five-minute walk.",
     url: "https://www.expedia.com/Amsterdam-Hotels-Mr-Jordaan.h14869509.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=52.3737&lng=4.8987",
   },
   cultureTips: [
     "That red asphalt is a road for bikes, so never stand, pose or wheel a suitcase in it, and if a bell rings behind you step out rather than freeze.",
@@ -375,6 +377,8 @@ const sanFrancisco: City = {
     blurb:
       "A small independent in an 1880s building on Columbus, two blocks from Vesuvio, City Lights and Jack Kerouac Alley, with hallways hung in photographs of 1950s and 60s North Beach Beat life. Ginsberg stayed here in his later years, so the literary evening the Vesuvio entry promises can end with a walk up the street to bed.",
     url: "https://www.expedia.com/San-Francisco-Hotels-Hotel-Boheme.h6455.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=37.7887&lng=-122.4642",
   },
   cultureTips: [
     "Tip 18 to 20 percent at sit-down and a dollar or two per drink; California servers earn full minimum wage, and tipping is still fully expected anyway.",
@@ -544,6 +548,8 @@ const delhi: City = {
     blurb:
       "A heritage independent running since 1955 in Lutyens' Delhi, with Lodi Gardens under a mile away and Khan Market and Pandara Road in immediate range. Nearly everything this page recommends, Gulati included, is a walk or a few minutes from the door, and in a city of extreme traffic that is the whole game.",
     url: "https://www.expedia.com/Delhi-Hotels-The-Claridges-New-Delhi.h974008.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=28.6155&lng=77.232",
   },
   cultureTips: [
     "Cover shoulders and knees and expect to lose your shoes constantly; temples, tombs and homes all run the same script, and bare shoulders or shorts will get you turned away at religious sites.",
@@ -717,6 +723,8 @@ const agra: City = {
     blurb:
       "Not a palace hotel, on purpose: a family-run place with rooms around a garden courtyard, about two minutes on foot from the West Gate along the pedestrianised approach. When the plan is a sunrise entry, rolling out of bed and into the queue before dawn beats stars every time, and Treat and the Kinari Bazar lanes are right there for afterwards.",
     url: "https://www.expedia.com/Agra-Hotels-Hotel-Sidhartha.h2642260.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=27.1755&lng=78.0339",
   },
   cultureTips: [
     "The Taj is a tomb rather than a temple, so nobody enforces a dress code, but modest is still the expectation, and the free shoe covers go on over your shoes for the marble platform.",
@@ -902,6 +910,8 @@ const rome: City = {
     blurb:
       "A 19th-century villa with its own garden on the quiet residential Aventine, part of a small family-run group of villas on the hill. The keyhole and the Orange Garden are the walk up, Mercato di Testaccio is the walk down, and that early keyhole shot stops being a logistics problem when you wake up on the same hill.",
     url: "https://www.expedia.com/Rome-Hotels-Hotel-SantAnselmo.h2528434.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=41.8923&lng=12.4673",
   },
   cultureTips: [
     "Sitting or eating on the Spanish Steps is an actual rule, not a vibe; police will whistle you up and fines apply.",
@@ -1057,6 +1067,8 @@ const florence: City = {
     blurb:
       "A Renaissance palazzo from 1505 sitting directly on Piazza Santo Spirito, the square this page calls the Oltrarno's living room, with a guesthouse lineage running back to 1912. Its rooftop loggia is an Oltrarno landmark and now the terrace bar, so lingering on the square after dark stops being advice and becomes the route to bed.",
     url: "https://www.expedia.com/Florence-Hotels-Hotel-Palazzo-Guadagni.h3196305.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=43.7658&lng=11.2519",
   },
   cultureTips: [
     "Florence has repeatedly banned standing and eating on Via de' Neri and the streets around the Uffizi at meal hours, with serious fines, so walk your panino to the Arno instead.",
@@ -1212,6 +1224,8 @@ const shanghai: City = {
     blurb:
       "The only hotel in the city built inside a restored 1930s shikumen lane compound, so the longtang walk above is literally the walk to your room, with Wukang Mansion and the Fuxing Park dawn crowd in the same pocket of plane trees. A splurge, honestly, but the one splurge that matches the page.",
     url: "https://www.expedia.com/Shanghai-Hotels-Capella-Shanghai.h19922546.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=31.2315&lng=121.4767",
   },
   cultureTips: [
     "Sort your payments before you land: Alipay and WeChat Pay take foreign cards with passport verification and street life runs on QR codes, so apps first, cash as backup since small vendors often can't make change.",
@@ -1356,6 +1370,8 @@ const beijing: City = {
     blurb:
       "The rooms are restored single-storey courtyard houses scattered through a living hutong grid near Qianmen gate, walkable to the Forbidden City moat with the Temple of Heaven a short hop south. The tagline up top says imperial scale, hutong detail; this is sleeping in the second half of that sentence, and yes, it's a splurge.",
     url: "https://www.expedia.com/Beijing-Hotels-Mandarin-Oriental-Qianmen.h106184839.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=40.0558&lng=116.4002",
   },
   cultureTips: [
     "Tiananmen Square needs an advance reservation with your passport number plus airport-style security, and the mechanics keep changing, so check the current process; no drones, no tripods, and don't film the guards.",
@@ -1502,6 +1518,8 @@ const chengdu: City = {
     blurb:
       "You enter through a restored Qing-dynasty courtyard beside the thousand-year-old Daci Temple, the same courtyard-and-teahouse grammar as Heming and Wenshu above, ten minutes on foot from the Anshun Bridge night shot. Its Mi Xun Teahouse holds a Michelin star for vegetarian cooking, which in a city of fly restaurants is a pretty funny flex.",
     url: "https://www.expedia.com/Chengdu-Hotels-The-Temple-House.h10912041.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=30.6405&lng=104.0442",
   },
   cultureTips: [
     "Teahouses run on lid language: roughly, a tilted gaiwan lid asks for a refill, a lid left ajar or upside down says you're done, and an object on the lid holds your seat, though the signals vary house to house.",
@@ -1812,6 +1830,8 @@ const losAngeles: City = {
     blurb:
       "A former motel turned small independent at Sunset Junction, right where Sunset and Santa Monica Boulevards meet, walking distance from the reservoir loop and up the road from the Griffith approaches. Visitors skip Silver Lake almost entirely, which is exactly the argument for waking up in it.",
     url: "https://www.expedia.com/Los-Angeles-Hotels-Silver-Lake-Pool-Inn.h34504058.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=34.0438&lng=-118.4755",
   },
   cultureTips: [
     "Tip 18 to 22 percent, and tip the valet and the rideshare driver too.",
@@ -1963,6 +1983,8 @@ const seattle: City = {
     blurb:
       "A small locally-owned hotel built and run by the family behind the athletic club next door, sitting on cobblestoned Ballard Ave itself with the Sunday farmers market and half this page's picks a few doors away. No downtown tower can serve an itinerary this Ballard-heavy; from here the Walrus wait is a stroll, not a trip.",
     url: "https://www.expedia.com/Seattle-Hotels-Hotel-Ballard.h6224796.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=47.627&lng=-122.3704",
   },
   cultureTips: [
     "Wait for the walk signal even at a bone-empty intersection; the city's refusal to jaywalk is legendary, and crossing against it marks you instantly.",
@@ -2273,6 +2295,8 @@ const manchester: City = {
     blurb:
       "A restored Victorian textile warehouse on Newton Street at the NQ's edge, independent and husband-and-wife owned, with the whole record-shop-and-curry-caff circuit above in walking distance and Ancoats an easy stroll. The tagline says music, brick and drizzle, and the building supplies two of the three; the sky handles the rest.",
     url: "https://www.expedia.com/Manchester-Hotels-The-Cow-Hollow-Hotel.h22488566.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=53.4786&lng=-2.25",
   },
   cultureTips: [
     "Recalibrate from London, because people talk to you here and that's normal; chat with the bartender, and a cheers, driver on the way off the bus is a genuine northern custom worth adopting.",
@@ -2424,6 +2448,8 @@ const nottingham: City = {
     blurb:
       "A Georgian townhouse conversion on High Pavement itself, in the Lace Market conservation area steps from St Mary's, which is the exact street the alleys spot above tells you to shoot. The Contemporary and the Hockley streets are a few minutes on foot, and when the rain starts doubling the cobbles you're already there.",
     url: "https://www.expedia.com/Nottingham-Hotels-Lace-Market-Hotel.h462414.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=52.9514&lng=-1.1623",
   },
   cultureTips: [
     "If a stranger calls you duck, that's East Midlands friendliness rather than flirtation; they say it to everyone.",
@@ -2731,6 +2757,8 @@ const osaka: City = {
     blurb:
       "On the Shinsaibashi arcade a minute from Ebisubashi, which means the empty-bridge Glico shot happens in slippers before the city wakes up and the Hozenji lanterns are a short stroll after dinner. A Japanese-run design hotel parked exactly between the photograph-it and eat-behind-it halves of this page.",
     url: "https://www.expedia.com/Osaka-Hotels-Cross-Hotel-Osaka.h6311.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=34.6764&lng=135.5048",
   },
   cultureTips: [
     "Stand on the right on escalators, the exact reverse of Tokyo, a habit dating to a 1967 Umeda Station announcement; official guidance now says don't walk on them at all.",
@@ -2886,6 +2914,8 @@ const kyoto: City = {
     blurb:
       "A Japanese-run low-rise beside the Kamo river where Kiyamachi hits Sanjo, with Pontocho's north mouth, the dinner picks above and a flat riverside walk to the delta stepping stones all from the door. The whole before-eight-or-after-five trick only works if you sleep at the hinge of it, and this is the hinge.",
     url: "https://www.expedia.com/Kyoto-Hotels-SOLARIA-Nishitetsu-Hotel-Kyoto-Premier.h17040479.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=35.0012&lng=135.7753",
   },
   cultureTips: [
     "Gion's private lanes are closed to visitors outright, with a posted 10,000 yen penalty for photos and entry itself barred since 2024; stick to public streets like Hanamikoji and Shirakawa, and remember the geiko and maiko are workers commuting.",
@@ -3038,6 +3068,8 @@ const paris: City = {
     blurb:
       "A former 19th-century textile factory on rue de la Folie-Méricourt in Oberkampf, factory windows and brick kept through the conversion. This page's whole thesis is eat east, shoot central, so sleep east: Boulangerie Utopie a few minutes on foot, the apéritif crawl on the doorstep, the canal just north for Sundays.",
     url: "https://www.expedia.com/Paris-Hotels-Hotel-Fabric.h6224549.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=48.8645&lng=2.3502",
   },
   cultureTips: [
     "Say bonjour before anything else, in shops, at the counter, asking directions; skipping the greeting reads as treating a person like a vending machine.",
@@ -3192,6 +3224,8 @@ const cabo: City = {
     blurb:
       "An adults-only boutique in the colonial centro, roughly fifty metres from Plaza Mijares, inside the gallery district the Thursday Art Walk takes over and a short walk from the Mercado Municipal. This whole page argues for skipping the corridor all-inclusives, and this is that argument with a room key, though families should note the adults-only part.",
     url: "https://www.expedia.com/Los-Cabos-Hotels-Casa-Natalia-Boutique-Hotel.h431652.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=23.0041&lng=-109.7485",
   },
   cultureTips: [
     "Open every interaction with a buenos días or buenas tardes, whether it is a lonchería, a taxi or a market stall; transactions here are conversations with people, and skipping the greeting reads as cold.",
@@ -3336,6 +3370,8 @@ const vancouver: City = {
     blurb:
       "A waterfront tower on Coal Harbour at the edge of Stanley Park, which means the Seawall ritual this page keeps going on about starts at the front door.",
     url: "https://www.expedia.com/Vancouver-Hotels-The-Westin-Bayshore.h14477.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=49.2938&lng=-123.1465",
   },
   cultureTips: [
     "Tip 15 to 20 percent on the pre-tax bill; the terminals default to around 18, and nobody flinches.",
@@ -3644,6 +3680,8 @@ const calgary: City = {
     blurb:
       "Directly beside the Bow pathway system this page keeps calling civic infrastructure, with the National Music Centre and the Music Mile around the corner, Inglewood a walk down 9th Ave and Bridgeland across the river. Run by a family-owned Canadian group rather than a chain tower, which is very much the spirit of the list above.",
     url: "https://www.expedia.com/Calgary-Hotels-Alt-Hotel-Calgary-East-Village.h31069558.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=51.0618&lng=-114.0739",
   },
   cultureTips: [
     "Public cannabis consumption is banned outright citywide, the strict outlier among Canadian cities, so it's private property or nothing.",
@@ -3797,6 +3835,8 @@ const banff: City = {
     blurb:
       "On this corner since 1908, bought by the Brewsters who built commercial Banff, burned in 2016 and rebuilt, and pointedly not the castle above town: this is the working town's hotel, with the breakfast pick on Caribou and Wild Flour one block over on Bear. When the logistics are the view, a townsite bed is what makes those pre-dawn shuttle alarms survivable.",
     url: "https://www.expedia.com/Banff-Hotels-Mount-Royal-Hotel.h688930.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=51.178&lng=-115.572",
   },
   cultureTips: [
     "Stay on the designated trail even when the better photo is two steps off it; alpine vegetation takes decades to recover from one social trail.",
@@ -3959,6 +3999,8 @@ const mtFuji: City = {
     blurb:
       "A family-run lakefront onsen ryokan on the Ubuyagasaki stretch of the north shore, the same water where the upside-down Fuji shows up on still mornings, and every room faces the mountain. Build the day around mornings, this page says; here that starts before breakfast, and the bike loop's payoff section runs right past the door.",
     url: "https://www.expedia.com/Kofu-Hotels-Kozantei-Ubuya.h9274038.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=35.4907&lng=138.7515",
   },
   cultureTips: [
     "Never step into the road for the shot; Fujiyoshida has posted warnings and an actual traffic officer because people kept standing in a live roadway, and the sidewalk angle is the same angle.",
@@ -4278,6 +4320,8 @@ const melbourne: City = {
     blurb:
       "The argument above is inner suburbs over the tower district, and this is the rare good hotel actually inside one: on Lygon Street in Carlton, the same strip as Tiamo, with the Royal Exhibition Building close by. Family-owned too, built by two brothers from a long-running Victorian hospitality family, which suits a page that keeps siding with the locals.",
     url: "https://www.expedia.com/Melbourne-Hotels-Zagames-House.h35218543.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=-37.8408&lng=144.9671",
   },
   cultureTips: [
     "Melbourne, Naarm, sits on the lands of the Kulin Nation, and the city formally acknowledges the Wurundjeri Woi-wurrung and Bunurong peoples as Traditional Owners; an Acknowledgement of Country opens events as standard practice, a Welcome to Country is a ceremony only Traditional Owners perform, and your part is quiet attention.",
@@ -4432,6 +4476,8 @@ const montreal: City = {
     blurb:
       "The teaching hotel of Quebec's state hospitality institute, run partly by students still learning the trade, which is about as on-brand as this blog's name gets. It faces Square Saint-Louis at the Plateau's southern edge, with Mile End and the mountain starting up the street and the metro directly underneath running straight to Jean-Talon.",
     url: "https://www.expedia.com/Montreal-Hotels-Hotel-De-LITHQ.h4219569.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=45.5097&lng=-73.5865",
   },
   cultureTips: [
     "Open with bonjour everywhere, even if you switch to English a beat later, and if you get the famous Bonjour-Hi, answer in whichever language you were greeted in; the greeting is live politics here, and nobody is waiting on a visitor's take.",
@@ -4586,6 +4632,8 @@ const bali: City = {
     blurb:
       "A small family-run inn in the valley this page keeps calling old Bali: traditional-style bungalows, a pool looking over the rice fields, a warung on site, and village treks and cooking classes run by the family themselves. Nothing on this page is a beach club within an hour of here, which is exactly the argument.",
     url: "https://www.expedia.com/Sidemen-Hotels-Cepik-Villa.h5441009.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=-8.5038&lng=115.2546",
   },
   reserve: {
     title: "Cuca, Jimbaran",
@@ -4753,6 +4801,8 @@ const mexicoCity: City = {
     blurb:
       "A 1940s apartment building turned 19-room boutique half a block from Parque México: breakfast on the rooftop terrace, a ground-floor lounge that pours coffee by day and cocktails by night, hand coffee grinders in the rooms, and a spot in the Michelin Guide's hotel selection. This page runs on mornings, and Parque México at 7am is the point.",
     url: "https://www.expedia.com/Mexico-City-Hotels-Hotel-San-Fernando.h18180394.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=19.4184&lng=-99.1609",
   },
   cultureTips: [
     "Tip 10 to 15 percent at tables, in pesos, and read the bill first because some places pre-add the service; at street stands, the coin cup is the tip jar.",
@@ -4904,6 +4954,8 @@ const santoDomingo: City = {
     blurb:
       "Three joined stone houses from 1502 on the first paved street of the Americas, originally the residence of Nicolás de Ovando, the governor who laid the city out, now with courtyards and a pool. The photo-spot list below keeps sending you to this exact street, so you might as well wake up on it.",
     url: "https://www.expedia.com/Santo-Domingo-Hotels-Hodelpa-Nicolas-De-Ovando.h16203001.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=18.4747&lng=-69.8837",
   },
   cultureTips: [
     "Greetings are not optional: buenos días before any business, and a saludos to the room when you walk into a colmado.",
@@ -5050,6 +5102,8 @@ const chongqing: City = {
     blurb:
       "The hotel takes the upper floors of the Raffles City towers at Chaotianmen, beneath The Crystal, the 300-metre horizontal skyscraper laid across four towers above the point where the two rivers meet, and the river-view rooms look straight down the Yangtze. For a page about verticality, sleeping inside the building that lies down sideways in the sky, above the old docks, is the only pick.",
     url: "https://www.expedia.com/Chongqing-Hotels-Intercontinental-Chongqing-Raffles-City.h48291948.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=29.557&lng=106.5703",
   },
   cultureTips: [
     "Wei la, mildly spicy, is a respected order and still genuinely hot; the face-saving move is the yuanyang split pot, half red, half clear.",
@@ -5204,6 +5258,8 @@ const chandigarh: City = {
     blurb:
       "A garden hotel run by CITCO, the city's own tourism corporation, and an institution for decades: lawns against the Shivalik backdrop, on the quiet gehri-route side of town, ten to fifteen minutes from Sukhna Lake and the Rock Garden. The service runs sarkari, government-issue, which is part of the charm or the complaint depending on the guest; in a city that is itself a government project, it fits.",
     url: "https://www.expedia.com/Chandigarh-Hotels-Hotel-Mountview.h8797415.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=30.7529&lng=76.8096",
   },
   cultureTips: [
     "The Capitol Complex is government in session, not a monument park: free tours at 10, 12 and 3, original passport in hand 15 minutes early, no photos inside the Assembly, and the escort's word is final.",
@@ -5347,6 +5403,8 @@ const puertoVallarta: City = {
     blurb:
       "Puerto Vallarta's first formal hotel, built in 1948 by Salvador González and named for his daughter, still family-run and grown from three rooms to 115. The Night of the Iguana crowd passed through in 1962, when the film invented this town's fame, and it stands exactly where the malecon begins, with 5 de Diciembre's taco streets behind it. A three-star with vintage bones, which is the point.",
     url: "https://www.expedia.com/Puerto-Vallarta-Hotels-Rosita-Hotel.h889365.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=20.6072&lng=-105.2344",
   },
   reserve: {
     title: "Tintoque, on the Rio Cuale",

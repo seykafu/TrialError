@@ -1655,6 +1655,8 @@ const newYorkCity: City = {
     blurb:
       "A converted 1901 barrel factory on the Williamsburg waterfront, beds built from the factory's own reclaimed timber, with the East River ferry at the doorstep and a rooftop bar facing the skyline across the water. This page's New York runs on the L, the G and the ferry anyway, so staying in Brooklyn is the first choice here, not the compromise.",
     url: "https://www.expedia.com/New-York-Hotels-Wythe-Hotel.h4952112.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=40.7121&lng=-73.983",
   },
   cultureTips: [
     "Tip 20 percent at restaurants and a dollar or two per drink; the norm here runs stronger than the national average, and rounding down gets noticed.",
@@ -2115,6 +2117,8 @@ const london: City = {
     blurb:
       "A warren of restored 18th-century Georgian houses down a lane by Smithfield, all period panelling, stone floors and open fires. St. John and Leather Lane are a short walk, and Farringdon station is a minute away with direct links toward the Heath, which covers the bone marrow and the cold swim in one postcode.",
     url: "https://www.expedia.com/London-Hotels-The-Rookery-Hotel.h544087.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=51.5252&lng=-0.1122",
   },
   cultureTips: [
     "Stand on the right of the escalator and walk on the left, no exceptions; it's the one rule Londoners will actually say something about.",
@@ -2570,6 +2574,8 @@ const tokyo: City = {
     blurb:
       "A modern urban ryokan whose rooftop open-air bath runs on real hot-spring water brought in from Hakone, so the onsen etiquette this page keeps drilling pays off without leaving the building. Nakajima's basement, the depachika counters and the free observatory are all on foot.",
     url: "https://www.expedia.com/Tokyo-Hotels-ONSEN-RYOKAN-YUEN-SHINJUKU.h34146464.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=35.6795&lng=139.7269",
   },
   cultureTips: [
     "Stand on the left on escalators, though operators now ask everyone to just stand full stop; walking the right side is fading etiquette, not a rule.",
@@ -3484,6 +3490,8 @@ const toronto: City = {
     blurb:
       "A hotel site since 1890, relaunched in 2004 as the arts hub credited with kickstarting West Queen West, live-music venue in the basement included. This page's whole argument is arterials over downtown, so sleep on one: Queen West at the door, the Ossington strip a few blocks along.",
     url: "https://www.expedia.com/Toronto-Hotels-The-Drake-Hotel.h27718565.Hotel-Information",
+    mapEmbedUrl:
+      "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=43.6857&lng=-79.349",
   },
   cultureTips: [
     "Tip 15 to 20 percent on the pre-tax bill, with 18 as the common terminal default.",

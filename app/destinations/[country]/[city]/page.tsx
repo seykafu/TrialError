@@ -423,7 +423,7 @@ export default async function CityPage({ params }: Props) {
                       rel="noopener sponsored"
                       className="mt-4 inline-flex min-h-10 items-center gap-2 rounded-full border border-ink px-5 text-sm font-medium text-ink transition hover:border-terracotta hover:text-terracotta"
                     >
-                      Compare flights on Kayak <span aria-hidden="true">↗</span>
+                      Check flights on Expedia <span aria-hidden="true">↗</span>
                     </a>
                   </div>
                 )}

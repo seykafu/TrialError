@@ -1685,7 +1685,7 @@ const newYorkCity: City = {
   flights: {
     blurb:
       "New York has three airports, and fares into JFK, Newark and LaGuardia split far enough apart that comparing all three is the easiest money you'll save all trip. Factor in the ride to Manhattan too; the AirTrain-plus-subway from JFK is the budget classic, and the difference buys a lot of dumplings.",
-    url: "https://www.kayak.com/flight-routes/United-States-US0/New-York-NYC",
+    url: "https://www.expedia.com/Cheap-Flights-To-New-York.d178293.Travel-Guide-Flights",
   },
   cultureTips: [
     "Tip 20 percent at restaurants and a dollar or two per drink; the norm here runs stronger than the national average, and rounding down gets noticed.",

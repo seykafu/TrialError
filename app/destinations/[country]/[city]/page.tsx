@@ -402,10 +402,31 @@ export default async function CityPage({ params }: Props) {
                   Check rates on Expedia <span aria-hidden="true">↗</span>
                 </a>
                 <p className="mt-3 text-xs text-ink/50">
-                  Booking through this link may earn us a small commission,
+                  Booking through these links may earn us a small commission,
                   which is how we&apos;re testing whether this blog can pay for
                   its own chai.
                 </p>
+                {city.flights && (
+                  <div className="mt-6 border-t border-ink/10 pt-6">
+                    <p className="text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
+                      Getting there
+                    </p>
+                    <h3 className="mt-2 font-semibold">
+                      ✈️ Check out flights
+                    </h3>
+                    <p className="mt-1 max-w-2xl text-sm leading-relaxed text-ink/65">
+                      {city.flights.blurb}
+                    </p>
+                    <a
+                      href={city.flights.url}
+                      target="_blank"
+                      rel="noopener sponsored"
+                      className="mt-4 inline-flex min-h-10 items-center gap-2 rounded-full border border-ink px-5 text-sm font-medium text-ink transition hover:border-terracotta hover:text-terracotta"
+                    >
+                      Compare flights on Kayak <span aria-hidden="true">↗</span>
+                    </a>
+                  </div>
+                )}
                 {city.stay.mapEmbedUrl && (
                   <div className="mt-6">
                     <p className="text-sm font-medium text-ink/70">

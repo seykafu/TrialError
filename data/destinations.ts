@@ -91,6 +91,12 @@ export type City = {
        shown inside the stay card as a browsable map of nearby options. */
     mapEmbedUrl?: string;
   };
+  /* A flight-comparison link, shown inside the stay section. Plain Kayak
+     link on purpose: the Stay22 script converts it at click time. */
+  flights?: {
+    blurb: string;
+    url: string;
+  };
   /* One bookable restaurant, shown as a card after the stay. Plain link to
      the restaurant's own reservation page; not an affiliate link. */
   reserve?: {
@@ -1675,6 +1681,11 @@ const newYorkCity: City = {
     url: "https://www.expedia.com/New-York-Hotels-Wythe-Hotel.h4952112.Hotel-Information",
     mapEmbedUrl:
       "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=40.7121&lng=-73.983",
+  },
+  flights: {
+    blurb:
+      "New York has three airports, and fares into JFK, Newark and LaGuardia split far enough apart that comparing all three is the easiest money you'll save all trip. Factor in the ride to Manhattan too; the AirTrain-plus-subway from JFK is the budget classic, and the difference buys a lot of dumplings.",
+    url: "https://www.kayak.com/flight-routes/United-States-US0/New-York-NYC",
   },
   cultureTips: [
     "Tip 20 percent at restaurants and a dollar or two per drink; the norm here runs stronger than the national average, and rounding down gets noticed.",

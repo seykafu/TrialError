@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s · Trial & Error",
   },
   description:
-    "A travel blog built to help: top 5 eats and local experiences for every city we've fumbled through.",
+    "A travel blog built to help: the top eats, local experiences, and photo spots for every city, researched so you don't have to.",
   openGraph: {
     type: "website",
     siteName: SITE_NAME,

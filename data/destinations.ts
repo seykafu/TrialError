@@ -247,7 +247,7 @@ const amsterdam: City = {
     {
       title: "Rent a bike and ride around the whole city",
       blurb:
-        "More bikes than people isn't a stat, it's a lifestyle. The whole city opens up once you're on two wheels. Rental shops cluster around Centraal Station and Vondelpark, and the Vondelpark loop is the right first ride: flat, largely traffic-free, zero stakes. Graduate to the canal ring once riding in Dutch traffic stops feeling like an exam, because that's the iconic one.",
+        "More bikes than people, and you feel it within a block. The whole city opens up once you're on two wheels. Rental shops cluster around Centraal Station and Vondelpark, and the Vondelpark loop is the right first ride: flat, largely traffic-free, zero stakes. Graduate to the canal ring once riding in Dutch traffic stops feeling like an exam, because that's the iconic one.",
       photo: {
         src: amsBiking,
         alt: "Cyclists passing a corner coffeeshop on a brick street lined with dark canal houses in Amsterdam",
@@ -434,12 +434,12 @@ const sanFrancisco: City = {
     {
       title: "Sausalito",
       blurb:
-        "Across the bay and a world calmer. Here's the move that makes it cheap: ride the Golden Gate north like the entry below, coast down into town, then take the ferry back with the bike on board. It's about thirty minutes, bikes ride free of drama, and the deck hands you the bridge and the skyline from the water with no return climb. Once you're there, the Bay Model is a 1.5-acre working hydraulic replica of the entire bay and delta that actually runs tides, built by the Army Corps of Engineers, free to walk into, and nearly empty. Then walk the Waldo Point docks, where four hundred-plus houseboats make up a real lived-in neighbourhood. Bring your own sandwich, because the town itself is priced for people who arrived by yacht.",
+        "Across the bay and a world calmer, and cheap if you do it in the right order: ride the Golden Gate north like the entry below, coast down into town, then take the ferry back with the bike on board. It's about thirty minutes, bikes ride free of drama, and the deck hands you the bridge and the skyline from the water with no return climb. Once you're there, the Bay Model is a 1.5-acre working hydraulic replica of the entire bay and delta that actually runs tides, built by the Army Corps of Engineers, free to walk into, and nearly empty. Then walk the Waldo Point docks, where four hundred-plus houseboats make up a real lived-in neighbourhood. Bring your own sandwich, because the town itself is priced for people who arrived by yacht.",
     },
     {
       title: "Pier 39",
       blurb:
-        "The classic pier stop, and I'll be honest about it: the arcades, the carousel, and the chowder in a bread bowl are priced for people who aren't coming back. The sea lions on K-Dock are the exception, and they're free. They turned up in January 1990 and never left, the record haul was 1,701 of them back in 2009, and winter is peak because plenty head south to breed over the summer. They're loud, they smell, they belly-flop onto each other for dock space, and they are the best free show on the wharf. Go in the morning for the noise. Look at the animals, then go eat somewhere else.",
+        "The classic pier stop. The arcades, the carousel, and the chowder in a bread bowl are priced for people who aren't coming back. The sea lions on K-Dock are the exception, and they're free. They turned up in January 1990 and never left, the record haul was 1,701 of them back in 2009, and winter is peak because plenty head south to breed over the summer. They're loud, they smell, they belly-flop onto each other for dock space, and they are the best free show on the wharf. Go in the morning for the noise. Look at the animals, then go eat somewhere else.",
     },
     {
       title: "Rent a bike and ride the city, including the Golden Gate Bridge",
@@ -521,7 +521,7 @@ const sanFrancisco: City = {
     {
       title: "Lombard Street's crooked block at dawn",
       blurb:
-        "This is the touristy one and I'm not going to pretend otherwise. The reason it's on the list is that the time is the advice: at first light you get eight empty hairpins reading as clean overlapping bands, hedges and hydrangeas layered into each other, Coit Tower down the axis. By mid-morning it's a crawl of cars on the bricks and a crowd in everyone's frame. Shoot from the top of the block looking down for the layering, or from the bottom on Leavenworth for the classic postcard. Fog helps here, adding depth to the curves. Everybody photographs this street, almost nobody photographs it well, and the entire difference is setting an alarm.",
+        "The touristy one, and it's on the list because the time is the advice: at first light you get eight empty hairpins reading as clean overlapping bands, hedges and hydrangeas layered into each other, Coit Tower down the axis. By mid-morning it's a crawl of cars on the bricks and a crowd in everyone's frame. Shoot from the top of the block looking down for the layering, or from the bottom on Leavenworth for the classic postcard. Fog helps here, adding depth to the curves. Everybody photographs this street, almost nobody photographs it well, and the entire difference is setting an alarm.",
       locations: [
         {
           lat: 37.8021,
@@ -950,7 +950,7 @@ const rome: City = {
     {
       title: "Sant'Eustachio Il Caffè",
       blurb:
-        "Yes, the famous one near the Pantheon, roasting on-site since 1938. Here's the insider part: the Gran Caffè arrives pre-sugared, whipped into the crema behind a screen, so order it \"amaro\" if you want it straight. Knowing that is the difference between tourist and local. Drink it standing at the bar.",
+        "Yes, the famous one near the Pantheon, roasting on-site since 1938. The Gran Caffè arrives pre-sugared, whipped into the crema behind a screen, so order it \"amaro\" if you want it straight. Knowing that is the difference between tourist and local. Drink it standing at the bar.",
     },
   ],
   experiences: [
@@ -1087,7 +1087,7 @@ const florence: City = {
     {
       title: "Trattoria Mario",
       blurb:
-        "Lunch only, no reservations, shared tables, and a handwritten menu that changes daily: the reference Florentine working lunch since the 1950s. Queue before it opens with the market workers and students, order the ribollita or whatever the board says, and embrace the chaos. That's the point.",
+        "Lunch only, no reservations, shared tables, and a handwritten menu that changes daily: the reference Florentine working lunch since the 1950s. Queue before it opens with the market workers and students, order the ribollita or whatever the board says, and embrace the chaos.",
     },
     {
       title: "Trattoria Sabatino",
@@ -1276,7 +1276,7 @@ const shanghai: City = {
     {
       title: "The ¥2 Huangpu commuter ferry",
       blurb:
-        "Two yuan buys the best commute in China: across the river with the rush-hour scooter crowd, Bund on one side, the bottle-opener skyline on the other. Stand at the bow rail and ride it both ways. Tourists are the minority, which is exactly the point.",
+        "Two yuan buys the best commute in China: across the river with the rush-hour scooter crowd, Bund on one side, the bottle-opener skyline on the other. Stand at the bow rail and ride it both ways. Tourists are the minority on board.",
     },
     {
       title: "Longtang lane walk",
@@ -1538,7 +1538,7 @@ const chengdu: City = {
     {
       title: "Ming Ting (the king of fly restaurants)",
       blurb:
-        "\"Fly restaurant\" is an affectionate term: a shabby canteen locals swarm like flies because the wok work is superb, and this alley spot by a Jinniu vegetable market is the most famous one in Chengdu. Order the doufu naohua, their invented pig-brain tofu: a creamier, richer mapo with tender pig brains in the numbing sauce. Sounds like a dare, eats like a discovery.",
+        "\"Fly restaurant\" is an affectionate term: a shabby canteen locals swarm like flies because the wok work is superb, and this alley spot by a Jinniu vegetable market is the most famous one in Chengdu. Order the doufu naohua, their invented pig-brain tofu: a creamier, richer mapo with tender pig brains in the numbing sauce. Sounds like a dare. Order it anyway.",
     },
     {
       title: "Zhang Laoer Liangfen (sweet water noodles)",
@@ -1708,7 +1708,7 @@ const newYorkCity: City = {
     {
       title: "Taqueria Ramirez, Greenpoint",
       blurb:
-        "Choricera and trompo spinning in the window, standing counters, and a menu that is tacos and not much else. That's not a limitation, that's the position. The entrance is on Oak Street rather than Franklin, so everyone walks past it once, and it's closed Mondays.",
+        "Choricera and trompo spinning in the window, standing counters, and a menu that is tacos and not much else, on purpose. The entrance is on Oak Street rather than Franklin, so everyone walks past it once, and it's closed Mondays.",
     },
     {
       title: "Mariscos El Submarino, Jackson Heights",
@@ -1811,7 +1811,7 @@ const newYorkCity: City = {
     {
       title: "Battle Hill, Green-Wood Cemetery",
       blurb:
-        "Gothic arches, Victorian monuments, and an elevated harbor view with the Statue of Liberty way off in the distance. Late afternoon side-light does the work on the stone, and late October into early November is the foliage version. No other New York guide is sending you here, which is the point.",
+        "Gothic arches, Victorian monuments, and an elevated harbor view with the Statue of Liberty way off in the distance. Late afternoon side-light does the work on the stone, and late October into early November is the foliage version. No other New York guide is sending you here.",
       locations: [
         {
           lat: 40.6522,
@@ -1897,7 +1897,7 @@ const losAngeles: City = {
     {
       title: "Kenneth Hahn State Recreation Area",
       blurb:
-        "This is the honest answer to where locals watch the sunset: Baldwin Hills, upper lots, downtown on one side, the Hollywood sign in the middle, the ocean at the end. It's a family-cookout park first and a viewpoint second, which is exactly why it never gets crowded. Bring a folding chair and tacos from the drive over.",
+        "This is where locals actually watch the sunset: Baldwin Hills, upper lots, downtown on one side, the Hollywood sign in the middle, the ocean at the end. It's a family-cookout park first and a viewpoint second, which is exactly why it never gets crowded. Bring a folding chair and tacos from the drive over.",
     },
     {
       title: "The Silver Lake Reservoir loop",
@@ -2797,7 +2797,7 @@ const osaka: City = {
     {
       title: "Fukutaro Honten (Ura-Namba)",
       blurb:
-        "The honest answer to where Osakans actually eat okonomiyaki, and the move here is negiyaki, loaded with green onion and brushed with soy rather than sauce. Pork for the standard, suji-negiyaki with beef tendon for the classic. Eat it straight off the teppan with the little spatula, and expect a line of mostly Japanese diners even on a weeknight.",
+        "Where Osakans actually eat okonomiyaki, and the move here is negiyaki, loaded with green onion and brushed with soy rather than sauce. Pork for the standard, suji-negiyaki with beef tendon for the classic. Eat it straight off the teppan with the little spatula, and expect a line of mostly Japanese diners even on a weeknight.",
     },
     {
       title: "Sennariya Coffee (Janjan Yokocho)",
@@ -2944,7 +2944,7 @@ const kyoto: City = {
     {
       title: "Shinpuku Saikan Honten (near Kyoto Station)",
       blurb:
-        "Here's the plot twist: the city of tofu and restraint drinks nearly black soy broth, and this is likely the shop that started it, a stall from 1938 that became a restaurant in 1945. It looks terrifying and tastes gentle, heaped with Kujo green onions. Chuka soba with extra negi, plus the yakimeshi stained dark with the same sauce, which is what the regulars order. Taxi drivers have been eating it here for breakfast for eighty years.",
+        "The city of tofu and restraint drinks nearly black soy broth, and this is likely the shop that started it, a stall from 1938 that became a restaurant in 1945. It looks terrifying and tastes gentle, heaped with Kujo green onions. Chuka soba with extra negi, plus the yakimeshi stained dark with the same sauce, which is what the regulars order. Taxi drivers have been eating it here for breakfast for eighty years.",
     },
     {
       title: "Yamamoto Menzou (Okazaki)",
@@ -2954,7 +2954,7 @@ const kyoto: City = {
     {
       title: "Demachi Futaba (Demachiyanagi)",
       blurb:
-        "A mochi shop from 1899 whose mame mochi, red bean mochi studded with salty black beans, has a permanent queue of neighborhood grandmothers. They expire the same day you buy them, which is the entire point. Buy two, walk three minutes to the Kamo river delta, and eat them sitting on the stepping stones. Come in the morning, since the good pieces are gone by late afternoon and weekends blow the line out past an hour.",
+        "A mochi shop from 1899 whose mame mochi, red bean mochi studded with salty black beans, has a permanent queue of neighborhood grandmothers. They expire the same day you buy them, so there is no taking them home. Buy two, walk three minutes to the Kamo river delta, and eat them sitting on the stepping stones. Come in the morning, since the good pieces are gone by late afternoon and weekends blow the line out past an hour.",
     },
     {
       title: "Smart Coffee (Teramachi arcade)",
@@ -3276,7 +3276,7 @@ const cabo: City = {
     {
       title: "Thursday Art Walk, San José del Cabo gallery district",
       blurb:
-        "Thursday evenings in season, roughly November through June, and free. The streets behind the church close to traffic, a dozen-plus galleries open up, artists are actually present, and there is live music. Now the honest part: roughly July through October it does not happen at all and the galleries just keep normal daily hours, so do not build a summer trip around it.",
+        "Thursday evenings in season, roughly November through June, and free. The streets behind the church close to traffic, a dozen-plus galleries open up, artists are actually present, and there is live music. Roughly July through October it does not happen at all and the galleries just keep normal daily hours, so do not build a summer trip around it.",
     },
     {
       title: "Viva la Plaza, Plaza Amelia Wilkes, Cabo San Lucas",
@@ -3347,7 +3347,7 @@ const cabo: City = {
     {
       title: "Playa Solmar, Cabo San Lucas",
       blurb:
-        "Every listicle sends you to El Faro Viejo for the sunset dune shot, and you cannot get it: the access road is chained off, ATVs are banned, and the old lighthouse now sits inside a golf development you need a prior reservation to enter. Solmar is the Pacific sunset you can actually walk to, so walk east along the sand toward the headland and let the granite of Land's End close your frame, heavy shorebreak in front, the Arch formations in the distance, the sun dropping straight into the water. Early morning is the same coast soft and nearly empty. Look, do not swim. Powerful waves, steep underwater drop-offs and dangerous rip currents make entering the water here life-threatening, and do not stand in the wash to get the shot.",
+        "Every listicle sends you to El Faro Viejo for the sunset dune shot, and you cannot get it: the access road is chained off, ATVs are banned, and the old lighthouse now sits inside a golf development you need a prior reservation to enter. Solmar is the Pacific sunset you can actually walk to, so walk east along the sand toward the headland and let the granite of Land's End close your frame, heavy shorebreak in front, the Arch formations in the distance, the sun dropping straight into the water. Early morning is the same coast soft and nearly empty. Do not swim here. Powerful waves, steep underwater drop-offs and dangerous rip currents make entering the water here life-threatening, and do not stand in the wash to get the shot.",
     },
     {
       title: "El Arco and Playa del Amor, Cabo San Lucas",
@@ -3395,7 +3395,7 @@ const vancouver: City = {
     {
       title: "HK BBQ Master, Richmond",
       blurb:
-        "A Cantonese BBQ counter under a supermarket parking deck, which is not a sentence that sells itself and is exactly the point. Char siu and roast pork belly are the anchors, the duck sells out first, and the local order is take-out by weight eaten in the car with the windows fogging up. Treat it as a neighbourhood butcher counter rather than a restaurant, and give the covered parking deck its due from October to April.",
+        "A Cantonese BBQ counter under a supermarket parking deck, which is not a sentence that sells itself. Char siu and roast pork belly are the anchors, the duck sells out first, and the local order is take-out by weight eaten in the car with the windows fogging up. Treat it as a neighbourhood butcher counter rather than a restaurant, and give the covered parking deck its due from October to April.",
     },
     {
       title: "Kim Chau Deli, Kingsway",
@@ -3583,7 +3583,7 @@ const toronto: City = {
     {
       title: "Pedestrian Sunday in Kensington Market",
       blurb:
-        "Augusta closes to cars and the market spills outward into it, a few Sundays through the summer and autumn. It didn't run at all in 2025: organisers paused it over a funding shortfall and a feeling that outside vendors had diluted the thing, then brought it back with an explicitly community-rooted reset, and that comeback is the story worth showing up for. Kensington is a migration artefact in layers, Jewish then Portuguese then Caribbean, Chinese and Latin American on the same block, two synagogues still standing. Honest note: if you want the market as a market rather than a street party, come on a plain weekday morning while the deliveries are going in.",
+        "Augusta closes to cars and the market spills outward into it, a few Sundays through the summer and autumn. It didn't run at all in 2025: organisers paused it over a funding shortfall and a feeling that outside vendors had diluted the thing, then brought it back with an explicitly community-rooted reset, and that comeback is the story worth showing up for. Kensington is a migration artefact in layers, Jewish then Portuguese then Caribbean, Chinese and Latin American on the same block, two synagogues still standing. If you want the market as a market rather than a street party, come on a plain weekday morning while the deliveries are going in.",
     },
     {
       title: "Free Sunday baseball on the hill at Christie Pits",
@@ -3737,7 +3737,7 @@ const calgary: City = {
     {
       title: "Calgary Folk Music Festival, Prince's Island Park, late July",
       blurb:
-        "The honest answer to what Calgarians do in July instead of the Stampede: same month, opposite city, four days on an island in the middle of the Bow with sixty-plus artists across main and side stages. Learn the tarp system before you go, because people queue early to claim ground in front of the main stage and turning up in the evening with nothing is the rookie move. Regulars come for the side stages and the collaborative workshop sets; the headliners are secondary.",
+        "What Calgarians do in July instead of the Stampede: same month, opposite city, four days on an island in the middle of the Bow with sixty-plus artists across main and side stages. Learn the tarp system before you go, because people queue early to claim ground in front of the main stage and turning up in the evening with nothing is the rookie move. Regulars come for the side stages and the collaborative workshop sets; the headliners are secondary.",
     },
     {
       title: "The Music Mile, Inglewood to East Village",
@@ -3752,7 +3752,7 @@ const calgary: City = {
     {
       title: "Public skate at the Olympic Oval",
       blurb:
-        "Buy a drop-in ticket and skate on the ice where hundreds of world speed-skating records have been set since the late eighties. The 1988 legacy in this city isn't a monument, it's a facility people still use on a Tuesday, and there's public running on the indoor track too, which is how a lot of Calgarians survive February. No rings-and-torch nostalgia, just an elite training centre that lets the public on.",
+        "Buy a drop-in ticket and skate on the ice where hundreds of world speed-skating records have been set since the late eighties. The 1988 legacy in this city is a facility people still use on a Tuesday rather than a monument, and there's public running on the indoor track too, which is how a lot of Calgarians survive February. No rings-and-torch nostalgia, just an elite training centre that lets the public on.",
     },
   ],
   photoSpots: [
@@ -3875,7 +3875,7 @@ const banff: City = {
     {
       title: "Bare Bistro, in the light-industrial compound off Banff Avenue",
       blurb:
-        "A cafe a few kilometres out, feeding trades, hotel back of house and people on shift: daily lunch specials, breakfast sandwiches, sticky buns. It reportedly supplies baked goods to hotels in town, which is the strongest local credential going, the tourist restaurants buying from it. It is not for you, which is the entire point: seating is limited, it keeps working hours and shuts long before dinner, and we could not confirm it is currently trading, so check before you drive out.",
+        "A cafe a few kilometres out, feeding trades, hotel back of house and people on shift: daily lunch specials, breakfast sandwiches, sticky buns. It reportedly supplies baked goods to hotels in town, which is the strongest local credential going, the tourist restaurants buying from it. It is not aimed at visitors: seating is limited, it keeps working hours and shuts long before dinner, and we could not confirm it is currently trading, so check before you drive out.",
     },
     {
       title: "Coyotes Southwestern Grill, Caribou Street",
@@ -3909,14 +3909,14 @@ const banff: City = {
     {
       title: "Cave and Basin, off season, and the wildlife rules that come with all of the above",
       blurb:
-        "This is the actual reason the national park exists, a thermal spring on the mountainside that became Canada's first national park, and in winter almost nobody goes: boardwalks, the cave, the thermal wetland, to yourself. The winter schedule is reduced and it is not open every day, which catches people out, so check before you drive over. Do this one first and the Vermilion Lakes stop stops being just a pretty pullout, because the thermal outflow is why the wetland downstream stays partly ice-free and why wildlife concentrates there. Which makes this the place to say the part that matters more here than anywhere else on this site. Parks Canada asks for 100 metres from bears, wolves, cougars and coyotes, ten bus lengths, and 30 metres from deer, elk, sheep and moose, three bus lengths. The short version, and the one worth carrying: if you make an animal move, you are too close. Feeding or enticing wildlife is illegal in a national park, full stop. In autumn the elk rut runs into mid-October and bull elk will charge, and it happens on residential streets and golf paths in town, not only out in the backcountry, so never turn your back and never run. Carry bear spray and know how to use it before you are in a position to need it.",
+        "This is the actual reason the national park exists, a thermal spring on the mountainside that became Canada's first national park, and in winter almost nobody goes: boardwalks, the cave, the thermal wetland, to yourself. The winter schedule is reduced and it is not open every day, which catches people out, so check before you drive over. Do this one first and the Vermilion Lakes stop stops being just a pretty pullout, because the thermal outflow is why the wetland downstream stays partly ice-free and why wildlife concentrates there. The wildlife rules matter more here than anywhere else on this site. Parks Canada asks for 100 metres from bears, wolves, cougars and coyotes, ten bus lengths, and 30 metres from deer, elk, sheep and moose, three bus lengths. The short version: if you make an animal move, you are too close. Feeding or enticing wildlife is illegal in a national park, full stop. In autumn the elk rut runs into mid-October and bull elk will charge, and it happens on residential streets and golf paths in town, not only out in the backcountry, so never turn your back and never run. Carry bear spray and know how to use it before you are in a position to need it.",
     },
   ],
   photoSpots: [
     {
       title: "Moraine Lake, from the top of the Rockpile",
       blurb:
-        "Not the shoreline: climb the rubble moraine beside the lodge to the viewing platform on top, which is the frame that was on the back of the twenty. Shoot southwest down the length of the lake into the Valley of the Ten Peaks, water in the lower third, summits filling the back. Sunrise or accept a crowd, because the peaks catch first light while the valley floor is still blue, and midday is flat and packed. Access is the whole problem. The road is closed to personal vehicles year round, so you take the Parks Canada shuttle from the Park and Ride, and the regular first shuttle does not get you there for sunrise in summer. For actual dawn light you need the separate early-start shuttle that runs in the small hours, and it leaves from the Lake Louise lakeshore lot rather than the Park and Ride, so you are paying for lakeshore parking at four in the morning, which nobody tells you. Reservations only, no walk-ups. Here is the single most useful thing in this whole guide: a large majority of shuttle seats are held back and released at eight in the morning mountain time, two days before departure, so set an alarm for just before eight, two days out. Everyone who tells you the shuttle is impossible tried to book it the night before. All of this gets re-set every season, so confirm the current version with Parks Canada rather than with us.",
+        "Not the shoreline: climb the rubble moraine beside the lodge to the viewing platform on top, which is the frame that was on the back of the twenty. Shoot southwest down the length of the lake into the Valley of the Ten Peaks, water in the lower third, summits filling the back. Sunrise or accept a crowd, because the peaks catch first light while the valley floor is still blue, and midday is flat and packed. Access is the whole problem. The road is closed to personal vehicles year round, so you take the Parks Canada shuttle from the Park and Ride, and the regular first shuttle does not get you there for sunrise in summer. For actual dawn light you need the separate early-start shuttle that runs in the small hours, and it leaves from the Lake Louise lakeshore lot rather than the Park and Ride, so you are paying for lakeshore parking at four in the morning, which nobody tells you. Reservations only, no walk-ups. The single most useful thing in this whole guide: a large majority of shuttle seats are held back and released at eight in the morning mountain time, two days before departure, so set an alarm for just before eight, two days out. Everyone who tells you the shuttle is impossible tried to book it the night before. All of this gets re-set every season, so confirm the current version with Parks Canada rather than with us.",
       locations: [
         {
           lat: 51.3216,
@@ -4029,7 +4029,7 @@ const mtFuji: City = {
     {
       title: "Kosaku, Kawaguchiko",
       blurb:
-        "The evidence-based answer to where you actually eat hoto: a Yamanashi institution of forty-plus years with lines of Japanese customers before the doors open. Get the kabocha hoto in the iron pot, then wait, because it arrives volcanic and locals let it sit; burning your mouth in the first minute is the visible tourist tell. Hoto Fudo is the name you'll see everywhere and it's fine, but Kosaku is where Yamanashi actually queues.",
+        "Where you actually eat hoto: a Yamanashi institution of forty-plus years with lines of Japanese customers before the doors open. Get the kabocha hoto in the iron pot, then wait, because it arrives volcanic and locals let it sit; burning your mouth in the first minute is the visible tourist tell. Hoto Fudo is the name you'll see everywhere and it's fine, but Kosaku is where Yamanashi actually queues.",
     },
     {
       title: "Watanabe Udon, Oshino",
@@ -4196,7 +4196,7 @@ const sydney: City = {
     {
       title: "Emperor's Garden cream puffs and the Haymarket night crawl",
       blurb:
-        "Haymarket is where Sydney's hospitality workers eat after close, which makes it the most honest late-night food precinct in the city. The hot cream puffs from the window on Hay Street are the walking-home ritual: eaten out of the bag, no seating, that is the point. Pair them with Thai Town's mainstays or a wafer-thin roti worth its queue.",
+        "Haymarket is where Sydney's hospitality workers eat after close, which makes it the most honest late-night food precinct in the city. The hot cream puffs from the window on Hay Street are the walking-home ritual: eaten out of the bag, standing. Pair them with Thai Town's mainstays or a wafer-thin roti worth its queue.",
     },
     {
       title: "Coffee Alchemy, Marrickville",
@@ -4444,7 +4444,7 @@ const melbourne: City = {
     {
       title: "AC/DC Lane and Duckboard Place",
       blurb:
-        "Enter off Flinders Lane and shoot down through the murals and rock-poster grime, then follow the bend into Duckboard Place and hunt for what's left of the famous stencils. Early morning for an empty lane, overcast to flatter the paint. And the honest word on Hosier Lane: the tour groups have it and it's mostly tags now, so give it five minutes for the one essential portrait mural, then come here, where the paint is fresher and the crowd is gone.",
+        "Enter off Flinders Lane and shoot down through the murals and rock-poster grime, then follow the bend into Duckboard Place and hunt for what's left of the famous stencils. Early morning for an empty lane, overcast to flatter the paint. Hosier Lane, for the record: the tour groups have it and it's mostly tags now, so give it five minutes for the one essential portrait mural, then come here, where the paint is fresher and the crowd is gone.",
       locations: [
         {
           lat: -37.8156,
@@ -4533,7 +4533,7 @@ const montreal: City = {
     {
       title: "The Jean-Talon market run, Little Italy",
       blurb:
-        "One of North America's largest open-air markets in summer, but here's the secret version: the walls go up in October and the butchers, cheesemongers and maple stalls run all winter. Saturday morning is the social scene, a weekday morning the calm one, and either way it's Quebec producers selling direct. Pair it with an espresso at Caffè Italia and a walk down the Main.",
+        "One of North America's largest open-air markets in summer, and the less-known version: the walls go up in October and the butchers, cheesemongers and maple stalls run all winter. Saturday morning is the social scene, a weekday morning the calm one, and either way it's Quebec producers selling direct. Pair it with an espresso at Caffè Italia and a walk down the Main.",
     },
     {
       title: "The Plateau on foot",
@@ -4649,7 +4649,7 @@ const bali: City = {
   reserve: {
     title: "Cuca, Jimbaran",
     blurb:
-      "This page has spent every entry steering you away from the resort corner, so here is the one honest exception: an independent in Jimbaran, a short drive from the AYANA cliffs, run since 2013 by chef Kevin Cherkas and Virginia Entizne, cooking tapas, cocktails and desserts out of ingredients sourced from across Indonesia rather than the usual resort-international. The garden is tucked away from the beachfront, dress is whatever you're wearing, doors are open midday to 11pm daily; if a night strands you among the cliffs, this is the table to book.",
+      "This page has spent every entry steering you away from the resort corner, and this is the one exception: an independent in Jimbaran, a short drive from the AYANA cliffs, run since 2013 by chef Kevin Cherkas and Virginia Entizne, cooking tapas, cocktails and desserts out of ingredients sourced from across Indonesia rather than the usual resort-international. The garden is tucked away from the beachfront, dress is whatever you're wearing, doors are open midday to 11pm daily; if a night strands you among the cliffs, this is the table to book.",
     url: "https://www.cucabali.com/reservation/",
   },
   cultureTips: [
@@ -4668,7 +4668,7 @@ const bali: City = {
     {
       title: "Warung Nasi Men Weti, Sanur",
       blurb:
-        "A pioneer nasi campur stall opposite Sanur beach since the 1970s, the recipe kept by the founder's son. Go before nine, join a queue that's mostly Balinese, and understand this is grab-a-plate, not hospitality. The sambal is not a garnish; it's the thesis.",
+        "A pioneer nasi campur stall opposite Sanur beach since the 1970s, the recipe kept by the founder's son. Go before nine, join a queue that's mostly Balinese, and understand this is grab-a-plate, not hospitality. The sambal is the reason to come.",
     },
     {
       title: "Warung Mak Beng, north Sanur",
@@ -4810,7 +4810,7 @@ const mexicoCity: City = {
   stay: {
     title: "Hotel San Fernando, Condesa",
     blurb:
-      "A 1940s apartment building turned 19-room boutique half a block from Parque México: breakfast on the rooftop terrace, a ground-floor lounge that pours coffee by day and cocktails by night, hand coffee grinders in the rooms, and a spot in the Michelin Guide's hotel selection. This page runs on mornings, and Parque México at 7am is the point.",
+      "A 1940s apartment building turned 19-room boutique half a block from Parque México: breakfast on the rooftop terrace, a ground-floor lounge that pours coffee by day and cocktails by night, hand coffee grinders in the rooms, and a spot in the Michelin Guide's hotel selection. This page runs on mornings, and Parque México at 7am is the payoff.",
     url: "https://www.expedia.com/Mexico-City-Hotels-Hotel-San-Fernando.h18180394.Hotel-Information",
     mapEmbedUrl:
       "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=19.4184&lng=-99.1609",
@@ -4836,7 +4836,7 @@ const mexicoCity: City = {
     {
       title: "Fonda Margarita, Del Valle",
       blurb:
-        "The dawn fonda since 1948: doors at 6:30am, closed by midday, clay pots over charcoal, shared benches. Order the frijoles refritos con huevo even though it sounds like nothing; that's the point. Line up before 7.",
+        "The dawn fonda since 1948: doors at 6:30am, closed by midday, clay pots over charcoal, shared benches. Order the frijoles refritos con huevo; it sounds like nothing and it is the reason to come. Line up before 7.",
     },
     {
       title: "Taquería Los Cocuyos, Centro",
@@ -4868,7 +4868,7 @@ const mexicoCity: City = {
     {
       title: "Xochimilco at sunrise, on the chinampas",
       blurb:
-        "The honest version is a silent, motorless trajinera at dawn with Arca Tierra, drifting through mist and working chinampa farms and ending in a farm breakfast. Xochimilco at 3pm is a floating bachelorette party. Same canals; choose your city.",
+        "The version worth doing is a silent, motorless trajinera at dawn with Arca Tierra, drifting through mist and working chinampa farms and ending in a farm breakfast. Xochimilco at 3pm is a floating bachelorette party. Same canals; choose your city.",
     },
     {
       title: "Centro at dawn, pulque by noon",
@@ -4989,7 +4989,7 @@ const santoDomingo: City = {
     {
       title: "Chicharrón in Villa Mella",
       blurb:
-        "The chicharrón capital of the country is a short ride north: order by the pound with yuca and the citrus sauce, late morning when the batches come out, and pick the stall with the crowd, because we could not verify a current single best and the crowd can. The neighbourhood also carries the UNESCO-recognized Congos brotherhood tradition, so the pork pilgrimage comes with cultural weight. If you cannot make the ride, Chancho Gusto is the in-city fallback.",
+        "The chicharrón capital of the country is a short ride north: order by the pound with yuca and the citrus sauce, late morning when the batches come out, and pick the stall with the crowd, because we couldn't pin down a single best stall and the crowd can. The neighbourhood also carries the UNESCO-recognized Congos brotherhood tradition, so the pork pilgrimage comes with cultural weight. If you cannot make the ride, Chancho Gusto is the in-city fallback.",
     },
     {
       title: "Buche Perico, Calle El Conde",
@@ -5169,7 +5169,7 @@ const chongqing: City = {
     {
       title: "The Huangguan Escalator like a commuter",
       blurb:
-        "China's longest sloping escalator: 112 metres in about two and a half minutes for about 2 RMB, built so rail passengers didn't have to climb the hill. Half the riders are just going home, which is the point.",
+        "China's longest sloping escalator: 112 metres in about two and a half minutes for about 2 RMB, built so rail passengers didn't have to climb the hill. Half the riders are just going home.",
     },
     {
       title: "Eling Park and the Kuixinglou trick",
@@ -5181,7 +5181,7 @@ const chongqing: City = {
     {
       title: "Hongya Dong from Qiansimen Bridge, late",
       blurb:
-        "The honest version of the icon: skip the souvenir mall inside, stand on the bridge after ten when the crush thins, and shoot the stacked golden stilt-house facade over the river. The same architecture with residents still in it is Shancheng Lane, so spend the saved hour there.",
+        "Skip the souvenir mall inside, stand on the bridge after ten when the crush thins, and shoot the stacked golden stilt-house facade over the river. The same architecture with residents still in it is Shancheng Lane, so spend the saved hour there.",
       locations: [
         {
           lat: 29.5678,
@@ -5412,7 +5412,7 @@ const puertoVallarta: City = {
   stay: {
     title: "Hotel Rosita, where the malecon begins",
     blurb:
-      "Puerto Vallarta's first formal hotel, built in 1948 by Salvador González and named for his daughter, still family-run and grown from three rooms to 115. The Night of the Iguana crowd passed through in 1962, when the film invented this town's fame, and it stands exactly where the malecon begins, with 5 de Diciembre's taco streets behind it. A three-star with vintage bones, which is the point.",
+      "Puerto Vallarta's first formal hotel, built in 1948 by Salvador González and named for his daughter, still family-run and grown from three rooms to 115. The Night of the Iguana crowd passed through in 1962, when the film invented this town's fame, and it stands exactly where the malecon begins, with 5 de Diciembre's taco streets behind it. A three-star with vintage bones.",
     url: "https://www.expedia.com/Puerto-Vallarta-Hotels-Rosita-Hotel.h889365.Hotel-Information",
     mapEmbedUrl:
       "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=20.6072&lng=-105.2344",
@@ -5434,7 +5434,7 @@ const puertoVallarta: City = {
     {
       title: "Birriería Robles, El Pitillal",
       blurb:
-        "The birria benchmark in a city where birria is a morning food, run by the same family for decades on the plaza grid in El Pitillal. Birria de res in crispy-shell tacos, plus the consomé, which is the point. Cash only, birria hours, so go before noon; this is breakfast, not lunch.",
+        "The birria benchmark in a city where birria is a morning food, run by the same family for decades on the plaza grid in El Pitillal. Birria de res in crispy-shell tacos, plus the consomé. Cash only, birria hours, so go before noon; this is breakfast, not lunch.",
     },
     {
       title: "Marisma Fish Taco, 5 de Diciembre",

@@ -463,7 +463,7 @@ const sanFrancisco: City = {
     {
       title: "Battery Spencer, Marin Headlands",
       blurb:
-        "The postcard frame, and nothing else in the Bay Area gets this angle: you stand almost directly on top of the bridge's north tower and look back down the span with the city behind it. Sunrise gives you the skyline lit and a fraction of the people. This is also the fog-inversion spot, where the deck disappears into cloud and the towers stand above it, which is a better photograph than a clear day. Free parking, old gun batteries to poke around, and it is genuinely cold and windy up there year-round, so bring the layer.",
+        "The postcard frame, and nothing else in the Bay Area gets this angle: you stand almost directly on top of the bridge's north tower and look back down the span with the city behind it. Sunrise gives you the skyline lit and a fraction of the people. This is also the fog-inversion spot, where the deck disappears into cloud and the towers stand above it, which is a better photograph than a clear day. Free parking, old gun batteries to poke around, and it is cold and windy up there year-round, so bring the layer.",
       locations: [
         {
           lat: 37.828,
@@ -940,7 +940,7 @@ const rome: City = {
     {
       title: "Mordi e Vai, Mercato di Testaccio",
       blurb:
-        "A veteran Roman butcher's market stall turning braised home cooking into sandwiches. Get the allesso, roll dipped straight in the braising broth, and accept that some of it ends up down your wrist. Go before noon; the fillings genuinely run out.",
+        "A veteran Roman butcher's market stall turning braised home cooking into sandwiches. Get the allesso, roll dipped straight in the braising broth, and accept that some of it ends up down your wrist. Go before noon; the fillings run out.",
     },
     {
       title: "Pizzarium (Gabriele Bonci)",
@@ -1383,7 +1383,7 @@ const beijing: City = {
     "Tiananmen Square needs an advance reservation with your passport number plus airport-style security, and the mechanics keep changing, so check the current process; no drones, no tripods, and don't film the guards.",
     "The Lama Temple is an active place of worship, not a museum, so take the free incense, light three sticks at the courtyard burners, and keep the camera down inside the halls.",
     "The hutongs are lived-in neighborhoods, so don't shoot through open courtyard doors or wander into a siheyuan; those photogenic doorways are people's front doors.",
-    "Skip Taiwan, 1989, and Xinjiang with people you've just met, since it can genuinely put a local in an uncomfortable position, and deflection isn't rudeness.",
+    "Skip Taiwan, 1989, and Xinjiang with people you've just met, since it can put a local in an uncomfortable position, and deflection isn't rudeness.",
     "When toasting, keep your rim below an elder's or your host's glass, and you can toast with tea as long as you say so up front.",
   ],
   eats: [
@@ -1439,7 +1439,7 @@ const beijing: City = {
     {
       title: "Liangma River evenings",
       blurb:
-        "Where the city itself goes on summer nights: riverside lights, paddleboarders, families, dogs, picnic blankets. There's a short, cheap night cruise that locals genuinely use. Bring snacks and settle in.",
+        "Where the city itself goes on summer nights: riverside lights, paddleboarders, families, dogs, picnic blankets. There's a short, cheap night cruise that locals use. Bring snacks and settle in.",
     },
   ],
   photoSpots: [
@@ -1839,14 +1839,14 @@ const losAngeles: City = {
   stay: {
     title: "Silver Lake Pool & Inn, Silver Lake",
     blurb:
-      "A former motel turned small independent at Sunset Junction, right where Sunset and Santa Monica Boulevards meet, walking distance from the reservoir loop and up the road from the Griffith approaches. Visitors skip Silver Lake almost entirely, which is exactly the argument for waking up in it.",
+      "A former motel turned small independent at Sunset Junction, right where Sunset and Santa Monica Boulevards meet, walking distance from the reservoir loop and up the road from the Griffith approaches. Visitors skip Silver Lake almost entirely, which is the reason to wake up in it.",
     url: "https://www.expedia.com/Los-Angeles-Hotels-Silver-Lake-Pool-Inn.h34504058.Hotel-Information",
     mapEmbedUrl:
       "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=34.0438&lng=-118.4755",
   },
   cultureTips: [
     "Tip 18 to 22 percent, and tip the valet and the rideshare driver too.",
-    "Jaywalking is decriminalized statewide, but drivers on those wide boulevards genuinely do not expect a mid-block pedestrian; legal and survivable are different questions.",
+    "Jaywalking is decriminalized statewide, but drivers on those wide boulevards do not expect a mid-block pedestrian; legal and survivable are different questions.",
     "Freeways take the definite article, the 405, the 10, the 101, and locals will hear anything else instantly.",
     "The local code on celebrities is notice and move on, no photos, no approaching mid-meal; that restraint is the whole reason famous people can live here.",
     "Skid Row and the encampments are not a sightseeing route, and the same goes at freeway ramps; someone's worst stretch is not your content.",
@@ -1892,7 +1892,7 @@ const losAngeles: City = {
     {
       title: "Wi Spa at midnight, Koreatown",
       blurb:
-        "Four floors of jjimjilbang that never closes: salt, jade, clay, and ice rooms, mineral baths, a sleeping floor, and a restaurant where everyone eats in the house uniform. Midnight is the correct time to go. There's no re-entry, so settle in and don't step out for anything.",
+        "Four floors of jjimjilbang that never closes: salt, jade, clay, and ice rooms, mineral baths, a sleeping floor, and a restaurant where everyone eats in the house uniform. Go at midnight. There's no re-entry, so settle in and don't step out for anything.",
     },
     {
       title: "Kenneth Hahn State Recreation Area",
@@ -2035,7 +2035,7 @@ const seattle: City = {
     {
       title: "A Ballard Sunday: farmers market, then the Locks",
       blurb:
-        "The market runs every Sunday on cobblestoned Ballard Ave, year-round, rain or shine, Washington growers only, and it predates the whole farmers-market boom. Graze it, then walk fifteen minutes to the Chittenden Locks and watch boats stair-step between Puget Sound and the ship canal for free. Salmon run through in season, Chinook in August and coho in September, and this is genuinely how locals entertain visiting parents.",
+        "The market runs every Sunday on cobblestoned Ballard Ave, year-round, rain or shine, Washington growers only, and it predates the whole farmers-market boom. Graze it, then walk fifteen minutes to the Chittenden Locks and watch boats stair-step between Puget Sound and the ship canal for free. Salmon run through in season, Chinook in August and coho in September, and this is how locals entertain visiting parents.",
     },
     {
       title: "Kayaking Lake Union from Agua Verde",
@@ -2191,7 +2191,7 @@ const london: City = {
     {
       title: "Saturday morning at Maltby Street Market, Bermondsey",
       blurb:
-        "Borough's local cousin: a narrow ropewalk of food stalls, railway-arch bakeries and wine shops packed under the tracks. Saturday morning is the move and early is the only correct time, because by lunch it's shoulder to shoulder. The Bermondsey beer arches are right there if the morning wants to become an afternoon.",
+        "Borough's local cousin: a narrow ropewalk of food stalls, railway-arch bakeries and wine shops packed under the tracks. Saturday morning, and early, because by lunch it's shoulder to shoulder. The Bermondsey beer arches are right there if the morning wants to become an afternoon.",
     },
     {
       title: "Swim the Hampstead Heath ponds, then climb Parliament Hill",
@@ -2206,7 +2206,7 @@ const london: City = {
     {
       title: "God's Own Junkyard, Walthamstow",
       blurb:
-        "A warehouse in E17 crammed with decades of neon signs and movie-prop lighting built by the Bracey family, with a cafe-bar sitting in the middle of the glow. It only opens at weekends and shuts for private events, so check the calendar before you trek out. A Sunday afternoon and a beer among the buzzing neon is the correct version.",
+        "A warehouse in E17 crammed with decades of neon signs and movie-prop lighting built by the Bracey family, with a cafe-bar sitting in the middle of the glow. It only opens at weekends and shuts for private events, so check the calendar before you trek out. Go on a Sunday afternoon and have a beer among the buzzing neon.",
     },
     {
       title: "Regent's Canal towpath, Little Venice to Camden",
@@ -2483,7 +2483,7 @@ const nottingham: City = {
     {
       title: "The Cod's Scallops, Sherwood",
       blurb:
-        "A chippy that takes itself seriously in the right way: MSC-certified fish and a proper fishmonger's counter attached to the fryers. Cod and chips is the correct order, but going strange pays off too: Brixham monkfish goujons, tempura soft-shell crab. The suburban locations mean the queue is locals doing Friday tea rather than anyone with a camera.",
+        "A chippy that takes itself seriously in the right way: MSC-certified fish and a proper fishmonger's counter attached to the fryers. Cod and chips is the order, but going strange pays off too: Brixham monkfish goujons, tempura soft-shell crab. The suburban locations mean the queue is locals doing Friday tea rather than anyone with a camera.",
     },
     {
       title: "Sexy Mamma Love Spaghetti, Hockley",
@@ -2583,7 +2583,7 @@ const nottingham: City = {
     {
       title: "Sky Mirror at Nottingham Playhouse",
       blurb:
-        "Anish Kapoor's six-metre polished-steel dish out on Wellington Circus. The trick is shooting what's in the mirror rather than the mirror itself: the inverted city, the sky, the Playhouse neon at dusk. Overcast skies give you the most abstract frames, which is a genuinely useful thing to know in the Midlands.",
+        "Anish Kapoor's six-metre polished-steel dish out on Wellington Circus. The trick is shooting what's in the mirror rather than the mirror itself: the inverted city, the sky, the Playhouse neon at dusk. Overcast skies give you the most abstract frames, which is a useful thing to know in the Midlands.",
       locations: [
         {
           lat: 52.954,
@@ -2618,7 +2618,7 @@ const tokyo: City = {
     "Stand on the left on escalators, though operators now ask everyone to just stand full stop; walking the right side is fading etiquette, not a rule.",
     "Trains are treated as quiet space, so phone on silent, no voice calls, and conversations kept low; the operators post it and everyone honors it.",
     "Don't tip anywhere, because staff will genuinely chase you down to return the money; cash goes on the little tray, not hand to hand.",
-    "Eat standing near wherever you bought the food instead of walking with it, and carry your trash home, since public bins are genuinely scarce.",
+    "Eat standing near wherever you bought the food instead of walking with it, and carry your trash home, since public bins are scarce.",
     "Onsen has an order of operations: wash first, bathe naked, keep the small towel out of the water, and check tattoo policies ahead because plenty of places still restrict them.",
   ],
   eats: [
@@ -3120,7 +3120,7 @@ const paris: City = {
     {
       title: "Marché d'Aligre, finished with oysters at Le Baron Rouge (12th)",
       blurb:
-        "Work the open-air stalls on rue d'Aligre first, then the covered Beauvau hall for cheese, fish, charcuterie and North African spice and harissa; the tell is simple, the stall with the longest queue of older women is the best value in the building. There is a flea market on the same square if you want to browse other people's cutlery. Then it is 200m to Le Baron Rouge for barrel wine by the glass or a bottle refilled, and roughly mid-September to April a vendor drives up from the Atlantic and shucks oysters on the pavement at weekend mornings, which is how you end up at an upturned barrel with your shopping around your ankles. Bring cash.",
+        "Work the open-air stalls on rue d'Aligre first, then the covered Beauvau hall for cheese, fish, charcuterie and North African spice and harissa; the stall with the longest queue of older women is the best value in the building. There is a flea market on the same square if you want to browse other people's cutlery. Then it is 200m to Le Baron Rouge for barrel wine by the glass or a bottle refilled, and roughly mid-September to April a vendor drives up from the Atlantic and shucks oysters on the pavement at weekend mornings, which is how you end up at an upturned barrel with your shopping around your ankles. Bring cash.",
     },
     {
       title: "The rue des Martyrs food crawl (9th)",
@@ -3206,7 +3206,7 @@ const paris: City = {
     {
       title: "Square Rapp (7th)",
       blurb:
-        "A short dead-end street off Avenue Rapp: stand at the closed end, look back out, and the Art Nouveau buildings frame the Eiffel Tower straight down the corridor. Low, centred on the street axis, portrait orientation, and midday overhead light actually works here because it lifts the detail in the stonework. People live on this street, so keep it quick and quiet. It is the answer to the Trocadéro scrum, and on the same principle, skip Rue Crémieux altogether: residents there have been campaigning for gates since 2019 and photographing the photographers back.",
+        "A short dead-end street off Avenue Rapp: stand at the closed end, look back out, and the Art Nouveau buildings frame the Eiffel Tower straight down the corridor. Low, centred on the street axis, portrait orientation, and midday overhead light actually works here because it lifts the detail in the stonework. People live on this street, so keep it quick and quiet. Do this instead of the Trocadéro scrum, and on the same principle, skip Rue Crémieux altogether: residents there have been campaigning for gates since 2019 and photographing the photographers back.",
       locations: [
         {
           lat: 48.8587,
@@ -3281,7 +3281,7 @@ const cabo: City = {
     {
       title: "Viva la Plaza, Plaza Amelia Wilkes, Cabo San Lucas",
       blurb:
-        "Friday evenings in the downtown plaza: Mexican artisans, vintage crafts, food and cultural programming, and the answer to whether anything happens in Cabo San Lucas that is not the marina. We could not confirm it still runs every week, so treat it as a bonus rather than a plan. The plaza earns the walk regardless, named for the local woman who brought electricity and water to this town, with the parish church sitting right on it.",
+        "Friday evenings in the downtown plaza: Mexican artisans, vintage crafts, food and cultural programming, and a sign that Cabo San Lucas has a life beyond the marina. We could not confirm it still runs every week, so treat it as a bonus rather than a plan. The plaza earns the walk regardless, named for the local woman who brought electricity and water to this town, with the parish church sitting right on it.",
     },
     {
       title: "Cañón de la Zorra, near Santiago",
@@ -3352,7 +3352,7 @@ const cabo: City = {
     {
       title: "El Arco and Playa del Amor, Cabo San Lucas",
       blurb:
-        "The unavoidable one, done right. Shoot from a panga on the Sea of Cortez side with morning sun on the rock, when the water is calmest, and if you get dropped at Playa del Amor walk the fifty metres across to the Pacific side and shoot back through the gap, which is the frame nobody on a booked catamaran gets. That walk is the geography lesson: Lovers Beach on the calm Cortés side and Divorce Beach facing the open Pacific are the same sandbar with opposite verdicts, and the Pacific side is the one that drowns people, so stay on the sand. On not getting fleeced, roughly twenty dollars a head round trip is about the going rate off the marina docks or the sand at Médano while vendors will open at two or three times that, so pay in pesos, and for a drop-off pay part up front, photograph the boat and take the captain's WhatsApp. The glass bottom is usually a scratched strip of plexiglass, and when the harbourmaster closes the port for high surf, which is often, nobody is dropping you anywhere.",
+        "The unavoidable one. Shoot from a panga on the Sea of Cortez side with morning sun on the rock, when the water is calmest, and if you get dropped at Playa del Amor walk the fifty metres across to the Pacific side and shoot back through the gap, which is the frame nobody on a booked catamaran gets. That walk is the geography lesson: Lovers Beach on the calm Cortés side and Divorce Beach facing the open Pacific are the same sandbar with opposite verdicts, and the Pacific side is the one that drowns people, so stay on the sand. On not getting fleeced, roughly twenty dollars a head round trip is about the going rate off the marina docks or the sand at Médano while vendors will open at two or three times that, so pay in pesos, and for a drop-off pay part up front, photograph the boat and take the captain's WhatsApp. The glass bottom is usually a scratched strip of plexiglass, and when the harbourmaster closes the port for high surf, which is often, nobody is dropping you anywhere.",
       locations: [
         {
           lat: 22.876,
@@ -3400,7 +3400,7 @@ const vancouver: City = {
     {
       title: "Kim Chau Deli, Kingsway",
       blurb:
-        "The Kingsway banh mi corridor is the cheapest genuinely great food in the city, with Tung Hing as the twin further west. Order the cold cut or the BBQ pork at the counter and take it outside, because this is not a sit-down room. Buy two, you'll regret buying one, and the tell that they're serious is that other restaurants reportedly buy bread off them. Citywide rule while you're down here: the best value has an inverse relationship with card readers, so carry some cash and go early, since both sell out.",
+        "The Kingsway banh mi corridor is the cheapest great food in the city, with Tung Hing as the twin further west. Order the cold cut or the BBQ pork at the counter and take it outside, because this is not a sit-down room. Buy two, you'll regret buying one, and other restaurants reportedly buy their bread from them. Citywide rule while you're down here: the best value has an inverse relationship with card readers, so carry some cash and go early, since both sell out.",
     },
     {
       title: "Via Tevere Pizzeria, Victoria Drive",
@@ -3432,7 +3432,7 @@ const vancouver: City = {
     {
       title: "Richmond's Golden Village, Alexandra Road to Aberdeen Centre",
       blurb:
-        "Alexandra Road is three blocks locals call Wai Sek Kai, snack street, with seventy-plus restaurants packed in, and the Aberdeen Centre food court is the other half of the evening. It's reachable end to end on the Canada Line, so it's a no-car night. This is the single best bad-weather day in the region: mall, food court, covered parking, transit, four hours of eating without getting wet. Off-peak is the move, weekend lunch is brutal, and don't confuse any of it with the Night Market, which is a different and far more touristed thing.",
+        "Alexandra Road is three blocks locals call Wai Sek Kai, snack street, with seventy-plus restaurants packed in, and the Aberdeen Centre food court is the other half of the evening. It's reachable end to end on the Canada Line, so it's a no-car night. This is the single best bad-weather day in the region: mall, food court, covered parking, transit, four hours of eating without getting wet. Go off-peak, because weekend lunch is brutal, and don't confuse any of it with the Night Market, which is a different and far more touristed thing.",
     },
     {
       title: "Trout Lake Farmers Market, Saturday morning",
@@ -3442,7 +3442,7 @@ const vancouver: City = {
     {
       title: "The Yeast Van brewery walk, Grandview-Woodland",
       blurb:
-        "A walkable cluster of craft breweries in East Van, invented and named by locals rather than by anyone official, roughly thirty minutes end to end between the outer rooms. Growler fills are the local behaviour, not flights. The borders genuinely move as places open and close, so treat any roster you find as out of date, including whatever you're told at the first stop. The whole point is short hops between warm rooms, which makes it a rain strategy more than a beer crawl.",
+        "A walkable cluster of craft breweries in East Van, invented and named by locals rather than by anyone official, roughly thirty minutes end to end between the outer rooms. Growler fills are the local behaviour, not flights. The borders move as places open and close, so treat any roster you find as out of date, including whatever you're told at the first stop. The whole point is short hops between warm rooms, which makes it a rain strategy more than a beer crawl.",
     },
   ],
   photoSpots: [
@@ -3662,7 +3662,7 @@ const toronto: City = {
     {
       title: "Humber Bay Arch Bridge, at the river mouth",
       blurb:
-        "Two photographs off one crossing: from the deck shooting east so the arch and its cables frame the skyline down the shoreline, or from the shore west of it so the arch sits in the foreground with downtown across the water behind. Sunrise is the slot, since you're looking east over the lake and the sun comes up behind the skyline while the trail is still empty; blue hour after sunset is the other one, lights on and the bridge lit. It's a shared cycling and pedestrian route and it gets genuinely busy, so keep the setup off the centre line, and be honest that this is one of the most-shot locations in the city; the version almost nobody has is winter, shore ice and steam off the lake on a cold morning. Which is the rule for this whole city, really: don't shoot the CN Tower, shoot through something, because Chester Hill puts a valley, a viaduct and a highway in front of it and this bridge wraps an arch around it.",
+        "Two photographs off one crossing: from the deck shooting east so the arch and its cables frame the skyline down the shoreline, or from the shore west of it so the arch sits in the foreground with downtown across the water behind. Sunrise is the slot, since you're looking east over the lake and the sun comes up behind the skyline while the trail is still empty; blue hour after sunset is the other one, lights on and the bridge lit. It's a shared cycling and pedestrian route and it gets busy, so keep the setup off the centre line, and be honest that this is one of the most-shot locations in the city; the version almost nobody has is winter, shore ice and steam off the lake on a cold morning. Which is the rule for this whole city, really: don't shoot the CN Tower, shoot through something, because Chester Hill puts a valley, a viaduct and a highway in front of it and this bridge wraps an arch around it.",
       locations: [
         {
           lat: 43.6319,
@@ -3747,7 +3747,7 @@ const calgary: City = {
     {
       title: "Bowness Park lagoon in winter",
       blurb:
-        "Calgary's most distinctive experiences are all winter ones and there's no point apologising for that. Thirty hectares out where the Bow comes into the city, and the cold version is the one locals guard: free skating on the lagoon, an ice trail through the trees, fire pits, shinny, cross-country routes, rental and sharpening on site, and crokicurl, which is crokinole crossed with curling on ice and a genuinely great thing to explain to a visitor. All of it is chinook-dependent, since a warm westerly can pull the ice out from under the season in forty-eight hours, so check conditions the morning of; locals do that reflexively and visitors never think to.",
+        "Calgary's most distinctive experiences are all winter ones and there's no point apologising for that. Thirty hectares out where the Bow comes into the city, and the cold version is the one locals guard: free skating on the lagoon, an ice trail through the trees, fire pits, shinny, cross-country routes, rental and sharpening on site, and crokicurl, which is crokinole crossed with curling on ice and a great thing to explain to a visitor. All of it is chinook-dependent, since a warm westerly can pull the ice out from under the season in forty-eight hours, so check conditions the morning of; locals do that reflexively and visitors never think to.",
     },
     {
       title: "Public skate at the Olympic Oval",
@@ -3818,7 +3818,7 @@ const calgary: City = {
     {
       title: "Calgary Central Library, East Village",
       blurb:
-        "The correct answer to it being minus twenty-eight and still wanting a photograph. Stand on the ground floor of the atrium and shoot straight up through the oval skylight for the signature frame, then the wooden staircase cascading through the atrium from a mid-level balcony, then the cave-like arched wood entrance, which vignettes a portrait against daylight for you. Midday for the skylight to actually push light down the atrium, weekday mornings for the fewest people, and remember it's a working library full of people studying rather than a set: be quiet, don't block the stairs, and check the current photography policy before you bring a tripod.",
+        "For when it is minus twenty-eight and you still want a photograph. Stand on the ground floor of the atrium and shoot straight up through the oval skylight for the signature frame, then the wooden staircase cascading through the atrium from a mid-level balcony, then the cave-like arched wood entrance, which vignettes a portrait against daylight for you. Midday for the skylight to actually push light down the atrium, weekday mornings for the fewest people, and remember it's a working library full of people studying rather than a set: be quiet, don't block the stairs, and check the current photography policy before you bring a tripod.",
       locations: [
         {
           lat: 51.0455,
@@ -3865,7 +3865,7 @@ const banff: City = {
     {
       title: "Ramen Arashi, in a mall arcade off Banff Avenue",
       blurb:
-        "No view, no patio, no gimmick, nothing engineered for a photograph. Banff's seasonal workforce carries a large Japanese and Australasian contingent, and a genuinely good ramen counter is what that population keeps alive through the shoulder months once the tourists have gone. Follow the people who are still here in the quiet weeks.",
+        "No view, no patio, no gimmick, nothing engineered for a photograph. Banff's seasonal workforce carries a large Japanese and Australasian contingent, and a good ramen counter is what that population keeps alive through the shoulder months once the tourists have gone. Follow the people who are still here in the quiet weeks.",
     },
     {
       title: "Carlito's Pizzeria, inside a hotel at the far end of Banff Avenue",
@@ -3899,12 +3899,12 @@ const banff: City = {
     {
       title: "Johnson Lake or Cascade Ponds on a summer weeknight",
       blurb:
-        "What residents genuinely do in July, and no visitor guide leads with it because there is no ticket to sell. Johnson Lake is one of the warmest swimmable lakes near the townsite, with a loop walk and room to lay out a towel; Cascade Ponds, minutes away on the same Minnewanka loop, has picnic tables and fire pits under the mountain, which is the grill-and-marshmallow option. Go after six, when the day-trippers have gone back to Calgary or into a restaurant, the light is long and the parking problem evaporates, and check whether a fire ban is in effect before you build an evening around those pits, because in high summer they are common.",
+        "What residents do in July, and no visitor guide leads with it because there is no ticket to sell. Johnson Lake is one of the warmest swimmable lakes near the townsite, with a loop walk and room to lay out a towel; Cascade Ponds, minutes away on the same Minnewanka loop, has picnic tables and fire pits under the mountain, which is the grill-and-marshmallow option. Go after six, when the day-trippers have gone back to Calgary or into a restaurant, the light is long and the parking problem evaporates, and check whether a fire ban is in effect before you build an evening around those pits, because in high summer they are common.",
     },
     {
       title: "Skip Larch Valley, go larch spotting somewhere else",
       blurb:
-        "Late September has a second and sharper crowd peak than midsummer, and it is concentrated almost entirely on one trail above Moraine Lake that now also requires a shuttle seat. The alternatives locals name are Healy Pass, whose trailhead lot is large enough to solve the parking problem outright, plus Arnica Lake, Taylor Lake and Saddleback Pass. The genuinely local move is twofold: pick a weekday, and pick a trailhead that is not sitting behind a reservation.",
+        "Late September has a second and sharper crowd peak than midsummer, and it is concentrated almost entirely on one trail above Moraine Lake that now also requires a shuttle seat. The alternatives locals name are Healy Pass, whose trailhead lot is large enough to solve the parking problem outright, plus Arnica Lake, Taylor Lake and Saddleback Pass. The local move is twofold: pick a weekday, and pick a trailhead that is not sitting behind a reservation.",
     },
     {
       title: "Cave and Basin, off season, and the wildlife rules that come with all of the above",
@@ -3932,7 +3932,7 @@ const banff: City = {
     {
       title: "Vermilion Lakes at sunrise",
       blurb:
-        "Stand on one of the docks along the lakeshore road and shoot east and southeast at the long tilted face across the water, reeds and the dock edge as foreground, mirrored if the water is still. Sunrise, and it is not close: that face takes the first light and runs orange to pink while the wetland is dead calm, and wind later kills the reflection. This is the easiest premium frame in the park, a short scenic road minutes from town, no permit, no shuttle, no closure, and you can ride out to it. Parking is genuinely limited, so a dawn arrival is practical as well as photographic, and winter is a real second season here, with the far lake staying partly ice-free.",
+        "Stand on one of the docks along the lakeshore road and shoot east and southeast at the long tilted face across the water, reeds and the dock edge as foreground, mirrored if the water is still. Sunrise, and it is not close: that face takes the first light and runs orange to pink while the wetland is dead calm, and wind later kills the reflection. This is the easiest premium frame in the park, a short scenic road minutes from town, no permit, no shuttle, no closure, and you can ride out to it. Parking is limited, so a dawn arrival is practical as well as photographic, and winter is a real second season here, with the far lake staying partly ice-free.",
       locations: [
         {
           lat: 51.1843,
@@ -4056,7 +4056,7 @@ const mtFuji: City = {
     {
       title: "Ride the Fujikyu Railway for its own sake",
       blurb:
-        "A private mountain railway that climbs toward Fuji the entire way, so treat the approach as part of the trip: a direct limited express from Shinjuku, or the slow way via Otsuki. Get off at Mt. Fuji Station in Fujiyoshida, one stop before the tourist terminus, which is the correct stop for udon and Honcho.",
+        "A private mountain railway that climbs toward Fuji the entire way, so treat the approach as part of the trip: a direct limited express from Shinjuku, or the slow way via Otsuki. Get off at Mt. Fuji Station in Fujiyoshida, one stop before the tourist terminus, which is the stop for udon and Honcho.",
     },
     {
       title: "Fujiyoshida's retro streets",
@@ -4257,7 +4257,7 @@ const sydney: City = {
     {
       title: "Blues Point Reserve, McMahons Point",
       blurb:
-        "The grass foreshore at the point, shooting southeast at the Bridge's western face with the city stacked behind it. Golden hour into blue hour is the window, when the westerly light paints the steel and the skyline lights come up. It's a short walk from the ferry wharf, and taking the ferry there is itself the local move.",
+        "The grass foreshore at the point, shooting southeast at the Bridge's western face with the city stacked behind it. Golden hour into blue hour is the window, when the westerly light paints the steel and the skyline lights come up. It's a short walk from the ferry wharf, and the ferry over is the local way to arrive.",
       locations: [
         {
           lat: -33.8496,
@@ -4521,7 +4521,7 @@ const montreal: City = {
     {
       title: "L'Express, rue Saint-Denis",
       blurb:
-        "Opened in 1980 as a deliberate Paris bistro, now genuinely the institution it set out to imitate, with a good claim to igniting the city's restaurant renaissance. Beef tartare, bone marrow, celery remoulade, wine markups that are famously fair; it seats late, and late is when the Plateau comes here to celebrate things, in French. Book ahead.",
+        "Opened in 1980 as a deliberate Paris bistro, now the institution it set out to imitate, with a good claim to igniting the city's restaurant renaissance. Beef tartare, bone marrow, celery remoulade, wine markups that are famously fair; it seats late, and late is when the Plateau comes here to celebrate things, in French. Book ahead.",
     },
   ],
   experiences: [
@@ -4641,7 +4641,7 @@ const bali: City = {
   stay: {
     title: "Cepik Villa, Sidemen valley",
     blurb:
-      "A small family-run inn in the valley this page keeps calling old Bali: traditional-style bungalows, a pool looking over the rice fields, a warung on site, and village treks and cooking classes run by the family themselves. Nothing on this page is a beach club within an hour of here, which is exactly the argument.",
+      "A small family-run inn in the valley this page keeps calling old Bali: traditional-style bungalows, a pool looking over the rice fields, a warung on site, and village treks and cooking classes run by the family themselves. Nothing on this page is a beach club within an hour of here, which is the whole reason to stay.",
     url: "https://www.expedia.com/Sidemen-Hotels-Cepik-Villa.h5441009.Hotel-Information",
     mapEmbedUrl:
       "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=-8.5038&lng=115.2546",
@@ -4770,7 +4770,7 @@ const bali: City = {
     {
       title: "Campuhan Ridge Walk, Ubud",
       blurb:
-        "The grass spine above Ubud in low golden light. Be on the ridge by six, when it's genuinely a locals' jogging path; by nine it's hot, hard light and steady traffic.",
+        "The grass spine above Ubud in low golden light. Be on the ridge by six, when it's a locals' jogging path; by nine it's hot, hard light and steady traffic.",
       locations: [
         {
           lat: -8.5038,
@@ -4896,7 +4896,7 @@ const mexicoCity: City = {
     {
       title: "Biblioteca Vasconcelos, Buenavista",
       blurb:
-        "Floating steel stacks running to a vanishing point with the suspended whale skeleton hanging in the middle of it. Midday light through the glass roof is the move. Free, though big cameras may be asked to sign a personal-use form.",
+        "Floating steel stacks running to a vanishing point with the suspended whale skeleton hanging in the middle of it. Go at midday, when the light comes down through the glass roof. Free, though big cameras may be asked to sign a personal-use form.",
       locations: [
         {
           lat: 19.4475,
@@ -5021,7 +5021,7 @@ const santoDomingo: City = {
     {
       title: "Winter baseball at Estadio Quisqueya",
       blurb:
-        "Mid-October to late January, Licey in blue and Escogido in red share the same stadium, so the rivalry is home for both sides and the evening games are the city talking to itself. Out of season there is simply nothing to see, so check the calendar before promising anyone baseball.",
+        "Mid-October to late January, Licey in blue and Escogido in red share the same stadium, so the rivalry is home for both sides and the evening games are the city talking to itself. Out of season there is nothing to see, so check the calendar before promising anyone baseball.",
     },
     {
       title: "Los Tres Ojos, honestly",
@@ -5033,7 +5033,7 @@ const santoDomingo: City = {
     {
       title: "Calle Hostos, uphill to the ruins",
       blurb:
-        "The most photographed street in the Zona, and it earns it: steep cobbles, stairs on both sides, the monastery arches closing the frame at the top. Late afternoon warms the stone, and on Sunday evenings Bonyé puts a crowd at the top of your frame.",
+        "The most photographed street in the Zona, and deservedly: steep cobbles, stairs on both sides, the monastery arches closing the frame at the top. Late afternoon warms the stone, and on Sunday evenings Bonyé puts a crowd at the top of your frame.",
       locations: [
         {
           lat: 18.476,
@@ -5117,7 +5117,7 @@ const chongqing: City = {
       "https://www.stay22.com/embed/gm?aid=kaseyfu&lat=29.557&lng=106.5703",
   },
   cultureTips: [
-    "Wei la, mildly spicy, is a respected order and still genuinely hot; the face-saving move is the yuanyang split pot, half red, half clear.",
+    "Wei la, mildly spicy, is a respected order and still hot; the face-saving move is the yuanyang split pot, half red, half clear.",
     "Real-name everything: hotels register passports and the cableway wants tickets matched to your passport name, so carry the physical passport.",
     "Alipay and WeChat Pay take foreign cards with passport verification and the street runs on QR codes, so set it all up before landing.",
     "Give way to a bangbang porter on the stairs, he's carrying more than you packed for the whole trip, and no candid close-ups without a nod.",

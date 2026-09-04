@@ -46,7 +46,9 @@
   --frame2-y: -50%;
   --frame2-scale: 1.06;
   --intro-copy-y: 0px;
-  --intro-copy-opacity: 1;
+  --intro-copy-opacity: 0;
+  --title-top: clamp(122px, 19vh, 205px);
+  --title-size: clamp(3.5rem, 9vw, 10rem);
   --sky-pos-y: 22%;
 
   --hero-ink: #221410;
@@ -297,12 +299,12 @@
    */
   z-index: 8;
   left: 50%;
-  top: clamp(122px, 19vh, 205px);
+  top: var(--title-top);
   width: min(94vw, 1780px);
   margin: 0;
   color: var(--hero-paper);
   font-family: var(--font-fraunces), serif;
-  font-size: clamp(3.5rem, 9vw, 10rem);
+  font-size: var(--title-size);
   font-weight: 500;
   line-height: 0.78;
   text-align: center;
@@ -380,11 +382,14 @@
 
 /* ---------- copy blocks ---------- */
 
+/* One tracked line hung under the wordmark, in the sky where contrast is
+   free. Hidden on first paint; the engine fades it in on the first scroll
+   and it rides the title's exit. */
 .intro-copy {
   z-index: 9;
   left: 50%;
-  bottom: clamp(56px, 28vh, 400px);
-  width: min(560px, calc(100vw - 40px));
+  top: calc(var(--title-top) + var(--title-size) * 0.78 + 26px);
+  width: min(720px, calc(100vw - 40px));
   text-align: center;
   transform: translate3d(-50%, var(--intro-copy-y), 0);
   opacity: var(--intro-copy-opacity);
@@ -393,31 +398,16 @@
 
 .intro-copy p {
   margin: 0 auto;
-  max-width: 560px;
-  padding: 18px 26px;
   color: var(--hero-paper);
-  font-size: 1.18rem;
-  font-weight: 500;
-  line-height: 1.35;
-  /* Same dark-chip bubble as the finale kicker: halos alone lose this copy
-     over the mid-tone stone. */
-  border-radius: 26px;
-  border: 1px solid rgba(247, 234, 217, 0.35);
-  background: rgba(24, 10, 4, 0.62);
-  box-shadow: 0 12px 30px rgba(24, 10, 4, 0.25);
-  animation: intro-float 5.5s ease-in-out infinite;
-}
-
-/* Float lives on the inner p; the container's transform belongs to the
-   scroll engine (--intro-copy-y) and must not be overridden. */
-@keyframes intro-float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  line-height: 1.6;
+  text-shadow:
+    0 0 3px rgba(24, 10, 4, 0.7),
+    0 1px 2px rgba(24, 10, 4, 0.6),
+    0 2px 14px rgba(24, 10, 4, 0.4);
 }
 
 .story-panel {
@@ -641,8 +631,8 @@
 /* ---------- media queries ---------- */
 
 @media (max-width: 1500px) {
-  .hero-title {
-    font-size: clamp(3rem, 8.5vw, 8rem);
+  .cinema-scroll {
+    --title-size: clamp(3rem, 8.5vw, 8rem);
   }
   .story-panel h2 {
     font-size: 4.1rem;
@@ -650,9 +640,9 @@
 }
 
 @media (max-width: 1100px) {
-  .hero-title {
-    top: 15vh;
-    font-size: clamp(2.6rem, 8vw, 5.8rem);
+  .cinema-scroll {
+    --title-top: 15vh;
+    --title-size: clamp(2.6rem, 8vw, 5.8rem);
   }
   .bridge-img {
     width: 138vw;
@@ -697,9 +687,9 @@
   .site-nav::-webkit-scrollbar {
     display: none;
   }
-  .hero-title {
-    top: 16vh;
-    font-size: clamp(1.9rem, 7.5vw, 3.2rem);
+  .cinema-scroll {
+    --title-top: 16vh;
+    --title-size: clamp(1.9rem, 7.5vw, 3.2rem);
   }
   .bridge-img {
     bottom: 2vh;
@@ -709,15 +699,14 @@
     width: 176vw;
   }
   .intro-copy {
-    bottom: 42px;
-  }
-  .intro-copy p,
-  .story-panel p {
-    font-size: 1rem;
+    top: calc(var(--title-top) + var(--title-size) * 0.78 + 18px);
   }
   .intro-copy p {
-    padding: 14px 18px;
-    border-radius: 20px;
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+  }
+  .story-panel p {
+    font-size: 1rem;
   }
   .story-panel h2 {
     font-size: 2.45rem;
@@ -751,9 +740,5 @@
   .story-panel,
   .country-rail {
     transition: none;
-  }
-
-  .intro-copy p {
-    animation: none;
   }
 }

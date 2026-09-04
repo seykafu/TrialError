@@ -206,8 +206,11 @@ export default function CinematicHero({
         1.06 + frame2.enter * 0.08 + frame2.exit * 0.08
       );
 
-      setVar("--intro-copy-y", `${introExit * 90}px`);
-      setVar("--intro-copy-opacity", 1 - introExit);
+      /* First paint is title and picture only; the tagline arrives on the
+         first scroll beat, then leaves with the title. */
+      const introEnter = smoothstep(8, 110, smoothScroll);
+      setVar("--intro-copy-y", `${introExit * -210}px`);
+      setVar("--intro-copy-opacity", introEnter * (1 - introExit));
 
       section
         .querySelector(".country-rail")
@@ -328,11 +331,7 @@ export default function CinematicHero({
         </div>
 
         <section className="intro-copy" aria-label="Trial and Error overview">
-          <p>
-            Half of every trip disappears into research. Consider it done: eat
-            well, see where people actually live, get the shot before the
-            light goes.
-          </p>
+          <p>Eat well. See where people actually live. Catch the light.</p>
         </section>
 
       </div>
@@ -345,8 +344,9 @@ export default function CinematicHero({
         >
           <h2>Skip what was built for tourists.</h2>
           <p>
-            Tourist downtowns are built for people who never come back. We eat
-            and wander where locals do, and keep only what earns its place.
+            Half of every trip disappears into research. Consider it done.
+            Tourist downtowns are built for people who never come back, so we
+            eat and wander where locals do, and keep only what earns its place.
           </p>
           <dl className="facts">
             <div>

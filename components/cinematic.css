@@ -394,37 +394,30 @@
 .intro-copy p {
   margin: 0 auto;
   max-width: 560px;
+  padding: 18px 26px;
   color: var(--hero-paper);
   font-size: 1.18rem;
   font-weight: 500;
-  line-height: 1.18;
-  /* Same treatment as the header: this sits over mid-tone stone. */
-  text-shadow:
-    0 0 4px rgba(24, 10, 4, 0.85),
-    0 1px 3px rgba(24, 10, 4, 0.8),
-    0 2px 18px rgba(24, 10, 4, 0.5);
+  line-height: 1.35;
+  /* Same dark-chip bubble as the finale kicker: halos alone lose this copy
+     over the mid-tone stone. */
+  border-radius: 26px;
+  border: 1px solid rgba(247, 234, 217, 0.35);
+  background: rgba(24, 10, 4, 0.62);
+  box-shadow: 0 12px 30px rgba(24, 10, 4, 0.25);
+  animation: intro-float 5.5s ease-in-out infinite;
 }
 
-.hero-tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 26px;
-}
-
-.hero-tags span {
-  min-height: 42px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 25px;
-  color: var(--hero-ink);
-  border-radius: 999px;
-  background: var(--hero-paper);
-  font-size: 0.98rem;
-  font-weight: 500;
-  box-shadow: 0 12px 30px rgba(24, 10, 4, 0.18);
+/* Float lives on the inner p; the container's transform belongs to the
+   scroll engine (--intro-copy-y) and must not be overridden. */
+@keyframes intro-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
 }
 
 .story-panel {
@@ -722,13 +715,9 @@
   .story-panel p {
     font-size: 1rem;
   }
-  .hero-tags {
-    gap: 8px;
-  }
-  .hero-tags span {
-    min-height: 38px;
-    padding: 0 16px;
-    font-size: 0.88rem;
+  .intro-copy p {
+    padding: 14px 18px;
+    border-radius: 20px;
   }
   .story-panel h2 {
     font-size: 2.45rem;
@@ -762,5 +751,9 @@
   .story-panel,
   .country-rail {
     transition: none;
+  }
+
+  .intro-copy p {
+    animation: none;
   }
 }

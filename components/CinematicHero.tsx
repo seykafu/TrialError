@@ -333,11 +333,6 @@ export default function CinematicHero({
             well, see where people actually live, get the shot before the
             light goes.
           </p>
-          <div className="hero-tags" aria-label="What every city guide includes">
-            <span>Top 5 Eats</span>
-            <span>Top 5 Experiences</span>
-            <span>Top 5 Photo Spots</span>
-          </div>
         </section>
 
       </div>

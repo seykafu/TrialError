@@ -90,14 +90,14 @@ function hlBind() {
   return O(this, null, function* () {
     let e = "highlight",
       t = window.Stay22.context.novaSegment,
-      r = window.Stay22.params.nova || {};
-    if (
-      !window.Stay22.userData.isDesktop ||
-      this.isMethodDisabled("highlight") ||
-      (!this.canOverPop() && !this.canUnderPop() && !this.canUnderTab()) ||
-      (yield this.pit(!1, { trigmeth: e, segment: t }))
-    )
-      return !1;
+      r = window.Stay22.params.nova || {},
+      // Record every exit so window.Stay22.highlightTrigger always explains
+      // itself instead of staying undefined when a gate closes.
+      x = (R) => ((window.Stay22.highlightTrigger = { armed: !1, reason: R }), !1);
+    if (!window.Stay22.userData.isDesktop) return x("not desktop");
+    if (this.isMethodDisabled("highlight")) return x("method disabled by partner settings");
+    if (!this.canOverPop() && !this.canUnderPop() && !this.canUnderTab()) return x("every medium disabled");
+    if (yield this.pit(!1, { trigmeth: e, segment: t })) return x("server pre-check (checknova) suppressed Nova for this visitor");
     let o = typeof r.highlightMinChars == "number" ? r.highlightMinChars : 12,
       s = typeof r.highlightMaxChars == "number" ? r.highlightMaxChars : 600,
       a = We(e, "mouseup", "keyup"),
